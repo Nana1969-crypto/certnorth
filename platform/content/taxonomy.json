@@ -1,0 +1,28 @@
+{
+  "pillars": [
+    {
+      "id": "pillar_excel",
+      "slug": "excel",
+      "title": "Excel",
+      "description": "Step-by-step Microsoft Excel tutorials and error fixes — from pivot tables and VLOOKUP to the errors that break your formulas."
+    },
+    {
+      "id": "pillar_gsheets",
+      "slug": "google-sheets",
+      "title": "Google Sheets",
+      "description": "Clear Google Sheets tutorials for everyday tasks, formulas, and collaboration — written and tested on the current version."
+    },
+    {
+      "id": "pillar_compare",
+      "slug": "compare",
+      "title": "Compare & Choose",
+      "description": "Honest comparisons and buyer's guides to help you pick the right spreadsheet tool for your work and budget."
+    }
+  ],
+  "clusters": [
+    { "id": "cl_excel_tut", "pillarId": "pillar_excel", "slug": "tutorials", "title": "Excel Tutorials" },
+    { "id": "cl_excel_fix", "pillarId": "pillar_excel", "slug": "fixes", "title": "Fix Excel Errors" },
+    { "id": "cl_gs_tut", "pillarId": "pillar_gsheets", "slug": "tutorials", "title": "Google Sheets Tutorials" },
+    { "id": "cl_compare", "pillarId": "pillar_compare", "slug": "guides", "title": "Buyer's Guides" }
+  ]
+}
