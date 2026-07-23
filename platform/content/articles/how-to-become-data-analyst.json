@@ -1,0 +1,69 @@
+{
+  "id": "how-to-become-data-analyst",
+  "slug": "how-to-become-a-data-analyst",
+  "clusterId": "cl_paths",
+  "title": "How to Become a Data Analyst in 2026 (Step by Step)",
+  "dek": "You can become a job-ready data analyst in roughly 6 to 12 months without a data degree, if you learn spreadsheets, SQL, and one BI tool, then prove it with two portfolio projects.",
+  "authorId": "author_team",
+  "publishedAt": "2026-06-18",
+  "updatedAt": "2026-06-18",
+  "intent": { "primaryKeyword": "how to become a data analyst" },
+  "seo": {
+    "metaTitle": "How to Become a Data Analyst in 2026",
+    "metaDescription": "A realistic step-by-step path to becoming a data analyst — the exact skills, a 6-12 month timeline, honest costs, and what actually gets you hired."
+  },
+  "sources": [
+    { "label": "U.S. Bureau of Labor Statistics — Data Scientists, Occupational Outlook Handbook (closest official category)", "url": "https://www.bls.gov/ooh/math/data-scientists.htm" },
+    { "label": "U.S. Bureau of Labor Statistics — Data for Occupations Not Covered in Detail", "url": "https://www.bls.gov/ooh/about/data-for-occupations-not-covered-in-detail.htm" },
+    { "label": "Google Data Analytics Professional Certificate — Coursera", "url": "https://www.coursera.org/professional-certificates/google-data-analytics" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "A data analyst turns raw data into answers a business can act on: which customers churn, which product line is quietly losing money, whether a change actually worked. It is one of the most realistic ways into a well-paid data career because it rewards clear thinking and a handful of learnable tools more than it rewards a computer-science degree." },
+    { "type": "callout", "variant": "tip", "richText": "The fastest honest path: learn spreadsheets → SQL → one BI tool (Power BI or Tableau) → build two real projects → apply. Most motivated career-changers reach job-ready in 6 to 12 months of consistent part-time study." },
+    { "type": "heading", "level": 2, "text": "What a data analyst actually does" },
+    { "type": "paragraph", "richText": "Day to day, the job is less glamorous than the job title. You spend most of your time finding data, cleaning it, querying it, and explaining it. A typical week includes pulling data with SQL, building or updating a dashboard, and answering questions from non-technical colleagues in plain English." },
+    { "type": "list", "ordered": false, "items": [
+      "Cleaning and reshaping messy data (the majority of the work — expect this)",
+      "Writing SQL queries against a company database",
+      "Building dashboards and reports in a BI tool like Power BI, Tableau, or Looker",
+      "Doing ad-hoc analysis to answer a specific business question",
+      "Presenting findings to people who do not know or care about the technical details"
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "A note on titles and data: the U.S. Bureau of Labor Statistics does not publish a separate \"data analyst\" occupation. The closest official category is Data Scientists, and some analyst roles are also counted under operations research or market research analysts. That matters when you read salary figures — we break it down in our salary guide below." },
+    { "type": "heading", "level": 2, "text": "The step-by-step path" },
+    { "type": "heading", "level": 3, "text": "Step 1 — Master spreadsheets (2-4 weeks)" },
+    { "type": "paragraph", "richText": [ "Before anything fancier, get genuinely fluent in Excel or Google Sheets: pivot tables, ", { "code": "VLOOKUP" }, "/", { "code": "XLOOKUP" }, ", ", { "code": "SUMIFS" }, ", and basic charts. Spreadsheets are still the most common analysis tool in real companies, and interviewers test them." ] },
+    { "type": "heading", "level": 3, "text": "Step 2 — Learn SQL (6-10 weeks)" },
+    { "type": "paragraph", "richText": [ "SQL is the single most important hard skill for a data analyst, and it appears in nearly every job posting. You do not need all of it — you need ", { "code": "SELECT" }, ", ", { "code": "WHERE" }, ", ", { "code": "JOIN" }, ", ", { "code": "GROUP BY" }, ", and aggregate functions, done confidently. Our ", { "link": { "ref": "article:learn-sql", "text": "beginner SQL roadmap" } }, " lays out exactly what to learn and in what order." ] },
+    { "type": "heading", "level": 3, "text": "Step 3 — Learn one BI tool (3-5 weeks)" },
+    { "type": "paragraph", "richText": "Pick one — Power BI or Tableau — and go deep rather than dabbling in both. Power BI tends to win in corporate and finance settings; Tableau is common in tech and startups. Either is a fine first choice, and the concepts transfer." },
+    { "type": "heading", "level": 3, "text": "Step 4 — Add a programming language if you have time (optional early on)" },
+    { "type": "paragraph", "richText": [ "Python or R will expand what you can do, but they are not required for a first analyst job. If you want to learn one, start with Python — see ", { "link": { "ref": "article:how-long-learn-python", "text": "how long it realistically takes to learn Python" } }, ". Do not let it block you from applying." ] },
+    { "type": "heading", "level": 3, "text": "Step 5 — Build two portfolio projects (ongoing)" },
+    { "type": "paragraph", "richText": "This is what separates people who get interviews from people who do not. Take a real, messy public dataset, ask a genuine question, and produce a clean analysis with a dashboard and a short written conclusion. Two solid end-to-end projects beat ten tutorials." },
+    { "type": "heading", "level": 2, "text": "How long does it take, and what does it cost?" },
+    { "type": "table", "caption": "Realistic time and cost to reach job-ready as a data analyst (self-study, part-time).", "headers": ["Path", "Typical time", "Typical cost"], "rows": [
+      ["Free resources + one paid certificate", "6-12 months", "$0-$300"],
+      ["Structured online certificate (e.g., Google)", "6 months at ~10 hrs/week", "~$300 or free via aid"],
+      ["Full-time bootcamp", "3-6 months", "$7,000-$18,000"],
+      ["Bachelor's degree", "3-4 years", "$20,000+"]
+    ] },
+    { "type": "paragraph", "richText": [ "Most career-changers do not need a bootcamp or a second degree. A structured certificate plus real projects is enough to get interviews. If you want the credential route, read our honest verdict on ", { "link": { "ref": "article:google-data-analytics-worth-it", "text": "whether the Google Data Analytics Certificate is worth it" } }, " and our roundup of the ", { "link": { "ref": "article:best-certs-data-analysts", "text": "best certifications for data analysts" } }, "." ] },
+    { "type": "heading", "level": 2, "text": "Do you need a degree?" },
+    { "type": "paragraph", "richText": "No, not always — but it helps at some employers and in some countries. Plenty of working analysts have no data degree; they have demonstrable skills and a portfolio. A degree lowers friction with strict HR filters, but it is not a hard requirement across the board. If you already have any bachelor's degree, you are in a strong position." },
+    { "type": "callout", "variant": "info", "richText": "Who this path is not for: if you dislike detailed, repetitive data cleaning or you want to avoid stakeholder communication entirely, analyst work may frustrate you. The role is equal parts SQL and diplomacy." },
+    { "type": "heading", "level": 2, "text": "The realistic 6-month plan" },
+    { "type": "list", "ordered": true, "items": [
+      "Months 1: spreadsheets to fluency + start SQL",
+      "Months 2-3: SQL to confidence, using real practice databases",
+      "Month 4: one BI tool + your first portfolio project",
+      "Month 5: second, harder portfolio project + polish your resume",
+      "Month 6: apply widely, tailor each application, and keep practicing SQL interview questions"
+    ] },
+    { "type": "faq", "items": [
+      { "question": "Can I become a data analyst with no experience?", "answerRichText": "Yes. Most people entering the field have no prior data experience. You substitute experience with demonstrable skills (SQL, a BI tool) and two portfolio projects that show you can answer a real question end to end." },
+      { "question": "Is data analytics still a good career in 2026?", "answerRichText": "Yes. Official projections remain strong for closely related data roles, and analytics skills transfer across almost every industry. Entry-level competition has increased, which is exactly why a real portfolio matters more than ever." },
+      { "question": "Do I need Python to be a data analyst?", "answerRichText": [ "No, not for most first jobs. SQL and a BI tool are the core. Python is a valuable add-on you can learn after you are hired — see our guide on ", { "link": { "ref": "article:how-long-learn-python", "text": "how long it takes to learn Python" } }, "." ] }
+    ] }
+  ]
+}

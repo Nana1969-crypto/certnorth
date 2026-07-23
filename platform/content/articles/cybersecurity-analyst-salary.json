@@ -1,0 +1,48 @@
+{
+  "id": "cybersecurity-analyst-salary",
+  "slug": "cybersecurity-analyst-salary",
+  "clusterId": "cl_salary",
+  "title": "Cybersecurity Analyst Salary in 2026 (Real BLS Data)",
+  "dek": "The U.S. median annual wage for information security analysts — the official category for cybersecurity analysts — was $124,910 in May 2024, with the top 10% earning more than $186,420.",
+  "authorId": "author_team",
+  "publishedAt": "2026-07-09",
+  "updatedAt": "2026-07-09",
+  "intent": { "primaryKeyword": "cybersecurity analyst salary" },
+  "seo": {
+    "metaTitle": "Cybersecurity Analyst Salary in 2026 (BLS Data)",
+    "metaDescription": "What cybersecurity analysts earn, from official U.S. BLS data — the $124,910 median, the full range by percentile, and what raises pay fastest."
+  },
+  "sources": [
+    { "label": "U.S. Bureau of Labor Statistics — Information Security Analysts, Occupational Outlook Handbook (May 2024 wage data)", "url": "https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm" },
+    { "label": "U.S. Bureau of Labor Statistics — Occupational Employment and Wage Statistics", "url": "https://www.bls.gov/oes/" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Cybersecurity analyst pay is easier to pin down than many tech salaries, because there is a clean official category for it: the U.S. Bureau of Labor Statistics tracks \"information security analysts,\" which is where most cybersecurity analyst roles are counted." },
+    { "type": "heading", "level": 2, "text": "The official figure (BLS, May 2024)" },
+    { "type": "paragraph", "richText": "According to the BLS Occupational Outlook Handbook, using May 2024 wage data, information security analysts earned a median annual wage of $124,910. For context, the median wage for all workers was $49,500 — so this is a well-above-average field." },
+    { "type": "table", "caption": "BLS wage distribution for information security analysts, May 2024.", "headers": ["Percentile", "Annual wage"], "rows": [
+      ["Lowest 10%", "Less than $69,660"],
+      ["Median (50%)", "$124,910"],
+      ["Highest 10%", "More than $186,420"]
+    ] },
+    { "type": "callout", "variant": "info", "richText": "The gap between the bottom and top of this range — roughly $70,000 to $186,000+ — is mostly driven by experience, specialization, industry, and location. Where you sit in it is more within your control than the median suggests." },
+    { "type": "heading", "level": 2, "text": "The outlook is unusually strong" },
+    { "type": "paragraph", "richText": "Beyond pay, the demand signal is striking. The BLS projects employment of information security analysts to grow 29% from 2024 to 2034 — much faster than the average for all occupations — with about 16,000 openings projected each year on average over the decade. That combination of high pay and fast growth is rare." },
+    { "type": "heading", "level": 2, "text": "What moves your salary within the range" },
+    { "type": "list", "ordered": false, "items": [
+      "Experience — the single largest factor; pay climbs steeply after the first few years",
+      "Specialization — cloud security, incident response, and application security command premiums",
+      "Certifications that match seniority — entry-level Security+ early, advanced credentials later",
+      "Industry — finance and technology tend to pay more than the average sector",
+      "Clearances — U.S. security clearances can meaningfully raise pay for government-adjacent work"
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "Entry-level pay is usually well below the median. A first SOC or junior analyst role often sits in the lower band, then rises quickly. Judge the career by the trajectory, not the starting number." },
+    { "type": "heading", "level": 2, "text": "How to move up the range" },
+    { "type": "paragraph", "richText": [ "The fastest levers are experience plus the right credential for your stage. Start by getting in the door — our guide on ", { "link": { "ref": "article:how-to-become-cybersecurity-analyst", "text": "how to become a cybersecurity analyst" } }, " lays out the path. When you are choosing certifications, the sequencing matters; compare ", { "link": { "ref": "article:security-plus-vs-cissp", "text": "Security+ vs CISSP" } }, " so you earn the right one at the right time." ] },
+    { "type": "faq", "items": [
+      { "question": "What is the average cybersecurity analyst salary in the US?", "answerRichText": "The BLS median annual wage for information security analysts — the official category — was $124,910 in May 2024. The middle of the range is a better guide than any single \"average,\" and the linked BLS page shows the current figure." },
+      { "question": "Do entry-level cybersecurity analysts earn that much?", "answerRichText": "Usually no. Entry-level roles typically start in the lower part of the range, below the median, and pay rises quickly with experience and specialization over the first several years." },
+      { "question": "Which certification raises cybersecurity pay the most?", "answerRichText": [ "No certificate raises pay on its own — the skills and seniority behind it do. Early on, Security+ opens doors; later, advanced credentials like CISSP align with higher-paying senior roles. See ", { "link": { "ref": "article:security-plus-vs-cissp", "text": "Security+ vs CISSP" } }, "." ] }
+    ] }
+  ]
+}

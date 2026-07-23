@@ -1,0 +1,58 @@
+{
+  "id": "security-plus-vs-cissp",
+  "slug": "comptia-security-plus-vs-cissp",
+  "clusterId": "cl_certs",
+  "title": "CompTIA Security+ vs CISSP: Which Should You Get First?",
+  "dek": "For almost everyone, the answer is Security+ first, then CISSP later. Security+ is entry-level with no experience requirement; CISSP requires five years of security experience and targets senior roles.",
+  "authorId": "author_team",
+  "publishedAt": "2026-07-11",
+  "updatedAt": "2026-07-11",
+  "intent": { "primaryKeyword": "comptia security+ vs cissp" },
+  "seo": {
+    "metaTitle": "CompTIA Security+ vs CISSP: Which First?",
+    "metaDescription": "Security+ vs CISSP compared on cost, experience requirements, difficulty, and career stage — and why the order is almost never a real choice."
+  },
+  "sources": [
+    { "label": "CompTIA — Security+ certification", "url": "https://www.comptia.org/certifications/security" },
+    { "label": "ISC2 — CISSP certification", "url": "https://www.isc2.org/certifications/cissp" },
+    { "label": "U.S. Bureau of Labor Statistics — Information Security Analysts, Occupational Outlook Handbook", "url": "https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "People frame Security+ and CISSP as rivals, but they are not really competing for the same person. They sit at opposite ends of a security career. The useful question is not \"which is better\" — it is \"which is right for me right now.\"" },
+    { "type": "callout", "variant": "tip", "richText": "Short answer: if you are early-career or changing careers, get Security+. If you already have around five years of security experience and want to move into senior or leadership roles, pursue CISSP. Most people are not actually choosing — their experience level chooses for them." },
+    { "type": "heading", "level": 2, "text": "Head-to-head comparison" },
+    { "type": "table", "caption": "CompTIA Security+ vs CISSP on the factors that decide which to take.", "headers": ["Factor", "CompTIA Security+", "CISSP (ISC2)"], "rows": [
+      ["Level", "Entry-level", "Advanced / senior"],
+      ["Experience required", "None", "5 years (4 with a qualifying waiver)"],
+      ["Exam cost", "About $400-$440 (raised in 2026)", "$749"],
+      ["Ongoing cost", "Renewal fees", "$135/year maintenance"],
+      ["Best for", "Getting into the field", "Senior, management, and architecture roles"],
+      ["Signals to employers", "You know the fundamentals", "You have breadth and experience"]
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "Exam prices change. CompTIA raised prices across its lineup in 2026, so treat the Security+ figure as approximate and confirm the current price on CompTIA's official page before you buy a voucher." },
+    { "type": "heading", "level": 2, "text": "Why CISSP is not a beginner certification" },
+    { "type": "paragraph", "richText": "CISSP requires a minimum of five years of cumulative, paid, full-time work experience across two or more of its eight security domains (four years with a qualifying credential or degree waiver). You can pass the exam without the experience and become an \"Associate of ISC2,\" but you do not hold the full CISSP until you meet the experience requirement. It is designed for people who are already working in security." },
+    { "type": "callout", "variant": "info", "richText": "Note: ISC2 trimmed its list of qualifying credentials for the one-year experience waiver in 2026. If you are counting on a waiver, verify your credential is still on the current list on the ISC2 site." },
+    { "type": "heading", "level": 2, "text": "Why Security+ is the right first step" },
+    { "type": "list", "ordered": false, "items": [
+      "No experience prerequisite — you can take it as a career-changer",
+      "Vendor-neutral fundamentals that apply everywhere",
+      "Frequently listed by name in entry-level job postings, including government-adjacent roles",
+      "Far cheaper than CISSP, so it is a lower-risk first investment"
+    ] },
+    { "type": "paragraph", "richText": [ "If you are weighing whether the entry-level exam is worth the money and effort at all, read our dedicated verdict on ", { "link": { "ref": "article:security-plus-worth-it", "text": "whether CompTIA Security+ is worth it" } }, "." ] },
+    { "type": "heading", "level": 2, "text": "The realistic sequence" },
+    { "type": "list", "ordered": true, "items": [
+      "Get Security+ (or an equivalent entry-level cert) early to open doors",
+      "Land a junior security or IT-security role and accumulate real experience",
+      "After several years, pursue CISSP to move into senior, architecture, or management roles",
+      "Add specialized certifications along the way that match your niche"
+    ] },
+    { "type": "paragraph", "richText": [ "For the full journey into the field, see ", { "link": { "ref": "article:how-to-become-cybersecurity-analyst", "text": "how to become a cybersecurity analyst" } }, ", and for what these roles pay at each stage, our ", { "link": { "ref": "article:cybersecurity-analyst-salary", "text": "cybersecurity analyst salary guide" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "Should I get Security+ or CISSP first?", "answerRichText": "Security+ first, in almost every case. It has no experience requirement and is built for entering the field. CISSP requires around five years of security experience, so it usually comes years later." },
+      { "question": "Can I take the CISSP exam without experience?", "answerRichText": "You can sit and pass the exam, but you become an Associate of ISC2 rather than a full CISSP until you meet the five-year experience requirement (four with a qualifying waiver)." },
+      { "question": "Is CISSP worth more than Security+?", "answerRichText": [ "For senior roles, yes — CISSP signals experience and breadth that command higher pay. But it is the wrong tool for a beginner. Match the certificate to your career stage; see ", { "link": { "ref": "article:cybersecurity-analyst-salary", "text": "how pay scales with seniority" } }, "." ] }
+    ] }
+  ]
+}

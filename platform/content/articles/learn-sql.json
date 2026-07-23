@@ -1,0 +1,59 @@
+{
+  "id": "learn-sql",
+  "slug": "how-to-learn-sql",
+  "clusterId": "cl_skills",
+  "title": "How to Learn SQL: A Beginner's Roadmap for 2026",
+  "dek": "You can learn enough SQL to be useful in 4 to 8 weeks by focusing on six core commands, practicing on a real database daily, and skipping the advanced topics until you actually need them.",
+  "authorId": "author_team",
+  "publishedAt": "2026-06-30",
+  "updatedAt": "2026-06-30",
+  "intent": { "primaryKeyword": "how to learn sql" },
+  "seo": {
+    "metaTitle": "How to Learn SQL: A Beginner's Roadmap (2026)",
+    "metaDescription": "A focused, no-fluff roadmap to learn SQL from scratch — the six commands that matter, a weekly plan, free practice tools, and how long it really takes."
+  },
+  "sources": [
+    { "label": "PostgreSQL — Official documentation and tutorial", "url": "https://www.postgresql.org/docs/current/tutorial.html" },
+    { "label": "SQLite — Official documentation", "url": "https://www.sqlite.org/docs.html" },
+    { "label": "MDN Web Docs — Databases and SQL basics", "url": "https://developer.mozilla.org/en-US/docs/Glossary/SQL" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "SQL is the language you use to ask a database questions. It is the highest-return skill for anyone working with data, and it is far easier to learn than a general-purpose programming language because the core is small and readable. The trap beginners fall into is trying to learn all of it. You do not need to." },
+    { "type": "callout", "variant": "tip", "richText": "Learn these six things well before anything else: SELECT, WHERE, ORDER BY, JOIN, GROUP BY, and aggregate functions (COUNT, SUM, AVG). That covers the vast majority of real analyst queries." },
+    { "type": "heading", "level": 2, "text": "The six commands that matter first" },
+    { "type": "table", "caption": "The core SQL you need before anything advanced.", "headers": ["Command", "What it does"], "rows": [
+      ["SELECT", "Choose which columns to return"],
+      ["WHERE", "Filter rows by a condition"],
+      ["ORDER BY", "Sort the results"],
+      ["JOIN", "Combine rows from two or more tables"],
+      ["GROUP BY", "Collapse rows into groups for aggregation"],
+      ["COUNT / SUM / AVG", "Summarize values within groups"]
+    ] },
+    { "type": "paragraph", "richText": [ "A query that uses most of these at once looks like this — and if you can read and write it comfortably, you already know enough to be useful:" ] },
+    { "type": "code", "language": "sql", "content": "SELECT department, COUNT(*) AS people, AVG(salary) AS avg_salary\nFROM employees\nWHERE active = true\nGROUP BY department\nORDER BY avg_salary DESC;" },
+    { "type": "heading", "level": 2, "text": "A realistic weekly plan" },
+    { "type": "list", "ordered": true, "items": [
+      "Week 1: SELECT, WHERE, ORDER BY on a single table until they are automatic",
+      "Week 2: JOINs — the concept that trips up most beginners; practice until it clicks",
+      "Week 3: GROUP BY and aggregate functions; combine them with WHERE and JOIN",
+      "Week 4: subqueries and CASE; start solving practice problems from scratch",
+      "Weeks 5-8: daily practice on real, messy datasets and interview-style questions"
+    ] },
+    { "type": "callout", "variant": "info", "richText": "The single most effective habit is writing SQL every day against a real database, not just watching lessons. Reading SQL and writing SQL are different skills, and only the second one shows up in interviews." },
+    { "type": "heading", "level": 2, "text": "Free tools to practice on" },
+    { "type": "list", "ordered": false, "items": [
+      "SQLite — zero setup, runs anywhere, perfect for a first database",
+      "PostgreSQL — the free, production-grade database worth learning on",
+      "Any interactive SQL practice site with a built-in editor and sample data",
+      "A public dataset you actually care about, loaded into your own database"
+    ] },
+    { "type": "heading", "level": 2, "text": "How long does it really take?" },
+    { "type": "paragraph", "richText": "To be useful for analyst work: 4 to 8 weeks of consistent daily practice. To be genuinely strong, including window functions and query optimization: a few more months of real use on the job. You do not need the advanced material to start applying or to pass most entry-level screens." },
+    { "type": "paragraph", "richText": [ "SQL is step two in our guide on ", { "link": { "ref": "article:how-to-become-data-analyst", "text": "how to become a data analyst" } }, ". If you also want a general-purpose language, Python pairs naturally with SQL — see ", { "link": { "ref": "article:how-long-learn-python", "text": "how long it takes to learn Python" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "Is SQL hard to learn?", "answerRichText": "No, not by programming standards. The syntax reads almost like English and the core is small. JOINs and GROUP BY take the most practice, but most people are writing useful queries within a few weeks." },
+      { "question": "How long does it take to learn SQL for a job?", "answerRichText": "About 4 to 8 weeks of daily practice to reach a useful, interview-ready level with the core commands. Deeper mastery comes with real work over the following months." },
+      { "question": "Should I learn SQL or Python first?", "answerRichText": [ "For data analyst roles, learn SQL first — it is required almost everywhere and faster to become useful in. Add Python afterward; see our guide on ", { "link": { "ref": "article:how-long-learn-python", "text": "learning Python" } }, "." ] }
+    ] }
+  ]
+}

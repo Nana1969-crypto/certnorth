@@ -1,28 +1,35 @@
 {
   "pillars": [
     {
-      "id": "pillar_excel",
-      "slug": "excel",
-      "title": "Excel",
-      "description": "Step-by-step Microsoft Excel tutorials and error fixes — from pivot tables and VLOOKUP to the errors that break your formulas."
+      "id": "pillar_paths",
+      "slug": "career-paths",
+      "title": "Career Paths",
+      "description": "Step-by-step guides to breaking into in-demand roles — the real steps, realistic timelines, honest costs, and what the day-to-day actually looks like."
     },
     {
-      "id": "pillar_gsheets",
-      "slug": "google-sheets",
-      "title": "Google Sheets",
-      "description": "Clear Google Sheets tutorials for everyday tasks, formulas, and collaboration — written and tested on the current version."
+      "id": "pillar_salaries",
+      "slug": "salaries",
+      "title": "Salaries",
+      "description": "What jobs really pay, using official U.S. Bureau of Labor Statistics data — with ranges by experience, named occupation codes, and honest notes on the numbers."
     },
     {
-      "id": "pillar_compare",
-      "slug": "compare",
-      "title": "Compare & Choose",
-      "description": "Honest comparisons and buyer's guides to help you pick the right spreadsheet tool for your work and budget."
+      "id": "pillar_certifications",
+      "slug": "certifications",
+      "title": "Certifications & Courses",
+      "description": "Honest verdicts on the certifications and online courses worth your money — head-to-head comparisons, real exam costs and requirements, and who each one is not for."
+    },
+    {
+      "id": "pillar_skills",
+      "slug": "skills",
+      "title": "Skills",
+      "description": "How to learn the skills employers actually hire for — beginner roadmaps, realistic timelines, and the free and paid resources that are genuinely worth your time."
     }
   ],
   "clusters": [
-    { "id": "cl_excel_tut", "pillarId": "pillar_excel", "slug": "tutorials", "title": "Excel Tutorials" },
-    { "id": "cl_excel_fix", "pillarId": "pillar_excel", "slug": "fixes", "title": "Fix Excel Errors" },
-    { "id": "cl_gs_tut", "pillarId": "pillar_gsheets", "slug": "tutorials", "title": "Google Sheets Tutorials" },
-    { "id": "cl_compare", "pillarId": "pillar_compare", "slug": "guides", "title": "Buyer's Guides" }
+    { "id": "cl_paths", "pillarId": "pillar_paths", "slug": "how-to-become", "title": "How to Become" },
+    { "id": "cl_salary", "pillarId": "pillar_salaries", "slug": "guides", "title": "Salary Guides" },
+    { "id": "cl_certs", "pillarId": "pillar_certifications", "slug": "certifications", "title": "Certifications" },
+    { "id": "cl_courses", "pillarId": "pillar_certifications", "slug": "courses", "title": "Online Courses" },
+    { "id": "cl_skills", "pillarId": "pillar_skills", "slug": "learn", "title": "Learn a Skill" }
   ]
 }

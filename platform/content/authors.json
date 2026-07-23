@@ -1,9 +1,9 @@
 [
   {
     "id": "author_team",
-    "slug": "sheetlift-team",
-    "name": "The Sheetlift Team",
+    "slug": "careerstack-team",
+    "name": "The Careerstack Team",
     "type": "Organization",
-    "bio": "The Sheetlift editorial team writes and tests every tutorial on the current versions of Microsoft Excel and Google Sheets. We focus on the exact steps, the common errors people actually hit, and honest comparisons — never filler. Before a wide launch, our guides will carry individual authors with verifiable spreadsheet expertise."
+    "bio": "The Careerstack editorial team researches career paths, skills, and certifications so you don't have to guess. We pull salary figures straight from the U.S. Bureau of Labor Statistics, read the official exam handbooks before we write about a certification, and give honest verdicts — including who a credential is not for. Before a wide launch, our guides will carry named authors with verifiable expertise in each field."
   }
 ]

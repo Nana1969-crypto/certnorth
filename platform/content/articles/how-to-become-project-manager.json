@@ -1,0 +1,55 @@
+{
+  "id": "how-to-become-project-manager",
+  "slug": "how-to-become-a-project-manager",
+  "clusterId": "cl_paths",
+  "title": "How to Become a Project Manager in 2026 (Even With No Title Yet)",
+  "dek": "Most project managers are made, not hired in: you take on project responsibilities in your current job, learn a framework, earn an entry-level credential like CAPM, then move into a PM title within 1 to 2 years.",
+  "authorId": "author_team",
+  "publishedAt": "2026-07-15",
+  "updatedAt": "2026-07-15",
+  "intent": { "primaryKeyword": "how to become a project manager" },
+  "seo": {
+    "metaTitle": "How to Become a Project Manager in 2026",
+    "metaDescription": "A realistic path into project management — the skills, the CAPM-to-PMP credential ladder, and how to get PM experience before the title."
+  },
+  "sources": [
+    { "label": "U.S. Bureau of Labor Statistics — Project Management Specialists, Occupational Outlook Handbook", "url": "https://www.bls.gov/ooh/business-and-financial/project-management-specialists.htm" },
+    { "label": "Project Management Institute (PMI) — Certifications", "url": "https://www.pmi.org/certifications" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Project management is one of the most accessible well-paid careers for career-changers, because the core skill — reliably getting things done through other people — can be built in almost any job. You rarely start by applying to \"project manager\" cold. You grow into it." },
+    { "type": "callout", "variant": "tip", "richText": "The fastest route: volunteer to coordinate projects where you already work, document what you delivered, learn one framework, and earn an entry-level credential. \"I ran this project and here is the result\" beats any certificate on a resume." },
+    { "type": "heading", "level": 2, "text": "What project managers actually do" },
+    { "type": "list", "ordered": false, "items": [
+      "Define scope, timeline, and success criteria with stakeholders",
+      "Coordinate people and work across teams who do not report to them",
+      "Track progress, manage risk, and remove blockers",
+      "Communicate status honestly — good news and bad news — to stakeholders",
+      "Keep budget, scope, and deadlines in balance when they inevitably conflict"
+    ] },
+    { "type": "paragraph", "richText": "Notice what is not on that list: doing all the hands-on work yourself. Project management is a coordination and communication job. If you like ownership and organizing chaos more than deep individual work, it fits." },
+    { "type": "heading", "level": 2, "text": "The step-by-step path" },
+    { "type": "heading", "level": 3, "text": "Step 1 — Get project experience where you are (ongoing)" },
+    { "type": "paragraph", "richText": "You do not need the title to do the work. Volunteer to own a cross-team initiative, coordinate a launch, or run a process improvement. This is the single most valuable step, because PM hiring is experience-driven." },
+    { "type": "heading", "level": 3, "text": "Step 2 — Learn a framework (2-6 weeks)" },
+    { "type": "paragraph", "richText": "Understand both predictive (waterfall) and agile approaches at a working level. You do not need to master every methodology — you need to speak the language and know when each fits." },
+    { "type": "heading", "level": 3, "text": "Step 3 — Earn an entry-level credential (1-3 months)" },
+    { "type": "paragraph", "richText": [ "The CAPM (Certified Associate in Project Management) from PMI is the standard entry-level credential and, unlike the PMP, does not require years of experience. We compare the two directly in ", { "link": { "ref": "article:pmp-vs-capm", "text": "PMP vs CAPM" } }, " so you pick the right one for your stage." ] },
+    { "type": "heading", "level": 3, "text": "Step 4 — Target the right roles" },
+    { "type": "paragraph", "richText": "Look for titles like project coordinator, junior project manager, or associate project manager, plus PM roles inside industries you already know. Domain knowledge is a real advantage — a PM who understands the work being managed is more effective." },
+    { "type": "heading", "level": 2, "text": "Timeline, cost, and outlook" },
+    { "type": "table", "caption": "Typical time and cost to move into a project management role.", "headers": ["Route", "Typical time", "Typical cost"], "rows": [
+      ["Internal move + CAPM", "6-18 months", "$300-$1,500"],
+      ["Career-changer from scratch", "1-2 years", "$1,000-$3,000"],
+      ["PMP path (needs experience first)", "2+ years", "$1,000-$3,000"]
+    ] },
+    { "type": "callout", "variant": "info", "richText": "The BLS reports a median annual wage of $100,750 for project management specialists (May 2024) and projects steady growth, with about 78,200 openings each year on average over the 2024-2034 decade." },
+    { "type": "heading", "level": 2, "text": "Do you need the PMP to start?" },
+    { "type": "paragraph", "richText": [ "No — and you usually cannot get it yet anyway, because the PMP requires substantial documented project experience. Start with experience and CAPM, then earn the PMP once you qualify. The full comparison is in ", { "link": { "ref": "article:pmp-vs-capm", "text": "our PMP vs CAPM guide" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "Can I become a project manager with no experience?", "answerRichText": "Not with zero experience of any kind, but you can build project experience inside your current job without holding the PM title. Coordinating one real cross-team project gives you something concrete to show." },
+      { "question": "Do I need a PMP to be a project manager?", "answerRichText": [ "No. Many project managers work without a PMP, especially early on. The PMP requires years of documented experience, so most people start with CAPM or none at all. See ", { "link": { "ref": "article:pmp-vs-capm", "text": "PMP vs CAPM" } }, "." ] },
+      { "question": "How long does it take to become a project manager?", "answerRichText": "Typically 1 to 2 years for a career-changer, faster if you can take on project responsibilities in your current role and move internally." }
+    ] }
+  ]
+}

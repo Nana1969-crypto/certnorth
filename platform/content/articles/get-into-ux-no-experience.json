@@ -1,0 +1,55 @@
+{
+  "id": "get-into-ux-no-experience",
+  "slug": "how-to-get-into-ux-design-with-no-experience",
+  "clusterId": "cl_paths",
+  "title": "How to Get Into UX Design With No Experience",
+  "dek": "You break into UX without experience by building a portfolio of two or three case studies that show your process — not pretty screens — while learning the fundamentals and one design tool. Expect 6 to 12 months.",
+  "authorId": "author_team",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "intent": { "primaryKeyword": "how to get into ux design with no experience" },
+  "seo": {
+    "metaTitle": "How to Get Into UX Design With No Experience",
+    "metaDescription": "A realistic path into UX design with no experience — the portfolio that actually matters, the skills to learn, and an honest 6-12 month timeline."
+  },
+  "sources": [
+    { "label": "U.S. Bureau of Labor Statistics — Web Developers and Digital Designers, Occupational Outlook Handbook", "url": "https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm" },
+    { "label": "Nielsen Norman Group — UX research and design articles", "url": "https://www.nngroup.com/articles/" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "UX design is one of the more competitive career changes right now, so let us be honest up front: getting in with no experience is doable, but it takes a real portfolio and patience. The good news is that the thing that gets you hired — a portfolio showing how you think — is entirely within your control." },
+    { "type": "callout", "variant": "warn", "richText": "Reality check: the entry-level UX market is crowded, and a certificate alone will not get you hired. What separates people who get interviews is two or three deep case studies that demonstrate real problem-solving, not a gallery of good-looking screens." },
+    { "type": "heading", "level": 2, "text": "What UX designers actually do" },
+    { "type": "paragraph", "richText": "UX (user experience) design is about making products usable and useful, not just attractive. That means research, structuring information, mapping flows, prototyping, and testing with real users. Visual polish (often called UI) is part of it, but the \"experience\" is the substance." },
+    { "type": "list", "ordered": false, "items": [
+      "Talking to users and understanding their problems",
+      "Mapping user flows and information architecture",
+      "Wireframing and prototyping solutions",
+      "Testing designs with real people and iterating",
+      "Working closely with product managers and developers"
+    ] },
+    { "type": "heading", "level": 2, "text": "The step-by-step path" },
+    { "type": "heading", "level": 3, "text": "Step 1 — Learn the fundamentals (1-2 months)" },
+    { "type": "paragraph", "richText": "Understand the UX process end to end: research, information architecture, interaction design, and usability testing. Focus on why good design decisions are made, not just how to use a tool." },
+    { "type": "heading", "level": 3, "text": "Step 2 — Learn one design tool (2-4 weeks)" },
+    { "type": "paragraph", "richText": "Pick the industry-standard interface design tool and get comfortable with wireframing, prototyping, and components. The tool is the easy part — do not spend months here at the expense of your process skills." },
+    { "type": "heading", "level": 3, "text": "Step 3 — Build 2-3 real case studies (the main event)" },
+    { "type": "paragraph", "richText": "This is where you win or lose. Take a genuine problem — ideally a real one from a nonprofit, a local business, or a product you use — and work it end to end: research, definition, design, testing, and outcome. Write up your thinking at each step. Interviewers read your reasoning, not just your final mockups." },
+    { "type": "heading", "level": 3, "text": "Step 4 — Use your existing background as an edge" },
+    { "type": "paragraph", "richText": [ "Career-changers have a hidden advantage: domain knowledge. A former teacher who designs education tools, or a former nurse who designs healthcare apps, brings insight a fresh graduate lacks. If you find the market too crowded, an adjacent role like ", { "link": { "ref": "article:how-to-become-data-analyst", "text": "data analyst" } }, " can also value your prior domain and design thinking." ] },
+    { "type": "heading", "level": 2, "text": "Timeline, cost, and pay" },
+    { "type": "table", "caption": "Realistic time and cost to become job-ready in UX with no experience.", "headers": ["Route", "Typical time", "Typical cost"], "rows": [
+      ["Self-study + free tools + portfolio", "6-12 months", "$0-$500"],
+      ["Structured certificate + portfolio", "6-9 months", "$300-$1,500"],
+      ["Bootcamp", "3-9 months", "$7,000-$16,000"]
+    ] },
+    { "type": "callout", "variant": "info", "richText": "For pay context, the BLS reports a median annual wage of $98,090 for web and digital interface designers (May 2024), the official category that captures much digital design work. UX titles vary, so treat this as a directional anchor." },
+    { "type": "heading", "level": 2, "text": "Do you need a degree?" },
+    { "type": "paragraph", "richText": [ "No. UX is portfolio-first — most hiring managers care far more about your case studies than your diploma. This is similar to software development, where skills increasingly outweigh credentials; see our take on ", { "link": { "ref": "article:degree-software-developer", "text": "whether you need a degree to be a software developer" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "Can I get a UX job with no experience?", "answerRichText": "Yes, but it is competitive. You substitute experience with two or three strong case studies that show your full process. Career-changers who lean on their prior domain knowledge have a real advantage." },
+      { "question": "Do I need a UX certificate or bootcamp?", "answerRichText": "Neither is required. A certificate can give structure, but the portfolio does the hiring. If you are disciplined, self-study plus real case studies can get you there for a fraction of a bootcamp's cost." },
+      { "question": "How long does it take to get into UX?", "answerRichText": "Plan on 6 to 12 months of consistent work to learn the fundamentals, a tool, and — most importantly — to build a portfolio that proves how you solve problems." }
+    ] }
+  ]
+}

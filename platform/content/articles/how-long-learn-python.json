@@ -1,0 +1,57 @@
+{
+  "id": "how-long-learn-python",
+  "slug": "how-long-does-it-take-to-learn-python",
+  "clusterId": "cl_skills",
+  "title": "How Long Does It Take to Learn Python?",
+  "dek": "You can write useful Python in 6 to 10 weeks of part-time study, reach job-ready for a data or automation role in about 4 to 8 months, and keep improving for years — the timeline depends entirely on your goal.",
+  "authorId": "author_team",
+  "publishedAt": "2026-07-02",
+  "updatedAt": "2026-07-02",
+  "intent": { "primaryKeyword": "how long does it take to learn python" },
+  "seo": {
+    "metaTitle": "How Long Does It Take to Learn Python?",
+    "metaDescription": "A realistic timeline to learn Python by goal — basics in weeks, job-ready in months — plus a week-by-week plan and the mistakes that slow people down."
+  },
+  "sources": [
+    { "label": "Python.org — Official beginner's guide", "url": "https://www.python.org/about/gettingstarted/" },
+    { "label": "Python.org — The Python Tutorial (official docs)", "url": "https://docs.python.org/3/tutorial/" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "\"How long does it take to learn Python?\" has no single answer, because \"learn\" means different things. Learning enough to automate a boring task is a few weeks. Learning enough to be hired as a developer is many months. The honest way to answer is by goal." },
+    { "type": "heading", "level": 2, "text": "Timeline by goal" },
+    { "type": "table", "caption": "Realistic time to reach different Python goals with consistent part-time study.", "headers": ["Your goal", "Realistic time (part-time)"], "rows": [
+      ["Write simple scripts / automate a task", "2-6 weeks"],
+      ["Comfortable with the fundamentals", "6-10 weeks"],
+      ["Job-ready for data analysis / automation", "4-8 months"],
+      ["Job-ready as a software developer", "9-18 months"],
+      ["Genuine fluency / advanced", "2+ years of real use"]
+    ] },
+    { "type": "callout", "variant": "info", "richText": "\"Part-time\" here means roughly 8-12 hours per week. Double the hours and you roughly halve the calendar time — up to a point, because some learning only comes from spaced, repeated practice." },
+    { "type": "heading", "level": 2, "text": "What the fundamentals actually include" },
+    { "type": "list", "ordered": false, "items": [
+      "Variables, data types, and basic operations",
+      "Control flow: if/else, for and while loops",
+      "Functions and how to structure reusable code",
+      "Core data structures: lists, dictionaries, sets, tuples",
+      "Reading and writing files, and handling errors",
+      "Installing and using third-party libraries"
+    ] },
+    { "type": "code", "language": "python", "content": "# If you can read and write code like this comfortably,\n# you have the fundamentals down.\ndef average(numbers):\n    if not numbers:\n        return 0\n    return sum(numbers) / len(numbers)\n\nscores = [88, 92, 79, 95]\nprint(f\"Average score: {average(scores):.1f}\")" },
+    { "type": "heading", "level": 2, "text": "A week-by-week starter plan" },
+    { "type": "list", "ordered": true, "items": [
+      "Weeks 1-2: syntax, variables, control flow — write tiny programs daily",
+      "Weeks 3-4: functions and data structures; rebuild your earlier scripts more cleanly",
+      "Weeks 5-6: files, errors, and one useful library for your goal",
+      "Weeks 7-10: one real project you care about, from blank file to working tool"
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "The biggest time-waster is tutorial hell — endlessly watching lessons without writing your own code. You learn Python by building things and getting stuck, not by consuming more videos." },
+    { "type": "heading", "level": 2, "text": "What speeds you up or slows you down" },
+    { "type": "paragraph", "richText": "Prior programming experience is the biggest accelerator — if you already know another language, the fundamentals can take days, not weeks. Consistency beats intensity: 45 minutes a day for a month beats one long weekend. And a clear goal focuses your learning so you are not memorizing features you will never use." },
+    { "type": "paragraph", "richText": [ "If your goal is data work, Python pairs with SQL — learn ", { "link": { "ref": "article:learn-sql", "text": "SQL first with our beginner roadmap" } }, ", then add Python. For the full path into the field, see ", { "link": { "ref": "article:how-to-become-data-analyst", "text": "how to become a data analyst" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "Can I learn Python in a month?", "answerRichText": "You can learn the basics and write simple, useful scripts in a month of consistent daily practice. You will not be job-ready as a developer in a month, but you will be past the hardest part: the blank-page fear." },
+      { "question": "Is Python harder than SQL?", "answerRichText": [ "Generally yes. Python is a full programming language with more concepts, while SQL is a focused query language with a small core. For data roles, most people find ", { "link": { "ref": "article:learn-sql", "text": "SQL faster to become useful in" } }, "." ] },
+      { "question": "How long until Python gets me a job?", "answerRichText": "For data analysis or automation roles, plan on 4 to 8 months of steady study plus a portfolio. For a software developer role, 9 to 18 months is more realistic. The portfolio matters as much as the timeline." }
+    ] }
+  ]
+}
