@@ -1,0 +1,51 @@
+{
+  "id": "project-manager-salary",
+  "slug": "project-manager-salary",
+  "clusterId": "cl_salary",
+  "title": "Project Manager Salary in 2026 (US, UK, Canada & Australia)",
+  "dek": "In the US, the official BLS median for project management specialists is $100,750 (May 2024). Pay varies widely by country — roughly £57k in the UK, C$79k in Canada, and A$140k in Australia.",
+  "authorId": "author_team",
+  "publishedAt": "2026-07-25",
+  "updatedAt": "2026-07-25",
+  "intent": { "primaryKeyword": "project manager salary" },
+  "seo": {
+    "metaTitle": "Project Manager Salary in 2026 (by Country)",
+    "metaDescription": "What project managers earn in 2026 across the US, UK, Canada, and Australia — with the official source named for each country and honest caveats."
+  },
+  "sources": [
+    { "label": "U.S. Bureau of Labor Statistics — Project Management Specialists (May 2024 data)", "url": "https://www.bls.gov/ooh/business-and-financial/project-management-specialists.htm" },
+    { "label": "UK National Careers Service — Project manager", "url": "https://nationalcareers.service.gov.uk/job-profiles/project-manager" },
+    { "label": "Government of Canada — Job Bank", "url": "https://www.jobbank.gc.ca/trend-analysis/search-wages" },
+    { "label": "Jobs and Skills Australia — Labour Market Insights", "url": "https://www.jobsandskills.gov.au/" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Most \"project manager salary\" articles give one confident global number. That's misleading, because pay depends heavily on country — and because different countries measure it differently. Here's the honest, country-by-country picture, with the source named for each figure." },
+    { "type": "callout", "variant": "info", "richText": "Only the United States has a clean official median for this exact role (via the BLS). For other countries we cite the national labour-market source or reputable salary data, and we tell you which — so you can judge each number for yourself." },
+    { "type": "heading", "level": 2, "text": "The official US figure" },
+    { "type": "paragraph", "richText": "According to the US Bureau of Labor Statistics, project management specialists had a median annual wage of $100,750 as of May 2024 — the most authoritative single figure available for the role in any country. The BLS also projects steady demand, with tens of thousands of openings each year over the decade." },
+    { "type": "heading", "level": 2, "text": "Salary by country" },
+    { "type": "table", "caption": "Typical project manager pay by country (2026). US figure is an official BLS median; others are representative figures from the linked sources and vary by methodology.", "headers": ["Country", "Typical annual pay", "Source type"], "rows": [
+      ["United States", "~$100,750 (median)", "BLS — official"],
+      ["United Kingdom", "~£45,000–£57,000", "National Careers Service / salary data"],
+      ["Canada", "~C$79,000 (senior up to ~C$140,000)", "Job Bank / salary data"],
+      ["Australia", "~A$140,000", "Labour-market / salary data"]
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "Don't compare these numbers directly across countries as if they were measured the same way. Currencies, cost of living, tax, and how each source defines \"project manager\" all differ. Use each figure within its own country, and click the source for the current official range." },
+    { "type": "heading", "level": 2, "text": "What moves your salary within a country" },
+    { "type": "list", "ordered": false, "items": [
+      "Experience — the single biggest factor; senior PMs earn far above the median",
+      "Industry — technology, finance, and construction tend to pay more",
+      "Location — major cities pay more, but usually cost more too",
+      "Certifications matched to seniority — the PMP is associated with higher pay for experienced PMs",
+      "Specialization — program and portfolio management pay above general project roles"
+    ] },
+    { "type": "callout", "variant": "tip", "richText": "The fastest lever early in your career is moving from a coordinator role into a full project manager role. The pay step between those two titles is usually larger than annual raises within a single title." },
+    { "type": "heading", "level": 2, "text": "Do certifications raise your pay?" },
+    { "type": "paragraph", "richText": [ "For experienced project managers, the PMP is widely associated with higher salaries — but the credential works alongside experience, not instead of it. See our honest take in ", { "link": { "ref": "article:is-pmp-worth-it", "text": "is the PMP worth it" } }, ". If you're just entering the field, focus first on getting the role — see ", { "link": { "ref": "article:how-to-become-project-manager", "text": "how to become a project manager" } }, " and the ", { "link": { "ref": "article:best-pm-certifications-beginners", "text": "best entry-level certifications" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "What is the average project manager salary in 2026?", "answerRichText": "It depends on the country. The US official BLS median is $100,750 (May 2024). Typical pay is roughly £45,000–£57,000 in the UK, about C$79,000 in Canada, and around A$140,000 in Australia — from the sources linked in this guide." },
+      { "question": "Why do salary sites show such different numbers?", "answerRichText": "Because each measures a slightly different group of jobs, often from self-reported data, and only the US has a clean official median for the role. That's why we name the source for every figure and anchor to official data where it exists." },
+      { "question": "Does the PMP increase a project manager's salary?", "answerRichText": [ "For experienced PMs it's associated with higher pay, but it complements experience rather than replacing it. Read the honest verdict in ", { "link": { "ref": "article:is-pmp-worth-it", "text": "is the PMP worth it" } }, "." ] }
+    ] }
+  ]
+}

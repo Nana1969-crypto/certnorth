@@ -1,53 +1,45 @@
 {
   "id": "pmp-vs-capm",
   "slug": "pmp-vs-capm",
-  "clusterId": "cl_certs",
+  "clusterId": "cl_compare",
   "title": "PMP vs CAPM: Which Project Management Certification First?",
-  "dek": "Get CAPM if you are new to project management and lack the experience for PMP; get PMP once you have the required experience, because it is the more respected credential and CAPM exempts you from part of its requirements.",
+  "dek": "Get the CAPM if you're new and lack the experience the PMP demands; get the PMP once you qualify, because it's the more respected credential — and holding a CAPM waives part of the PMP's requirements.",
   "authorId": "author_team",
-  "publishedAt": "2026-07-17",
-  "updatedAt": "2026-07-17",
+  "publishedAt": "2026-07-25",
+  "updatedAt": "2026-07-25",
   "intent": { "primaryKeyword": "pmp vs capm" },
   "seo": {
     "metaTitle": "PMP vs CAPM: Which Certification First?",
-    "metaDescription": "PMP vs CAPM compared on cost, experience requirements, and career stage — plus how CAPM can make your later PMP easier."
+    "metaDescription": "PMP vs CAPM compared on 2026 cost, experience requirements, and career stage — plus how the CAPM can make your later PMP easier."
   },
   "sources": [
-    { "label": "Project Management Institute (PMI) — Certifications", "url": "https://www.pmi.org/certifications" },
     { "label": "PMI — Project Management Professional (PMP)", "url": "https://www.pmi.org/certifications/project-management-pmp" },
     { "label": "PMI — Certified Associate in Project Management (CAPM)", "url": "https://www.pmi.org/certifications/certified-associate-capm" }
   ],
   "body": [
-    { "type": "paragraph", "richText": "Both the PMP and the CAPM come from the Project Management Institute (PMI), but they are aimed at different points in a career. The choice usually comes down to one thing: whether you already have the project experience PMP demands." },
-    { "type": "callout", "variant": "tip", "richText": "Short answer: no qualifying experience yet? Start with CAPM. Have the required experience and want the credential employers ask for by name? Go straight to PMP. CAPM also waives part of the PMP's education requirement later." },
+    { "type": "paragraph", "richText": "The PMP and the CAPM both come from PMI, but they sit at different points in a career. For most people the choice isn't really a choice — your experience level decides it for you." },
+    { "type": "callout", "variant": "tip", "richText": "Short version: don't have the experience the PMP requires? Get the CAPM. Already have it, and want the credential employers ask for by name? Go straight to the PMP." },
     { "type": "heading", "level": 2, "text": "Head-to-head comparison" },
-    { "type": "table", "caption": "PMP vs CAPM on the factors that decide which to take first.", "headers": ["Factor", "CAPM", "PMP"], "rows": [
-      ["Level", "Entry-level", "Professional / experienced"],
-      ["Experience required", "None (secondary degree + 23 hours of PM education)", "36 months with a 4-year degree, or 60 months with a secondary degree"],
-      ["Education required", "23 contact hours of PM education", "35 contact hours (waived if you hold an active CAPM)"],
-      ["Exam cost", "$225 member / $300 non-member", "$405 member / $555 non-member"],
+    { "type": "table", "caption": "PMP vs CAPM on the factors that decide which to take first (2026 fees; verify with PMI).", "headers": ["Factor", "CAPM", "PMP"], "rows": [
+      ["Level", "Entry-level", "Experienced professional"],
+      ["Experience required", "None", "36 months (4-yr degree) or 60 months (secondary)"],
+      ["Education required", "23 contact hours", "35 contact hours"],
+      ["Exam fee", "$225 member / $300 non-member", "$425 member / $675 non-member"],
+      ["Renewal", "Lighter (PDUs over 3 years)", "60 PDUs + fee every 3 years"],
       ["Best for", "Newcomers building credibility", "Working PMs seeking the top credential"]
     ] },
-    { "type": "callout", "variant": "info", "richText": "Holding an active CAPM exempts you from the PMP's 35-contact-hour education requirement later. So for a true beginner, CAPM is not just a consolation prize — it is a stepping stone that reduces friction on the way to PMP." },
-    { "type": "heading", "level": 2, "text": "When CAPM is the right first choice" },
-    { "type": "list", "ordered": false, "items": [
-      "You are new to project management and cannot yet meet PMP's experience bar",
-      "You want a recognized credential to strengthen entry-level applications",
-      "You want to lock in the PMP education requirement early via CAPM"
-    ] },
-    { "type": "heading", "level": 2, "text": "When to go straight to PMP" },
-    { "type": "list", "ordered": false, "items": [
-      "You already have the required months of project experience",
-      "You are targeting roles that list PMP by name as a requirement or strong preference",
-      "You want the credential with the most hiring recognition and salary leverage"
-    ] },
-    { "type": "callout", "variant": "warn", "richText": "Do not chase PMP before you qualify. PMI verifies experience and audits a share of applications. Claiming experience you cannot document risks failing the audit — build the experience first, honestly." },
+    { "type": "callout", "variant": "info", "richText": "PMI raised PMP exam fees in 2026, so the gap between the two is now wider than older articles suggest. Always confirm the current fee on PMI's site before you pay." },
+    { "type": "heading", "level": 2, "text": "Why the CAPM is the right first step for beginners" },
+    { "type": "paragraph", "richText": [ "The CAPM requires only a secondary diploma and 23 hours of project management education — no work experience. That makes it accessible to career-changers and students. It also gives you a recognized PMI credential now, while you accumulate the experience the PMP demands. For the full cost picture, see our ", { "link": { "ref": "article:pmp-cost", "text": "breakdown of what the PMP really costs" } }, "." ] },
+    { "type": "heading", "level": 2, "text": "Why the PMP is worth waiting for" },
+    { "type": "paragraph", "richText": [ "The PMP is the credential employers list by name and the one associated with higher pay. But you must meet its experience requirement first: 36 months of project experience with a four-year degree, or 60 months with a secondary diploma, plus 35 contact hours of education. Check whether you qualify with our ", { "link": { "ref": "article:pmp-eligibility", "text": "PMP eligibility guide" } }, ", and whether it's worth it in our ", { "link": { "ref": "article:is-pmp-worth-it", "text": "honest PMP verdict" } }, "." ] },
+    { "type": "callout", "variant": "warn", "richText": "Don't claim experience you can't document to rush into the PMP. PMI audits a share of applications and verifies experience. Build the months honestly first — the CAPM keeps you moving in the meantime." },
     { "type": "heading", "level": 2, "text": "The bottom line" },
-    { "type": "paragraph", "richText": [ "If you have the experience, PMP is the stronger investment and the one employers ask for. If you do not, CAPM gets you moving and makes the PMP easier later. Either way, the credential works best on top of real project experience — see how to build it in ", { "link": { "ref": "article:how-to-become-project-manager", "text": "how to become a project manager" } }, "." ] },
+    { "type": "paragraph", "richText": [ "If you have the experience, the PMP is the stronger investment. If you don't, the CAPM gets you a recognized credential now and keeps the PMP within reach. Either way, a certification works best on top of real project experience — see ", { "link": { "ref": "article:how-to-become-project-manager", "text": "how to become a project manager" } }, "." ] },
     { "type": "faq", "items": [
-      { "question": "Should I get CAPM or PMP first?", "answerRichText": [ "If you do not yet have the experience PMP requires, get CAPM first. If you do, go straight to PMP — it carries more weight. See the experience bar in ", { "link": { "ref": "article:how-to-become-project-manager", "text": "our project manager guide" } }, "." ] },
-      { "question": "Is CAPM worth it if I will get PMP later?", "answerRichText": "It can be. CAPM gives newcomers a recognized credential now, and holding an active CAPM exempts you from the PMP's 35-hour education requirement later, reducing your future workload." },
-      { "question": "How much do PMP and CAPM cost?", "answerRichText": "As of 2026, the PMP exam is $405 for PMI members and $555 for non-members; CAPM is $225 for members and $300 for non-members. Confirm current fees on PMI's official site before applying." }
+      { "question": "Should I get the CAPM or PMP first?", "answerRichText": [ "If you don't yet meet the PMP's experience requirement, get the CAPM first. If you do, go straight for the PMP — it carries more weight. Check the experience bar in our ", { "link": { "ref": "article:pmp-eligibility", "text": "PMP eligibility guide" } }, "." ] },
+      { "question": "Is the CAPM worth it if I'll get the PMP later?", "answerRichText": "It can be. The CAPM gives newcomers a recognized PMI credential immediately, and the education hours you complete for it can count toward the PMP later, reducing your future workload." },
+      { "question": "How much do the PMP and CAPM cost in 2026?", "answerRichText": [ "The PMP exam is $425 for PMI members and $675 for non-members; the CAPM is $225 and $300. Add training and materials for the real total — see our ", { "link": { "ref": "article:pmp-cost", "text": "full PMP cost breakdown" } }, "." ] }
     ] }
   ]
 }

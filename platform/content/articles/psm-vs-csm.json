@@ -1,0 +1,54 @@
+{
+  "id": "psm-vs-csm",
+  "slug": "psm-vs-csm-scrum-certification",
+  "clusterId": "cl_compare",
+  "title": "PSM vs CSM: Which Scrum Certification Should You Get?",
+  "dek": "Choose PSM I if you want the cheaper, rigorous, no-expiry option you can self-study; choose CSM if you'd benefit from a mandatory two-day course and your employer is paying.",
+  "authorId": "author_team",
+  "publishedAt": "2026-07-25",
+  "updatedAt": "2026-07-25",
+  "intent": { "primaryKeyword": "psm vs csm" },
+  "seo": {
+    "metaTitle": "PSM vs CSM: Which Scrum Certification?",
+    "metaDescription": "PSM vs CSM compared on 2026 cost, difficulty, course requirements, and renewal — and how to pick the right Scrum Master certification for you."
+  },
+  "sources": [
+    { "label": "Scrum.org — Professional Scrum Master (PSM I)", "url": "https://www.scrum.org/assessments/professional-scrum-master-i-certification" },
+    { "label": "Scrum Alliance — Certified ScrumMaster (CSM)", "url": "https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "PSM and CSM are the two best-known Scrum Master certifications, from two different organizations. They teach similar fundamentals, so the real decision comes down to cost, whether you want a mandatory course, and whether the credential expires." },
+    { "type": "callout", "variant": "tip", "richText": "Short version: paying yourself and comfortable self-studying? PSM I — cheaper, respected, and never expires. Want a structured live course and your employer foots the bill? CSM." },
+    { "type": "heading", "level": 2, "text": "Head-to-head comparison" },
+    { "type": "table", "caption": "PSM I vs CSM (2026 figures; confirm current fees with each body).", "headers": ["Factor", "PSM I (Scrum.org)", "CSM (Scrum Alliance)"], "rows": [
+      ["Course required", "No — you can take the exam directly", "Yes — mandatory two-day course"],
+      ["Typical cost", "$200 exam (under $300 self-study)", "~$800–$1,500 (course included)"],
+      ["Exam difficulty", "Harder: 85% to pass, closed-book", "Easier pass threshold, course-supported"],
+      ["Expiry / renewal", "Never expires, no renewal fee", "Renew every 2 years (fee + SEUs)"],
+      ["Best for", "Self-funded, budget-conscious learners", "Those wanting a guided course, employer-paid"]
+    ] },
+    { "type": "callout", "variant": "info", "richText": "The biggest practical differences: the CSM forces you to take (and pay for) a two-day course, while the PSM I lets you self-study and sit the exam for $200 — and the PSM I never expires, so there's no renewal cost over time." },
+    { "type": "heading", "level": 2, "text": "Why choose PSM I" },
+    { "type": "list", "ordered": false, "items": [
+      "Far cheaper if you self-study — just the $200 exam plus optional prep",
+      "No mandatory course, so experienced people can test straight out",
+      "No expiry and no renewal fees — pay once, keep it for life",
+      "Its tougher exam is seen by some employers as a stronger signal"
+    ] },
+    { "type": "heading", "level": 2, "text": "Why choose CSM" },
+    { "type": "list", "ordered": false, "items": [
+      "The mandatory two-day course gives structure and live instruction",
+      "Great when your employer pays, which removes the cost objection",
+      "The Scrum Alliance brand is very widely recognized by recruiters",
+      "A gentler exam experience if you're nervous about self-testing"
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "Don't pay for the CSM course out of pocket just for the brand if budget matters — the PSM I gives you a respected Scrum Master credential for a fraction of the price. Reserve the CSM for when someone else is paying." },
+    { "type": "heading", "level": 2, "text": "The bottom line" },
+    { "type": "paragraph", "richText": [ "Both are legitimate. For most self-funded learners, PSM I is the better value; for employer-sponsored learners who want a live course, CSM is fine. Either way, a Scrum certification pairs naturally with understanding ", { "link": { "ref": "article:agile-vs-waterfall", "text": "Agile versus Waterfall" } }, ", and fits into the path to ", { "link": { "ref": "article:how-to-become-scrum-master", "text": "becoming a Scrum Master" } }, ". See where both rank among the ", { "link": { "ref": "article:best-pm-certifications-beginners", "text": "best beginner certifications" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "Is PSM or CSM more respected?", "answerRichText": "Both are well recognized. Some employers view the PSM I's harder, closed-book exam as a stronger signal of knowledge, while the CSM's Scrum Alliance brand is extremely widespread. In practice, either satisfies most job requirements." },
+      { "question": "Which Scrum certification is cheaper?", "answerRichText": "PSM I, clearly — you can self-study and pay just the $200 exam fee, and it never needs renewing. The CSM requires a mandatory course, pushing the total to roughly $800–$1,500, plus renewal every two years." },
+      { "question": "Do I need a course to get a Scrum Master certification?", "answerRichText": [ "For the CSM, yes — a two-day course is mandatory. For the PSM I, no — you can prepare on your own and take the exam directly. See the full path in ", { "link": { "ref": "article:how-to-become-scrum-master", "text": "how to become a Scrum Master" } }, "." ] }
+    ] }
+  ]
+}

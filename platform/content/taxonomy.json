@@ -1,35 +1,36 @@
 {
   "pillars": [
     {
+      "id": "pillar_certifications",
+      "slug": "certifications",
+      "title": "Certifications",
+      "description": "Honest, vendor-neutral guides to project management certifications — real exam costs, real eligibility rules, head-to-head comparisons, and who each credential is not for."
+    },
+    {
       "id": "pillar_paths",
       "slug": "career-paths",
       "title": "Career Paths",
-      "description": "Step-by-step guides to breaking into in-demand roles — the real steps, realistic timelines, honest costs, and what the day-to-day actually looks like."
+      "description": "How to break into project management and agile roles — the real steps, realistic timelines, honest costs, and what the job actually looks like day to day."
     },
     {
       "id": "pillar_salaries",
       "slug": "salaries",
       "title": "Salaries",
-      "description": "What jobs really pay, using official U.S. Bureau of Labor Statistics data — with ranges by experience, named occupation codes, and honest notes on the numbers."
-    },
-    {
-      "id": "pillar_certifications",
-      "slug": "certifications",
-      "title": "Certifications & Courses",
-      "description": "Honest verdicts on the certifications and online courses worth your money — head-to-head comparisons, real exam costs and requirements, and who each one is not for."
+      "description": "What project managers really earn, using official labour-market data — with figures by country and experience level, and the source named every time."
     },
     {
       "id": "pillar_skills",
       "slug": "skills",
-      "title": "Skills",
-      "description": "How to learn the skills employers actually hire for — beginner roadmaps, realistic timelines, and the free and paid resources that are genuinely worth your time."
+      "title": "Skills & Methods",
+      "description": "The methodologies and skills project managers are hired for — Agile, Waterfall, Scrum and more, explained clearly and without the jargon."
     }
   ],
   "clusters": [
+    { "id": "cl_compare", "pillarId": "pillar_certifications", "slug": "compare", "title": "Compare Certifications" },
+    { "id": "cl_worth", "pillarId": "pillar_certifications", "slug": "worth-it", "title": "Is It Worth It?" },
+    { "id": "cl_guides", "pillarId": "pillar_certifications", "slug": "guides", "title": "Certification Guides" },
     { "id": "cl_paths", "pillarId": "pillar_paths", "slug": "how-to-become", "title": "How to Become" },
     { "id": "cl_salary", "pillarId": "pillar_salaries", "slug": "guides", "title": "Salary Guides" },
-    { "id": "cl_certs", "pillarId": "pillar_certifications", "slug": "certifications", "title": "Certifications" },
-    { "id": "cl_courses", "pillarId": "pillar_certifications", "slug": "courses", "title": "Online Courses" },
-    { "id": "cl_skills", "pillarId": "pillar_skills", "slug": "learn", "title": "Learn a Skill" }
+    { "id": "cl_skills", "pillarId": "pillar_skills", "slug": "learn", "title": "Methods & Skills" }
   ]
 }
