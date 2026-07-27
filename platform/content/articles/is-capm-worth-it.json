@@ -1,0 +1,55 @@
+{
+  "id": "is-capm-worth-it",
+  "slug": "is-capm-certification-worth-it",
+  "clusterId": "cl_worth",
+  "title": "Is the CAPM Worth It in 2026? (Honest Verdict)",
+  "dek": "Yes, for beginners and career-changers who want a recognized PMI credential without needing work experience — it's an affordable stepping stone to the PMP. No, if you already qualify for the PMP or only need to learn the basics.",
+  "authorId": "author_team",
+  "publishedAt": "2026-07-27",
+  "updatedAt": "2026-07-27",
+  "intent": { "primaryKeyword": "is the capm worth it" },
+  "seo": {
+    "metaTitle": "Is the CAPM Worth It in 2026? (Honest Verdict)",
+    "metaDescription": "An honest 2026 verdict on the CAPM — real cost, requirements, who genuinely benefits, and who should skip it for the PMP or a cheaper course."
+  },
+  "sources": [
+    { "label": "PMI — Certified Associate in Project Management (CAPM)", "url": "https://www.pmi.org/certifications/certified-associate-capm" },
+    { "label": "PMI — Certifications overview", "url": "https://www.pmi.org/certifications" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "The CAPM is PMI's entry-level certification — the little sibling of the famous PMP. It's genuinely useful for the right person and a waste of money for the wrong one. Here's the honest verdict, including who should skip it." },
+    { "type": "callout", "variant": "info", "richText": "The short answer: worth it if you're a beginner or career-changer who wants a recognized credential and can't yet qualify for the PMP. Not worth it if you already have the experience for the PMP, or if you only need to learn the basics (a course is cheaper)." },
+    { "type": "heading", "level": 2, "text": "What it costs and requires" },
+    { "type": "paragraph", "richText": "The CAPM exam costs $225 for PMI members and $300 for non-members. The requirements are light: a secondary (high-school) diploma and 23 hours of project management education — and, unlike the PMP, no work experience at all. It's a proctored exam, and the credential now requires ongoing renewal, so check PMI for the current maintenance requirement." },
+    { "type": "table", "caption": "CAPM at a glance (2026; verify current details with PMI).", "headers": ["Attribute", "Detail"], "rows": [
+      ["Exam cost", "$225 member / $300 non-member"],
+      ["Experience required", "None"],
+      ["Education required", "23 contact hours"],
+      ["Format", "Proctored exam"],
+      ["Issued by", "Project Management Institute (PMI)"]
+    ] },
+    { "type": "heading", "level": 2, "text": "The case for it (real pros)" },
+    { "type": "list", "ordered": false, "items": [
+      "No experience requirement — genuinely accessible to students and career-changers",
+      "It's a recognized PMI credential, which carries more weight than a course completion certificate",
+      "It's a stepping stone: the education you do for it can count toward the PMP later",
+      "It signals commitment to the field on an otherwise thin résumé"
+    ] },
+    { "type": "heading", "level": 2, "text": "The case against it (real cons)" },
+    { "type": "list", "ordered": false, "items": [
+      "It's entry-level — it won't carry the weight of the PMP with employers",
+      "It requires ongoing renewal, an added cost over time",
+      "If you just want to learn the basics, a course like the Google Certificate is cheaper",
+      "On its own it doesn't replace real project experience"
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "Who it's NOT for: experienced people who can already qualify for the PMP (go straight there), and pure self-learners who only want knowledge (a course delivers that for less). The CAPM's value is the recognized credential, not the learning." },
+    { "type": "heading", "level": 2, "text": "The honest bottom line" },
+    { "type": "paragraph", "richText": [ "If you're breaking into project management and can't yet meet the PMP's experience bar, the CAPM is a solid, affordable move — especially as a stepping stone. If you can qualify for the PMP, skip the CAPM and go straight for it; see our ", { "link": { "ref": "article:pmp-vs-capm", "text": "PMP vs CAPM comparison" } }, ". And if you mainly want to learn cheaply, compare it with the ", { "link": { "ref": "article:capm-vs-google-pm-certificate", "text": "Google Certificate" } }, "." ] },
+    { "type": "paragraph", "richText": [ "Either way, see where the CAPM ranks among the ", { "link": { "ref": "article:best-pm-certifications-beginners", "text": "best certifications for beginners" } }, ", and remember that any credential works best on top of real experience — see ", { "link": { "ref": "article:how-to-become-project-manager", "text": "how to become a project manager" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "Is the CAPM worth it for beginners?", "answerRichText": "Yes, for beginners who want a recognized PMI credential and can't yet qualify for the PMP. It requires no work experience, only a secondary diploma and 23 hours of education, and it can act as a stepping stone toward the PMP." },
+      { "question": "Is the CAPM or the PMP better?", "answerRichText": [ "The PMP is more valuable but requires years of experience; the CAPM is entry-level and needs none. They're matched to different career stages — see ", { "link": { "ref": "article:pmp-vs-capm", "text": "PMP vs CAPM" } }, " to pick the right one for you." ] },
+      { "question": "Should I get the CAPM or just a course like the Google Certificate?", "answerRichText": [ "If you want a recognized certification, the CAPM; if you mainly want to learn the basics affordably, a course is cheaper. Many people do both, since the course hours count toward CAPM eligibility — see ", { "link": { "ref": "article:capm-vs-google-pm-certificate", "text": "CAPM vs the Google Certificate" } }, "." ] }
+    ] }
+  ]
+}
