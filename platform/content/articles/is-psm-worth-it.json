@@ -1,0 +1,57 @@
+{
+  "id": "is-psm-worth-it",
+  "slug": "is-psm-certification-worth-it",
+  "clusterId": "cl_worth",
+  "title": "Is the PSM Worth It in 2026? (Honest Verdict)",
+  "dek": "Yes, for almost anyone targeting agile or Scrum roles: the PSM I is affordable, respected, never expires, and you can self-study it. No, if your target jobs are traditional, plan-driven project management — a PMI credential fits better.",
+  "authorId": "author_team",
+  "publishedAt": "2026-07-28",
+  "updatedAt": "2026-07-28",
+  "intent": { "primaryKeyword": "is the psm worth it" },
+  "seo": {
+    "metaTitle": "Is the PSM Certification Worth It? (2026)",
+    "metaDescription": "An honest 2026 verdict on the PSM (Professional Scrum Master) — real cost, why it never expires, who genuinely benefits, and who should skip it."
+  },
+  "sources": [
+    { "label": "Scrum.org — Professional Scrum Master I (PSM I) certification", "url": "https://www.scrum.org/assessments/professional-scrum-master-i-certification" },
+    { "label": "Scrum.org — The Scrum Guide", "url": "https://scrumguides.org/" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "The Professional Scrum Master (PSM I), from Scrum.org, is one of the best-value certifications in the whole project management field. But \"good value\" isn't the same as \"right for you.\" Here's the honest verdict, including who should skip it." },
+    { "type": "callout", "variant": "info", "richText": "The short answer: worth it for almost anyone aiming at agile or Scrum roles — it's cheap, respected, and never expires. Not worth it if your target work is traditional, plan-driven project management, where a PMI credential carries more weight." },
+    { "type": "heading", "level": 2, "text": "What it is and what it costs" },
+    { "type": "paragraph", "richText": "The PSM I certifies that you understand the Scrum framework and how to apply it. Unlike many certifications, it has three unusually friendly traits: the exam voucher costs about $200, no training course is required (you can self-study), and — crucially — it never expires and has no renewal fee. Pay once, keep it for life." },
+    { "type": "table", "caption": "PSM I at a glance (2026; confirm current details with Scrum.org).", "headers": ["Attribute", "Detail"], "rows": [
+      ["Exam cost", "~$200 (voucher)"],
+      ["Course required", "No — self-study allowed"],
+      ["Renewal", "None — it never expires"],
+      ["Experience required", "None"],
+      ["Pass mark", "85% (rigorous, closed-book)"]
+    ] },
+    { "type": "heading", "level": 2, "text": "The case for it (real pros)" },
+    { "type": "list", "ordered": false, "items": [
+      "Excellent value — a respected credential for around $200, with no course to buy",
+      "It never expires and has no renewal cost, unlike most certifications",
+      "Its demanding 85% pass mark makes it a credible signal of real understanding",
+      "No prerequisites — accessible to career-changers and beginners",
+      "Directly relevant to the agile and software roles where Scrum is the norm"
+    ] },
+    { "type": "heading", "level": 2, "text": "The case against it (real cons)" },
+    { "type": "list", "ordered": false, "items": [
+      "It's knowledge-based — passing proves you understand Scrum, not that you've run it",
+      "For traditional, waterfall-heavy industries, a PMI credential is more recognized",
+      "The market has many certified Scrum Masters, so it won't make you unique on its own",
+      "Employer-sponsored learners may prefer the course-based CSM (someone else pays)"
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "Who it's NOT for: people targeting traditional project management roles (get a PMI credential instead), and anyone expecting a certificate alone to land the job. The PSM proves knowledge — you still need to demonstrate facilitation experience in interviews." },
+    { "type": "heading", "level": 2, "text": "PSM or CSM?" },
+    { "type": "paragraph", "richText": [ "The other big Scrum Master certification is the CSM from the Scrum Alliance, which requires a paid two-day course. If you're self-funding, the PSM I is usually the better value; if your employer is paying for a guided course, the CSM is fine. We compare them in detail in ", { "link": { "ref": "article:psm-vs-csm", "text": "PSM vs CSM" } }, "." ] },
+    { "type": "heading", "level": 2, "text": "The honest bottom line" },
+    { "type": "paragraph", "richText": [ "For anyone aiming at agile or Scrum roles, the PSM I is one of the smartest certification buys out there — affordable, credible, and permanent. Just pair it with real facilitation practice, as we explain in ", { "link": { "ref": "article:how-to-become-scrum-master", "text": "how to become a Scrum Master" } }, ". If you're still deciding between agile and traditional paths, start with ", { "link": { "ref": "article:agile-vs-waterfall", "text": "Agile vs Waterfall" } }, ", and see where the PSM ranks among the ", { "link": { "ref": "article:best-pm-certifications-beginners", "text": "best certifications for beginners" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "Is the PSM I worth it for beginners?", "answerRichText": "Yes. It has no prerequisites, no required course, and never expires, so it's an accessible and low-risk first credential for anyone targeting agile roles. Its tough 85% pass mark also makes it a credible signal." },
+      { "question": "Does the PSM certification expire?", "answerRichText": "No. Unlike most certifications, the PSM I never expires and has no renewal fee — you pay the exam once and keep the credential for life." },
+      { "question": "Is the PSM better than the CSM?", "answerRichText": [ "For self-funded learners, the PSM I is usually better value because it needs no paid course and never expires. The CSM includes a mandatory two-day course, which suits employer-sponsored learners. See ", { "link": { "ref": "article:psm-vs-csm", "text": "PSM vs CSM" } }, " for the full comparison." ] }
+    ] }
+  ]
+}
