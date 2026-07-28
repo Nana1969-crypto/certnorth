@@ -1,4 +1,4 @@
-name: Deploy Sheetlift to Cloudflare
+name: Deploy CertNorth to Cloudflare
 
 # Deploy automático a cada push na main. O gate de qualidade (check.js) roda
 # ANTES do deploy — se algo violar contraste/links/schema, o job falha e NADA

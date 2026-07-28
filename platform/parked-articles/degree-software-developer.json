@@ -1,0 +1,47 @@
+{
+  "id": "degree-software-developer",
+  "slug": "do-you-need-a-degree-to-be-a-software-developer",
+  "clusterId": "cl_paths",
+  "title": "Do You Need a Degree to Be a Software Developer?",
+  "dek": "No, you do not strictly need a degree to be a software developer — many work without one — but a degree still lowers friction with some employers. What actually gets you hired is demonstrable skill and a portfolio.",
+  "authorId": "author_team",
+  "publishedAt": "2026-07-21",
+  "updatedAt": "2026-07-21",
+  "intent": { "primaryKeyword": "do you need a degree to be a software developer" },
+  "seo": {
+    "metaTitle": "Do You Need a Degree to Be a Developer?",
+    "metaDescription": "Do you need a degree to be a software developer? An honest look at when a degree helps, when it doesn't, and what actually gets you hired instead."
+  },
+  "sources": [
+    { "label": "U.S. Bureau of Labor Statistics — Software Developers, Quality Assurance Analysts, and Testers, Occupational Outlook Handbook", "url": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "This is one of the most-asked questions in tech, and the honest answer is nuanced: no, a degree is not strictly required, but it is not useless either. Let us separate what is true from what people wish were true — in both directions." },
+    { "type": "callout", "variant": "info", "richText": "The honest verdict: you can absolutely become a software developer without a degree, and many people have. A degree is a helpful shortcut through certain hiring filters, not a mandatory ticket. Skills and a portfolio decide most outcomes." },
+    { "type": "heading", "level": 2, "text": "What the official data says" },
+    { "type": "paragraph", "richText": "The BLS lists a bachelor's degree as the typical entry-level education for software developers — \"typical\" meaning common, not required. The same field reported a median annual wage of $133,080 in May 2024 and projects 15% growth from 2024 to 2034, much faster than average. It is a strong field whether or not you take the degree route." },
+    { "type": "heading", "level": 2, "text": "When a degree genuinely helps" },
+    { "type": "list", "ordered": false, "items": [
+      "Passing strict HR filters at large, traditional companies",
+      "Qualifying for certain visa and immigration pathways that require a degree",
+      "Roles in specialized fields (e.g., some systems, security, or research work)",
+      "Giving you a structured foundation in computer science fundamentals"
+    ] },
+    { "type": "heading", "level": 2, "text": "When you do not need one" },
+    { "type": "list", "ordered": false, "items": [
+      "Many startups and mid-size tech companies hire on demonstrated skill",
+      "Web and application development roles are especially portfolio-driven",
+      "Contract and freelance work is judged almost entirely on what you can build",
+      "Self-taught and bootcamp graduates work throughout the industry"
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "The no-degree path is not the easy path. Without a degree you must be more disciplined and more visible: a stronger portfolio, real projects, and often more persistence in the job hunt. \"No degree required\" does not mean \"no work required.\"" },
+    { "type": "heading", "level": 2, "text": "What actually gets you hired" },
+    { "type": "paragraph", "richText": [ "Degree or not, the hiring signal is the same: can you build working software and explain how you did it? That means real projects, a public portfolio, and the ability to pass a technical interview. Start by learning a language well — see ", { "link": { "ref": "article:how-long-learn-python", "text": "how long it takes to learn Python" } }, " for a realistic timeline." ] },
+    { "type": "paragraph", "richText": [ "Software development is part of a broader pattern in tech: skills increasingly outweigh credentials. The same is true in ", { "link": { "ref": "article:get-into-ux-no-experience", "text": "UX design, which is portfolio-first" } }, ". In both fields, what you can demonstrate matters more than what is printed on your diploma." ] },
+    { "type": "faq", "items": [
+      { "question": "Can you be a software developer without a degree?", "answerRichText": "Yes. Many working developers are self-taught or came through bootcamps. Employers that hire this way judge you on demonstrable skill and a portfolio rather than a diploma." },
+      { "question": "Is it harder to get a developer job without a degree?", "answerRichText": "It can be, at companies with strict filters. You offset that with a stronger portfolio, real projects, and persistence. In portfolio-driven roles, the gap narrows significantly." },
+      { "question": "What should I learn to become a developer without a degree?", "answerRichText": [ "Learn one language deeply, build real projects, and practice technical interviews. Python is a common, beginner-friendly start — see ", { "link": { "ref": "article:how-long-learn-python", "text": "our Python timeline guide" } }, "." ] }
+    ] }
+  ]
+}

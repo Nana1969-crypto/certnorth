@@ -1,0 +1,53 @@
+{
+  "id": "how-to-become-scrum-master",
+  "slug": "how-to-become-a-scrum-master",
+  "clusterId": "cl_paths",
+  "title": "How to Become a Scrum Master in 2026",
+  "dek": "You can become a Scrum Master in about 6 to 12 months: learn the Scrum framework, earn a certification like PSM I or CSM, practice the role on a real team, and target agile-focused employers.",
+  "authorId": "author_team",
+  "publishedAt": "2026-07-25",
+  "updatedAt": "2026-07-25",
+  "intent": { "primaryKeyword": "how to become a scrum master" },
+  "seo": {
+    "metaTitle": "How to Become a Scrum Master in 2026",
+    "metaDescription": "A realistic path to becoming a Scrum Master — learn the framework, pick PSM I or CSM, get hands-on, and land the role. Honest timeline and costs."
+  },
+  "sources": [
+    { "label": "Scrum.org — What is a Scrum Master?", "url": "https://www.scrum.org/resources/what-is-a-scrum-master" },
+    { "label": "Scrum.org — The Scrum Guide", "url": "https://scrumguides.org/" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "A Scrum Master helps a team work well within the Scrum framework — facilitating, removing blockers, and coaching the team toward delivering value. It's a people-and-process role more than a technical one, which makes it an accessible move for organized communicators, including career-changers from non-technical backgrounds." },
+    { "type": "callout", "variant": "tip", "richText": "The core of the job isn't authority — it's servant leadership: you help the team be effective rather than command it. If you like enabling others and improving how work flows, the role fits." },
+    { "type": "heading", "level": 2, "text": "What a Scrum Master actually does" },
+    { "type": "list", "ordered": false, "items": [
+      "Facilitates Scrum events (planning, daily stand-ups, reviews, retrospectives)",
+      "Removes blockers that slow the team down",
+      "Coaches the team on agile practices and continuous improvement",
+      "Protects the team from disruption and shifting priorities mid-sprint",
+      "Helps the product owner and team communicate clearly"
+    ] },
+    { "type": "heading", "level": 2, "text": "The step-by-step path" },
+    { "type": "heading", "level": 3, "text": "Step 1 — Learn the Scrum framework" },
+    { "type": "paragraph", "richText": [ "Start with the official Scrum Guide — it's free and short. Understand roles, events, and artifacts until you can explain them plainly. It also helps to understand where agile fits versus traditional delivery; see ", { "link": { "ref": "article:agile-vs-waterfall", "text": "Agile versus Waterfall" } }, "." ] },
+    { "type": "heading", "level": 3, "text": "Step 2 — Earn a certification" },
+    { "type": "paragraph", "richText": [ "A Scrum certification is close to expected for the role. The two main options are PSM I (Scrum.org) and CSM (Scrum Alliance); we compare cost, difficulty, and renewal in ", { "link": { "ref": "article:psm-vs-csm", "text": "PSM vs CSM" } }, ". Both appear in our roundup of the ", { "link": { "ref": "article:best-pm-certifications-beginners", "text": "best beginner certifications" } }, "." ] },
+    { "type": "heading", "level": 3, "text": "Step 3 — Practice the role for real" },
+    { "type": "paragraph", "richText": "Certification proves knowledge; employers want evidence you can facilitate. Volunteer to run retrospectives or stand-ups on a team at work, help a side project adopt Scrum, or shadow an experienced Scrum Master. Concrete facilitation experience is what wins interviews." },
+    { "type": "heading", "level": 3, "text": "Step 4 — Target agile employers" },
+    { "type": "paragraph", "richText": "Scrum Master roles cluster in software and product organizations, but agile has spread into marketing, finance, and operations too. Look for junior Scrum Master or agile team facilitator roles, and lean on any domain knowledge you already have." },
+    { "type": "heading", "level": 2, "text": "Timeline and cost" },
+    { "type": "table", "caption": "Typical time and cost to become a Scrum Master.", "headers": ["Route", "Typical time", "Typical cost"], "rows": [
+      ["Self-study + PSM I", "6–12 months", "Under $300"],
+      ["Course-based + CSM", "3–9 months", "$800–$1,500"],
+      ["Internal move from a related role", "6–12 months", "Cost of one certification"]
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "A certification alone rarely lands the job. The market has many freshly-certified Scrum Masters with no practice. Your edge is demonstrable facilitation experience — get it however you can before applying." },
+    { "type": "paragraph", "richText": [ "Scrum Master is one route within the wider field; if you're weighing it against traditional project roles, see ", { "link": { "ref": "article:how-to-become-project-manager", "text": "how to become a project manager" } }, " and how pay compares in our ", { "link": { "ref": "article:project-manager-salary", "text": "salary guide" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "Do I need to be technical to become a Scrum Master?", "answerRichText": "No. The role is about facilitation, communication, and process, not writing code. Many effective Scrum Masters come from non-technical backgrounds, though understanding your team's work helps." },
+      { "question": "Which certification do I need to be a Scrum Master?", "answerRichText": [ "Most start with PSM I (Scrum.org) or CSM (Scrum Alliance). Neither requires experience. Compare cost and format in ", { "link": { "ref": "article:psm-vs-csm", "text": "PSM vs CSM" } }, "." ] },
+      { "question": "How long does it take to become a Scrum Master?", "answerRichText": "Usually 6 to 12 months of self-study plus certification, faster if you can practice facilitation on a real team along the way. The certification is quick; building real experience takes longer." }
+    ] }
+  ]
+}

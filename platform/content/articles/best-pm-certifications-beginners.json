@@ -1,0 +1,56 @@
+{
+  "id": "best-pm-certifications-beginners",
+  "slug": "best-project-management-certifications-for-beginners",
+  "clusterId": "cl_compare",
+  "title": "Best Project Management Certifications for Beginners (2026)",
+  "dek": "For most beginners the best first certification is the CAPM or the Google Project Management Certificate; the PMP is the gold standard but requires experience you probably don't have yet.",
+  "authorId": "author_team",
+  "publishedAt": "2026-07-25",
+  "updatedAt": "2026-07-25",
+  "intent": { "primaryKeyword": "best project management certifications for beginners" },
+  "seo": {
+    "metaTitle": "Best PM Certifications for Beginners (2026)",
+    "metaDescription": "An honest, vendor-neutral ranking of beginner project management certifications — real costs, requirements, and which one to pick for your situation."
+  },
+  "sources": [
+    { "label": "Project Management Institute (PMI) — Certifications", "url": "https://www.pmi.org/certifications" },
+    { "label": "Google Project Management Professional Certificate — Coursera", "url": "https://www.coursera.org/professional-certificates/google-project-management" },
+    { "label": "Scrum.org — Professional Scrum Master (PSM I)", "url": "https://www.scrum.org/assessments/professional-scrum-master-i-certification" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Most \"best project management certification\" articles are written by the companies selling the training. This one isn't — so it can tell you the honest answer, which is that the right first certification depends on whether you already have project experience and what kind of work you want." },
+    { "type": "callout", "variant": "tip", "richText": "Quick answer: no experience yet? Start with the Google Project Management Certificate or the CAPM. Work in software or agile teams? Start with a Scrum certification. Already have years of project experience? Skip straight to the PMP." },
+    { "type": "heading", "level": 2, "text": "The honest shortlist" },
+    { "type": "heading", "level": 3, "text": "Google Project Management Certificate — best for total beginners" },
+    { "type": "paragraph", "richText": [ "Delivered on Coursera for about $49/month and finishable in under six months, this is the gentlest on-ramp. It assumes zero background, covers both traditional and agile approaches, and even counts toward the education requirement for the CAPM. We break down the trade-offs in our ", { "link": { "ref": "article:google-pm-certificate-worth-it", "text": "full review of whether the Google certificate is worth it" } }, "." ] },
+    { "type": "heading", "level": 3, "text": "CAPM — best recognized entry-level credential" },
+    { "type": "paragraph", "richText": "The Certified Associate in Project Management (CAPM), from PMI, is the entry-level version of the famous PMP. It costs $225 for PMI members ($300 for non-members), requires only a secondary diploma plus 23 hours of project management education, and needs no work experience. It carries the PMI name, which recruiters recognize." },
+    { "type": "heading", "level": 3, "text": "Scrum (PSM I or CSM) — best for agile and software teams" },
+    { "type": "paragraph", "richText": [ "If your target roles are in software or any agile environment, a Scrum certification is more relevant than a general PM cert. The two big options are the PSM I (Scrum.org) and the CSM (Scrum Alliance) — we compare them directly in ", { "link": { "ref": "article:psm-vs-csm", "text": "PSM vs CSM" } }, "." ] },
+    { "type": "heading", "level": 3, "text": "PMP — the gold standard, but not a beginner cert" },
+    { "type": "paragraph", "richText": [ "The Project Management Professional (PMP) is the most respected credential in the field, but it requires substantial documented experience, so most beginners can't take it yet. Keep it as the goal, not the starting point — see whether ", { "link": { "ref": "article:is-pmp-worth-it", "text": "the PMP is worth it" } }, " and how the PMP and CAPM compare in ", { "link": { "ref": "article:pmp-vs-capm", "text": "PMP vs CAPM" } }, "." ] },
+    { "type": "heading", "level": 2, "text": "Side-by-side comparison" },
+    { "type": "table", "caption": "Beginner-friendly project management certifications compared (2026 figures; verify current fees with each provider).", "headers": ["Certification", "Exam / cost", "Experience required", "Best for"], "rows": [
+      ["Google PM Certificate", "~$49/month (~$300 total)", "None", "Complete beginners"],
+      ["CAPM (PMI)", "$225 member / $300 non-member", "None (23 hrs education)", "A recognized first credential"],
+      ["PSM I (Scrum.org)", "$200 exam, no course required", "None", "Agile / software teams"],
+      ["CSM (Scrum Alliance)", "~$800–$1,500 (course required)", "None", "Agile, employer-funded"],
+      ["PMP (PMI)", "$425 member / $675 non-member", "36–60 months", "Experienced PMs (later)"]
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "Watch the total cost, not just the exam fee. The CSM looks expensive because a two-day course is mandatory; the PSM I looks cheap because you can self-study and just pay for the exam. The sticker price rarely tells the whole story." },
+    { "type": "heading", "level": 2, "text": "How to choose in five minutes" },
+    { "type": "list", "ordered": true, "items": [
+      "No experience and unsure of your niche? Google Certificate or CAPM.",
+      "Targeting software / agile roles? PSM I (self-funded) or CSM (if your employer pays).",
+      "Already leading projects for years? Go straight for the PMP.",
+      "On a tight budget? PSM I is the cheapest real certification if you self-study.",
+      "Whatever you pick, check the current fee on the provider's official site before you pay."
+    ] },
+    { "type": "paragraph", "richText": [ "Not sure the field is right for you yet? Start with our guide on ", { "link": { "ref": "article:how-to-become-project-manager", "text": "how to become a project manager" } }, ", which shows where certifications fit into the bigger picture." ] },
+    { "type": "faq", "items": [
+      { "question": "Which project management certification is best for beginners with no experience?", "answerRichText": [ "The Google Project Management Certificate or the CAPM, because neither requires work experience. The Google certificate is the gentler start and even counts toward CAPM eligibility — see our ", { "link": { "ref": "article:google-pm-certificate-worth-it", "text": "review" } }, "." ] },
+      { "question": "Should I get the CAPM or the PMP first?", "answerRichText": [ "The CAPM, if you don't yet meet the PMP's experience requirement. The PMP needs 36–60 months of project experience; the CAPM needs none. See ", { "link": { "ref": "article:pmp-vs-capm", "text": "PMP vs CAPM" } }, " for the full comparison." ] },
+      { "question": "Is a Scrum certification better than a PMP for beginners?", "answerRichText": "It depends on your target job. For software and agile teams, a Scrum certification like PSM I is more relevant and far cheaper to start with. For traditional industries, a PMI credential fits better. Match the certification to the jobs you actually want." }
+    ] }
+  ]
+}

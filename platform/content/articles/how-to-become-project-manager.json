@@ -1,0 +1,55 @@
+{
+  "id": "how-to-become-project-manager",
+  "slug": "how-to-become-a-project-manager",
+  "clusterId": "cl_paths",
+  "title": "How to Become a Project Manager in 2026 (Even With No Title Yet)",
+  "dek": "Most project managers grow into the role: you take on project responsibilities where you already work, learn a methodology, earn an entry-level certification, and move into a PM title within 1 to 2 years.",
+  "authorId": "author_team",
+  "publishedAt": "2026-07-25",
+  "updatedAt": "2026-07-25",
+  "intent": { "primaryKeyword": "how to become a project manager" },
+  "seo": {
+    "metaTitle": "How to Become a Project Manager in 2026",
+    "metaDescription": "A realistic path into project management — the skills, the certification ladder, and how to get PM experience before you have the title."
+  },
+  "sources": [
+    { "label": "U.S. Bureau of Labor Statistics — Project Management Specialists, Occupational Outlook Handbook", "url": "https://www.bls.gov/ooh/business-and-financial/project-management-specialists.htm" },
+    { "label": "Project Management Institute (PMI) — Certifications", "url": "https://www.pmi.org/certifications" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Project management is one of the most accessible well-paid careers for career-changers, because its core skill — reliably getting things done through other people — can be built in almost any job. You rarely apply for a \"project manager\" role cold; you grow into it." },
+    { "type": "callout", "variant": "tip", "richText": "The fastest route: volunteer to coordinate a real project where you already work, document what you delivered, learn one methodology, and earn an entry-level certification. \"I ran this project and here's the result\" beats any certificate on its own." },
+    { "type": "heading", "level": 2, "text": "What project managers actually do" },
+    { "type": "list", "ordered": false, "items": [
+      "Define scope, timeline, and success criteria with stakeholders",
+      "Coordinate people and work across teams who don't report to them",
+      "Track progress, manage risk, and clear blockers",
+      "Communicate status honestly — good news and bad — to stakeholders",
+      "Keep budget, scope, and deadlines in balance when they inevitably conflict"
+    ] },
+    { "type": "paragraph", "richText": "Notice what's not on that list: doing all the hands-on work yourself. Project management is a coordination and communication job. If you like ownership and organizing chaos more than deep individual work, it fits." },
+    { "type": "heading", "level": 2, "text": "The step-by-step path" },
+    { "type": "heading", "level": 3, "text": "Step 1 — Get project experience where you are" },
+    { "type": "paragraph", "richText": "You don't need the title to do the work. Volunteer to own a cross-team initiative, coordinate a launch, or run a process improvement. This is the single most valuable step, because PM hiring is experience-driven." },
+    { "type": "heading", "level": 3, "text": "Step 2 — Learn a methodology" },
+    { "type": "paragraph", "richText": [ "Understand both predictive (Waterfall) and agile approaches at a working level. You don't need to master every framework — you need to speak the language and know when each fits. Start with our explainer on ", { "link": { "ref": "article:agile-vs-waterfall", "text": "Agile versus Waterfall" } }, "." ] },
+    { "type": "heading", "level": 3, "text": "Step 3 — Earn an entry-level certification" },
+    { "type": "paragraph", "richText": [ "A recognized credential strengthens entry-level applications. For traditional PM, the CAPM or the Google Project Management Certificate; for agile roles, a Scrum certification. Compare them in our guide to the ", { "link": { "ref": "article:best-pm-certifications-beginners", "text": "best certifications for beginners" } }, ", and see the ", { "link": { "ref": "article:pmp-vs-capm", "text": "CAPM-to-PMP ladder" } }, "." ] },
+    { "type": "heading", "level": 3, "text": "Step 4 — Target the right first roles" },
+    { "type": "paragraph", "richText": "Look for titles like project coordinator, junior project manager, or associate project manager, plus PM roles inside industries you already know. Domain knowledge is a real advantage — a PM who understands the work being managed is more effective." },
+    { "type": "heading", "level": 2, "text": "Timeline, cost, and outlook" },
+    { "type": "table", "caption": "Typical time and cost to move into a project management role.", "headers": ["Route", "Typical time", "Typical cost"], "rows": [
+      ["Internal move + entry cert", "6–18 months", "$300–$1,500"],
+      ["Career-changer from scratch", "1–2 years", "$1,000–$3,000"],
+      ["PMP path (needs experience first)", "2+ years", "$1,000–$3,000"]
+    ] },
+    { "type": "callout", "variant": "info", "richText": "The BLS reports a median annual wage of $100,750 for project management specialists in the United States (May 2024), and projects steady demand with tens of thousands of openings each year. We break pay down by country in our salary guide." },
+    { "type": "heading", "level": 2, "text": "Do you need a degree — or the PMP — to start?" },
+    { "type": "paragraph", "richText": [ "No to both. Many project managers work without a specific PM degree, and the PMP requires experience you won't have at the start. Begin with experience plus an entry-level certificate, and see the full pay picture in our ", { "link": { "ref": "article:project-manager-salary", "text": "project manager salary guide" } }, ". If you're leaning toward agile, consider ", { "link": { "ref": "article:google-pm-certificate-worth-it", "text": "the Google certificate" } }, " as a first step." ] },
+    { "type": "faq", "items": [
+      { "question": "Can I become a project manager with no experience?", "answerRichText": "Not with zero experience of any kind, but you can build project experience inside your current job without holding the PM title. Coordinating one real cross-team project gives you something concrete to show." },
+      { "question": "Do I need a PMP to be a project manager?", "answerRichText": [ "No. Many project managers work without a PMP, especially early on. The PMP requires years of documented experience, so most people start with the CAPM, the Google certificate, or a Scrum credential — see ", { "link": { "ref": "article:best-pm-certifications-beginners", "text": "the beginner options" } }, "." ] },
+      { "question": "How long does it take to become a project manager?", "answerRichText": "Typically 1 to 2 years for a career-changer, and faster if you can take on project responsibilities in your current role and move internally." }
+    ] }
+  ]
+}

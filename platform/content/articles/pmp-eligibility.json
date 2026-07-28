@@ -1,0 +1,49 @@
+{
+  "id": "pmp-eligibility",
+  "slug": "pmp-eligibility-requirements",
+  "clusterId": "cl_guides",
+  "title": "PMP Eligibility Requirements in 2026 (Do You Qualify?)",
+  "dek": "To sit the PMP you need 35 hours of project management education plus experience: 36 months with a four-year degree, or 60 months with a secondary diploma — counted from the last 10 years.",
+  "authorId": "author_team",
+  "publishedAt": "2026-07-25",
+  "updatedAt": "2026-07-25",
+  "intent": { "primaryKeyword": "pmp eligibility requirements" },
+  "seo": {
+    "metaTitle": "PMP Eligibility Requirements in 2026",
+    "metaDescription": "Do you qualify for the PMP? The 2026 education and experience requirements explained simply, with all pathways and how the experience is counted."
+  },
+  "sources": [
+    { "label": "PMI — Project Management Professional (PMP)", "url": "https://www.pmi.org/certifications/project-management-pmp" },
+    { "label": "PMI — PMP Handbook", "url": "https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "The most common reason people can't take the PMP isn't the exam — it's eligibility. PMI requires documented project experience plus formal education before you can even apply. Here's exactly what you need, in plain terms." },
+    { "type": "callout", "variant": "info", "richText": "Every pathway requires the same 35 hours of project management education. What changes is how many months of experience you need, based on your level of formal education." },
+    { "type": "heading", "level": 2, "text": "The eligibility pathways" },
+    { "type": "table", "caption": "PMP eligibility pathways (2026, source: PMI). All paths also require 35 contact hours of education.", "headers": ["Your education", "Project experience required"], "rows": [
+      ["Bachelor's / four-year degree", "36 months"],
+      ["Associate's degree or equivalent (EQF Level 5)", "48 months"],
+      ["Secondary diploma (high school)", "60 months"],
+      ["Bachelor's from a GAC-accredited program", "24 months"]
+    ] },
+    { "type": "callout", "variant": "tip", "richText": "As of recent PMI rules, qualifying experience can come from the last 10 years (previously eight). That helps people returning to project work after a gap." },
+    { "type": "heading", "level": 2, "text": "What counts as project experience" },
+    { "type": "paragraph", "richText": "It doesn't require the title \"project manager.\" PMI counts time spent leading and directing projects — planning, executing, and delivering work with defined objectives. Many people qualify through project responsibilities held under other job titles, as long as they can describe and document the work." },
+    { "type": "list", "ordered": false, "items": [
+      "Leading tasks, timelines, and deliverables toward a defined goal",
+      "Coordinating people or resources across a project",
+      "Experience can overlap across the required months but must be real and documentable",
+      "PMI audits a share of applications, so keep honest records of your projects"
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "Do not inflate your experience to qualify sooner. PMI verifies a random selection of applications, and a failed audit can bar you. If you're short, the CAPM has no experience requirement — use it while you build the months." },
+    { "type": "heading", "level": 2, "text": "The 35 education hours" },
+    { "type": "paragraph", "richText": [ "Everyone needs 35 contact hours of project management education before applying. A structured course like the Google Project Management Certificate or a dedicated PMP prep course satisfies this. Note that holding an active CAPM can also cover this requirement — one reason the ", { "link": { "ref": "article:pmp-vs-capm", "text": "CAPM makes a useful stepping stone" } }, "." ] },
+    { "type": "heading", "level": 2, "text": "If you don't qualify yet" },
+    { "type": "paragraph", "richText": [ "You have two good options: keep accumulating documented project experience, and in the meantime earn the CAPM (no experience needed). When you're ready, see ", { "link": { "ref": "article:pmp-cost", "text": "what the PMP costs" } }, " and ", { "link": { "ref": "article:how-long-to-get-pmp", "text": "how long it takes to get" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "Do I need a degree to take the PMP?", "answerRichText": "No. You can qualify with a secondary (high school) diploma plus 60 months of project experience, instead of 36 months with a four-year degree. A degree just reduces the experience required." },
+      { "question": "How many hours of education do I need for the PMP?", "answerRichText": [ "35 contact hours of project management education, for every eligibility pathway. A prep course or the Google Project Management Certificate satisfies this, and an active CAPM can also cover it — see ", { "link": { "ref": "article:pmp-vs-capm", "text": "PMP vs CAPM" } }, "." ] },
+      { "question": "What if I don't have enough project experience for the PMP?", "answerRichText": [ "Get the CAPM instead — it requires no experience — and keep building documented project months. See the ", { "link": { "ref": "article:best-pm-certifications-beginners", "text": "beginner certification options" } }, "." ] }
+    ] }
+  ]
+}

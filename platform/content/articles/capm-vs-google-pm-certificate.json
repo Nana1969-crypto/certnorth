@@ -1,0 +1,58 @@
+{
+  "id": "capm-vs-google-pm-certificate",
+  "slug": "capm-vs-google-project-management-certificate",
+  "clusterId": "cl_compare",
+  "title": "CAPM vs Google Project Management Certificate: Which Should a Beginner Get?",
+  "dek": "For a complete beginner, start with the cheaper, gentler Google Certificate; add the CAPM for a recognized exam credential. And since the Google course counts toward CAPM's education requirement, many people do both.",
+  "authorId": "author_team",
+  "publishedAt": "2026-07-26",
+  "updatedAt": "2026-07-26",
+  "intent": { "primaryKeyword": "capm vs google project management certificate" },
+  "seo": {
+    "metaTitle": "CAPM vs Google Project Management Certificate",
+    "metaDescription": "CAPM vs the Google Project Management Certificate compared on cost, format, and recognition — plus why beginners often do both, not just one."
+  },
+  "sources": [
+    { "label": "PMI — Certified Associate in Project Management (CAPM)", "url": "https://www.pmi.org/certifications/certified-associate-capm" },
+    { "label": "Google Project Management Professional Certificate — Coursera", "url": "https://www.coursera.org/professional-certificates/google-project-management" },
+    { "label": "Grow with Google — Project Management Certificate", "url": "https://grow.google/certificates/project-management/" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "These are the two credentials almost every beginner in project management weighs first. Most articles pit them against each other, but the honest truth is they're not really rivals — they do different jobs, and they can work together." },
+    { "type": "callout", "variant": "tip", "richText": "Quick answer: the Google Certificate teaches you the fundamentals affordably; the CAPM is a recognized exam credential from PMI. If you're starting from zero, do the Google Certificate first — it even counts toward the CAPM's education requirement." },
+    { "type": "heading", "level": 2, "text": "The key difference most people miss" },
+    { "type": "paragraph", "richText": "The Google Project Management Certificate is a course completion credential — you finish eight self-paced courses on Coursera and earn a certificate of learning. The CAPM is a professional certification: you pass a proctored exam administered by the Project Management Institute (PMI). One proves you studied; the other is a credential you hold." },
+    { "type": "heading", "level": 2, "text": "Head-to-head comparison" },
+    { "type": "table", "caption": "CAPM vs Google Project Management Certificate (2026 figures; verify current details with each provider).", "headers": ["Factor", "Google PM Certificate", "CAPM (PMI)"], "rows": [
+      ["Type", "Course completion (Coursera)", "Professional certification, proctored exam"],
+      ["Cost", "~$49/month (usually under $300)", "$225 member / $300 non-member"],
+      ["Time", "Under 6 months, self-paced", "Study time varies, then the exam"],
+      ["Experience required", "None", "None (secondary diploma + 23 education hours)"],
+      ["Proctored exam", "No", "Yes"],
+      ["Recognition", "Strong entry-level learning signal", "Recognized PMI credential"]
+    ] },
+    { "type": "callout", "variant": "info", "richText": "The overlap that makes them complementary: the Google Certificate provides project management education that counts toward the 23 contact hours the CAPM requires. So doing Google first doesn't compete with the CAPM — it feeds into it." },
+    { "type": "heading", "level": 2, "text": "Who each is for" },
+    { "type": "heading", "level": 3, "text": "Choose the Google Certificate if…" },
+    { "type": "list", "ordered": false, "items": [
+      "You're starting from zero and want the gentlest, cheapest on-ramp",
+      "You prefer self-paced video learning over exam prep",
+      "You want to test whether project management is right for you before committing more"
+    ] },
+    { "type": "heading", "level": 3, "text": "Choose the CAPM if…" },
+    { "type": "list", "ordered": false, "items": [
+      "You want a recognized certification (not just a course certificate) on your résumé",
+      "You're comfortable preparing for and sitting a proctored exam",
+      "You're aiming toward the PMP later — the CAPM is a natural stepping stone"
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "Who neither is for: people who already have real project experience and can qualify for the PMP. If that's you, skip both beginner options and go straight for the PMP." },
+    { "type": "heading", "level": 2, "text": "The honest recommendation" },
+    { "type": "paragraph", "richText": [ "For most true beginners: do the Google Certificate first, then the CAPM. The Google course teaches you the basics and supplies education hours; the CAPM then validates your knowledge with a recognized exam. If you only do one, pick based on your goal — learning and a résumé line (Google) or a formal credential (CAPM). See both ranked among the ", { "link": { "ref": "article:best-pm-certifications-beginners", "text": "best certifications for beginners" } }, ", and read our deeper ", { "link": { "ref": "article:google-pm-certificate-worth-it", "text": "review of the Google Certificate" } }, "." ] },
+    { "type": "paragraph", "richText": [ "Whatever you choose, a certification works best on top of real project experience — see ", { "link": { "ref": "article:how-to-become-project-manager", "text": "how to become a project manager" } }, ". And once you have the experience, the ", { "link": { "ref": "article:pmp-vs-capm", "text": "CAPM leads naturally to the PMP" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "Should I get the Google certificate or the CAPM first?", "answerRichText": "For a complete beginner, the Google Certificate first — it's cheaper, teaches the fundamentals, and the education hours count toward the CAPM. Then add the CAPM when you want a recognized exam credential." },
+      { "question": "Is the Google Project Management Certificate the same as the CAPM?", "answerRichText": "No. The Google Certificate is a course completion credential from Coursera; the CAPM is a professional certification earned by passing a proctored PMI exam. They complement each other rather than being interchangeable." },
+      { "question": "Can I do both the Google Certificate and the CAPM?", "answerRichText": [ "Yes, and it's a common path. The Google Certificate provides project management education that counts toward the CAPM's required contact hours, so doing both is efficient. See the full ladder in ", { "link": { "ref": "article:pmp-vs-capm", "text": "PMP vs CAPM" } }, "." ] }
+    ] }
+  ]
+}

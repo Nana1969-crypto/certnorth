@@ -1,0 +1,43 @@
+{
+  "id": "how-long-to-get-pmp",
+  "slug": "how-long-does-it-take-to-get-the-pmp",
+  "clusterId": "cl_skills",
+  "title": "How Long Does It Take to Get the PMP?",
+  "dek": "Once you're eligible, most people prepare for the PMP exam in 8 to 12 weeks of part-time study. The longer part is reaching eligibility — 36 to 60 months of project experience, depending on your education.",
+  "authorId": "author_team",
+  "publishedAt": "2026-07-25",
+  "updatedAt": "2026-07-25",
+  "intent": { "primaryKeyword": "how long does it take to get the pmp" },
+  "seo": {
+    "metaTitle": "How Long Does It Take to Get the PMP?",
+    "metaDescription": "How long the PMP really takes — from meeting the experience requirement to exam prep — with a realistic week-by-week study timeline."
+  },
+  "sources": [
+    { "label": "PMI — Project Management Professional (PMP)", "url": "https://www.pmi.org/certifications/project-management-pmp" },
+    { "label": "PMI — PMP Handbook", "url": "https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "\"How long does the PMP take?\" has two very different answers depending on where you're starting. The exam prep is a matter of weeks. Becoming eligible to take it can be a matter of years. Let's separate the two honestly." },
+    { "type": "callout", "variant": "info", "richText": "The two clocks: (1) reaching eligibility — 36 to 60 months of project experience depending on your education; (2) preparing for the exam once eligible — usually 8 to 12 weeks part-time." },
+    { "type": "heading", "level": 2, "text": "Clock 1: reaching eligibility" },
+    { "type": "paragraph", "richText": [ "This is the part most people underestimate. You need 36 months of project experience with a four-year degree, or 60 months with a secondary diploma, plus 35 hours of education. If you're not there yet, this is your real timeline. Full details in our ", { "link": { "ref": "article:pmp-eligibility", "text": "PMP eligibility guide" } }, "." ] },
+    { "type": "callout", "variant": "tip", "richText": "If you're still building experience, don't wait idly. Earn the CAPM now (no experience required) and complete your 35 education hours, so that the moment you're eligible for the PMP, only the exam prep remains." },
+    { "type": "heading", "level": 2, "text": "Clock 2: preparing for the exam" },
+    { "type": "paragraph", "richText": "Once eligible, most working professionals need 8 to 12 weeks of consistent part-time study — roughly 1 to 2 hours a day, or more on weekends. People with heavy recent project experience may need less; those returning after a gap may need more." },
+    { "type": "table", "caption": "A realistic PMP exam-prep timeline (once eligible).", "headers": ["Phase", "Time", "Focus"], "rows": [
+      ["Weeks 1–2", "Foundation", "Complete your 35 education hours; learn the exam structure"],
+      ["Weeks 3–8", "Core study", "Work through the content; practice questions daily"],
+      ["Weeks 9–11", "Practice exams", "Full-length mocks; fix weak areas"],
+      ["Week 12", "Final review", "Light revision; book and sit the exam"]
+    ] },
+    { "type": "heading", "level": 2, "text": "The application itself" },
+    { "type": "paragraph", "richText": "Budget a little extra time for PMI's application. You document your experience and education, submit, and wait for review. Some applications are selected for audit, which requires verification and adds time — another reason to keep honest records of your projects as you go." },
+    { "type": "callout", "variant": "warn", "richText": "Don't book the exam before you're genuinely ready just to \"get it over with.\" A failed attempt costs another exam fee and weeks of momentum. Use full-length practice exams to confirm readiness first." },
+    { "type": "paragraph", "richText": [ "Ready to plan the money side too? See our ", { "link": { "ref": "article:pmp-cost", "text": "full PMP cost breakdown" } }, ", and make sure the credential is right for you with our ", { "link": { "ref": "article:is-pmp-worth-it", "text": "honest PMP verdict" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "How long does it take to prepare for the PMP exam?", "answerRichText": "Once you're eligible, most people study for 8 to 12 weeks part-time — about 1 to 2 hours a day. Your recent project experience and study consistency move that up or down." },
+      { "question": "Can I get the PMP quickly with no experience?", "answerRichText": [ "No. The PMP requires 36 to 60 months of project experience, which is the long part of the timeline. If you lack it, get the CAPM now instead — it has no experience requirement. See ", { "link": { "ref": "article:pmp-eligibility", "text": "the eligibility guide" } }, "." ] },
+      { "question": "How long does PMI take to approve a PMP application?", "answerRichText": "Application review is typically quick, but if your application is selected for audit you'll need to verify your experience and education, which adds time. Keeping good records of your projects speeds this up." }
+    ] }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "agile-vs-waterfall",
+  "slug": "agile-vs-waterfall",
+  "clusterId": "cl_skills",
+  "title": "Agile vs Waterfall: Which Method Should You Use (and When)?",
+  "dek": "Use Waterfall when requirements are fixed and well understood; use Agile when they'll evolve and you need to deliver and adjust in short cycles. Most real teams blend the two rather than picking a side.",
+  "authorId": "author_team",
+  "publishedAt": "2026-07-25",
+  "updatedAt": "2026-07-25",
+  "intent": { "primaryKeyword": "agile vs waterfall" },
+  "seo": {
+    "metaTitle": "Agile vs Waterfall: Which Method & When?",
+    "metaDescription": "Agile vs Waterfall explained without jargon — how each works, real pros and cons, when to use which, and why most teams blend them."
+  },
+  "sources": [
+    { "label": "Project Management Institute (PMI) — Disciplined Agile & project management resources", "url": "https://www.pmi.org/disciplined-agile" },
+    { "label": "Scrum.org — The Scrum Guide", "url": "https://scrumguides.org/" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Agile and Waterfall are the two big families of project delivery. They're often framed as rivals, but they solve different problems. Understanding when each fits is a core project management skill — and a common interview question." },
+    { "type": "callout", "variant": "tip", "richText": "One-line version: Waterfall plans everything up front and executes in sequence; Agile plans lightly and delivers in short, adjustable cycles. Fixed, well-understood work leans Waterfall; uncertain, evolving work leans Agile." },
+    { "type": "heading", "level": 2, "text": "How each one works" },
+    { "type": "paragraph", "richText": "Waterfall is sequential: you gather requirements, design, build, test, and release, each phase finishing before the next begins. Agile is iterative: you deliver small increments in short cycles (often two-week sprints in Scrum), get feedback, and adjust the plan as you go." },
+    { "type": "figure", "alt": "Diagram contrasting the two approaches. Waterfall appears as four boxes in a one-way sequence — Requirements, Design, Build, Release — where each phase finishes before the next and change is costly late. Agile appears as a repeating loop of Plan, Build and Review that delivers a slice, gets feedback and adjusts every cycle.", "caption": "Waterfall runs once in sequence; Agile repeats in short cycles.", "svg": "<svg viewBox='0 0 600 380' xmlns='http://www.w3.org/2000/svg' role='presentation' style='width:100%;height:auto'><defs><marker id='ahw' viewBox='0 0 10 10' refX='8' refY='5' markerWidth='7' markerHeight='7' orient='auto-start-reverse'><path d='M0,0 L10,5 L0,10 z' style='fill:var(--color-accent)'/></marker></defs><text x='16' y='26' style='fill:var(--color-accent);font:700 13px system-ui;letter-spacing:1.5px'>WATERFALL</text><g style='font:600 14px system-ui'><rect x='16' y='44' width='124' height='44' rx='8' style='fill:var(--color-surface);stroke:var(--color-border);stroke-width:1.5'/><text x='78' y='71' text-anchor='middle' style='fill:var(--color-text)'>Requirements</text><rect x='160' y='44' width='124' height='44' rx='8' style='fill:var(--color-surface);stroke:var(--color-border);stroke-width:1.5'/><text x='222' y='71' text-anchor='middle' style='fill:var(--color-text)'>Design</text><rect x='304' y='44' width='124' height='44' rx='8' style='fill:var(--color-surface);stroke:var(--color-border);stroke-width:1.5'/><text x='366' y='71' text-anchor='middle' style='fill:var(--color-text)'>Build</text><rect x='448' y='44' width='124' height='44' rx='8' style='fill:var(--color-surface);stroke:var(--color-border);stroke-width:1.5'/><text x='510' y='71' text-anchor='middle' style='fill:var(--color-text)'>Release</text></g><g style='stroke:var(--color-accent);stroke-width:2'><line x1='142' y1='66' x2='158' y2='66' marker-end='url(#ahw)'/><line x1='286' y1='66' x2='302' y2='66' marker-end='url(#ahw)'/><line x1='430' y1='66' x2='446' y2='66' marker-end='url(#ahw)'/></g><text x='16' y='112' style='fill:var(--color-text-2);font:400 12px system-ui'>Sequential — each phase finishes before the next; change is costly late.</text><line x1='16' y1='140' x2='584' y2='140' style='stroke:var(--color-border);stroke-width:1'/><text x='16' y='170' style='fill:var(--color-accent);font:700 13px system-ui;letter-spacing:1.5px'>AGILE</text><g style='font:600 14px system-ui'><rect x='240' y='188' width='120' height='42' rx='8' style='fill:var(--color-surface);stroke:var(--color-border);stroke-width:1.5'/><text x='300' y='214' text-anchor='middle' style='fill:var(--color-text)'>Plan</text><rect x='150' y='300' width='120' height='42' rx='8' style='fill:var(--color-surface);stroke:var(--color-border);stroke-width:1.5'/><text x='210' y='326' text-anchor='middle' style='fill:var(--color-text)'>Build</text><rect x='330' y='300' width='120' height='42' rx='8' style='fill:var(--color-surface);stroke:var(--color-border);stroke-width:1.5'/><text x='390' y='326' text-anchor='middle' style='fill:var(--color-text)'>Review</text></g><g style='fill:none;stroke:var(--color-accent);stroke-width:2'><path d='M250,232 Q200,258 218,298' marker-end='url(#ahw)'/><path d='M272,321 L326,321' marker-end='url(#ahw)'/><path d='M382,298 Q400,258 350,232' marker-end='url(#ahw)'/></g><text x='300' y='272' text-anchor='middle' style='fill:var(--color-accent);font:700 20px system-ui'>&#8635;</text><text x='16' y='366' style='fill:var(--color-text-2);font:400 12px system-ui'>Iterative — deliver a slice, get feedback, adjust, repeat.</text></svg>" },
+    { "type": "heading", "level": 2, "text": "Side-by-side comparison" },
+    { "type": "table", "caption": "Agile vs Waterfall across the factors that decide which fits.", "headers": ["Factor", "Waterfall", "Agile"], "rows": [
+      ["Requirements", "Fixed and known up front", "Expected to evolve"],
+      ["Delivery", "One release at the end", "Frequent small increments"],
+      ["Change", "Costly once underway", "Embraced each cycle"],
+      ["Best for", "Construction, regulated, fixed-scope work", "Software, product, uncertain work"],
+      ["Risk", "Problems surface late", "Problems surface early"]
+    ] },
+    { "type": "heading", "level": 2, "text": "The honest pros and cons" },
+    { "type": "paragraph", "richText": "Waterfall gives predictability: a clear plan, budget, and timeline, which stakeholders and auditors like. Its weakness is that if requirements change, or an early assumption was wrong, you often find out late and expensively. Agile gives adaptability and early feedback, but can feel less predictable on cost and end-date, and it depends on disciplined teams and engaged stakeholders to work well." },
+    { "type": "callout", "variant": "warn", "richText": "Beware the zealots. Anyone insisting one method is always right is selling something. Regulated, fixed-scope projects genuinely suit Waterfall; fast-moving product work genuinely suits Agile. Fit the method to the work, not to fashion." },
+    { "type": "heading", "level": 2, "text": "Why most real teams blend them" },
+    { "type": "paragraph", "richText": "In practice, many organizations run a hybrid: predictive planning at the program level for budgets and milestones, with agile delivery inside teams. Knowing both — and when to lean each way — is more valuable than being a purist. That's also why the major certifications cover both approaches." },
+    { "type": "paragraph", "richText": [ "If the agile side appeals to you, the natural next step is a Scrum credential — compare your options in ", { "link": { "ref": "article:psm-vs-csm", "text": "PSM vs CSM" } }, ". For the bigger picture of getting into the field, see ", { "link": { "ref": "article:how-to-become-project-manager", "text": "how to become a project manager" } }, " and the ", { "link": { "ref": "article:best-pm-certifications-beginners", "text": "best certifications for beginners" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "Is Agile better than Waterfall?", "answerRichText": "Neither is universally better. Agile suits work with evolving requirements, like software and product development; Waterfall suits fixed-scope, well-understood work, like construction or regulated projects. The best choice depends on the project." },
+      { "question": "Can you use Agile and Waterfall together?", "answerRichText": "Yes, and many organizations do. A common hybrid uses predictive planning for high-level budgets and milestones while teams deliver in agile cycles. Knowing both makes you more employable than being a purist in one." },
+      { "question": "Do I need to learn both for a project management career?", "answerRichText": [ "It helps a lot. Most employers value understanding both, and the major certifications cover each. Start with the fundamentals here, then pick a credential that matches your target roles — see the ", { "link": { "ref": "article:best-pm-certifications-beginners", "text": "beginner certification guide" } }, "." ] }
+    ] }
+  ]
+}

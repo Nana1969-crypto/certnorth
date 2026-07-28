@@ -1,0 +1,56 @@
+{
+  "id": "data-analyst-salary",
+  "slug": "data-analyst-salary",
+  "clusterId": "cl_salary",
+  "title": "Data Analyst Salary in 2026: What the Data Actually Shows",
+  "dek": "There is no official U.S. \"data analyst\" salary, because the government does not track that exact title. The closest official figure — data scientists — was a median of $112,590 in May 2024.",
+  "authorId": "author_team",
+  "publishedAt": "2026-06-20",
+  "updatedAt": "2026-06-20",
+  "intent": { "primaryKeyword": "data analyst salary" },
+  "seo": {
+    "metaTitle": "Data Analyst Salary in 2026 (Real BLS Data)",
+    "metaDescription": "What data analysts really earn, using official U.S. BLS data — with the honest catch that no exact \"data analyst\" code exists, plus ranges by experience."
+  },
+  "sources": [
+    { "label": "U.S. Bureau of Labor Statistics — Data Scientists, Occupational Outlook Handbook (May 2024 wage data)", "url": "https://www.bls.gov/ooh/math/data-scientists.htm" },
+    { "label": "U.S. Bureau of Labor Statistics — Data for Occupations Not Covered in Detail", "url": "https://www.bls.gov/ooh/about/data-for-occupations-not-covered-in-detail.htm" },
+    { "label": "U.S. Bureau of Labor Statistics — Occupational Employment and Wage Statistics", "url": "https://www.bls.gov/oes/" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Most \"data analyst salary\" articles quote a single confident number. We are going to be honest with you instead, because the honest version is more useful: the U.S. government does not publish a salary for the exact title \"data analyst.\"" },
+    { "type": "heading", "level": 2, "text": "Why there is no official data analyst salary" },
+    { "type": "paragraph", "richText": "The U.S. Bureau of Labor Statistics (BLS) organizes jobs into standardized occupation codes. \"Data analyst\" is not one of them. Real-world analyst roles get split across several official categories depending on the work — most commonly data scientists, but also operations research analysts and market research analysts. So any single \"data analyst salary\" figure is an estimate stitched together from adjacent categories or from self-reported job-site data." },
+    { "type": "callout", "variant": "info", "richText": "This is why salary sites disagree so much. They are measuring slightly different populations. The most defensible official anchor for analytics work is the BLS data scientists category, which many analyst roles feed into." },
+    { "type": "heading", "level": 2, "text": "The closest official figure (BLS, May 2024)" },
+    { "type": "paragraph", "richText": "According to the BLS Occupational Outlook Handbook, using May 2024 wage data, the closest official anchor for analytics work looks like this:" },
+    { "type": "table", "caption": "BLS median annual wages, May 2024, for occupations that absorb most data analyst roles.", "headers": ["Occupation (official BLS category)", "Median annual wage (May 2024)"], "rows": [
+      ["Data scientists", "$112,590"],
+      ["All workers (for context)", "$49,500"]
+    ] },
+    { "type": "paragraph", "richText": "For data scientists specifically, BLS reports that the lowest-earning 10% made less than $63,650, and the highest-earning 10% made more than $194,410. That spread is the real story: your experience, industry, and location move your pay far more than the headline median does." },
+    { "type": "heading", "level": 2, "text": "How pay changes by experience" },
+    { "type": "paragraph", "richText": "Titles are not standardized, but the general progression across the field is consistent. Treat these as directional bands based on the BLS wage distribution above, not guarantees:" },
+    { "type": "table", "caption": "Directional pay bands by career stage, based on the BLS data scientists wage distribution.", "headers": ["Stage", "Rough position in the range"], "rows": [
+      ["Entry-level / junior analyst", "Lower band — near the bottom 10-25%"],
+      ["Mid-level analyst (2-5 years)", "Around the median"],
+      ["Senior / lead analyst", "Upper band — top 10-25%"],
+      ["Analytics manager / data scientist", "Top of the range and above"]
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "Do not treat a bootcamp's \"average graduate salary\" as neutral data. Those numbers come from the school selling you the course, are often self-reported, and rarely match official figures. Always cross-check against the linked BLS page." },
+    { "type": "heading", "level": 2, "text": "What raises your salary fastest" },
+    { "type": "list", "ordered": false, "items": [
+      "Moving from spreadsheets-only to strong SQL — the single biggest early lever",
+      "Learning a BI tool well enough to own dashboards other people depend on",
+      "Specializing in a high-value domain (finance, healthcare, product analytics)",
+      "Adding Python or R and moving toward data science responsibilities",
+      "Switching companies — internal raises rarely match a well-timed move"
+    ] },
+    { "type": "paragraph", "richText": [ "If you are still deciding whether to enter the field, start with our step-by-step guide on ", { "link": { "ref": "article:how-to-become-data-analyst", "text": "how to become a data analyst" } }, ". If you want to raise your pay from where you are, the highest-leverage move is credentials plus skills — see the ", { "link": { "ref": "article:best-certs-data-analysts", "text": "best certifications for data analysts" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "Is $112,590 really the data analyst salary?", "answerRichText": "Not exactly — that is the BLS median for data scientists (May 2024), the closest official category. Many entry-level analyst roles pay less, and senior analytics roles pay more. Use it as an anchor, not a promise, and check the live BLS page for the current figure." },
+      { "question": "Why do salary websites show such different numbers?", "answerRichText": "Because \"data analyst\" is not an official occupation, each site measures a slightly different group of jobs, often from self-reported data. That is why we anchor to official BLS categories and tell you exactly which one." },
+      { "question": "Do data analysts earn more with a certification?", "answerRichText": [ "A certification alone rarely raises pay; the skills it teaches do. The pay lever is demonstrable SQL, BI, and analysis ability. See ", { "link": { "ref": "article:best-certs-data-analysts", "text": "our certification guide" } }, " for which credentials actually help." ] }
+    ] }
+  ]
+}

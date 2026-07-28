@@ -1,28 +1,36 @@
 {
   "pillars": [
     {
-      "id": "pillar_excel",
-      "slug": "excel",
-      "title": "Excel",
-      "description": "Step-by-step Microsoft Excel tutorials and error fixes — from pivot tables and VLOOKUP to the errors that break your formulas."
+      "id": "pillar_certifications",
+      "slug": "certifications",
+      "title": "Certifications",
+      "description": "Honest, vendor-neutral guides to project management certifications — real exam costs, real eligibility rules, head-to-head comparisons, and who each credential is not for."
     },
     {
-      "id": "pillar_gsheets",
-      "slug": "google-sheets",
-      "title": "Google Sheets",
-      "description": "Clear Google Sheets tutorials for everyday tasks, formulas, and collaboration — written and tested on the current version."
+      "id": "pillar_paths",
+      "slug": "career-paths",
+      "title": "Career Paths",
+      "description": "How to break into project management and agile roles — the real steps, realistic timelines, honest costs, and what the job actually looks like day to day."
     },
     {
-      "id": "pillar_compare",
-      "slug": "compare",
-      "title": "Compare & Choose",
-      "description": "Honest comparisons and buyer's guides to help you pick the right spreadsheet tool for your work and budget."
+      "id": "pillar_salaries",
+      "slug": "salaries",
+      "title": "Salaries",
+      "description": "What project managers really earn, using official labour-market data — with figures by country and experience level, and the source named every time."
+    },
+    {
+      "id": "pillar_skills",
+      "slug": "skills",
+      "title": "Skills & Methods",
+      "description": "The methodologies and skills project managers are hired for — Agile, Waterfall, Scrum and more, explained clearly and without the jargon."
     }
   ],
   "clusters": [
-    { "id": "cl_excel_tut", "pillarId": "pillar_excel", "slug": "tutorials", "title": "Excel Tutorials" },
-    { "id": "cl_excel_fix", "pillarId": "pillar_excel", "slug": "fixes", "title": "Fix Excel Errors" },
-    { "id": "cl_gs_tut", "pillarId": "pillar_gsheets", "slug": "tutorials", "title": "Google Sheets Tutorials" },
-    { "id": "cl_compare", "pillarId": "pillar_compare", "slug": "guides", "title": "Buyer's Guides" }
+    { "id": "cl_compare", "pillarId": "pillar_certifications", "slug": "compare", "title": "Compare Certifications" },
+    { "id": "cl_worth", "pillarId": "pillar_certifications", "slug": "worth-it", "title": "Is It Worth It?" },
+    { "id": "cl_guides", "pillarId": "pillar_certifications", "slug": "guides", "title": "Certification Guides" },
+    { "id": "cl_paths", "pillarId": "pillar_paths", "slug": "how-to-become", "title": "How to Become" },
+    { "id": "cl_salary", "pillarId": "pillar_salaries", "slug": "guides", "title": "Salary Guides" },
+    { "id": "cl_skills", "pillarId": "pillar_skills", "slug": "learn", "title": "Methods & Skills" }
   ]
 }

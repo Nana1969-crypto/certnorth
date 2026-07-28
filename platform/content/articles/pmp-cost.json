@@ -1,0 +1,48 @@
+{
+  "id": "pmp-cost",
+  "slug": "pmp-certification-cost",
+  "clusterId": "cl_guides",
+  "title": "PMP Certification Cost in 2026 (Every Fee, Honestly)",
+  "dek": "The PMP exam costs $425 for PMI members and $675 for non-members in 2026, but the realistic all-in cost — with training, materials, and membership — is usually $700 to $2,500.",
+  "authorId": "author_team",
+  "publishedAt": "2026-07-25",
+  "updatedAt": "2026-07-25",
+  "intent": { "primaryKeyword": "pmp certification cost" },
+  "seo": {
+    "metaTitle": "PMP Certification Cost in 2026 (All Fees)",
+    "metaDescription": "The real 2026 cost of the PMP — exam fees, PMI membership, training, and renewal — plus how to keep the total down. Every figure sourced from PMI."
+  },
+  "sources": [
+    { "label": "PMI — Project Management Professional (PMP)", "url": "https://www.pmi.org/certifications/project-management-pmp" },
+    { "label": "PMI — Membership", "url": "https://www.pmi.org/membership" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "The PMP's exam fee is only part of the story. When people ask what the PMP costs, the honest answer includes membership, mandatory education, prep materials, and renewal. Here's the full picture, with every fee sourced from PMI." },
+    { "type": "callout", "variant": "info", "richText": "PMI raised its exam fees in 2026. Many older articles still quote the previous, lower prices — always confirm the current fee on PMI's website before you budget." },
+    { "type": "heading", "level": 2, "text": "The core fees" },
+    { "type": "table", "caption": "PMP core costs in 2026 (source: PMI). Figures are USD; confirm current fees with PMI.", "headers": ["Item", "Cost"], "rows": [
+      ["PMP exam — PMI member", "$425"],
+      ["PMP exam — non-member", "$675"],
+      ["PMI annual membership", "~$140 (plus a small one-time application fee)"],
+      ["Required education (35 contact hours)", "$0–$600 depending on provider"],
+      ["Renewal (every 3 years)", "$60 member / $150 non-member + 60 PDUs"]
+    ] },
+    { "type": "paragraph", "richText": "Notice the membership math: membership costs about $140 a year but drops the exam fee by $250, so joining PMI usually pays for itself if you also use member resources. That's the single easiest way to reduce the sticker cost." },
+    { "type": "heading", "level": 2, "text": "The realistic all-in cost" },
+    { "type": "paragraph", "richText": "Add prep to the core fees and most working professionals spend somewhere between $700 and $2,500 in total, depending mainly on how much training they buy:" },
+    { "type": "table", "caption": "Typical all-in PMP budget by study approach.", "headers": ["Approach", "Rough total"], "rows": [
+      ["Self-study + cheap online course", "$700–$1,000"],
+      ["Mid-range online bootcamp", "$1,200–$1,800"],
+      ["Instructor-led / corporate training", "$2,000–$2,500+"]
+    ] },
+    { "type": "callout", "variant": "tip", "richText": "Ways to spend less: join PMI before booking the exam, use the free PMI resources, choose a self-paced course for your 35 education hours, and pass on the first try — a retake adds another exam fee." },
+    { "type": "heading", "level": 2, "text": "Don't forget the ongoing cost" },
+    { "type": "paragraph", "richText": [ "The PMP isn't one-and-done. To keep it active you must earn 60 PDUs (professional development units) and pay a renewal fee every three years. Factor that into whether it's worth it for you — we weigh that in our ", { "link": { "ref": "article:is-pmp-worth-it", "text": "honest PMP verdict" } }, "." ] },
+    { "type": "paragraph", "richText": [ "Before you spend anything, make sure you actually qualify — the experience requirement trips people up. Check our ", { "link": { "ref": "article:pmp-eligibility", "text": "PMP eligibility guide" } }, ", and if you're early-career, compare the cheaper ", { "link": { "ref": "article:pmp-vs-capm", "text": "CAPM path" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "How much does the PMP cost in 2026?", "answerRichText": "The exam is $425 for PMI members and $675 for non-members. With membership, required education, study materials, and possible renewal, most people's all-in cost lands between $700 and $2,500." },
+      { "question": "Is PMI membership worth it for the PMP?", "answerRichText": "Usually yes. Membership costs about $140 a year but cuts the exam fee by $250, so it often pays for itself immediately — and you also get member resources that help you prepare." },
+      { "question": "Does the PMP cost money to maintain?", "answerRichText": [ "Yes. You must earn 60 PDUs and pay a renewal fee ($60 for members, $150 for non-members) every three years. See whether that ongoing cost is worth it in our ", { "link": { "ref": "article:is-pmp-worth-it", "text": "PMP verdict" } }, "." ] }
+    ] }
+  ]
+}

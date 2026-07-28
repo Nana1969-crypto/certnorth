@@ -18,7 +18,8 @@ a:hover{color:var(--color-accent-hover)}
 .skip-link:focus{left:0}
 header.site{font-family:var(--font-ui);border-bottom:1px solid var(--color-border)}
 .site-inner{max-width:64rem;margin:0 auto;padding:.9rem 1.25rem;display:flex;align-items:center;gap:1.25rem;flex-wrap:wrap}
-.wordmark{font-weight:700;font-size:var(--text-lg);color:var(--color-text);text-decoration:none;letter-spacing:-.02em}
+.wordmark{font-weight:700;font-size:var(--text-lg);color:var(--color-text);text-decoration:none;letter-spacing:-.02em;display:inline-flex;align-items:center;gap:.42rem}
+.wordmark-ico{width:1.15em;height:1.15em;flex:none}
 nav.pillars{display:flex;gap:1rem;flex-wrap:wrap;font-size:var(--text-sm)}
 nav.pillars a{color:var(--color-text-2);text-decoration:none}
 nav.pillars a:hover,nav.pillars a[aria-current]{color:var(--color-accent);text-decoration:underline}
@@ -122,7 +123,7 @@ function baseLayout({ site, title, description, canonicalPath, jsonld = [], body
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
 <link rel="canonical" href="${esc(canonical)}">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b5cc4'/%3E%3Cpath d='M9 10h14M9 16h14M9 22h9' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%234f46e5'/%3E%3Cpath d='M16 4L18.3 13.7L28 16L18.3 18.3L16 28L13.7 18.3L4 16L13.7 13.7Z' fill='white'/%3E%3C/svg%3E">
 <link rel="alternate" type="application/rss+xml" title="${esc(site.name)}" href="/rss.xml">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
@@ -136,7 +137,7 @@ ${ld}
 <body>
 <a class="skip-link" href="#conteudo">Skip to content</a>
 <header class="site"><div class="site-inner">
-<a class="wordmark" href="/">${esc(site.name)}</a>
+<a class="wordmark" href="/"><svg class="wordmark-ico" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#4f46e5"/><path d="M16 4L18.3 13.7L28 16L18.3 18.3L16 28L13.7 18.3L4 16L13.7 13.7Z" fill="#fff"/></svg>${esc(site.name)}</a>
 <nav class="pillars" aria-label="Topics">${nav}</nav>
 <button class="theme-toggle" type="button" aria-label="Toggle light/dark theme">Theme</button>
 </div></header>
@@ -213,14 +214,14 @@ function articleJsonLd({ site, article, url, pillar, author }) {
     '@context': 'https://schema.org', '@type': 'Article',
     headline: article.title, description: article.dek,
     datePublished: article.publishedAt, dateModified: article.updatedAt || article.publishedAt,
-    inLanguage: 'pt-BR',
+    inLanguage: 'en',
     mainEntityOfPage: site.baseUrl + url,
     author: { '@type': author.type || 'Person', name: author.name, url: `${site.baseUrl}/authors/${author.slug}/` },
     publisher: { '@type': 'Organization', name: site.name, url: site.baseUrl },
   }, {
     '@context': 'https://schema.org', '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Início', item: site.baseUrl + '/' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: site.baseUrl + '/' },
       { '@type': 'ListItem', position: 2, name: pillar.title, item: `${site.baseUrl}/${pillar.slug}/` },
       { '@type': 'ListItem', position: 3, name: article.title, item: site.baseUrl + url },
     ],
@@ -252,7 +253,7 @@ ${breadcrumb([{ label: 'Home', href: '/' }, { label: pillar.title }])}
     canonicalPath: `/${pillar.slug}/`, currentPillar: pillar.slug,
     jsonld: [{
       '@context': 'https://schema.org', '@type': 'CollectionPage',
-      name: pillar.title, description: pillar.description, inLanguage: 'pt-BR',
+      name: pillar.title, description: pillar.description, inLanguage: 'en',
       isPartOf: { '@type': 'WebSite', name: site.name, url: site.baseUrl },
     }],
     body,
@@ -273,7 +274,7 @@ function homePage({ site, pillars, latest }) {
     canonicalPath: '/',
     jsonld: [{
       '@context': 'https://schema.org', '@type': 'WebSite',
-      name: site.name, url: site.baseUrl, inLanguage: 'pt-BR',
+      name: site.name, url: site.baseUrl, inLanguage: 'en',
       publisher: { '@type': 'Organization', name: site.name, url: site.baseUrl },
     }],
     body,

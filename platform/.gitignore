@@ -1,2 +1,3 @@
-platform/dist/
-platform/.build-manifest.json
+dist/
+.build-manifest.json
+node_modules/
