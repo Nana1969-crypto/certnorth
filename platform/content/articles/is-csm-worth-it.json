@@ -1,0 +1,57 @@
+{
+  "id": "is-csm-worth-it",
+  "slug": "is-csm-certification-worth-it",
+  "clusterId": "cl_worth",
+  "title": "Is the CSM Worth It in 2026? (Honest Verdict)",
+  "dek": "Worth it if your employer is paying, or you want a guided live course and the widely-recognized Scrum Alliance brand. Not worth it if you're self-funding on a budget — the PSM I gives a respected Scrum Master credential for a fraction of the cost and never expires.",
+  "authorId": "author_team",
+  "publishedAt": "2026-07-30",
+  "updatedAt": "2026-07-30",
+  "intent": { "primaryKeyword": "is the csm worth it" },
+  "seo": {
+    "metaTitle": "Is the CSM Certification Worth It? (2026)",
+    "metaDescription": "An honest 2026 verdict on the CSM (Certified ScrumMaster) — real cost, the mandatory course, who genuinely benefits, and who should pick the PSM instead."
+  },
+  "sources": [
+    { "label": "Scrum Alliance — Certified ScrumMaster (CSM)", "url": "https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster" },
+    { "label": "Scrum.org — The Scrum Guide", "url": "https://scrumguides.org/" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "The Certified ScrumMaster (CSM), from the Scrum Alliance, is one of the most recognized agile credentials — and one of the most debated, because of its cost. Here's the honest verdict, including who should pick a cheaper option instead." },
+    { "type": "callout", "variant": "info", "richText": "The short answer: worth it if your employer is paying or you value a guided live course and a very well-known brand. Not worth it if you're self-funding on a budget — the PSM I gives you a respected Scrum Master credential for far less, with no renewal." },
+    { "type": "heading", "level": 2, "text": "What it is and what it costs" },
+    { "type": "paragraph", "richText": "Unlike some certifications you can self-study, the CSM requires a mandatory two-day course taught by a Certified Scrum Trainer. That course is the main cost: the all-in price typically lands between about $800 and $1,500, which usually includes the course, the exam, and a two-year Scrum Alliance membership. After the course, you take a relatively approachable online exam." },
+    { "type": "table", "caption": "CSM at a glance (2026; confirm current details with the Scrum Alliance).", "headers": ["Attribute", "Detail"], "rows": [
+      ["Course", "Mandatory two-day course (required)"],
+      ["Typical all-in cost", "~$800–$1,500"],
+      ["Experience required", "None"],
+      ["Exam", "Online, course-supported (approachable)"],
+      ["Renewal", "Every 2 years (SEUs + renewal fee)"]
+    ] },
+    { "type": "heading", "level": 2, "text": "The case for it (real pros)" },
+    { "type": "list", "ordered": false, "items": [
+      "The two-day live course gives structure, interaction, and hands-on learning",
+      "The Scrum Alliance brand is extremely well recognized by recruiters",
+      "The exam is gentle, so the pass rate is high after the course",
+      "No experience prerequisite — accessible to career-changers",
+      "Excellent when your employer pays, which removes the cost objection"
+    ] },
+    { "type": "heading", "level": 2, "text": "The case against it (real cons)" },
+    { "type": "list", "ordered": false, "items": [
+      "It's expensive compared with the PSM I, mostly because the course is mandatory",
+      "It requires renewal every two years — an ongoing cost the PSM I doesn't have",
+      "The easy exam makes it a weaker signal of knowledge than the tougher PSM I",
+      "Like all Scrum certs, it proves understanding, not proven facilitation experience"
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "Who it's NOT for: self-funding learners on a budget. If you're paying out of pocket, the PSM I gives you a respected Scrum Master credential for around $200, with no mandatory course and no renewal — a fraction of the CSM's cost." },
+    { "type": "heading", "level": 2, "text": "CSM or PSM?" },
+    { "type": "paragraph", "richText": [ "This is the real decision for most people. The PSM I (Scrum.org) is cheaper, can be self-studied, has a harder exam, and never expires; the CSM includes a guided course and a household-name brand but costs far more and needs renewal. We compare them in full in ", { "link": { "ref": "article:psm-vs-csm", "text": "PSM vs CSM" } }, ", and give the standalone PSM verdict in ", { "link": { "ref": "article:is-psm-worth-it", "text": "is the PSM worth it" } }, "." ] },
+    { "type": "heading", "level": 2, "text": "The honest bottom line" },
+    { "type": "paragraph", "richText": [ "If someone else is paying, or you genuinely learn better in a live course and want the biggest brand name, the CSM is worth it. If you're self-funding and value money and permanence, the PSM I is the smarter buy. Either way, pair the certificate with real facilitation practice — see ", { "link": { "ref": "article:how-to-become-scrum-master", "text": "how to become a Scrum Master" } }, " — and see where both rank among the ", { "link": { "ref": "article:best-pm-certifications-beginners", "text": "best certifications for beginners" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "Is the CSM worth it if I pay for it myself?", "answerRichText": [ "Often not — self-funding learners usually get better value from the PSM I, which costs around $200, needs no mandatory course, and never expires. The CSM makes most sense when an employer covers the course fee. See ", { "link": { "ref": "article:psm-vs-csm", "text": "PSM vs CSM" } }, "." ] },
+      { "question": "Does the CSM expire?", "answerRichText": "Yes. The CSM must be renewed every two years, which requires earning Scrum Education Units (SEUs) and paying a renewal fee. This ongoing cost is one reason some people prefer the PSM I, which never expires." },
+      { "question": "Is the CSM or PSM more respected?", "answerRichText": "Both are well recognized. The Scrum Alliance's CSM brand is extremely widespread, while some employers view the PSM I's harder exam as a stronger signal of knowledge. In practice, either satisfies most job requirements — the deciding factors are usually cost and whether you want a live course." }
+    ] }
+  ]
+}
