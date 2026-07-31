@@ -1,0 +1,63 @@
+{
+  "id": "what-does-a-scrum-master-do",
+  "slug": "what-does-a-scrum-master-do",
+  "clusterId": "cl_skills",
+  "title": "What Does a Scrum Master Actually Do?",
+  "dek": "A Scrum Master helps a team use Scrum well: they facilitate the Scrum events, remove blockers, and coach the team and the wider organization. It's a servant-leadership and coaching role — they own the process, not the tasks and not the product.",
+  "authorId": "author_team",
+  "publishedAt": "2026-07-31",
+  "updatedAt": "2026-07-31",
+  "intent": { "primaryKeyword": "what does a scrum master do" },
+  "seo": {
+    "metaTitle": "What Does a Scrum Master Actually Do?",
+    "metaDescription": "A plain-English guide to what a Scrum Master really does day to day — facilitating Scrum events, removing blockers, coaching, and what they don't do."
+  },
+  "sources": [
+    { "label": "Scrum.org — The Scrum Guide (the definition of Scrum)", "url": "https://scrumguides.org/" },
+    { "label": "Scrum.org — What is a Scrum Master?", "url": "https://www.scrum.org/resources/what-is-a-scrum-master" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "\"Scrum Master\" is one of the most misunderstood titles in tech. It sounds like a boss or a project manager, but it's neither. The role exists to help a team get good at Scrum — and, done well, it's a coaching and facilitation job, not a command-and-control one. Here's what a Scrum Master actually does, in plain English." },
+    { "type": "callout", "variant": "info", "richText": "The short answer: a Scrum Master is accountable for the team's effective use of Scrum. They facilitate the Scrum events, help remove obstacles slowing the team down, and coach the team, the Product Owner, and the organization. They own the process — not the task list, and not the product." },
+    { "type": "heading", "level": 2, "text": "The three directions they serve" },
+    { "type": "paragraph", "richText": "The Scrum Guide describes the role as serving in three directions. This framing is the clearest way to understand the job." },
+    { "type": "list", "ordered": false, "items": [
+      "Serving the team: coaching them in self-management, helping them focus on high-value work, and removing impediments to their progress.",
+      "Serving the Product Owner: helping with effective backlog management, clear goal-setting, and keeping stakeholder collaboration productive.",
+      "Serving the organization: coaching the wider business in adopting Scrum, and helping remove barriers between stakeholders and teams."
+    ] },
+    { "type": "heading", "level": 2, "text": "A Scrum Master's day to day" },
+    { "type": "paragraph", "richText": "In practice, the work is a mix of facilitation, unblocking, and quiet coaching. A typical week includes:" },
+    { "type": "list", "ordered": false, "items": [
+      "Facilitating the Scrum events so they're useful and stay in their time-box",
+      "Chasing down blockers — a delayed approval, a missing access, a dependency on another team",
+      "Coaching the team on how to work together and improve, without telling them what to do",
+      "Shielding the team from mid-sprint interruptions and scope changes",
+      "Helping the Product Owner keep the backlog clear and prioritized",
+      "Spotting patterns in what's slowing delivery and helping the team fix the root cause"
+    ] },
+    { "type": "table", "caption": "The Scrum events a Scrum Master helps facilitate (per the Scrum Guide).", "headers": ["Event", "What the Scrum Master helps with"], "rows": [
+      ["Sprint Planning", "A focused session that sets a clear Sprint Goal and plan"],
+      ["Daily Scrum", "A short daily sync the team runs; the SM keeps it effective, not a status report"],
+      ["Sprint Review", "Inspecting the increment with stakeholders and gathering feedback"],
+      ["Sprint Retrospective", "Helping the team reflect honestly and commit to real improvements"]
+    ] },
+    { "type": "heading", "level": 2, "text": "What a Scrum Master is NOT" },
+    { "type": "paragraph", "richText": "Much of the confusion comes from what people assume the role includes. Being clear about what it isn't is just as important:" },
+    { "type": "list", "ordered": false, "items": [
+      "Not the team's boss — a Scrum Master has no authority to assign tasks or manage people",
+      "Not a project manager — they don't own scope, budget, or the schedule (see below)",
+      "Not a secretary — they facilitate meetings, they don't just book rooms and take notes",
+      "Not the decision-maker on the product — that's the Product Owner's accountability"
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "A common trap: a Scrum Master who slips into assigning work and giving orders undermines the whole point of the role, which is to help the team become self-managing. If the team can't function without the Scrum Master telling them what to do, the coaching isn't working yet." },
+    { "type": "heading", "level": 2, "text": "Scrum Master vs project manager" },
+    { "type": "paragraph", "richText": [ "This is the question that trips up most newcomers. A project manager is accountable for delivering a project — scope, timeline, budget. A Scrum Master is accountable for how well the team uses Scrum, and has no authority over people or budget. They can overlap in real jobs, but the mindset is different: directive delivery versus servant-leadership. If you're weighing the two paths, our guide to ", { "link": { "ref": "article:agile-vs-waterfall", "text": "Agile vs Waterfall" } }, " explains the two worlds these roles live in." ] },
+    { "type": "paragraph", "richText": [ "If this sounds like a role you'd want, we cover the practical steps in ", { "link": { "ref": "article:how-to-become-scrum-master", "text": "how to become a Scrum Master" } }, ", which certification to start with in ", { "link": { "ref": "article:psm-vs-csm", "text": "PSM vs CSM" } }, ", and what the role pays in our ", { "link": { "ref": "article:scrum-master-salary", "text": "Scrum Master salary guide" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "What does a Scrum Master do all day?", "answerRichText": "They facilitate the Scrum events, remove blockers slowing the team down, coach the team and Product Owner, and protect the team from mid-sprint interruptions. Much of the job is quiet facilitation and unblocking rather than directing work." },
+      { "question": "Is a Scrum Master a manager?", "answerRichText": "No. A Scrum Master has no authority to assign tasks, manage people, or set budgets. They're a servant-leader and coach who helps the team become self-managing — which is the opposite of a traditional boss role." },
+      { "question": "What's the difference between a Scrum Master and a project manager?", "answerRichText": [ "A project manager owns delivery — scope, timeline, and budget — with authority to match. A Scrum Master owns the team's effective use of Scrum, with no such authority. The roles can overlap in practice but differ in mindset. See ", { "link": { "ref": "article:agile-vs-waterfall", "text": "Agile vs Waterfall" } }, " for the bigger picture." ] }
+    ] }
+  ]
+}
