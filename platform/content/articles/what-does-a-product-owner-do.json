@@ -1,0 +1,64 @@
+{
+  "id": "what-does-a-product-owner-do",
+  "slug": "what-does-a-product-owner-do",
+  "clusterId": "cl_skills",
+  "title": "What Does a Product Owner Actually Do?",
+  "dek": "A Product Owner is accountable for maximizing the value of the product: they own and order the product backlog, set the Product Goal, and decide what the team builds next. They're the single voice for 'what and why' — while the Developers decide 'how'.",
+  "authorId": "author_team",
+  "publishedAt": "2026-08-01",
+  "updatedAt": "2026-08-01",
+  "intent": { "primaryKeyword": "what does a product owner do" },
+  "seo": {
+    "metaTitle": "What Does a Product Owner Actually Do?",
+    "metaDescription": "What a Product Owner really does — owning the backlog, setting priorities and the Product Goal, and how the role differs from a Scrum Master."
+  },
+  "sources": [
+    { "label": "Scrum.org — The Scrum Guide (the definition of Scrum)", "url": "https://scrumguides.org/" },
+    { "label": "Scrum.org — What is a Product Owner?", "url": "https://www.scrum.org/resources/what-is-a-product-owner" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "If the Scrum Master owns the process, the Product Owner owns the direction. It's the most business-facing role in Scrum — and the one most often confused with a project manager or a boss. Here's what a Product Owner actually does, in plain English, and how the role really differs from the Scrum Master." },
+    { "type": "callout", "variant": "info", "richText": "The short answer: the Product Owner is accountable for maximizing the value the team delivers. They own the product backlog — deciding what gets built and in what order — and set a clear Product Goal. They're the single voice for 'what and why'; the Developers decide 'how'." },
+    { "type": "heading", "level": 2, "text": "What the Product Owner is accountable for" },
+    { "type": "paragraph", "richText": "The Scrum Guide is specific: the Product Owner is a single person (not a committee) accountable for the value of the product. In practice, that accountability breaks down into a few clear responsibilities." },
+    { "type": "list", "ordered": false, "items": [
+      "Setting and communicating a clear Product Goal — the direction the team is working toward",
+      "Owning the product backlog: creating backlog items and, crucially, ordering them by value",
+      "Making sure the backlog is visible, understood, and clear to everyone",
+      "Deciding what the team works on next — the final say on priority",
+      "Representing the needs of stakeholders and customers to the team"
+    ] },
+    { "type": "heading", "level": 2, "text": "The day to day" },
+    { "type": "paragraph", "richText": "The role is a constant balancing act between what stakeholders want, what customers need, and what the team can realistically deliver. A typical week involves:" },
+    { "type": "list", "ordered": false, "items": [
+      "Refining the backlog — clarifying items so the team knows what 'done' means",
+      "Prioritizing ruthlessly when everything feels urgent (the hardest part of the job)",
+      "Talking to stakeholders and customers to understand what actually creates value",
+      "Answering the team's questions about requirements during the sprint",
+      "Reviewing the increment at the Sprint Review and adjusting the plan based on feedback"
+    ] },
+    { "type": "heading", "level": 2, "text": "What a Product Owner is NOT" },
+    { "type": "list", "ordered": false, "items": [
+      "Not the team's manager — they set priorities, not people's tasks or performance reviews",
+      "Not a project manager — they own product value, not schedule and budget delivery",
+      "Not a note-taker for stakeholder requests — they decide what's worth building, and say no",
+      "Not the person who decides how the work is done — that's the Developers' call"
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "The most common failure mode is a Product Owner who says yes to everything. If the backlog is just a wish-list of every stakeholder request in the order they arrived, the role isn't being done. The core skill is prioritization — deciding what NOT to build, or not yet." },
+    { "type": "heading", "level": 2, "text": "Product Owner vs Scrum Master" },
+    { "type": "paragraph", "richText": "This is the pairing that confuses most newcomers. They're two distinct accountabilities that work side by side, not a hierarchy." },
+    { "type": "table", "caption": "Product Owner vs Scrum Master at a glance (per the Scrum Guide).", "headers": ["", "Product Owner", "Scrum Master"], "rows": [
+      ["Owns", "The product's value and backlog", "The team's effective use of Scrum"],
+      ["Answers", "What to build and why", "How the team works together"],
+      ["Faces", "Stakeholders and customers", "The team and the organization"],
+      ["Authority", "Priority of the work", "None over people or scope"]
+    ] },
+    { "type": "paragraph", "richText": [ "For the other side of that pairing, see ", { "link": { "ref": "article:what-does-a-scrum-master-do", "text": "what a Scrum Master does" } }, ". Both roles live inside the Scrum framework, which we contrast with traditional delivery in ", { "link": { "ref": "article:agile-vs-waterfall", "text": "Agile vs Waterfall" } }, ", and which differs from flow-based methods like ", { "link": { "ref": "article:kanban-vs-scrum", "text": "Kanban" } }, "." ] },
+    { "type": "paragraph", "richText": [ "Many people move into product ownership after time as a Scrum Master or business analyst. If the agile world appeals to you, our guide to ", { "link": { "ref": "article:how-to-become-scrum-master", "text": "how to become a Scrum Master" } }, " is a good starting point for understanding how these roles are hired." ] },
+    { "type": "faq", "items": [
+      { "question": "What does a Product Owner do all day?", "answerRichText": "They refine and prioritize the product backlog, talk to stakeholders and customers to understand value, answer the team's questions about requirements, and decide what gets built next. The core daily skill is prioritization — deciding what matters most right now." },
+      { "question": "Is a Product Owner a manager?", "answerRichText": "No. A Product Owner decides the priority of the work, but has no authority over people, tasks, or performance. They're accountable for the product's value, not for managing the team — that's a common but incorrect assumption." },
+      { "question": "What's the difference between a Product Owner and a Scrum Master?", "answerRichText": [ "The Product Owner owns what the team builds and why (the product's value); the Scrum Master owns how well the team uses Scrum (the process). They work side by side with no hierarchy between them. See ", { "link": { "ref": "article:what-does-a-scrum-master-do", "text": "what does a Scrum Master do" } }, " for the other half." ] }
+    ] }
+  ]
+}

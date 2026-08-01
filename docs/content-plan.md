@@ -17,11 +17,11 @@ Reinforce the **thinner pillars** while keeping the commercial certification clu
 | Certifications | cl_compare, cl_worth, cl_guides | pmp-vs-capm, psm-vs-csm, pmp-vs-prince2, capm-vs-google-pm-certificate, is-pmp-worth-it, is-capm-worth-it, is-psm-worth-it, is-csm-worth-it, google-pm-certificate-worth-it, best-pm-certifications-beginners, pmp-cost, pmp-eligibility, how-long-to-get-pmp, agile-vs-waterfall |
 | Career Paths | cl_paths | how-to-become-project-manager, how-to-become-scrum-master |
 | Salaries | cl_salary | project-manager-salary, **scrum-master-salary** |
-| Skills & Methods | cl_skills | what-does-a-scrum-master-do, kanban-vs-scrum |
+| Skills & Methods | cl_skills | what-does-a-scrum-master-do, kanban-vs-scrum, what-does-a-product-owner-do |
 
 ## Candidate next articles (by priority)
 
-- **Skills/Methods (seeded 2026-07-31 with what-does-a-scrum-master-do):** "What does a Product Owner do", "How to learn Agile", "What is a product backlog", "Kanban vs Scrum".
+- **Skills/Methods (3 articles as of 2026-08-01):** next → "What is a product backlog", "How to learn Agile", "What is a sprint", "Scrum roles explained".
 - **Salaries:** "Product Owner salary", "Agile Coach salary", "PMP salary premium (does PMP raise pay?)".
 - **Career Paths:** "How to become a Product Owner", "How to become an Agile Coach", "Project coordinator to project manager".
 - **Certifications (commercial):** "PMP vs PMI-ACP", "Best Agile certifications", "SAFe certification worth it", "CAPM vs PMP for beginners".
