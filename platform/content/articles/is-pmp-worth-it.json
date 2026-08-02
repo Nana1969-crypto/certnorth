@@ -6,7 +6,7 @@
   "dek": "For experienced project managers, yes — the PMP is the field's most recognized credential and is tied to higher pay. For beginners or people not doing project work, no: you can't qualify yet, and it won't help.",
   "authorId": "author_team",
   "publishedAt": "2026-07-25",
-  "updatedAt": "2026-07-25",
+  "updatedAt": "2026-08-02",
   "intent": { "primaryKeyword": "is the pmp worth it" },
   "seo": {
     "metaTitle": "Is the PMP Certification Worth It? (2026)",
@@ -14,7 +14,9 @@
   },
   "sources": [
     { "label": "PMI — Project Management Professional (PMP)", "url": "https://www.pmi.org/certifications/project-management-pmp" },
-    { "label": "U.S. Bureau of Labor Statistics — Project Management Specialists, Occupational Outlook Handbook", "url": "https://www.bls.gov/ooh/business-and-financial/project-management-specialists.htm" }
+    { "label": "U.S. Bureau of Labor Statistics — Project Management Specialists, Occupational Outlook Handbook", "url": "https://www.bls.gov/ooh/business-and-financial/project-management-specialists.htm" },
+    { "label": "PMI — What the new PMP exam, launched July 2026, means for you", "url": "https://www.pmi.org/certifications/project-management-pmp/new-exam" },
+    { "label": "PMI — New PMP Examination Content Outline (2026)", "url": "https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/new-pmp-examination-content-outline-2026.pdf" }
   ],
   "body": [
     { "type": "paragraph", "richText": "The PMP is the most famous project management certification in the world, which means it's also the most over-sold. Here's the honest verdict — including the people who should not get it, which the training companies rarely mention." },
@@ -31,13 +33,20 @@
     { "type": "heading", "level": 2, "text": "The case against it (real cons)" },
     { "type": "list", "ordered": false, "items": [
       "You can't get it without significant documented experience — it's useless to true beginners",
-      "It leans toward traditional/predictive project management; pure agile roles may value Scrum more",
+      "It's expensive and broad — for a dedicated Scrum Master role specifically, a Scrum certification is far cheaper and more targeted",
       "It requires ongoing renewal: 60 PDUs plus a fee every three years",
       "On its own it doesn't replace a track record of actually delivering projects"
     ] },
-    { "type": "callout", "variant": "warn", "richText": "Who it's NOT for: career-changers with no project experience (you can't qualify — start with the CAPM), and people in pure agile/software roles who'd get more from a Scrum credential. The PMP is a mid-career accelerator, not an entry ticket." },
+    { "type": "heading", "level": 2, "text": "A myth worth correcting: the PMP is not \"waterfall only\"" },
+    { "type": "paragraph", "richText": "You'll still read that the PMP is a traditional, waterfall credential and that agile practitioners should skip it. That's out of date. In the exam PMI launched on 9 July 2026, roughly 40% of items reflect predictive approaches and the remaining 60% are split between agile/adaptive and hybrid — and PMI states that agile and hybrid are emphasized over predictive. The approaches run through all three exam domains rather than sitting in an \"agile section.\"" },
+    { "type": "table", "caption": "PMP exam domain weighting before and after the 9 July 2026 update (source: PMI).", "headers": ["Domain", "Previous", "From July 2026"], "rows": [
+      ["People", "42%", "33%"],
+      ["Process", "50%", "41%"],
+      ["Business Environment", "8%", "26%"]
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "Who it's NOT for: career-changers with no project experience — you simply can't qualify yet, so start with the CAPM. It's also a poor fit if you want one specific role (a Scrum Master post, say) rather than broad project management recognition: a Scrum certification costs a fraction and targets that job directly. The PMP is a mid-career accelerator, not an entry ticket." },
     { "type": "heading", "level": 2, "text": "The honest bottom line" },
-    { "type": "paragraph", "richText": [ "If you already lead projects and want the credential that carries the most weight, the PMP is worth it. If you're just starting, it's the wrong first move — get the ", { "link": { "ref": "article:pmp-vs-capm", "text": "CAPM instead" } }, ", build experience, and come back to the PMP later. And if your work is agile, compare it against a ", { "link": { "ref": "article:psm-vs-csm", "text": "Scrum certification" } }, " first." ] },
+    { "type": "paragraph", "richText": [ "If you already lead projects and want the credential that carries the most weight, the PMP is worth it. If you're just starting, it's the wrong first move — get the ", { "link": { "ref": "article:pmp-vs-capm", "text": "CAPM instead" } }, ", build experience, and come back to the PMP later. And if you're aiming at one specific agile role rather than broad project management, compare the cost against a ", { "link": { "ref": "article:psm-vs-csm", "text": "Scrum certification" } }, " first — not because the PMP ignores agile, but because a targeted credential is cheaper and faster." ] },
     { "type": "faq", "items": [
       { "question": "Does the PMP actually increase your salary?", "answerRichText": "For experienced project managers it is widely associated with higher pay, though the credential works alongside experience rather than replacing it. It won't raise the pay of someone who isn't yet doing project work." },
       { "question": "Is the PMP worth it for beginners?", "answerRichText": [ "No — beginners can't qualify, because the PMP requires 36–60 months of project experience. Start with the ", { "link": { "ref": "article:pmp-vs-capm", "text": "CAPM" } }, " or the Google Project Management Certificate and pursue the PMP once you have the experience." ] },

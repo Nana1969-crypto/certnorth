@@ -6,7 +6,7 @@
   "dek": "To sit the PMP you need 35 hours of project management education plus experience: 36 months with a four-year degree, or 60 months with a secondary diploma — counted from the last 10 years.",
   "authorId": "author_team",
   "publishedAt": "2026-07-25",
-  "updatedAt": "2026-07-25",
+  "updatedAt": "2026-08-02",
   "intent": { "primaryKeyword": "pmp eligibility requirements" },
   "seo": {
     "metaTitle": "PMP Eligibility Requirements in 2026",
@@ -14,7 +14,8 @@
   },
   "sources": [
     { "label": "PMI — Project Management Professional (PMP)", "url": "https://www.pmi.org/certifications/project-management-pmp" },
-    { "label": "PMI — PMP Handbook", "url": "https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp" }
+    { "label": "PMI — PMP Handbook", "url": "https://www.pmi.org/certifications/project-management-pmp/earn-the-pmp" },
+    { "label": "PMI — What the new PMP exam, launched July 2026, means for you", "url": "https://www.pmi.org/certifications/project-management-pmp/new-exam" }
   ],
   "body": [
     { "type": "paragraph", "richText": "The most common reason people can't take the PMP isn't the exam — it's eligibility. PMI requires documented project experience plus formal education before you can even apply. Here's exactly what you need, in plain terms." },
@@ -37,7 +38,8 @@
     ] },
     { "type": "callout", "variant": "warn", "richText": "Do not inflate your experience to qualify sooner. PMI verifies a random selection of applications, and a failed audit can bar you. If you're short, the CAPM has no experience requirement — use it while you build the months." },
     { "type": "heading", "level": 2, "text": "The 35 education hours" },
-    { "type": "paragraph", "richText": [ "Everyone needs 35 contact hours of project management education before applying. A structured course like the Google Project Management Certificate or a dedicated PMP prep course satisfies this. Note that holding an active CAPM can also cover this requirement — one reason the ", { "link": { "ref": "article:pmp-vs-capm", "text": "CAPM makes a useful stepping stone" } }, "." ] },
+    { "type": "paragraph", "richText": [ "Everyone needs 35 contact hours of project management education before applying. Today those hours can come from any eligible course or provider — PMI doesn't require a specific one — and the training can be live (in person or virtual, with an instructor) or on demand. A structured course like the Google Project Management Certificate or a dedicated PMP prep course satisfies this. Note that holding an active CAPM can also cover this requirement — one reason the ", { "link": { "ref": "article:pmp-vs-capm", "text": "CAPM makes a useful stepping stone" } }, "." ] },
+    { "type": "callout", "variant": "warn", "richText": "A rule change is coming. PMI has said that from late Q4 2026, live instructor-led PMP training — virtual or in person — will have to be delivered through an approved provider pathway to count toward the application. Approved pathways include Authorized Training Partners (ATPs), China Registered Education Providers, and eligible academic programmes such as PMI GAC ones. Training you complete before the change stays eligible under today's rules, and on-demand courses are not affected by it. If you're booking live training, check the provider's status first." },
     { "type": "heading", "level": 2, "text": "If you don't qualify yet" },
     { "type": "paragraph", "richText": [ "You have two good options: keep accumulating documented project experience, and in the meantime earn the CAPM (no experience needed). When you're ready, see ", { "link": { "ref": "article:pmp-cost", "text": "what the PMP costs" } }, " and ", { "link": { "ref": "article:how-long-to-get-pmp", "text": "how long it takes to get" } }, "." ] },
     { "type": "faq", "items": [
