@@ -1,0 +1,83 @@
+{
+  "_comment": "Single source of truth for certification facts. Articles, tables and tools read from here — update a number ONCE and every page follows on the next build. Every record must carry verifiedOn (YYYY-MM) and a real source URL. Never put an unverified number in this file.",
+  "certifications": [
+    {
+      "id": "pmp",
+      "name": "PMP",
+      "fullName": "Project Management Professional",
+      "body": "PMI",
+      "level": "advanced",
+      "examCost": "$425 member / $675 non-member",
+      "training": "35 contact hours required",
+      "experience": "36 months (bachelor's) or 60 months (secondary)",
+      "renewal": "60 PDUs every 3 years + $60/$150 fee",
+      "verifiedOn": "2026-07",
+      "source": "https://www.pmi.org/certifications/project-management-pmp"
+    },
+    {
+      "id": "capm",
+      "name": "CAPM",
+      "fullName": "Certified Associate in Project Management",
+      "body": "PMI",
+      "level": "entry",
+      "examCost": "$225 member / $300 non-member",
+      "training": "23 contact hours required",
+      "experience": "None — secondary diploma only",
+      "renewal": "15 PDUs every 3 years",
+      "verifiedOn": "2026-07",
+      "source": "https://www.pmi.org/certifications/certified-associate-capm"
+    },
+    {
+      "id": "google-pm",
+      "name": "Google PM Certificate",
+      "fullName": "Google Project Management Professional Certificate",
+      "body": "Google / Coursera",
+      "level": "entry",
+      "examCost": "~$49/month on Coursera (under $300 total)",
+      "training": "Included — self-paced course",
+      "experience": "None",
+      "renewal": "None — does not expire",
+      "verifiedOn": "2026-07",
+      "source": "https://www.coursera.org/professional-certificates/google-project-management"
+    },
+    {
+      "id": "psm",
+      "name": "PSM I",
+      "fullName": "Professional Scrum Master I",
+      "body": "Scrum.org",
+      "level": "entry",
+      "examCost": "~$200 (voucher)",
+      "training": "None required — self-study allowed",
+      "experience": "None",
+      "renewal": "None — never expires",
+      "verifiedOn": "2026-07",
+      "source": "https://www.scrum.org/assessments/professional-scrum-master-i-certification"
+    },
+    {
+      "id": "csm",
+      "name": "CSM",
+      "fullName": "Certified ScrumMaster",
+      "body": "Scrum Alliance",
+      "level": "entry",
+      "examCost": "~$800–$1,500 all-in (course included)",
+      "training": "Mandatory two-day course",
+      "experience": "None",
+      "renewal": "Every 2 years (SEUs + fee)",
+      "verifiedOn": "2026-07",
+      "source": "https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster"
+    },
+    {
+      "id": "prince2",
+      "name": "PRINCE2",
+      "fullName": "PRINCE2 Foundation & Practitioner (7th edition)",
+      "body": "PeopleCert",
+      "level": "intermediate",
+      "examCost": "Varies by region (roughly $600+ in the US)",
+      "training": "Not required for Foundation",
+      "experience": "None for Foundation",
+      "renewal": "Practitioner every 3 years",
+      "verifiedOn": "2026-07",
+      "source": "https://www.peoplecert.org/"
+    }
+  ]
+}
