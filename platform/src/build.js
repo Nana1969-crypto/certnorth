@@ -109,6 +109,20 @@ function runGate({ articles, authors, taxonomy, certs = [] }) {
   return errors;
 }
 
+// ------------------------------------------------------- validade dos dados
+// Lembrete de revisão: aponta registros verificados há mais de MAX_MONTHS.
+// É AVISO, não erro — o motor nunca descobre preços sozinho (isso é trabalho
+// humano, por honestidade); ele só vigia o calendário e cobra a revisão.
+const STALE_AFTER_MONTHS = 6;
+function staleCerts(certs, now = new Date()) {
+  return certs.map((c) => {
+    const [y, m] = String(c.verifiedOn).split('-').map(Number);
+    const months = (now.getFullYear() - y) * 12 + (now.getMonth() + 1 - m);
+    return { id: c.id, name: c.name, verifiedOn: c.verifiedOn, months };
+  }).filter((c) => c.months >= STALE_AFTER_MONTHS)
+    .sort((a, b) => b.months - a.months);
+}
+
 // ---------------------------------------------------------------- grafo/afetados
 // Rotas afetadas pela publicação de um artigo (política de âncora BUILD — ADR-0003):
 // a própria rota + home + pillar hub + páginas que linkam para ele + sitemap/RSS.
@@ -292,6 +306,13 @@ function build(opts = {}) {
 
   const ms = Date.now() - t0;
   console.log(`✓ build ok em ${ms}ms — artigos: ${written} regenerados, ${skipped} pulados${pruned ? `, ${pruned} órfãos removidos` : ''} (incremental${fullRebuild ? ' OFF: código mudou' : ' ON'}); ${urls.length} URLs no sitemap`);
+
+  const stale = staleCerts(certs);
+  if (stale.length) {
+    console.warn(`\n⚠  REVISAR DADOS — ${stale.length} certificação(ões) sem verificação há ${STALE_AFTER_MONTHS}+ meses:`);
+    for (const c of stale) console.warn(`   ${c.name}: verificado em ${c.verifiedOn} (${c.months} meses atrás)`);
+    console.warn('   Confira o valor na fonte oficial e atualize content/certifications.json (incluindo verifiedOn).\n');
+  }
 }
 
 // ---------------------------------------------------------------- CLI
