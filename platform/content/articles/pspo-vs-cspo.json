@@ -1,0 +1,59 @@
+{
+  "id": "pspo-vs-cspo",
+  "slug": "pspo-vs-cspo",
+  "clusterId": "cl_compare",
+  "title": "PSPO vs CSPO: Which Product Owner Certification?",
+  "dek": "Get the PSPO I if you're self-funding: it costs about $200, needs no course, has a real exam, and never expires. Get the CSPO if your employer is paying and you want two days of guided training — but it costs far more and needs renewing every two years.",
+  "authorId": "author_team",
+  "publishedAt": "2026-08-04",
+  "updatedAt": "2026-08-04",
+  "intent": { "primaryKeyword": "pspo vs cspo" },
+  "seo": {
+    "metaTitle": "PSPO vs CSPO: Which Product Owner Cert?",
+    "metaDescription": "PSPO vs CSPO compared on cost, course, exam and renewal — and which Product Owner certification fits you, self-funded or employer-paid."
+  },
+  "sources": [
+    { "label": "Scrum.org — Professional Scrum Product Owner I (PSPO I)", "url": "https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification" },
+    { "label": "Scrum Alliance — Certified Scrum Product Owner (CSPO)", "url": "https://www.scrumalliance.org/get-certified/product-owner-track/certified-scrum-product-owner" },
+    { "label": "Scrum.org — The Scrum Guide", "url": "https://scrumguides.org/" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "If you've decided on product ownership, there are two mainstream certifications: the PSPO I from Scrum.org and the CSPO from the Scrum Alliance. They cover almost the same material, so the decision comes down to four practical things — cost, whether a course is mandatory, whether there's an exam, and whether it expires." },
+    { "type": "callout", "variant": "tip", "richText": "Quick answer: if you're paying yourself, the PSPO I is the better value — around $200, self-study allowed, and it never expires. If your employer is paying and you learn better in a live class, the CSPO is a fine choice. Very few people should pay for the CSPO out of their own pocket." },
+    { "type": "heading", "level": 2, "text": "Head-to-head comparison" },
+    { "type": "table", "caption": "PSPO I vs CSPO on the factors that decide it (2026; confirm current fees with each body).", "headers": ["Factor", "PSPO I (Scrum.org)", "CSPO (Scrum Alliance)"], "rows": [
+      ["Cost", "~$200 per attempt", "~$550–$850 (varies by region)"],
+      ["Course required", "No — self-study allowed", "Yes — mandatory two-day course"],
+      ["Exam", "80 questions in 60 minutes, 85% to pass", "No exam required"],
+      ["Renewal", "None — it never expires", "Every 2 years (education + fee)"],
+      ["What the cost buys", "The assessment only", "Course, materials, and membership"],
+      ["Higher levels", "PSPO II and III available", "Advanced and Certified levels available"]
+    ] },
+    { "type": "heading", "level": 2, "text": "The real difference: what you're buying" },
+    { "type": "paragraph", "richText": "This is where people get confused by the price gap. The two organizations sell different things. Scrum.org sells you an assessment — you prove you know the material however you learned it, and the $200 is purely the exam. The Scrum Alliance sells you a course, with the certificate as its outcome; you're paying for two days of a trainer's time, not for a test." },
+    { "type": "paragraph", "richText": "That explains everything else. The CSPO has no exam because the course is the qualification, which also makes it a weaker signal of knowledge. The PSPO I has a demanding 85% pass mark, which makes it a stronger signal — but gives you no teaching at all." },
+    { "type": "heading", "level": 2, "text": "Choose the PSPO I if…" },
+    { "type": "list", "ordered": false, "items": [
+      "You're paying for it yourself and want the best value",
+      "You're comfortable self-studying from the Scrum Guide and free resources",
+      "You want a credential that never expires and never charges you again",
+      "You want the harder exam as evidence you actually know the material"
+    ] },
+    { "type": "heading", "level": 2, "text": "Choose the CSPO if…" },
+    { "type": "list", "ordered": false, "items": [
+      "Your employer is paying, which removes the cost objection entirely",
+      "You genuinely learn better with a live instructor and group exercises",
+      "You want the interaction and questions a two-day class allows",
+      "Your local job market specifically names Scrum Alliance credentials"
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "Don't assume the more expensive one is more respected. Both are widely recognized, and most job postings that ask for a Product Owner certification accept either. Paying three or four times more out of your own pocket buys you teaching, not extra credibility." },
+    { "type": "heading", "level": 2, "text": "Does either one get you hired?" },
+    { "type": "paragraph", "richText": [ "On its own, no — and this matters more than the choice between them. Product Owner is a decision-making role, so employers want evidence of judgement, not just a certificate. The credential gets you past filters; your track record gets you the job. We set out the realistic route in ", { "link": { "ref": "article:how-to-become-product-owner", "text": "how to become a Product Owner" } }, ", and what the role involves day to day in ", { "link": { "ref": "article:what-does-a-product-owner-do", "text": "what a Product Owner actually does" } }, "." ] },
+    { "type": "paragraph", "richText": [ "If you want the standalone verdict on the cheaper option before you buy, see ", { "link": { "ref": "article:is-pspo-worth-it", "text": "is the PSPO worth it" } }, ". And if you're still weighing Product Owner against the Scrum Master path, the same cost logic applies there — compare in ", { "link": { "ref": "article:psm-vs-csm", "text": "PSM vs CSM" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "Is the PSPO or CSPO better?", "answerRichText": "Neither is better as a credential — both are widely recognized and most employers accept either. The PSPO I is far better value for self-funded learners (~$200, no course, never expires), while the CSPO suits people whose employer pays for the mandatory two-day course." },
+      { "question": "Does the CSPO have an exam?", "answerRichText": "No. The CSPO is awarded on completion of the mandatory two-day course, with no exam required. The PSPO I is the opposite: no course is required, but you must pass an assessment of 80 questions in 60 minutes with a score of at least 85%." },
+      { "question": "Does the PSPO expire?", "answerRichText": [ "No. The PSPO I never expires and has no renewal fee — you pay once. The CSPO must be renewed every two years, which requires continuing education and a fee. Over several years that difference adds up. See ", { "link": { "ref": "article:is-pspo-worth-it", "text": "is the PSPO worth it" } }, "." ] }
+    ] }
+  ]
+}
