@@ -30,13 +30,7 @@
     { "type": "heading", "level": 3, "text": "PMP — the gold standard, but not a beginner cert" },
     { "type": "paragraph", "richText": [ "The Project Management Professional (PMP) is the most respected credential in the field, but it requires substantial documented experience, so most beginners can't take it yet. Keep it as the goal, not the starting point — see whether ", { "link": { "ref": "article:is-pmp-worth-it", "text": "the PMP is worth it" } }, " and how the PMP and CAPM compare in ", { "link": { "ref": "article:pmp-vs-capm", "text": "PMP vs CAPM" } }, "." ] },
     { "type": "heading", "level": 2, "text": "Side-by-side comparison" },
-    { "type": "table", "caption": "Beginner-friendly project management certifications compared (2026 figures; verify current fees with each provider).", "headers": ["Certification", "Exam / cost", "Experience required", "Best for"], "rows": [
-      ["Google PM Certificate", "~$49/month (~$300 total)", "None", "Complete beginners"],
-      ["CAPM (PMI)", "$225 member / $300 non-member", "None (23 hrs education)", "A recognized first credential"],
-      ["PSM I (Scrum.org)", "$200 exam, no course required", "None", "Agile / software teams"],
-      ["CSM (Scrum Alliance)", "~$800–$1,500 (course required)", "None", "Agile, employer-funded"],
-      ["PMP (PMI)", "$425 member / $675 non-member", "36–60 months", "Experienced PMs (later)"]
-    ] },
+    { "type": "certTable", "caption": "Beginner-friendly project management certifications compared (2026 figures, verified with each provider).", "certs": ["google-pm", "capm", "psm", "csm", "pmp"], "fields": ["examCost", "training", "experience", "renewal"] },
     { "type": "callout", "variant": "warn", "richText": "Watch the total cost, not just the exam fee. The CSM looks expensive because a two-day course is mandatory; the PSM I looks cheap because you can self-study and just pay for the exam. The sticker price rarely tells the whole story." },
     { "type": "heading", "level": 2, "text": "How to choose in five minutes" },
     { "type": "list", "ordered": true, "items": [

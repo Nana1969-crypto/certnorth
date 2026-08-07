@@ -1,0 +1,54 @@
+{
+  "id": "how-to-become-product-owner",
+  "slug": "how-to-become-a-product-owner",
+  "clusterId": "cl_paths",
+  "title": "How to Become a Product Owner (Realistic Path)",
+  "dek": "Most Product Owners move into the role sideways — from business analysis, Scrum Master work, or deep domain knowledge — rather than being hired straight in. The practical route is to build product judgement where you already work, then add a certification like the PSPO I to make it official.",
+  "authorId": "author_team",
+  "publishedAt": "2026-08-02",
+  "updatedAt": "2026-08-02",
+  "intent": { "primaryKeyword": "how to become a product owner" },
+  "seo": {
+    "metaTitle": "How to Become a Product Owner (Real Path)",
+    "metaDescription": "The realistic route into a Product Owner role — the skills that actually matter, which certification to pick, and why it's rarely an entry-level job."
+  },
+  "sources": [
+    { "label": "Scrum.org — The Scrum Guide", "url": "https://scrumguides.org/" },
+    { "label": "Scrum.org — Professional Scrum Product Owner I (PSPO I)", "url": "https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification" },
+    { "label": "Scrum Alliance — Certified Scrum Product Owner (CSPO)", "url": "https://www.scrumalliance.org/get-certified/product-owner-track/certified-scrum-product-owner" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Product Owner is one of the most sought-after roles in agile teams — and one of the hardest to be hired into directly. Course providers will tell you a certification makes you a Product Owner. It doesn't. Here's the honest path most people actually take." },
+    { "type": "callout", "variant": "warn", "richText": "Set expectations first: Product Owner is rarely an entry-level job. Employers are handing someone the authority to decide what a team builds, so they want evidence of judgement. Almost everyone arrives sideways — from business analysis, a Scrum Master role, customer-facing work, or deep knowledge of the business domain." },
+    { "type": "heading", "level": 2, "text": "Step 1 — Understand what you're signing up for" },
+    { "type": "paragraph", "richText": [ "Before investing money, be sure you want the job. The Product Owner owns the product backlog and decides priority — which means saying no to stakeholders, constantly, with reasons. If that sounds draining rather than energizing, it's the wrong role. We break the day-to-day down in ", { "link": { "ref": "article:what-does-a-product-owner-do", "text": "what a Product Owner actually does" } }, "." ] },
+    { "type": "heading", "level": 2, "text": "Step 2 — Build the skills where you already are" },
+    { "type": "paragraph", "richText": "This is the step people skip, and it's the one that actually gets you hired. You can practise most of the job before you hold the title:" },
+    { "type": "list", "ordered": false, "items": [
+      "Prioritization — practise ordering work by value and defending the order out loud",
+      "Talking to users and customers, then turning what you hear into clear requirements",
+      "Writing backlog items other people can act on without asking you three questions",
+      "Saying no diplomatically — the single most under-rated Product Owner skill",
+      "Learning your business domain deeply; domain knowledge is often what tips a hire"
+    ] },
+    { "type": "callout", "variant": "tip", "richText": "The fastest realistic move is internal. If your company already runs Scrum, volunteer to help the current Product Owner with backlog refinement or stakeholder interviews. Employers promote into product ownership far more often than they hire strangers into it." },
+    { "type": "heading", "level": 2, "text": "Step 3 — Pick a certification (after, not before)" },
+    { "type": "paragraph", "richText": "A certification proves you understand the framework and gets you through recruiter filters. It does not prove judgement, and it won't compensate for having none. Get it once you've started building the skills above. There are two mainstream options:" },
+    { "type": "table", "caption": "The two main Product Owner certifications (2026; confirm current fees with each body).", "headers": ["", "PSPO I (Scrum.org)", "CSPO (Scrum Alliance)"], "rows": [
+      ["Cost", "~$200 per attempt", "~$550–$850 (course included)"],
+      ["Course required", "No — self-study allowed", "Yes — two-day course"],
+      ["Exam", "Yes, rigorous", "No exam required"],
+      ["Renewal", "None — never expires", "Every 2 years (fee + education)"]
+    ] },
+    { "type": "paragraph", "richText": "Choose the PSPO I if you're self-funding and want the cheaper, permanent credential with a credible exam behind it. Choose the CSPO if your employer is paying and you'd genuinely benefit from two days of guided, interactive training. The trade-off mirrors the Scrum Master certifications almost exactly." },
+    { "type": "heading", "level": 2, "text": "Step 4 — Make your experience legible" },
+    { "type": "paragraph", "richText": "When you apply, don't lead with the certificate. Lead with decisions you've made: a feature you argued for and why, something you cut and what it saved, a customer conversation that changed the plan. Hiring managers are trying to work out whether you can prioritize under pressure — give them the evidence directly." },
+    { "type": "callout", "variant": "info", "richText": "Product Owner and Scrum Master are the two doors into an agile team, and people often weigh them against each other. The Scrum Master role is more often open to career-changers, because it's a facilitation job rather than a decision-making one — which makes it a common stepping stone toward product ownership later." },
+    { "type": "paragraph", "richText": [ "If that route appeals, see ", { "link": { "ref": "article:how-to-become-scrum-master", "text": "how to become a Scrum Master" } }, " and the certification comparison in ", { "link": { "ref": "article:psm-vs-csm", "text": "PSM vs CSM" } }, ". For the difference between the two roles, start with ", { "link": { "ref": "article:what-does-a-scrum-master-do", "text": "what a Scrum Master does" } }, ", and for how the wider framework fits together, ", { "link": { "ref": "article:kanban-vs-scrum", "text": "Kanban vs Scrum" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "Can I become a Product Owner with no experience?", "answerRichText": [ "Rarely as a first job. The role carries decision-making authority, so employers look for evidence of judgement — usually from business analysis, customer-facing work, domain expertise, or a Scrum Master role. Moving internally is the most realistic route. See ", { "link": { "ref": "article:what-does-a-product-owner-do", "text": "what a Product Owner does" } }, " to judge the fit." ] },
+      { "question": "Which Product Owner certification is best?", "answerRichText": "For self-funded learners, the PSPO I from Scrum.org is usually better value — around $200, no mandatory course, a rigorous exam, and it never expires. The CSPO from the Scrum Alliance includes a two-day course and suits people whose employer is paying, but costs more and needs renewal every two years." },
+      { "question": "Is Product Owner better than Scrum Master?", "answerRichText": [ "Neither is better — they're different jobs. The Product Owner decides what gets built; the Scrum Master helps the team work well. Scrum Master roles are more often open to career-changers, so many people start there and move into product ownership later. Compare in ", { "link": { "ref": "article:what-does-a-scrum-master-do", "text": "what does a Scrum Master do" } }, "." ] }
+    ] }
+  ]
+}

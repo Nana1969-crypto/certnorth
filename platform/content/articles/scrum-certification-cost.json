@@ -1,0 +1,63 @@
+{
+  "id": "scrum-certification-cost",
+  "slug": "scrum-certification-cost",
+  "clusterId": "cl_guides",
+  "title": "Scrum Certification Cost in 2026 (All Four Compared)",
+  "dek": "The PSM I and PSPO I cost about $200 each, once, forever. The CSM and CSPO cost roughly $550–$1,500 up front because a course is mandatory, then $100 plus 20 hours of learning every two years — so after a decade they can cost eight times more.",
+  "authorId": "author_team",
+  "publishedAt": "2026-08-06",
+  "updatedAt": "2026-08-06",
+  "intent": { "primaryKeyword": "scrum certification cost" },
+  "seo": {
+    "metaTitle": "Scrum Certification Cost in 2026 (Compared)",
+    "metaDescription": "What PSM, CSM, PSPO and CSPO really cost in 2026 — sticker price, mandatory courses, and the renewal fees that make two of them cost far more."
+  },
+  "sources": [
+    { "label": "Scrum.org — Professional Scrum Master I (PSM I)", "url": "https://www.scrum.org/assessments/professional-scrum-master-i-certification" },
+    { "label": "Scrum.org — Professional Scrum Product Owner I (PSPO I)", "url": "https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification" },
+    { "label": "Scrum Alliance — Certified ScrumMaster (CSM)", "url": "https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster" },
+    { "label": "Scrum Alliance — Certified Scrum Product Owner (CSPO)", "url": "https://www.scrumalliance.org/get-certified/product-owner-track/certified-scrum-product-owner" },
+    { "label": "Scrum Alliance — Maintaining your certification (SEUs and renewal)", "url": "https://www.scrumalliance.org/get-certified/maintain-your-certification" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Almost every guide to Scrum certification costs quotes the sticker price and stops. That's the smallest part of the story — because two of the four main certifications never charge you again, and the other two charge you every two years for as long as you keep them. Here's the full picture before you spend anything." },
+    { "type": "callout", "variant": "info", "richText": "The short version: Scrum.org sells you an assessment (about $200, self-study allowed, permanent). The Scrum Alliance sells you a course, with the certificate as its outcome (roughly $550–$1,500, mandatory class, renewed every two years). Neither model is wrong — but they cost very different amounts over a career." },
+    { "type": "heading", "level": 2, "text": "The up-front cost" },
+    { "type": "table", "caption": "What each Scrum certification costs to obtain (2026; confirm current fees with each body).", "headers": ["Certification", "Body", "Cost to obtain", "Course required?"], "rows": [
+      ["PSM I", "Scrum.org", "~$200 per attempt", "No — self-study allowed"],
+      ["PSPO I", "Scrum.org", "~$200 per attempt", "No — self-study allowed"],
+      ["CSM", "Scrum Alliance", "~$800–$1,500 all-in", "Yes — two-day course"],
+      ["CSPO", "Scrum Alliance", "~$550–$850", "Yes — two-day course"]
+    ] },
+    { "type": "paragraph", "richText": "The Scrum Alliance figures are ranges rather than fixed prices because the cost is set by the trainer and varies by region — the same certification can differ by hundreds of dollars depending on who teaches it and where. Always price two or three trainers before booking." },
+    { "type": "heading", "level": 2, "text": "The cost most guides ignore: renewal" },
+    { "type": "paragraph", "richText": "This is where the gap really opens. The Scrum.org certifications never expire and have no renewal fee — you pay once. Scrum Alliance foundational certifications (including the CSM and CSPO) must be renewed every two years, which costs $100 plus 20 SEUs (Scrum Education Units, where one hour of learning equals one SEU)." },
+    { "type": "table", "caption": "Estimated total cost of keeping each certification valid for 10 years (renewal fees only; excludes any money spent earning SEUs).", "headers": ["Certification", "Initial", "Renewals over 10 years", "Total"], "rows": [
+      ["PSM I", "~$200", "None — never expires", "~$200"],
+      ["PSPO I", "~$200", "None — never expires", "~$200"],
+      ["CSM", "~$800–$1,500", "4 × $100 = $400", "~$1,200–$1,900"],
+      ["CSPO", "~$550–$850", "4 × $100 = $400", "~$950–$1,250"]
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "The 20 SEUs are a real cost too, even though they aren't a fee. That's 20 hours of learning every two years, and if you satisfy them with paid courses or conferences rather than free webinars and reading, the true renewal cost rises well above $100. Budget the time as well as the money." },
+    { "type": "heading", "level": 2, "text": "So which is cheapest?" },
+    { "type": "paragraph", "richText": "On pure cost, the Scrum.org route wins decisively — around $200 once, versus potentially ten times that over a decade. But cost isn't the only thing you're buying, and it would be dishonest to pretend otherwise:" },
+    { "type": "list", "ordered": false, "items": [
+      "The Scrum Alliance price includes teaching — two days with a trainer who answers your questions",
+      "The Scrum.org price includes no teaching at all; you self-study or pay separately for a course",
+      "The Scrum.org exams are harder (85% to pass), so preparation takes real effort",
+      "The CSM requires no exam pass at all, which some people find much less stressful",
+      "If your employer pays, the cost difference stops mattering and the course becomes a genuine perk"
+    ] },
+    { "type": "callout", "variant": "tip", "richText": "A practical rule: if you're paying yourself, take the Scrum.org route and put some of the money you save toward a cheap prep course if you want teaching. If your employer is paying, take the Scrum Alliance course — you get the instruction at no personal cost, and the renewal fee is usually covered too." },
+    { "type": "heading", "level": 2, "text": "Don't forget the retake cost" },
+    { "type": "paragraph", "richText": "One asymmetry worth knowing: the Scrum.org $200 buys a single attempt, so failing means paying again. The CSM and CSPO include the certification in the course price, and the CSPO has no exam at all. If you're not a confident exam-taker, factor a possible second attempt into the Scrum.org figure — it's still far cheaper, but $400 is not $200." },
+    { "type": "heading", "level": 2, "text": "Which one should you actually buy?" },
+    { "type": "paragraph", "richText": [ "Cost should inform the decision, not make it — the right certification is the one that matches your target role. For Scrum Master roles, compare the two in ", { "link": { "ref": "article:psm-vs-csm", "text": "PSM vs CSM" } }, ", with standalone verdicts in ", { "link": { "ref": "article:is-psm-worth-it", "text": "is the PSM worth it" } }, " and ", { "link": { "ref": "article:is-csm-worth-it", "text": "is the CSM worth it" } }, ". For product roles, see ", { "link": { "ref": "article:pspo-vs-cspo", "text": "PSPO vs CSPO" } }, " and ", { "link": { "ref": "article:is-pspo-worth-it", "text": "is the PSPO worth it" } }, "." ] },
+    { "type": "paragraph", "richText": [ "And if you're weighing Scrum against traditional project management, the PMI route has a different cost structure again — see our ", { "link": { "ref": "article:pmp-cost", "text": "PMP cost breakdown" } }, ". To decide which world suits you first, start with ", { "link": { "ref": "article:how-to-become-scrum-master", "text": "how to become a Scrum Master" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "What is the cheapest Scrum certification?", "answerRichText": "The PSM I and PSPO I from Scrum.org, at roughly $200 each. No course is required and neither ever expires, so that $200 is the total lifetime cost — compared with $950 or more over ten years for the Scrum Alliance equivalents." },
+      { "question": "Do Scrum certifications expire?", "answerRichText": "It depends on the body. Scrum.org certifications (PSM, PSPO) never expire and have no renewal fee. Scrum Alliance foundational certifications (CSM, CSPO) expire after two years and require 20 SEUs plus a $100 fee to renew." },
+      { "question": "Why is the CSM so much more expensive than the PSM?", "answerRichText": [ "Because you're buying different things. The CSM price includes a mandatory two-day course with a certified trainer, while the PSM price covers only the assessment — you learn on your own. The gap is teaching, not prestige. See ", { "link": { "ref": "article:psm-vs-csm", "text": "PSM vs CSM" } }, "." ] }
+    ] }
+  ]
+}

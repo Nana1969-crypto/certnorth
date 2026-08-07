@@ -1,0 +1,58 @@
+{
+  "id": "kanban-vs-scrum",
+  "slug": "kanban-vs-scrum",
+  "clusterId": "cl_skills",
+  "title": "Kanban vs Scrum: What's the Difference?",
+  "dek": "Scrum works in fixed-length sprints with defined roles and regular ceremonies; Kanban is a continuous flow with no sprints, no required roles, and a focus on limiting work in progress. Use Scrum when a team benefits from cadence; use Kanban for unpredictable, on-demand work.",
+  "authorId": "author_team",
+  "publishedAt": "2026-07-31",
+  "updatedAt": "2026-07-31",
+  "intent": { "primaryKeyword": "kanban vs scrum" },
+  "seo": {
+    "metaTitle": "Kanban vs Scrum: What's the Difference?",
+    "metaDescription": "Kanban vs Scrum explained simply — sprints vs continuous flow, roles, boards, and mid-work change — plus how to choose the right one for your team."
+  },
+  "sources": [
+    { "label": "Scrum.org — The Scrum Guide", "url": "https://scrumguides.org/" },
+    { "label": "Kanban University / kanbanguides.org — The Kanban Guide", "url": "https://kanbanguides.org/" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Kanban and Scrum are the two most common ways agile teams organize their work — and they're often talked about as rivals. They're not really opposites: Scrum is a structured framework, while Kanban is a method for managing flow that you can layer on almost any process. Here's the honest difference and how to choose." },
+    { "type": "callout", "variant": "info", "richText": "The short answer: Scrum organizes work into fixed-length sprints with defined roles and events; Kanban is a continuous flow with no sprints and no required roles, focused on visualizing work and limiting how much is in progress at once. Scrum gives cadence; Kanban gives flexibility." },
+    { "type": "heading", "level": 2, "text": "The core difference: sprints vs flow" },
+    { "type": "paragraph", "richText": "Scrum divides work into sprints — fixed time-boxes (often two weeks) in which the team commits to a set of work, then reviews and improves at the end. It comes with defined accountabilities (a Scrum Master, a Product Owner, and Developers) and a set of events like Sprint Planning and the Retrospective." },
+    { "type": "paragraph", "richText": "Kanban has none of that structure by default. Work flows continuously: you pull the next item when you have capacity, rather than committing to a batch for a fixed period. Its central discipline is the work-in-progress (WIP) limit — a cap on how many items can be in each stage at once, which forces the team to finish work before starting more." },
+    { "type": "heading", "level": 2, "text": "Side-by-side comparison" },
+    { "type": "table", "caption": "Kanban vs Scrum on the factors that actually differ (per the Scrum Guide and the Kanban Guide).", "headers": ["Factor", "Scrum", "Kanban"], "rows": [
+      ["Cadence", "Fixed-length sprints", "Continuous flow, no sprints"],
+      ["Roles", "Scrum Master, Product Owner, Developers", "No required roles"],
+      ["Core discipline", "Sprint commitment + ceremonies", "Visualize work + limit WIP"],
+      ["Change mid-cycle", "Discouraged during a sprint", "Allowed any time"],
+      ["Key metric", "Velocity (work per sprint)", "Cycle time / throughput"],
+      ["Board resets", "Often cleared each sprint", "Persistent, always flowing"]
+    ] },
+    { "type": "heading", "level": 2, "text": "When to use Scrum" },
+    { "type": "list", "ordered": false, "items": [
+      "The work can be planned in batches and benefits from a regular rhythm",
+      "The team wants built-in moments to inspect and improve (the Retrospective)",
+      "You're building a product in iterations with a clear owner setting priorities",
+      "The team is newer to agile and benefits from a defined structure to follow"
+    ] },
+    { "type": "heading", "level": 2, "text": "When to use Kanban" },
+    { "type": "list", "ordered": false, "items": [
+      "Work arrives unpredictably and can't be neatly batched (e.g. support, ops, maintenance)",
+      "Priorities change frequently and you need to reprioritize on the fly",
+      "The team wants to improve flow and reduce how long items take to finish",
+      "You want to add agile discipline without imposing sprints and fixed roles"
+    ] },
+    { "type": "callout", "variant": "tip", "richText": "You don't have to choose absolutely. Many teams run \"Scrumban\" — Scrum's cadence and events combined with Kanban's WIP limits and flow focus. If your Scrum board is always clogged with unfinished work, adding WIP limits is a common, low-risk first step." },
+    { "type": "callout", "variant": "warn", "richText": "A frequent mistake: calling any board with sticky notes \"Kanban.\" A board alone isn't Kanban — the discipline is the WIP limits and the focus on flow. Without those, you just have a to-do list on a wall." },
+    { "type": "heading", "level": 2, "text": "So which is better?" },
+    { "type": "paragraph", "richText": [ "Neither is better in the abstract — it depends on the nature of your work. Predictable, plannable product work suits Scrum; unpredictable, on-demand work suits Kanban. Both sit under the agile umbrella, which we contrast with traditional delivery in ", { "link": { "ref": "article:agile-vs-waterfall", "text": "Agile vs Waterfall" } }, ". If Scrum is your direction, understanding the facilitator role helps — see ", { "link": { "ref": "article:what-does-a-scrum-master-do", "text": "what a Scrum Master does" } }, " and how to move into it in ", { "link": { "ref": "article:how-to-become-scrum-master", "text": "how to become a Scrum Master" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "Is Kanban or Scrum easier to start with?", "answerRichText": "Kanban is often easier to adopt because it doesn't require new roles or fixed sprints — you can apply it to your existing process by visualizing the work and adding WIP limits. Scrum gives more structure, which some newer teams find helpful, but it's a bigger change to introduce." },
+      { "question": "Can you use Kanban and Scrum together?", "answerRichText": "Yes — the combination is often called Scrumban. Teams keep Scrum's cadence and events while adopting Kanban's WIP limits and flow focus. It's common for teams that like Scrum's rhythm but struggle with too much unfinished work in a sprint." },
+      { "question": "Does Kanban have a Scrum Master?", "answerRichText": [ "No. Kanban has no required roles at all, so there's no Scrum Master, Product Owner, or set team structure — those are specific to Scrum. You can read what that Scrum role actually involves in ", { "link": { "ref": "article:what-does-a-scrum-master-do", "text": "what does a Scrum Master do" } }, "." ] }
+    ] }
+  ]
+}

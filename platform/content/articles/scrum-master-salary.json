@@ -1,0 +1,58 @@
+{
+  "id": "scrum-master-salary",
+  "slug": "scrum-master-salary",
+  "clusterId": "cl_salary",
+  "title": "Scrum Master Salary in 2026 (US, UK, Canada & Australia)",
+  "dek": "There's no official government salary figure for Scrum Masters, so every number is self-reported. In the US they average roughly $123k–$127k (Indeed, Glassdoor); pay varies by country — about £54k in the UK, C$109k in Canada, and A$137k in Australia.",
+  "authorId": "author_team",
+  "publishedAt": "2026-07-31",
+  "updatedAt": "2026-07-31",
+  "intent": { "primaryKeyword": "scrum master salary" },
+  "seo": {
+    "metaTitle": "Scrum Master Salary in 2026 (by Country)",
+    "metaDescription": "What Scrum Masters earn in 2026 across the US, UK, Canada, and Australia — each source named, plus an honest note on why there's no official figure."
+  },
+  "sources": [
+    { "label": "Glassdoor — Scrum Master salary (United States)", "url": "https://www.glassdoor.com/Salaries/scrum-master-salary-SRCH_KO0,12.htm" },
+    { "label": "Indeed — Scrum Master salary (United States)", "url": "https://www.indeed.com/career/scrum-master/salaries" },
+    { "label": "Indeed — Scrum Master salary (United Kingdom)", "url": "https://uk.indeed.com/career/scrum-master/salaries" },
+    { "label": "U.S. Bureau of Labor Statistics — Project Management Specialists (for comparison)", "url": "https://www.bls.gov/ooh/business-and-financial/project-management-specialists.htm" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Scrum Master pay looks generous — often six figures in the US — but there's an honesty problem most salary articles skip: no government statistics agency tracks \"Scrum Master\" as a distinct job. So unlike a project manager salary, every figure you'll see is self-reported to a salary aggregator. Here's the honest, country-by-country picture, with the source named for each number." },
+    { "type": "callout", "variant": "warn", "richText": "Read this first: the U.S. Bureau of Labor Statistics has an official occupation code for project managers but none for Scrum Masters. That means all the numbers below come from self-reported data (Glassdoor, Indeed and similar), not official statistics. Treat them as useful ranges, not precise facts." },
+    { "type": "heading", "level": 2, "text": "US Scrum Master salary" },
+    { "type": "paragraph", "richText": "In the United States, the two largest salary aggregators land close together. Indeed reports an average of about $123,000 per year (based on job-posting data), and Glassdoor reports an average of roughly $127,000, with a typical range from about $100,000 at the 25th percentile to $163,000 at the 75th. Entry-level Scrum Masters average closer to $80,000, and experienced or lead roles push well past $160,000." },
+    { "type": "table", "caption": "US Scrum Master pay by level (2026; self-reported Glassdoor averages — not official statistics).", "headers": ["Level", "Typical average pay"], "rows": [
+      ["Entry level", "~$80,000"],
+      ["Mid / general Scrum Master", "~$123,000–$127,000"],
+      ["Lead / advanced", "~$162,000–$169,000"]
+    ] },
+    { "type": "heading", "level": 2, "text": "Salary by country" },
+    { "type": "table", "caption": "Typical Scrum Master pay by country (2026). All figures are self-reported aggregator data and vary by methodology — click the source for current ranges.", "headers": ["Country", "Typical annual pay", "Source"], "rows": [
+      ["United States", "~$123,000–$127,000", "Indeed / Glassdoor"],
+      ["United Kingdom", "~£54,000 (higher with experience)", "Indeed / salary data"],
+      ["Canada", "~C$109,000", "Salary aggregator data"],
+      ["Australia", "~A$137,000", "Salary aggregator data"]
+    ] },
+    { "type": "callout", "variant": "info", "richText": "For contrast, the project manager role does have an official US median — $100,750 (BLS, May 2024). Interestingly, self-reported Scrum Master averages often sit above that, likely because Scrum Masters cluster in higher-paying tech and finance sectors. But remember you're comparing an official median with self-reported averages, which isn't a like-for-like comparison." },
+    { "type": "callout", "variant": "warn", "richText": "Don't compare these country numbers directly as if they were measured the same way. Currencies, cost of living, tax, and how each source defines the role all differ. Use each figure within its own country, and click the source for the current range." },
+    { "type": "heading", "level": 2, "text": "What moves your salary" },
+    { "type": "list", "ordered": false, "items": [
+      "Experience — by far the biggest factor; lead Scrum Masters can earn double an entry-level salary",
+      "Industry — aerospace/defense, financial services, and consulting tend to pay the most",
+      "Location — major tech hubs pay more, but usually cost more to live in too",
+      "Scope — coaching multiple teams or moving toward agile-coach and RTE roles raises pay",
+      "Real facilitation track record — the market has many certified Scrum Masters, so demonstrated experience is what commands the top of the range"
+    ] },
+    { "type": "callout", "variant": "tip", "richText": "The biggest early jump is landing the Scrum Master title itself, not stacking more certificates. A certification opens the door; running real sprints and retrospectives is what moves you up the pay band." },
+    { "type": "heading", "level": 2, "text": "Do certifications raise Scrum Master pay?" },
+    { "type": "paragraph", "richText": [ "A certification helps you get hired, but it's experience that lifts pay over time. If you're deciding which credential to get, we compare the two big options in ", { "link": { "ref": "article:psm-vs-csm", "text": "PSM vs CSM" } }, ", and give the honest standalone verdict in ", { "link": { "ref": "article:is-psm-worth-it", "text": "is the PSM worth it" } }, ". To actually break into the role, see ", { "link": { "ref": "article:how-to-become-scrum-master", "text": "how to become a Scrum Master" } }, "." ] },
+    { "type": "paragraph", "richText": [ "If you're weighing Scrum Master pay against traditional project management, compare it with our ", { "link": { "ref": "article:project-manager-salary", "text": "project manager salary guide" } }, ", which uses the official BLS median for that role." ] },
+    { "type": "faq", "items": [
+      { "question": "What is the average Scrum Master salary in 2026?", "answerRichText": "In the US, self-reported averages are about $123,000 (Indeed) to $127,000 (Glassdoor) per year. Typical pay is roughly £54,000 in the UK, about C$109,000 in Canada, and around A$137,000 in Australia — all from the salary sources linked in this guide." },
+      { "question": "Is there an official Scrum Master salary figure?", "answerRichText": [ "No. Unlike project managers, Scrum Masters don't have a distinct government occupation code, so no agency like the US BLS tracks their pay. Every figure comes from self-reported salary aggregators. For a role that does have an official median, see ", { "link": { "ref": "article:project-manager-salary", "text": "project manager salary" } }, "." ] },
+      { "question": "Do Scrum Masters earn more than project managers?", "answerRichText": "Self-reported Scrum Master averages often sit above the official US project manager median of $100,750, probably because Scrum Masters concentrate in higher-paying tech and finance sectors. But that compares self-reported averages with an official median, so treat the gap cautiously." }
+    ] }
+  ]
+}

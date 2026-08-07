@@ -1,0 +1,70 @@
+{
+  "id": "product-owner-salary",
+  "slug": "product-owner-salary",
+  "clusterId": "cl_salary",
+  "title": "Product Owner Salary in 2026 (And Why Estimates Disagree)",
+  "dek": "US estimates range from about $108,000 to $142,000 — a 31% gap between sources measuring the same job. There's no official government figure, so this guide shows every source side by side and explains why they differ, plus pay in the UK, Canada and Australia.",
+  "authorId": "author_team",
+  "publishedAt": "2026-08-05",
+  "updatedAt": "2026-08-05",
+  "intent": { "primaryKeyword": "product owner salary" },
+  "seo": {
+    "metaTitle": "Product Owner Salary in 2026 (by Source)",
+    "metaDescription": "What Product Owners earn in 2026 — why US estimates range from $108k to $142k, what each source measures, and pay in the UK, Canada and Australia."
+  },
+  "sources": [
+    { "label": "Glassdoor — Product Owner salary (United States)", "url": "https://www.glassdoor.com/Salaries/product-owner-salary-SRCH_KO0,13.htm" },
+    { "label": "Indeed — Product Owner salary (United States)", "url": "https://www.indeed.com/career/product-owner/salaries" },
+    { "label": "Built In — Product Owner salary (US tech)", "url": "https://builtin.com/salaries/us/product-owner" },
+    { "label": "Salary.com — Product Owner salary", "url": "https://www.salary.com/research/salary/listing/product-owner-salary" },
+    { "label": "PayScale — Product Owner salary (United Kingdom)", "url": "https://www.payscale.com/research/UK/Job=Product_Owner/Salary" },
+    { "label": "U.S. Bureau of Labor Statistics — Project Management Specialists (for comparison)", "url": "https://www.bls.gov/ooh/business-and-financial/project-management-specialists.htm" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Search for \"Product Owner salary\" and you'll get confident answers that contradict each other by tens of thousands of dollars. That's not because someone is lying — it's because the sources measure different things, and none of them is official. This guide shows you all of them at once, and explains what's actually going on." },
+    { "type": "callout", "variant": "warn", "richText": "Start here: no government statistics agency tracks \"Product Owner\" as an occupation. The U.S. Bureau of Labor Statistics has a code for project management specialists but none for Product Owners, so every figure below comes from a commercial salary aggregator — not official data." },
+    { "type": "heading", "level": 2, "text": "The US picture: five sources, one job" },
+    { "type": "paragraph", "richText": "Here is what the major sources reported for the same role in 2026. Note the spread: the highest average is over 30% above the lowest." },
+    { "type": "table", "caption": "US Product Owner salary by source (2026). All are self-reported or modelled commercial data, not official statistics.", "headers": ["Source", "Reported average", "What it's based on"], "rows": [
+      ["Glassdoor", "~$142,100", "Employee self-reports"],
+      ["Indeed", "~$117,000 (+ bonus)", "Job postings, last 36 months"],
+      ["ZipRecruiter", "~$112,900", "Job postings"],
+      ["Salary.com", "~$111,900", "Modelled compensation data"],
+      ["Built In", "~$108,400", "US tech companies"]
+    ] },
+    { "type": "heading", "level": 2, "text": "Why the sources disagree" },
+    { "type": "paragraph", "richText": "This is the part other salary articles skip, and it's the part that helps you use the numbers properly. Four things drive the gap:" },
+    { "type": "list", "ordered": false, "items": [
+      "What's counted as pay — some averages fold in bonuses and equity, others report base salary only",
+      "Where the data comes from — employee self-reports skew differently from advertised job postings",
+      "Who's in the sample — a tech-focused source captures a different population than a general one",
+      "Seniority mix — a sample heavy with senior Product Owners pulls the average up sharply"
+    ] },
+    { "type": "callout", "variant": "tip", "richText": "How to read this practically: treat roughly $110,000–$120,000 as the realistic middle for a general US Product Owner role, and the higher figures as reflecting senior roles, total compensation, or high-paying tech markets. Then check advertised ranges for your own city and industry — that's the number that actually applies to you." },
+    { "type": "heading", "level": 2, "text": "Salary by country" },
+    { "type": "table", "caption": "Typical Product Owner pay by country (2026). Commercial aggregator data; methodology varies by source and country.", "headers": ["Country", "Typical annual pay", "Source"], "rows": [
+      ["United States", "~$108,000–$142,000", "Glassdoor / Indeed / Built In"],
+      ["United Kingdom", "~£50,300", "PayScale"],
+      ["Canada", "~C$99,100", "Aggregator data"],
+      ["Australia", "~A$125,000–$145,000", "SEEK / Indeed"]
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "Don't convert these into one currency and compare them directly. Cost of living, tax, benefits, and how each country's sources define the role all differ. Use each figure within its own market." },
+    { "type": "heading", "level": 2, "text": "What actually moves your pay" },
+    { "type": "list", "ordered": false, "items": [
+      "Seniority — the single biggest factor; senior Product Owners can earn $160,000 and up in the US",
+      "Industry — technology and financial services pay well above the general average",
+      "Location — major tech hubs pay more, though usually with higher living costs",
+      "Scope — owning a revenue-generating product beats owning an internal tool",
+      "Domain expertise — deep knowledge of a regulated or technical field commands a premium"
+    ] },
+    { "type": "heading", "level": 2, "text": "How it compares to nearby roles" },
+    { "type": "paragraph", "richText": [ "Product Owner pay tends to sit close to Scrum Master pay, and both often run above the official US median for project managers ($100,750, BLS). But be careful with that comparison: you'd be weighing self-reported averages against an official median, which isn't like for like. See ", { "link": { "ref": "article:scrum-master-salary", "text": "Scrum Master salary" } }, " and ", { "link": { "ref": "article:project-manager-salary", "text": "project manager salary" } }, " for each role in full." ] },
+    { "type": "heading", "level": 2, "text": "Getting into the role" },
+    { "type": "paragraph", "richText": [ "Pay this good is a reason the role is competitive — and it's rarely an entry-level job, because employers are handing over authority to decide what a team builds. The realistic route is in ", { "link": { "ref": "article:how-to-become-product-owner", "text": "how to become a Product Owner" } }, ", the day-to-day reality in ", { "link": { "ref": "article:what-does-a-product-owner-do", "text": "what a Product Owner actually does" } }, ", and the certification decision in ", { "link": { "ref": "article:pspo-vs-cspo", "text": "PSPO vs CSPO" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "What is the average Product Owner salary in 2026?", "answerRichText": "In the US, estimates range from about $108,000 (Built In) to $142,000 (Glassdoor), with roughly $110,000–$120,000 a realistic middle for a general role. Outside the US, typical pay is around £50,300 in the UK, C$99,100 in Canada, and A$125,000–145,000 in Australia." },
+      { "question": "Why do Product Owner salary estimates vary so much?", "answerRichText": "Because the sources measure different things: some include bonuses and equity while others report base pay only, some use employee self-reports and others use job postings, and each covers a different mix of industries and seniority levels. None is official — no government agency tracks the role." },
+      { "question": "Do Product Owners earn more than Scrum Masters?", "answerRichText": [ "They're usually close, and the overlap between the two is larger than the difference. Both are reported above the official US project manager median, but since neither role has official data, treat any gap between them as approximate. Compare in ", { "link": { "ref": "article:scrum-master-salary", "text": "Scrum Master salary" } }, "." ] }
+    ] }
+  ]
+}

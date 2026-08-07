@@ -102,12 +102,34 @@ const renderers = {
     return `<section class="faq" aria-label="Frequently asked questions"><h2 id="faq">Frequently asked questions</h2>${items}</section>`;
   },
 
+  // Tabela comparativa gerada a partir de content/certifications.json (fonte
+  // única). O artigo escolhe QUAIS certificações e QUAIS campos; os valores
+  // nunca são digitados no artigo — assim um preço é corrigido num lugar só.
+  certTable: (b, ctx) => {
+    if (!b.caption) throw new Error('certTable exige caption (A11y)');
+    const fields = b.fields || ['examCost', 'training', 'experience', 'renewal'];
+    const labels = {
+      body: 'Awarded by', level: 'Level', examCost: 'Exam cost', training: 'Training',
+      experience: 'Experience required', renewal: 'Renewal',
+    };
+    const rows = b.certs.map((id) => {
+      const c = ctx.certs.find((x) => x.id === id);
+      if (!c) throw new Error(`certTable: certificação inexistente: ${id} (CERT-1)`);
+      return `<tr><th scope="row">${esc(c.name)}</th>` +
+        fields.map((f) => `<td>${esc(c[f] ?? '—')}</td>`).join('') + '</tr>';
+    }).join('');
+    const head = `<tr><th scope="col">Certification</th>` +
+      fields.map((f) => `<th scope="col">${esc(labels[f] || f)}</th>`).join('') + '</tr>';
+    return `<div class="table-wrap"><table><caption>${esc(b.caption)}</caption>` +
+      `<thead>${head}</thead><tbody>${rows}</tbody></table></div>`;
+  },
+
   divider: () => '<hr>',
 };
 
 // Renderiza a árvore. ctx acumula: headings (TOC), edges (grafo), faq (schema).
-function renderBlocks(blocks, resolve) {
-  const ctx = { headings: [], edges: [], faq: [], resolve };
+function renderBlocks(blocks, resolve, certs = []) {
+  const ctx = { headings: [], edges: [], faq: [], certs, resolve };
   const html = blocks.map((b) => {
     const r = renderers[b.type];
     if (!r) throw new Error(`bloco desconhecido: ${b.type}`);

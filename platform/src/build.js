@@ -33,8 +33,10 @@ function loadAll() {
     .map((f) => ({ ...readJson(path.join(artDir, f)), _file: f, _raw: fs.readFileSync(path.join(artDir, f), 'utf8') }));
   const pagesFile = path.join(CONTENT, 'pages.json');
   const pages = fs.existsSync(pagesFile) ? readJson(pagesFile) : [];
+  const certFile = path.join(CONTENT, 'certifications.json');
+  const certs = fs.existsSync(certFile) ? readJson(certFile).certifications : [];
   site.pillars = taxonomy.pillars;
-  return { site, authors, taxonomy, articles, pages };
+  return { site, authors, taxonomy, articles, pages, certs };
 }
 
 function urlFor(article, taxonomy) {
@@ -45,7 +47,7 @@ function urlFor(article, taxonomy) {
 
 // ---------------------------------------------------------------- GATE (bloqueante)
 // Validações automáticas da Fase 01 §8 — o build FALHA listando todas as violações.
-function runGate({ articles, authors, taxonomy }) {
+function runGate({ articles, authors, taxonomy, certs = [] }) {
   const errors = [];
   const err = (id, msg) => errors.push(`[${id}] ${msg}`);
   const kw = new Map(); const titles = new Map(); const descs = new Map(); const slugs = new Map();
@@ -98,7 +100,27 @@ function runGate({ articles, authors, taxonomy }) {
     // fontes citadas (Princípio 19)
     if (!a.sources || a.sources.length < 1) err(a.id, 'sem fontes citadas (Princípio 19)');
   }
+
+  // fonte única de dados: todo registro precisa de fonte real e data de verificação
+  for (const c of certs) {
+    if (!c.source || !/^https?:\/\//.test(c.source)) err(`cert:${c.id}`, 'sem source verificável (CERT-2)');
+    if (!/^\d{4}-\d{2}$/.test(c.verifiedOn || '')) err(`cert:${c.id}`, 'sem verifiedOn AAAA-MM (CERT-2)');
+  }
   return errors;
+}
+
+// ------------------------------------------------------- validade dos dados
+// Lembrete de revisão: aponta registros verificados há mais de MAX_MONTHS.
+// É AVISO, não erro — o motor nunca descobre preços sozinho (isso é trabalho
+// humano, por honestidade); ele só vigia o calendário e cobra a revisão.
+const STALE_AFTER_MONTHS = 6;
+function staleCerts(certs, now = new Date()) {
+  return certs.map((c) => {
+    const [y, m] = String(c.verifiedOn).split('-').map(Number);
+    const months = (now.getFullYear() - y) * 12 + (now.getMonth() + 1 - m);
+    return { id: c.id, name: c.name, verifiedOn: c.verifiedOn, months };
+  }).filter((c) => c.months >= STALE_AFTER_MONTHS)
+    .sort((a, b) => b.months - a.months);
 }
 
 // ---------------------------------------------------------------- grafo/afetados
@@ -120,10 +142,10 @@ function affectedRoutes(articleId, rendered, taxonomy) {
 // ---------------------------------------------------------------- build
 function build(opts = {}) {
   const t0 = Date.now();
-  const { site, authors, taxonomy, articles, pages } = loadAll();
+  const { site, authors, taxonomy, articles, pages, certs } = loadAll();
 
   // GATE
-  const gateErrors = runGate({ articles, authors, taxonomy });
+  const gateErrors = runGate({ articles, authors, taxonomy, certs });
   if (gateErrors.length) {
     console.error(`\n✖ GATE DE QUALIDADE FALHOU (${gateErrors.length} violações):\n`);
     for (const e of gateErrors) console.error('  ' + e);
@@ -147,7 +169,7 @@ function build(opts = {}) {
   // render de todos (barato em N pequeno; o incremental decide o que ESCREVER)
   const rendered = articles.map((a) => {
     const { url, pillar, cluster } = urlFor(a, taxonomy);
-    const { html, headings, edges, faq } = renderBlocks(a.body, resolve);
+    const { html, headings, edges, faq } = renderBlocks(a.body, resolve, certs);
     a._faq = faq; a._url = url;
     const words = JSON.stringify(a.body).split(/\s+/).length;
     const readingMin = Math.max(1, Math.round(words / 220));
@@ -284,6 +306,13 @@ function build(opts = {}) {
 
   const ms = Date.now() - t0;
   console.log(`✓ build ok em ${ms}ms — artigos: ${written} regenerados, ${skipped} pulados${pruned ? `, ${pruned} órfãos removidos` : ''} (incremental${fullRebuild ? ' OFF: código mudou' : ' ON'}); ${urls.length} URLs no sitemap`);
+
+  const stale = staleCerts(certs);
+  if (stale.length) {
+    console.warn(`\n⚠  REVISAR DADOS — ${stale.length} certificação(ões) sem verificação há ${STALE_AFTER_MONTHS}+ meses:`);
+    for (const c of stale) console.warn(`   ${c.name}: verificado em ${c.verifiedOn} (${c.months} meses atrás)`);
+    console.warn('   Confira o valor na fonte oficial e atualize content/certifications.json (incluindo verifiedOn).\n');
+  }
 }
 
 // ---------------------------------------------------------------- CLI

@@ -1,0 +1,58 @@
+{
+  "id": "is-pspo-worth-it",
+  "slug": "is-pspo-certification-worth-it",
+  "clusterId": "cl_worth",
+  "title": "Is the PSPO Worth It in 2026? (Honest Verdict)",
+  "dek": "Yes, if you're moving toward product ownership and paying your own way: around $200, no mandatory course, a credible exam, and it never expires. No, if you expect it to make you a Product Owner on its own — employers hire on judgement, not certificates.",
+  "authorId": "author_team",
+  "publishedAt": "2026-08-04",
+  "updatedAt": "2026-08-04",
+  "intent": { "primaryKeyword": "is the pspo worth it" },
+  "seo": {
+    "metaTitle": "Is the PSPO Certification Worth It? (2026)",
+    "metaDescription": "An honest 2026 verdict on the PSPO I — real cost, the 85% pass mark, why it never expires, who genuinely benefits, and who should skip it."
+  },
+  "sources": [
+    { "label": "Scrum.org — Professional Scrum Product Owner I (PSPO I)", "url": "https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification" },
+    { "label": "Scrum.org — The Scrum Guide", "url": "https://scrumguides.org/" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "The Professional Scrum Product Owner (PSPO I), from Scrum.org, is the cheapest credible route into a Product Owner credential. But cheap isn't the same as right for you — and there's one expectation about it that's worth killing before you pay." },
+    { "type": "callout", "variant": "info", "richText": "The short answer: worth it if you're heading toward product ownership and funding it yourself — it's inexpensive, respected, and permanent. Not worth it if you're buying it hoping the certificate alone will get you the job, because it won't." },
+    { "type": "heading", "level": 2, "text": "What it is and what it costs" },
+    { "type": "paragraph", "richText": "The PSPO I certifies that you understand Scrum and the Product Owner accountability — ordering a backlog, setting a Product Goal, and maximizing the value a team delivers. Three things make it unusually good value: the assessment costs about $200, no training course is required, and it never expires or charges a renewal fee." },
+    { "type": "table", "caption": "PSPO I at a glance (2026; confirm current details with Scrum.org).", "headers": ["Attribute", "Detail"], "rows": [
+      ["Cost", "~$200 per attempt"],
+      ["Course required", "No — self-study allowed"],
+      ["Format", "80 multiple-choice questions in 60 minutes"],
+      ["Pass mark", "85% (demanding)"],
+      ["Experience required", "None"],
+      ["Renewal", "None — it never expires"]
+    ] },
+    { "type": "heading", "level": 2, "text": "The case for it (real pros)" },
+    { "type": "list", "ordered": false, "items": [
+      "Excellent value — a recognized credential for around $200, with no course to buy",
+      "It never expires and has no renewal cost, unlike the course-based alternative",
+      "The 85% pass mark makes it a credible signal that you actually know the material",
+      "No prerequisites, so it's open to people still moving toward the role",
+      "It forces you to learn the framework properly, which shows in interviews"
+    ] },
+    { "type": "heading", "level": 2, "text": "The case against it (real cons)" },
+    { "type": "list", "ordered": false, "items": [
+      "It proves knowledge of Scrum, not product judgement — which is what employers actually buy",
+      "There's no teaching included; you're on your own for the learning",
+      "The 60-minute time limit and 85% bar catch out people who skim the Scrum Guide",
+      "Product Owner roles are rarely entry-level, so the certificate alone won't open the door"
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "Who it's NOT for: anyone expecting the certificate to make them a Product Owner. The role carries authority over what a team builds, so employers look for evidence of decisions you've made and defended. The PSPO supports that story — it doesn't replace it." },
+    { "type": "heading", "level": 2, "text": "PSPO or CSPO?" },
+    { "type": "paragraph", "richText": [ "The alternative is the CSPO from the Scrum Alliance, which requires a paid two-day course and costs several times more. If you're self-funding, the PSPO I is almost always the better buy; if your employer is paying and you want live teaching, the CSPO makes sense. Full comparison in ", { "link": { "ref": "article:pspo-vs-cspo", "text": "PSPO vs CSPO" } }, "." ] },
+    { "type": "heading", "level": 2, "text": "The honest bottom line" },
+    { "type": "paragraph", "richText": [ "For anyone genuinely heading toward product ownership, the PSPO I is a smart, low-risk purchase — cheap, credible, and permanent. Just be clear about what it does: it gets you past filters and proves you know Scrum. What gets you hired is described in ", { "link": { "ref": "article:how-to-become-product-owner", "text": "how to become a Product Owner" } }, ". If you're not yet sure the role suits you, read ", { "link": { "ref": "article:what-does-a-product-owner-do", "text": "what a Product Owner actually does" } }, " first — that's the cheapest decision you can make." ] },
+    { "type": "faq", "items": [
+      { "question": "Is the PSPO I hard to pass?", "answerRichText": "It's demanding but fair: 80 multiple-choice questions in 60 minutes with an 85% pass mark. People who study the Scrum Guide carefully and take practice assessments generally pass; people who skim it often don't, because the time limit leaves little room to think." },
+      { "question": "Does the PSPO certification expire?", "answerRichText": "No. The PSPO I never expires and has no renewal fee — you pay for the assessment once and keep the credential for life. That's a meaningful saving compared with the CSPO, which must be renewed every two years." },
+      { "question": "Do I need a course to take the PSPO?", "answerRichText": [ "No. Scrum.org lets you take the assessment without any training, so you can self-study from the Scrum Guide and free resources. That's the main reason it costs so much less than the course-based CSPO — see ", { "link": { "ref": "article:pspo-vs-cspo", "text": "PSPO vs CSPO" } }, "." ] }
+    ] }
+  ]
+}
