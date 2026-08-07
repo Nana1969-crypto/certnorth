@@ -26,6 +26,21 @@ Reinforce the **thinner pillars** while keeping the commercial certification clu
 - **Career Paths:** "How to become a Product Owner", "How to become an Agile Coach", "Project coordinator to project manager".
 - **Certifications (commercial):** "PMP vs PMI-ACP", "Best Agile certifications", "SAFe certification worth it", "CAPM vs PMP for beginners".
 
+## Publishing workflow (owner's standing decision, 2026-08-07)
+
+The owner has explicitly authorised Claude to **merge its own pull requests**, so
+publishing no longer waits on her. The flow per article stays:
+
+1. Write on `claude/content-site-setup-t8lbe5`.
+2. `node src/build.js --force` (GATE) + `node src/check.js` must both be green.
+3. Browser-verify: correct title, zero console errors, no horizontal scroll at 375px.
+4. Push, open a PR, then merge it. Cloudflare deploys from `main` automatically.
+
+Keep opening a PR per publication rather than pushing straight to `main` — it is
+what makes a single bad change cheap to revert. Never merge a PR whose build or
+check is red, and never skip the browser step to save time. If a fact could not
+be verified at its source, do not publish the number; say so to the owner instead.
+
 ## Non-negotiables (from the mission)
 
 - Never publish through a disabled gate; never fabricate data.
