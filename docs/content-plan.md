@@ -15,7 +15,7 @@ Reinforce the **thinner pillars** while keeping the commercial certification clu
 | Pillar | Cluster | Articles |
 |---|---|---|
 | Certifications | cl_compare, cl_worth, cl_guides | pmp-vs-capm, psm-vs-csm, pmp-vs-prince2, capm-vs-google-pm-certificate, pspo-vs-cspo, is-pmp-worth-it, is-capm-worth-it, is-psm-worth-it, is-csm-worth-it, is-pspo-worth-it, google-pm-certificate-worth-it, best-pm-certifications-beginners, pmp-cost, pmp-eligibility, how-long-to-get-pmp, agile-vs-waterfall |
-| Career Paths | cl_paths | how-to-become-project-manager, how-to-become-scrum-master, how-to-become-product-owner |
+| Career Paths | cl_paths | how-to-become-project-manager, how-to-become-scrum-master, how-to-become-product-owner, how-to-become-agile-coach |
 | Salaries | cl_salary | project-manager-salary, scrum-master-salary, product-owner-salary |
 | Skills & Methods | cl_skills | what-does-a-scrum-master-do, kanban-vs-scrum, what-does-a-product-owner-do |
 
