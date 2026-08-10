@@ -22,7 +22,10 @@ Reinforce the **thinner pillars** while keeping the commercial certification clu
 ## Candidate next articles (by priority)
 
 - **Skills/Methods (3 articles as of 2026-08-01):** next → "What is a product backlog", "How to learn Agile", "What is a sprint", "Scrum roles explained".
-- **Salaries:** "Product Owner salary", "Agile Coach salary", "PMP salary premium (does PMP raise pay?)".
+- **Salaries — NEXT UP (agreed with the owner on 2026-08-09):** "Agile Coach salary",
+  to pair with how-to-become-agile-coach. Planned for 2026-08-10, but **only when the
+  owner asks** — she sets the moment; do not publish it unprompted.
+  After that: "PMP salary premium (does PMP raise pay?)".
 - **Career Paths:** "How to become a Product Owner", "How to become an Agile Coach", "Project coordinator to project manager".
 - **Certifications (commercial):** "PMP vs PMI-ACP", "Best Agile certifications", "SAFe certification worth it", "CAPM vs PMP for beginners".
 

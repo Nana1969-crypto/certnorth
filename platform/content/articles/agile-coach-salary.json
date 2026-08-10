@@ -1,0 +1,61 @@
+{
+  "id": "agile-coach-salary",
+  "slug": "agile-coach-salary",
+  "clusterId": "cl_salary",
+  "title": "Agile Coach Salary in 2026 (And Why the Data Is Shaky)",
+  "dek": "US estimates run from about $133,000 to $188,000, with enterprise coaches reported above $220,000. But the samples behind these numbers are small — one major source averages just 88 salaries — so treat them as a rough band, not a benchmark.",
+  "authorId": "author_team",
+  "publishedAt": "2026-08-10",
+  "updatedAt": "2026-08-10",
+  "intent": { "primaryKeyword": "agile coach salary" },
+  "seo": {
+    "metaTitle": "Agile Coach Salary in 2026 (Honest Data)",
+    "metaDescription": "What Agile Coaches earn in 2026, why estimates range from $133k to $188k, and the sample-size problem that makes these figures less solid than they look."
+  },
+  "sources": [
+    { "label": "Glassdoor — Agile Coach salary (United States)", "url": "https://www.glassdoor.com/Salaries/agile-coach-salary-SRCH_KO0,11.htm" },
+    { "label": "Indeed — Agile Coach salary (United States)", "url": "https://www.indeed.com/career/agile-coach/salaries" },
+    { "label": "Glassdoor — Enterprise Agile Coach salary (United States)", "url": "https://www.glassdoor.com/Salaries/enterprise-agile-coach-salary-SRCH_KO0,22.htm" },
+    { "label": "U.S. Bureau of Labor Statistics — Project Management Specialists (for comparison)", "url": "https://www.bls.gov/ooh/business-and-financial/project-management-specialists.htm" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Agile Coach is among the best-paid roles in the agile world — six figures almost everywhere it exists. It's also the role where salary data is weakest, and most articles quote the biggest number they can find without mentioning that. Here's what the sources actually say, and how much weight each one can carry." },
+    { "type": "callout", "variant": "warn", "richText": "Two caveats before any number. First, no government statistics agency tracks \"Agile Coach\" as an occupation, so nothing here is official data. Second — and specific to this role — the samples are small: Indeed's US average draws on roughly 88 reported salaries. For comparison, its Scrum Master average uses hundreds and its Product Owner average thousands. Small samples move a lot." },
+    { "type": "heading", "level": 2, "text": "What the sources report" },
+    { "type": "table", "caption": "US Agile Coach pay by source and seniority (2026). Self-reported commercial data, not official statistics.", "headers": ["Role / source", "Reported average"], "rows": [
+      ["Agile Coach — Indeed", "~$133,000"],
+      ["Agile Coach — Glassdoor", "~$188,500"],
+      ["Senior Agile Coach — Glassdoor", "~$203,800"],
+      ["Lead Agile Coach — Glassdoor", "~$217,700"],
+      ["Enterprise Agile Coach — Glassdoor", "~$221,600"]
+    ] },
+    { "type": "paragraph", "richText": "The gap between the two headline figures is about 42% — wider than for any other role we cover. Some of that is the usual difference in method (Glassdoor collects employee self-reports, Indeed draws on job postings), but a real part of it is simply that there aren't many data points to average." },
+    { "type": "heading", "level": 2, "text": "Why this role's data is shakier than most" },
+    { "type": "list", "ordered": false, "items": [
+      "Small samples — few people hold the title compared with Scrum Master or Product Owner",
+      "The title covers very different jobs, from coaching two teams to leading a company-wide transformation",
+      "Seniority isn't standardized; one company's \"Agile Coach\" is another's \"Enterprise Coach\"",
+      "Many coaches work as independent contractors on day rates, which don't convert cleanly into an annual salary",
+      "It's concentrated in large enterprises, so the figures skew toward big-company pay"
+    ] },
+    { "type": "callout", "variant": "tip", "richText": "How to use these numbers honestly: treat roughly $130,000–$190,000 as the realistic band for a staff Agile Coach role in the US, and $200,000+ as the enterprise and lead tier. Then look at actual advertised ranges in your city and industry — with samples this small, live job postings tell you more than any average." },
+    { "type": "heading", "level": 2, "text": "Where the money is" },
+    { "type": "table", "caption": "Top-paying industries for Agile Coaches (Glassdoor, 2026).", "headers": ["Industry", "Reported average"], "rows": [
+      ["Telecommunications", "~$189,100"],
+      ["Financial services", "~$174,800"],
+      ["Aerospace and defence", "~$171,100"],
+      ["Retail and wholesale", "~$167,500"],
+      ["Manufacturing", "~$167,200"]
+    ] },
+    { "type": "paragraph", "richText": "The pattern is consistent: large, complex organizations pay most, because that's where coordinating many teams is hardest and where the cost of getting it wrong is highest. Agile coaching is largely an enterprise job." },
+    { "type": "heading", "level": 2, "text": "How it compares with the roles below it" },
+    { "type": "paragraph", "richText": [ "The jump is real. Reported Agile Coach pay sits well above Scrum Master and Product Owner levels, and far above the official US median for project management specialists ($100,750, BLS — the one genuinely official figure in this comparison). But remember you're comparing a small self-reported sample against a national official median, so read the gap as a direction, not a measurement. See ", { "link": { "ref": "article:scrum-master-salary", "text": "Scrum Master salary" } }, " and ", { "link": { "ref": "article:product-owner-salary", "text": "Product Owner salary" } }, " for the roles most coaches come from." ] },
+    { "type": "heading", "level": 2, "text": "What it takes to earn it" },
+    { "type": "paragraph", "richText": [ "Pay at this level reflects that the role has essentially no junior tier — you're hired to influence teams and the managers above them, which takes years of credibility. Certifications confirm that experience rather than creating it, and the coaching credentials are expensive: see the honest path in ", { "link": { "ref": "article:how-to-become-agile-coach", "text": "how to become an Agile Coach" } }, ", and where those credentials sit among the alternatives in ", { "link": { "ref": "article:best-agile-certifications", "text": "best agile certifications" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "What is the average Agile Coach salary in 2026?", "answerRichText": "US estimates range from about $133,000 (Indeed) to $188,500 (Glassdoor), with enterprise and lead coaches reported above $200,000. Treat roughly $130,000–$190,000 as the realistic band for a staff role — the sources disagree by around 42%, partly because the samples are small." },
+      { "question": "Why is Agile Coach salary data unreliable?", "answerRichText": "No government agency tracks the role, so every figure is self-reported to a commercial aggregator — and the samples are unusually small because few people hold the title. The label also covers very different jobs, from coaching two teams to running a company-wide transformation, and many coaches contract on day rates rather than salaries." },
+      { "question": "Do Agile Coaches earn more than Scrum Masters?", "answerRichText": [ "Reported figures put Agile Coaches clearly higher, which fits a role that carries broader scope and requires years more experience. Just note that neither role has official data, so the size of the gap is approximate. Compare in ", { "link": { "ref": "article:scrum-master-salary", "text": "Scrum Master salary" } }, "." ] }
+    ] }
+  ]
+}
