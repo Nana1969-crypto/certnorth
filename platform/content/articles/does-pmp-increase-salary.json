@@ -1,0 +1,56 @@
+{
+  "id": "does-pmp-increase-salary",
+  "slug": "does-the-pmp-increase-your-salary",
+  "clusterId": "cl_salary",
+  "title": "Does the PMP Actually Increase Your Salary?",
+  "dek": "Probably a little — but not by the figure you've seen advertised. The famous \"PMP holders earn 17–33% more\" comes from PMI's own survey of self-reported salaries, and it compares certified professionals against a group that includes people far earlier in their careers.",
+  "authorId": "author_team",
+  "publishedAt": "2026-08-11",
+  "updatedAt": "2026-08-11",
+  "intent": { "primaryKeyword": "does the pmp increase your salary" },
+  "seo": {
+    "metaTitle": "Does the PMP Actually Increase Your Salary?",
+    "metaDescription": "PMI says PMP holders earn 17–33% more. Who ran that survey, what it really measures, and why it can't be read as simple cause and effect."
+  },
+  "sources": [
+    { "label": "PMI — Earning Power: Project Management Salary Survey", "url": "https://www.pmi.org/learning/careers/project-management-salary-survey" },
+    { "label": "PMI — Project Management Professional (PMP)", "url": "https://www.pmi.org/certifications/project-management-pmp" },
+    { "label": "U.S. Bureau of Labor Statistics — Project Management Specialists", "url": "https://www.bls.gov/ooh/business-and-financial/project-management-specialists.htm" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "You've seen the statistic. It's on PMI's own certification page, in every training company's advertising, and in most articles about whether the PMP is worth it: people with a PMP earn substantially more. The number is real and it comes from a real survey. But almost nobody explains what it actually measures — and once you know, you'll read it differently." },
+    { "type": "callout", "variant": "info", "richText": "The short answer: holding the PMP is genuinely associated with higher pay, and it plausibly helps. But the headline figure cannot be read as \"get the PMP and earn 17% more,\" because the people it compares are not otherwise similar. Expect a modest effect, not a transformation." },
+    { "type": "heading", "level": 2, "text": "Where the number comes from" },
+    { "type": "paragraph", "richText": "The source is PMI's Earning Power: Project Management Salary Survey. It's a substantial piece of research — one edition drew on self-reported salary data from more than 30,000 project professionals across 40 countries, using stratified sampling. This is not a number somebody invented." },
+    { "type": "paragraph", "richText": "It's worth noticing, though, that the figure moves a lot between editions. Different rounds of the same survey have reported the PMP premium as 23%, as 16%, and as a range of 17% to 33% depending on the country. A quantity that swings that much between measurements is telling you something about how noisy it is." },
+    { "type": "callout", "variant": "warn", "richText": "The obvious point first: this survey is run by PMI, the organization that sells the PMP. That doesn't make the data false — the methodology is disclosed and the sample is large — but a certifying body publishing research on the value of its own certification has an interest in the result. Weigh it accordingly, as you would with any industry-funded study." },
+    { "type": "heading", "level": 2, "text": "The real problem: who is being compared to whom" },
+    { "type": "paragraph", "richText": "This is the part that changes everything, and it has nothing to do with PMI's honesty. It's about what the comparison can logically show." },
+    { "type": "paragraph", "richText": "To hold a PMP at all, you must already have 36 to 60 months of documented project experience. So \"PMP holders\" is, by definition, a group of experienced professionals. The comparison group — \"those without a PMP\" — has no such floor. It includes people in their first project role, people who've just moved sideways into the field, and people who manage projects occasionally as part of another job." },
+    { "type": "callout", "variant": "tip", "richText": "Put plainly: you are comparing people with at least three years of project experience against a group with no minimum. Those people would earn more than the comparison group even if the PMP did not exist. The certificate gets credit for a gap that experience alone would produce." },
+    { "type": "heading", "level": 2, "text": "Three more things to keep in mind" },
+    { "type": "list", "ordered": false, "items": [
+      "Who answers — respondents come from PMI's own community, not a random sample of everyone doing project work",
+      "Self-reported pay — people report their own salaries, and self-reports skew high",
+      "Selection effects — the kind of person who invests months and hundreds of dollars in a credential is often already ambitious about their career, and that ambition affects pay by itself"
+    ] },
+    { "type": "heading", "level": 2, "text": "What's fair to say in its favour" },
+    { "type": "paragraph", "richText": "It would be just as dishonest to dismiss the survey entirely, so here is the case for taking it seriously. Thirty thousand responses across forty countries is a serious sample. The methodology is published rather than hidden. And there are plausible mechanisms by which the PMP really would raise pay: it gets applications past HR filters, it's named directly in some job postings, and in large organizations it can be a formal prerequisite for a senior grade." },
+    { "type": "paragraph", "richText": "So the honest reading is neither \"the PMP adds 17% to your salary\" nor \"the number is meaningless.\" It's that experienced project managers with a PMP tend to earn more than the general population of people doing project work — with the certificate contributing something real, and experience contributing a great deal more." },
+    { "type": "heading", "level": 2, "text": "What you should actually expect" },
+    { "type": "table", "caption": "A realistic reading of the salary question by situation.", "headers": ["Your situation", "Realistic expectation"], "rows": [
+      ["Experienced PM, employer values the credential", "A real but modest gain, often at the next move rather than immediately"],
+      ["Experienced PM, small company that doesn't ask for it", "Little to no direct pay effect"],
+      ["Targeting large firms or government", "Worth it — often a filter or a grade requirement"],
+      ["Beginner hoping it lifts your pay", "No effect — you can't qualify for it yet anyway"]
+    ] },
+    { "type": "paragraph", "richText": [ "For context on what the role pays generally, the one genuinely official figure is the US Bureau of Labor Statistics median for project management specialists: $100,750 (May 2024). We break down pay by country in our ", { "link": { "ref": "article:project-manager-salary", "text": "project manager salary guide" } }, "." ] },
+    { "type": "heading", "level": 2, "text": "So should you get it?" },
+    { "type": "paragraph", "richText": [ "Base the decision on access rather than on a percentage: get the PMP if it opens doors in your market — filters, postings, promotion grades — not because a survey promises a raise. Our full verdict is in ", { "link": { "ref": "article:is-pmp-worth-it", "text": "is the PMP worth it" } }, ", the real price is in ", { "link": { "ref": "article:pmp-cost", "text": "what the PMP costs" } }, ", and whether you can even apply yet is in ", { "link": { "ref": "article:pmp-eligibility", "text": "PMP eligibility" } }, ". And if you're wondering whether you need any certification at all, we answer that honestly in ", { "link": { "ref": "article:do-you-need-certification-project-manager", "text": "do you need a certification to be a project manager" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "How much more do PMP holders earn?", "answerRichText": "PMI's own salary survey has reported the premium as 16%, as 23%, and as 17–33% depending on the country and the edition. Those are real survey results, but they compare certified professionals — who must have 36–60 months of experience — against a group with no experience minimum, so they overstate what the certificate itself contributes." },
+      { "question": "Is the PMI salary survey trustworthy?", "answerRichText": "It's a large survey with disclosed methodology and tens of thousands of respondents, so it isn't invented. But it's run by the organization that sells the certification, it uses self-reported pay, and its respondents come from PMI's own community. Treat it as directional evidence rather than a precise measurement." },
+      { "question": "Will the PMP get me a raise in my current job?", "answerRichText": [ "Often not immediately. The credential tends to pay off at the next move or promotion, particularly in large organizations where it acts as a filter or a grade requirement. If your employer doesn't ask for it, expect little direct effect on your current salary. See ", { "link": { "ref": "article:is-pmp-worth-it", "text": "is the PMP worth it" } }, "." ] }
+    ] }
+  ]
+}
