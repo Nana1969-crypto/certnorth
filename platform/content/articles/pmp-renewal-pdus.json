@@ -1,0 +1,68 @@
+{
+  "id": "pmp-renewal-pdus",
+  "slug": "pmp-renewal-how-pdus-work",
+  "clusterId": "cl_guides",
+  "title": "PMP Renewal: How PDUs Actually Work",
+  "dek": "You need 60 PDUs every three years plus a renewal fee of $60 for PMI members or $150 for non-members. What almost nobody tells you: a large share of those PDUs can be earned without paying for anything, including by doing your own job.",
+  "authorId": "author_team",
+  "publishedAt": "2026-08-12",
+  "updatedAt": "2026-08-12",
+  "intent": { "primaryKeyword": "how to renew your pmp" },
+  "seo": {
+    "metaTitle": "PMP Renewal: How PDUs Actually Work",
+    "metaDescription": "How to renew your PMP — 60 PDUs over three years, the Talent Triangle minimums, the fee, and why much of it can be earned without paying anything."
+  },
+  "sources": [
+    { "label": "PMI — How to maintain your certification", "url": "https://www.pmi.org/certifications/certification-resources/maintain" },
+    { "label": "PMI — Ways to earn PDUs", "url": "https://www.pmi.org/certifications/certification-resources/maintain/earn-pdus" },
+    { "label": "PMI — Continuing Certification Requirements (CCR) Handbook", "url": "https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/ccr-certification-requirements-handbook.pdf" },
+    { "label": "PMI — The PMI Talent Triangle", "url": "https://www.pmi.org/certifications/certification-resources/maintain/earn-pdus/plan-development-talent-triangle" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Passing the PMP isn't the end of the spending. The certification expires every three years, and keeping it requires both a fee and 60 professional development units — PDUs. Plenty of companies will happily sell you a PDU bundle for hundreds of dollars. Before you buy one, here's how the system actually works." },
+    { "type": "callout", "variant": "info", "richText": "The short version: 60 PDUs every three years, plus a renewal fee of $60 for PMI members or $150 for non-members. Within that 60, you must earn at least 8 PDUs in each of the three PMI Talent Triangle areas. A substantial share of the total can be earned at no cost." },
+    { "type": "heading", "level": 2, "text": "The requirement in plain terms" },
+    { "type": "table", "caption": "PMP renewal requirements (source: PMI; confirm current details in the CCR Handbook).", "headers": ["Item", "Requirement"], "rows": [
+      ["Cycle length", "3 years"],
+      ["PDUs required", "60"],
+      ["Talent Triangle minimum", "At least 8 PDUs in each of the 3 areas"],
+      ["Renewal fee", "$60 PMI member / $150 non-member"],
+      ["PDU types", "Education (required) and Giving Back (optional)"]
+    ] },
+    { "type": "paragraph", "richText": "One PDU generally represents one hour of qualifying learning or contribution. Sixty hours across three years works out to about twenty hours a year — roughly two hours a month. Framed that way it's far less daunting than the number suggests." },
+    { "type": "heading", "level": 2, "text": "The Talent Triangle, and why it catches people out" },
+    { "type": "paragraph", "richText": "PMI structures professional development around three skill areas, and you must earn a minimum of 8 PDUs in each:" },
+    { "type": "list", "ordered": false, "items": [
+      "Ways of Working — the technical craft: methods, tools, delivery approaches",
+      "Power Skills — leadership, communication, collaboration, dealing with people",
+      "Business Acumen — strategy, commercial understanding, how the organization actually works"
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "This is where people get stuck near the deadline. It's easy to accumulate PDUs in the area you enjoy — usually technical — and arrive at the end of the cycle short of the 8 required in another. Check your balance per area, not just your total, and check it early." },
+    { "type": "heading", "level": 2, "text": "The two ways to earn PDUs" },
+    { "type": "paragraph", "richText": "PMI splits PDUs into two categories, and understanding the difference is what saves you money." },
+    { "type": "paragraph", "richText": [ { "b": "Education" }, " — learning activities. This is the required category, and PMI places no cap on how many PDUs you can earn this way. It includes courses and training, but also a great deal that costs nothing." ] },
+    { "type": "paragraph", "richText": [ { "b": "Giving Back to the Profession" }, " — contributing rather than consuming. This is optional, and PMI limits how much of your total can come from it, so treat it as a supplement rather than a strategy. It includes working in your certified role, writing articles or blog posts, giving webinars, creating content, mentoring, teaching, and volunteering." ] },
+    { "type": "heading", "level": 2, "text": "How to renew without paying for PDUs" },
+    { "type": "paragraph", "richText": "This is the part the PDU-bundle sellers would rather you didn't work out. Between free education and giving back, most people can cover the bulk of a cycle at no cost:" },
+    { "type": "list", "ordered": false, "items": [
+      "Working in your certified role — simply practising project management counts as giving back",
+      "Free webinars, including PMI's own member resources and chapter events",
+      "Reading and self-directed learning that meets PMI's criteria",
+      "Mentoring a colleague or teaching what you know",
+      "Writing about the profession — articles, posts, or talks",
+      "Volunteering with PMI or a local chapter"
+    ] },
+    { "type": "callout", "variant": "tip", "richText": "The practical approach: log PDUs as you earn them rather than hunting for 60 in the final month. Late panic is exactly what makes people buy an expensive bundle they didn't need. A note in your calendar every few months is enough." },
+    { "type": "callout", "variant": "warn", "richText": "Category caps do apply — PMI limits how many PDUs certain activities can contribute in a cycle, and those limits change from time to time. Before planning a cycle around any single activity, check the current numbers in PMI's CCR Handbook, linked in our sources." },
+    { "type": "heading", "level": 2, "text": "What renewal really costs" },
+    { "type": "paragraph", "richText": [ "If you earn your PDUs free, renewal costs $60 as a PMI member or $150 as a non-member — every three years, or roughly $20 to $50 a year. That's genuinely modest. If you buy a PDU package instead, you can easily add several hundred dollars per cycle for something you could largely have obtained for nothing. We cover the full picture of what the credential costs over time in our ", { "link": { "ref": "article:pmp-cost", "text": "PMP cost breakdown" } }, "." ] },
+    { "type": "heading", "level": 2, "text": "A note worth knowing before you commit" },
+    { "type": "paragraph", "richText": [ "Not every certification works this way. The Scrum.org credentials — the PSM I and PSPO I — never expire and have no renewal fee at all, while Scrum Alliance certifications renew every two years. If ongoing maintenance matters to you, compare the long-run costs in our ", { "link": { "ref": "article:scrum-certification-cost", "text": "Scrum certification cost guide" } }, ", and weigh whether the PMP earns its keep for you in ", { "link": { "ref": "article:is-pmp-worth-it", "text": "is the PMP worth it" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "How many PDUs do you need to renew the PMP?", "answerRichText": "60 PDUs every three years, with a minimum of 8 in each of the three PMI Talent Triangle areas — Ways of Working, Power Skills, and Business Acumen. That's about 20 hours a year, or roughly two hours a month." },
+      { "question": "How much does PMP renewal cost?", "answerRichText": [ "The renewal fee is $60 for PMI members and $150 for non-members, every three years. The PDUs themselves need not cost anything, since much learning and all giving-back activity can be free — so the true cost can be as little as $20 a year. See our ", { "link": { "ref": "article:pmp-cost", "text": "PMP cost breakdown" } }, "." ] },
+      { "question": "Can you earn PDUs for free?", "answerRichText": "Yes, and most people can cover a large share of a cycle at no cost. Working in your certified role counts as giving back, and free webinars, chapter events, mentoring, teaching, volunteering, and qualifying self-directed learning all count. Just check PMI's current category caps before relying on any one activity." },
+      { "question": "What happens if your PMP expires?", "answerRichText": "PMI suspends the certification when a cycle ends without enough PDUs, and if it isn't resolved the credential lapses — after which regaining it means sitting the exam again. That's why logging PDUs as you go matters more than the total looks like it should." }
+    ] }
+  ]
+}
