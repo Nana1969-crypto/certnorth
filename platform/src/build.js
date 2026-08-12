@@ -283,14 +283,34 @@ function build(opts = {}) {
     `</channel></rss>\n`);
 
   // headers para deploy estático (CSP restritiva — SEC-1); formato _headers (Netlify/CF Pages)
+  // Sem AdSense a política é fechada (default-src 'none'). Com AdSense configurado,
+  // libera-se o MÍNIMO que o Google exige para servir anúncios: os domínios de script
+  // do próprio AdSense, iframes de anúncio, e img/connect abertos a https — inevitável,
+  // porque criativos vêm de domínios arbitrários de anunciantes. Nada de 'unsafe-eval'.
+  const ads = site.adsensePublisherId;
+  const csp = ads
+    ? "default-src 'none'; style-src 'unsafe-inline'; "
+      + "script-src 'unsafe-inline' https://pagead2.googlesyndication.com https://partner.googleadservices.com "
+      + "https://tpc.googlesyndication.com https://www.googletagservices.com https://adservice.google.com; "
+      + "img-src 'self' data: https:; "
+      + "frame-src https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://www.google.com; "
+      + "connect-src https://pagead2.googlesyndication.com https://googleads.g.doubleclick.net https://adservice.google.com; "
+      + "base-uri 'none'; form-action 'none'"
+    : "default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src 'self' data:; base-uri 'none'; form-action 'none'";
   fs.writeFileSync(path.join(DIST, '_headers'), `/*
-  Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src 'self' data:; base-uri 'none'; form-action 'none'
+  Content-Security-Policy: ${csp}
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=()
 `);
 
-  for (const f of ['sitemap.xml', 'rss.xml', '_headers']) keepFile(path.join(DIST, f));
+  // ads.txt — declara quem pode vender o inventário do site (anti-fraude; Google recomenda)
+  if (ads) {
+    const pub = ads.replace(/^ca-/, '');
+    fs.writeFileSync(path.join(DIST, 'ads.txt'), `google.com, ${pub}, DIRECT, f08c47fec0942fa0\n`);
+  }
+
+  for (const f of ['sitemap.xml', 'rss.xml', '_headers', 'ads.txt']) keepFile(path.join(DIST, f));
   fs.writeFileSync(MANIFEST, JSON.stringify(manifest, null, 2));
 
   // ---- PRUNE: remove páginas/arquivos órfãos que não fazem mais parte do site ----
