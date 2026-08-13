@@ -1,0 +1,65 @@
+{
+  "id": "how-to-become-program-manager",
+  "slug": "how-to-become-a-program-manager",
+  "clusterId": "cl_paths",
+  "title": "How to Become a Program Manager (Realistic Path)",
+  "dek": "Program manager is a step up from project manager, not a parallel job: you coordinate several related projects toward one business goal. Almost everyone gets there by managing projects first — and PMI's PgMP credential requires four to seven years of program experience before you can even apply.",
+  "authorId": "author_team",
+  "publishedAt": "2026-08-13",
+  "updatedAt": "2026-08-13",
+  "intent": { "primaryKeyword": "how to become a program manager" },
+  "seo": {
+    "metaTitle": "How to Become a Program Manager",
+    "metaDescription": "The realistic route to program manager — how it differs from project management, what the PgMP demands, and why the title varies by company."
+  },
+  "sources": [
+    { "label": "PMI — Program Management Professional (PgMP)", "url": "https://www.pmi.org/certifications/program-management-pgmp" },
+    { "label": "PMI — Project Management Professional (PMP)", "url": "https://www.pmi.org/certifications/project-management-pmp" },
+    { "label": "U.S. Bureau of Labor Statistics — Project Management Specialists", "url": "https://www.bls.gov/ooh/business-and-financial/project-management-specialists.htm" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Program manager sounds like a bigger version of project manager, and in one sense it is. But the difference isn't just scale — it's what you're accountable for. Understanding that distinction is the first real step, because it tells you what to start doing before anyone gives you the title." },
+    { "type": "callout", "variant": "info", "richText": "The short version: a project manager delivers one project on time and on budget. A program manager coordinates several related projects toward a single business outcome, and is accountable for that outcome — not for any individual project's schedule. It's a more senior role, and it usually pays accordingly." },
+    { "type": "heading", "level": 2, "text": "The real difference" },
+    { "type": "table", "caption": "Project manager vs program manager on what actually differs.", "headers": ["", "Project manager", "Program manager"], "rows": [
+      ["Scope", "One project", "Several related projects"],
+      ["Accountable for", "Delivery — time, cost, scope", "The business outcome the projects serve"],
+      ["Time horizon", "The project's life", "Often years, sometimes open-ended"],
+      ["Main tension", "Delivering within constraints", "Trade-offs between projects competing for the same resources"],
+      ["Who you deal with", "The team and immediate stakeholders", "Senior leadership and other programs"]
+    ] },
+    { "type": "paragraph", "richText": "That last row is the part people underestimate. Much of program management is deciding which project gets the scarce resource this quarter, and defending that decision to the leader whose project lost. If you dislike that kind of conversation, the role will be uncomfortable no matter how well you plan." },
+    { "type": "callout", "variant": "warn", "richText": "A caveat before you target the title: \"program manager\" means genuinely different things at different companies. In some tech organizations it's closer to product or process work than to managing a portfolio of projects. Always read the job description rather than assuming the title means what it means elsewhere." },
+    { "type": "heading", "level": 2, "text": "The realistic path" },
+    { "type": "paragraph", "richText": "Nearly everyone arrives via project management. The sequence that actually happens looks like this:" },
+    { "type": "list", "ordered": true, "items": [
+      "Manage projects, and manage several of them well enough that people notice",
+      "Take on a project that depends on other teams' work — that's where coordination skill starts",
+      "Get given two or three related projects, formally or informally",
+      "Start being asked about outcomes rather than schedules — that's the transition happening",
+      "Take the title, usually internally rather than by changing company"
+    ] },
+    { "type": "callout", "variant": "tip", "richText": "The single most useful thing you can do before the promotion: start framing your updates around business outcomes instead of task status. \"We're on track for the March launch, which protects the Q2 revenue target\" is program-manager language. \"Twelve of fifteen tasks complete\" is not." },
+    { "type": "heading", "level": 2, "text": "What the PgMP demands" },
+    { "type": "paragraph", "richText": "PMI's Program Management Professional is the field's dedicated credential, and it's demanding — closer to a peer review than an exam you can study your way into." },
+    { "type": "table", "caption": "PgMP requirements and cost (2026; confirm current details with PMI).", "headers": ["Item", "Detail"], "rows": [
+      ["With a bachelor's degree", "48 months project experience (or the PMP) + 48 months program experience"],
+      ["With a secondary diploma", "48 months project experience (or the PMP) + 84 months program experience"],
+      ["Education", "35 hours of project management training"],
+      ["Experience window", "Within the last 15 years"],
+      ["Exam", "170 multiple-choice questions"],
+      ["Cost", "~$800 PMI member / ~$1,000 non-member"]
+    ] },
+    { "type": "paragraph", "richText": "Note what those numbers mean in practice: you need four years of program management experience before applying — seven without a degree. So the PgMP cannot be a route into the role. It's recognition once you're established in it, which is the opposite of how certifications are usually sold." },
+    { "type": "callout", "variant": "info", "richText": "One unusual and rather fair detail: the PgMP application includes a panel review of your actual work, and you don't pay the exam fee until the panel approves you. So you won't spend $800 only to discover you didn't qualify — a rare piece of consumer-friendly design in this industry." },
+    { "type": "heading", "level": 2, "text": "Do you need the PgMP?" },
+    { "type": "paragraph", "richText": [ "Honestly, no — far fewer program managers hold it than project managers hold the PMP, and most people reach the role without it. It's worth considering if you're already established and want formal recognition, or if you work somewhere that values PMI credentials explicitly. If you're earlier on, the PMP is the more useful investment: see ", { "link": { "ref": "article:is-pmp-worth-it", "text": "is the PMP worth it" } }, " and whether you qualify in ", { "link": { "ref": "article:pmp-eligibility", "text": "PMP eligibility" } }, "." ] },
+    { "type": "heading", "level": 2, "text": "Where to start" },
+    { "type": "paragraph", "richText": [ "If you're not yet managing projects, that's the step in front of you — not this one. Start with ", { "link": { "ref": "article:how-to-become-project-manager", "text": "how to become a project manager" } }, ", and see what the role pays across countries in our ", { "link": { "ref": "article:project-manager-salary", "text": "project manager salary guide" } }, ". If your organization runs agile at scale, the senior path may look more like ", { "link": { "ref": "article:how-to-become-agile-coach", "text": "becoming an Agile Coach" } }, " than a program role — the two often exist side by side." ] },
+    { "type": "faq", "items": [
+      { "question": "What's the difference between a project manager and a program manager?", "answerRichText": "A project manager delivers one project against time, cost and scope. A program manager coordinates several related projects and is accountable for the business outcome they collectively serve, which often means arbitrating between projects competing for the same people and budget." },
+      { "question": "Do you need the PgMP to be a program manager?", "answerRichText": [ "No. Most program managers don't hold it, and it can't be a route in anyway — it requires four years of program management experience (seven without a degree) before you can apply. It's recognition for people already established in the role. See ", { "link": { "ref": "article:is-pmp-worth-it", "text": "is the PMP worth it" } }, " for the more useful earlier credential." ] },
+      { "question": "How long does it take to become a program manager?", "answerRichText": [ "Usually several years of managing projects first, since the role is nearly always reached by promotion rather than a direct hire. A realistic sequence is to manage projects, take on ones with cross-team dependencies, then be given a related group of projects. Start with ", { "link": { "ref": "article:how-to-become-project-manager", "text": "how to become a project manager" } }, "." ] }
+    ] }
+  ]
+}
