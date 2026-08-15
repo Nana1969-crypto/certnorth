@@ -1,0 +1,52 @@
+{
+  "id": "what-is-a-sprint",
+  "slug": "what-is-a-sprint-in-scrum",
+  "clusterId": "cl_skills",
+  "title": "What Is a Sprint in Scrum?",
+  "dek": "A Sprint is a fixed-length period of one month or less in which a Scrum team works toward a single objective called the Sprint Goal. It's a container for all the other Scrum events — and, importantly, it is not a deadline for a fixed list of tasks.",
+  "authorId": "author_team",
+  "publishedAt": "2026-08-15",
+  "updatedAt": "2026-08-15",
+  "intent": { "primaryKeyword": "what is a sprint in scrum" },
+  "seo": {
+    "metaTitle": "What Is a Sprint in Scrum?",
+    "metaDescription": "A plain-English guide to the Sprint — how long one lasts, what the Sprint Goal means, what happens to unfinished work, and who can cancel one."
+  },
+  "sources": [
+    { "label": "Scrum.org — The Scrum Guide", "url": "https://scrumguides.org/" },
+    { "label": "Scrum.org — What is a Sprint in Scrum?", "url": "https://www.scrum.org/resources/what-is-a-sprint-in-scrum" },
+    { "label": "Scrum.org — What is a Sprint Goal?", "url": "https://www.scrum.org/resources/what-sprint-goal" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Sprint is probably the most-used word in agile, and one of the most misunderstood. Plenty of teams run something they call a sprint that is really a two-week deadline with a task list attached. Here's what the Scrum Guide actually describes, and why the difference matters in practice." },
+    { "type": "callout", "variant": "info", "richText": "The short version: a Sprint is a fixed-length period of one month or less in which the team works toward one objective — the Sprint Goal. All the other Scrum events happen inside it, and a new Sprint begins immediately after the previous one ends. The length stays constant, which is the whole point." },
+    { "type": "heading", "level": 2, "text": "How long a Sprint lasts" },
+    { "type": "paragraph", "richText": "The Scrum Guide sets a maximum of one month and no minimum, so teams commonly run one, two, three or four weeks. Two weeks is the most common choice in practice. What matters more than the number is that it stays the same: fixed length is what creates rhythm, makes planning comparable between Sprints, and lets a team learn how much it can actually do." },
+    { "type": "callout", "variant": "warn", "richText": "This is the rule teams break most often: when work isn't finished, they extend the Sprint by a few days. That destroys the consistency the fixed length exists to create — and it hides the real signal, which is that the team took on more than it could deliver. Sprints end on time, finished or not." },
+    { "type": "heading", "level": 2, "text": "The Sprint Goal is the point" },
+    { "type": "paragraph", "richText": "The Sprint Goal is the single objective for the Sprint — the reason this Sprint is worth doing. It's a commitment by the Developers, but it deliberately leaves flexibility about exactly which work achieves it." },
+    { "type": "paragraph", "richText": "That flexibility is the feature most teams miss. If the team learns something mid-Sprint that changes how best to reach the goal, the scope can be clarified and renegotiated with the Product Owner. What can't change is anything that would endanger the goal itself. So the Sprint protects the objective, not the task list." },
+    { "type": "heading", "level": 2, "text": "What happens inside a Sprint" },
+    { "type": "table", "caption": "The events that take place within every Sprint (per the Scrum Guide).", "headers": ["Event", "Purpose"], "rows": [
+      ["Sprint Planning", "Agree the Sprint Goal and how the work will be approached"],
+      ["Daily Scrum", "A short daily sync for the Developers to inspect progress and adapt"],
+      ["Sprint Review", "Show the increment to stakeholders and gather feedback"],
+      ["Sprint Retrospective", "Reflect on how the team worked and commit to improvements"]
+    ] },
+    { "type": "paragraph", "richText": [ "The Scrum Master helps these run well without owning the work itself — we cover that role in ", { "link": { "ref": "article:what-does-a-scrum-master-do", "text": "what a Scrum Master does" } }, ", and the Product Owner's side in ", { "link": { "ref": "article:what-does-a-product-owner-do", "text": "what a Product Owner does" } }, "." ] },
+    { "type": "heading", "level": 2, "text": "What if the work isn't finished?" },
+    { "type": "paragraph", "richText": "Unfinished work simply returns to the Product Backlog for the Product Owner to reprioritize. It isn't a failure and it doesn't extend the Sprint. Over several Sprints, a pattern of unfinished work is useful information — it usually means the team is committing to too much, which is exactly the kind of thing the Retrospective exists to surface." },
+    { "type": "callout", "variant": "tip", "richText": "A healthier question than \"did we finish everything?\" is \"did we meet the Sprint Goal?\" A team can leave items unfinished and still have a genuinely successful Sprint, if the objective was achieved and something valuable was delivered." },
+    { "type": "heading", "level": 2, "text": "Can a Sprint be cancelled?" },
+    { "type": "paragraph", "richText": "Yes, but rarely, and only by one person. Only the Product Owner has the authority to cancel a Sprint, and the reason to do it is that the Sprint Goal has become obsolete — the business changed, the assumption behind the work turned out to be wrong. Cancellation is not a response to running behind schedule. In most teams it happens almost never." },
+    { "type": "heading", "level": 2, "text": "Do you need Sprints at all?" },
+    { "type": "paragraph", "richText": [ "No. Sprints are specific to Scrum, and they suit work that can be planned in batches and benefits from a regular rhythm. If your work arrives unpredictably — support, operations, maintenance — a continuous-flow approach may fit better, which we compare in ", { "link": { "ref": "article:kanban-vs-scrum", "text": "Kanban vs Scrum" } }, ". And if you're weighing agile against traditional delivery altogether, start with ", { "link": { "ref": "article:agile-vs-waterfall", "text": "Agile vs Waterfall" } }, "." ] },
+    { "type": "paragraph", "richText": [ "If facilitating Sprints sounds like work you'd enjoy, the practical route into it is in ", { "link": { "ref": "article:how-to-become-scrum-master", "text": "how to become a Scrum Master" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "How long should a Sprint be?", "answerRichText": "One month or less — the Scrum Guide sets the maximum and no minimum. Two weeks is the most common choice. What matters more than the exact length is keeping it constant, since consistency is what makes planning comparable between Sprints." },
+      { "question": "Can you change the scope during a Sprint?", "answerRichText": "Scope can be clarified and renegotiated with the Product Owner as the team learns more, but nothing may change in a way that endangers the Sprint Goal. The Sprint protects the objective rather than a fixed list of tasks." },
+      { "question": "What happens if a Sprint isn't finished?", "answerRichText": "The Sprint still ends on time, and unfinished items go back to the Product Backlog for the Product Owner to reprioritize. Extending a Sprint is a common mistake — it destroys the consistency that fixed length exists to create." },
+      { "question": "Who can cancel a Sprint?", "answerRichText": [ "Only the Product Owner, and only really when the Sprint Goal has become obsolete — not because the team is running late. It's rare in practice. See ", { "link": { "ref": "article:what-does-a-product-owner-do", "text": "what a Product Owner does" } }, "." ] }
+    ] }
+  ]
+}
