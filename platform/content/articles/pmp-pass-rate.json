@@ -1,0 +1,55 @@
+{
+  "id": "pmp-pass-rate",
+  "slug": "pmp-pass-rate",
+  "clusterId": "cl_guides",
+  "title": "The PMP Pass Rate: Why Nobody Actually Knows",
+  "dek": "PMI does not publish a PMP pass rate, so every percentage you've seen is an estimate or a guess. The famous \"61%\" isn't a pass rate at all — it's a misquoted passing score PMI retired around 2006, and there is no fixed percentage to hit today.",
+  "authorId": "author_team",
+  "publishedAt": "2026-08-17",
+  "updatedAt": "2026-08-17",
+  "intent": { "primaryKeyword": "pmp pass rate" },
+  "seo": {
+    "metaTitle": "The PMP Pass Rate: Why Nobody Knows",
+    "metaDescription": "PMI doesn't publish a PMP pass rate, and the famous 61% is a misquoted old passing score. What's actually knowable, and how to prepare anyway."
+  },
+  "sources": [
+    { "label": "PMI — Project Management Professional (PMP)", "url": "https://www.pmi.org/certifications/project-management-pmp" },
+    { "label": "PMI — PMP exam preparation", "url": "https://www.pmi.org/certifications/project-management-pmp/pmp-exam-preparation" },
+    { "label": "PMI — Certification Frequently Asked Questions", "url": "https://www.pmi.org/certifications/certification-resources/faq" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Search for the PMP pass rate and you'll get confident numbers: 61%, 70%, 45%. They're presented as fact, often with a decimal point for authority. Here's the uncomfortable truth — PMI doesn't publish this figure, so none of those numbers comes from the organization that actually has the data." },
+    { "type": "callout", "variant": "warn", "richText": "The honest answer: nobody outside PMI knows the PMP pass rate. PMI has not published it for roughly two decades. Every percentage in circulation is either an estimate from a training provider's own students, an extrapolation from forum reports, or a number copied from another article that was also guessing." },
+    { "type": "heading", "level": 2, "text": "The 61% is a misquote — and it matters" },
+    { "type": "paragraph", "richText": "This is the part almost every page gets wrong, and it's worth being precise, because two different things are being confused:" },
+    { "type": "table", "caption": "Two different measures that get conflated.", "headers": ["Term", "What it means"], "rows": [
+      ["Pass rate", "The share of candidates who pass the exam"],
+      ["Passing score", "How well an individual candidate must do to pass"]
+    ] },
+    { "type": "paragraph", "richText": "Until around 2006, PMI's handbook stated that candidates needed roughly 61% of questions correct — that was a passing score, a requirement for one person. It was never a claim about what proportion of candidates passed. Somewhere along the way it got repeated as a \"61% pass rate\", and that error has been copied across the internet ever since." },
+    { "type": "paragraph", "richText": "So when you see 61% quoted as a pass rate, you're looking at a two-decade-old number about something else entirely." },
+    { "type": "heading", "level": 2, "text": "There isn't even a fixed percentage to hit" },
+    { "type": "paragraph", "richText": "PMI retired the simple percentage threshold and now scores the exam psychometrically — questions carry different weights according to their difficulty. The practical consequence is genuinely counterintuitive: two candidates can answer the same number of questions correctly and get different results, if one answered harder questions than the other." },
+    { "type": "callout", "variant": "info", "richText": "PMI reports your result by performance band across the exam domains — Above Target, Target, Below Target, Needs Improvement — rather than as a score out of 100. There is no published number to aim at, which is why chasing \"61%\" on practice exams is aiming at a target that no longer exists." },
+    { "type": "heading", "level": 2, "text": "What we can honestly say about difficulty" },
+    { "type": "paragraph", "richText": "Dropping the fake precision doesn't leave us with nothing. Several things about the exam's difficulty are verifiable rather than guessed:" },
+    { "type": "list", "ordered": false, "items": [
+      "Eligibility filters the candidate pool first — you need 36 to 60 months of documented project experience just to apply, so nobody sits this exam cold",
+      "It's scenario-based rather than recall-based: most questions ask what you would do, not what a term means",
+      "Since July 2026 the exam weights agile and hybrid approaches more heavily than predictive, so preparation built only on traditional methods is now a real risk",
+      "PMI publishes an Examination Content Outline, which tells you exactly what's covered — that's a far more useful document than any pass-rate rumour"
+    ] },
+    { "type": "callout", "variant": "tip", "richText": "The practical takeaway: stop looking for the pass rate and read the Examination Content Outline instead. It's free, it's official, and it tells you what the exam actually tests — which is the only information that changes your odds." },
+    { "type": "heading", "level": 2, "text": "Why training companies quote numbers anyway" },
+    { "type": "paragraph", "richText": "Two reasons, and neither is necessarily dishonest. Some providers publish their own students' pass rates, which are real numbers about a self-selected group of people who paid for a course — not about all candidates. Others simply repeat what other sites say. Either way, a high figure makes a course look effective, so there's little incentive to check." },
+    { "type": "callout", "variant": "warn", "richText": "Be especially sceptical of a \"99% pass rate\" on a course page. Even where it's accurate, it describes people who paid for training and often sat the exam only when their provider judged them ready — a very different population from everyone attempting the PMP." },
+    { "type": "heading", "level": 2, "text": "What to do instead of worrying about it" },
+    { "type": "paragraph", "richText": [ "The pass rate is unknowable, so it can't inform your decision. What can: whether you qualify, what it costs, and how long it takes. Check eligibility in our ", { "link": { "ref": "article:pmp-eligibility", "text": "PMP eligibility guide" } }, ", the real budget in ", { "link": { "ref": "article:pmp-cost", "text": "what the PMP costs" } }, ", and a realistic timeline in ", { "link": { "ref": "article:how-long-to-get-pmp", "text": "how long it takes to get the PMP" } }, "." ] },
+    { "type": "paragraph", "richText": [ "And if you're still deciding whether to attempt it at all, our ", { "link": { "ref": "article:is-pmp-worth-it", "text": "honest PMP verdict" } }, " covers who genuinely benefits — including the correction that the exam is no longer the waterfall-only credential it's often described as." ] },
+    { "type": "faq", "items": [
+      { "question": "What is the PMP exam pass rate?", "answerRichText": "PMI does not publish it, so there is no reliable figure. Estimates in circulation range from around 40% to 70%, but they come from training providers' own students or from forum reports rather than from PMI — and the widely quoted 61% is actually a misremembered passing score retired around 2006." },
+      { "question": "What score do you need to pass the PMP?", "answerRichText": "There is no published percentage. PMI scores the exam psychometrically, weighting questions by difficulty, and reports results as performance bands across exam domains rather than as a score out of 100. Aiming for a specific percentage on practice tests is chasing a target that no longer exists." },
+      { "question": "Is the PMP exam hard?", "answerRichText": [ "It's demanding but not designed to trick you. Questions are scenario-based, and since July 2026 the exam emphasises agile and hybrid approaches, so preparation limited to traditional methods is risky. The eligibility requirement of 36-60 months of experience also means nobody sits it without background. See ", { "link": { "ref": "article:pmp-eligibility", "text": "PMP eligibility" } }, "." ] }
+    ] }
+  ]
+}
