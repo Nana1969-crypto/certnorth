@@ -1,0 +1,64 @@
+{
+  "id": "how-to-become-project-coordinator",
+  "slug": "how-to-become-a-project-coordinator",
+  "clusterId": "cl_paths",
+  "title": "How to Become a Project Coordinator (The Real Entry Point)",
+  "dek": "This is the job you can actually get without project experience — unlike project manager, which usually requires years of it. Coordinators support projects rather than owning them, and it's the route most project managers took to get in.",
+  "authorId": "author_team",
+  "publishedAt": "2026-08-19",
+  "updatedAt": "2026-08-19",
+  "intent": { "primaryKeyword": "how to become a project coordinator" },
+  "seo": {
+    "metaTitle": "How to Become a Project Coordinator",
+    "metaDescription": "The realistic entry point into project management — what a coordinator does, what employers require, and how to move up to project manager from there."
+  },
+  "sources": [
+    { "label": "U.S. Bureau of Labor Statistics — Project Management Specialists", "url": "https://www.bls.gov/ooh/business-and-financial/project-management-specialists.htm" },
+    { "label": "PMI — Certified Associate in Project Management (CAPM)", "url": "https://www.pmi.org/certifications/certified-associate-capm" },
+    { "label": "Glassdoor — Project Coordinator salary (United States)", "url": "https://www.glassdoor.com/Salaries/project-coordinator-salary-SRCH_KO0,19.htm" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Almost every guide to entering project management eventually says \"start as a coordinator\" — and then moves on without explaining what that means. This is that missing article. If you want into this field and don't have project experience yet, the coordinator role is very likely your actual starting point." },
+    { "type": "callout", "variant": "info", "richText": "Why this matters: you generally cannot become a project manager without project experience, and the PMP won't even accept applicants with fewer than 36 months of it. The coordinator role is different — it's a genuine entry-level job you can be hired into, and it's where you accumulate the experience everything else requires." },
+    { "type": "heading", "level": 2, "text": "What a project coordinator actually does" },
+    { "type": "paragraph", "richText": "A coordinator supports projects rather than owning them. The project manager is accountable for delivery; the coordinator keeps the machinery running so that's possible. In practice the work is administrative and organizational, and it's more valuable than that sounds — a disorganized project fails regardless of how good its manager is." },
+    { "type": "list", "ordered": false, "items": [
+      "Maintaining schedules, trackers and documentation so everyone knows the current state",
+      "Arranging meetings, taking notes, and chasing the actions that come out of them",
+      "Collecting status updates from team members and consolidating them",
+      "Flagging risks and slippage early to the project manager",
+      "Handling logistics — access, tooling, onboarding, purchase requests"
+    ] },
+    { "type": "callout", "variant": "tip", "richText": "The distinction in one line: a project manager decides what happens when something goes wrong; a coordinator makes sure the right people find out in time to decide. Being the person who notices problems first is how coordinators get promoted." },
+    { "type": "heading", "level": 2, "text": "What employers actually require" },
+    { "type": "paragraph", "richText": "Requirements are noticeably softer than for project manager roles, which is the point. Many postings ask for a bachelor's degree — commonly in business, communications or a field related to the industry — but plenty of entry-level coordinator roles accept a secondary diploma plus demonstrable organizational ability." },
+    { "type": "table", "caption": "Project coordinator vs project manager on entry requirements.", "headers": ["", "Project coordinator", "Project manager"], "rows": [
+      ["Project experience", "Often none required", "Typically several years"],
+      ["Education", "Degree common, not always required", "Bachelor's typically expected"],
+      ["Certification", "Optional; CAPM fits well", "PMP common at senior level"],
+      ["Accountable for", "Supporting delivery", "Delivering the project"]
+    ] },
+    { "type": "heading", "level": 2, "text": "The skills that get you hired" },
+    { "type": "paragraph", "richText": "Since employers can't screen you on project experience you don't have, they screen on evidence of organization and communication. These are demonstrable from almost any previous job:" },
+    { "type": "list", "ordered": false, "items": [
+      "Organization — keeping many moving parts straight without dropping any",
+      "Written communication — clear, brief updates people actually read",
+      "Attention to detail, particularly in tracking and documentation",
+      "Following up persistently without irritating people, which is a real skill",
+      "Comfort with spreadsheets and whatever project tool the employer uses"
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "One caveat on job titles: the same work is advertised as project coordinator, project assistant, project administrator, PMO analyst, and sometimes just operations. If you only search for one title you'll miss most of the openings — search the responsibilities, not the label." },
+    { "type": "heading", "level": 2, "text": "Does a certification help here?" },
+    { "type": "paragraph", "richText": [ "It can, and this is one of the few points in a project career where an entry-level certificate genuinely earns its place — because you have nothing else to show yet. The CAPM fits precisely: no experience required, and it signals that you understand project vocabulary before your first day. Our honest verdict is in ", { "link": { "ref": "article:is-capm-worth-it", "text": "is the CAPM worth it" } }, ", with the alternatives compared in ", { "link": { "ref": "article:best-pm-certifications-beginners", "text": "best certifications for beginners" } }, "." ] },
+    { "type": "paragraph", "richText": [ "That said, it isn't required — and we'd rather you knew that. See ", { "link": { "ref": "article:do-you-need-certification-project-manager", "text": "do you need a certification to be a project manager" } }, " for the honest position, which applies here too." ] },
+    { "type": "heading", "level": 2, "text": "What it pays" },
+    { "type": "paragraph", "richText": "Reported figures for US coordinators vary widely — roughly $40,000 to $65,000 depending on the source, the city, and whether \"entry level\" means a first job or three years in. As with most roles in this field, no government agency tracks project coordinator specifically, so these come from commercial salary aggregators rather than official data. Treat them as a band, and check advertised ranges in your own city." },
+    { "type": "heading", "level": 2, "text": "Moving up from here" },
+    { "type": "paragraph", "richText": [ "Coordinator is a starting point, not a destination. The move to project manager usually happens by taking ownership of something small — a workstream, then a minor project — while still in the coordinator role, so that when you apply you can describe projects you ran rather than supported. The full route is in ", { "link": { "ref": "article:how-to-become-project-manager", "text": "how to become a project manager" } }, ", and what that role pays across countries is in our ", { "link": { "ref": "article:project-manager-salary", "text": "project manager salary guide" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "Can you become a project coordinator with no experience?", "answerRichText": "Yes — that's largely the point of the role. Employers screen for organization, communication and attention to detail rather than project experience, and those are demonstrable from other jobs. It's the standard way into project management for people who don't yet qualify for manager roles." },
+      { "question": "What's the difference between a project coordinator and a project manager?", "answerRichText": [ "A project manager is accountable for delivering the project — scope, schedule, budget. A coordinator supports that delivery by maintaining schedules and documentation, chasing updates, and flagging problems early. Coordinator roles rarely require prior project experience; manager roles usually do. See ", { "link": { "ref": "article:how-to-become-project-manager", "text": "how to become a project manager" } }, "." ] },
+      { "question": "Do I need a certification to be a project coordinator?", "answerRichText": [ "No, but this is one of the few stages where an entry-level certificate genuinely helps, because you have little else to show. The CAPM requires no experience and signals you understand the vocabulary. Read the honest verdict in ", { "link": { "ref": "article:is-capm-worth-it", "text": "is the CAPM worth it" } }, "." ] }
+    ] }
+  ]
+}
