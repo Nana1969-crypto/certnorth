@@ -1,0 +1,62 @@
+{
+  "id": "project-coordinator-salary",
+  "slug": "project-coordinator-salary",
+  "clusterId": "cl_salary",
+  "title": "Project Coordinator Salary in 2026 (Don't Read the Average)",
+  "dek": "US sources put the average between about $55,000 and $75,000 — but if you're entering with no experience, the average is the wrong number to plan around. Expect the lower end, and know that the real pay jump comes from the move to project manager, not from raises.",
+  "authorId": "author_team",
+  "publishedAt": "2026-08-19",
+  "updatedAt": "2026-08-19",
+  "intent": { "primaryKeyword": "project coordinator salary" },
+  "seo": {
+    "metaTitle": "Project Coordinator Salary in 2026",
+    "metaDescription": "What project coordinators earn in 2026 — why the average misleads beginners, the realistic entry-level floor, and where the real pay jump happens."
+  },
+  "sources": [
+    { "label": "Glassdoor — Project Coordinator salary (United States)", "url": "https://www.glassdoor.com/Salaries/project-coordinator-salary-SRCH_KO0,19.htm" },
+    { "label": "Indeed — Project Coordinator salary (United States)", "url": "https://www.indeed.com/career/project-coordinator/salaries" },
+    { "label": "Salary.com — Project Coordinator salary", "url": "https://www.salary.com/research/salary/recruiting/project-coordinator-salary" },
+    { "label": "U.S. Bureau of Labor Statistics — Project Management Specialists", "url": "https://www.bls.gov/ooh/business-and-financial/project-management-specialists.htm" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Most people searching for this figure are trying to answer a specific question: what will I earn in my first project job? Almost every article answers a different one — what the average coordinator earns, experienced ones included. Those aren't the same number, and the gap matters if you're budgeting a career change." },
+    { "type": "callout", "variant": "warn", "richText": "The key point up front: averages describe everyone in the role, including coordinators with five years of experience. If you're entering with none, plan around the bottom of the range, not the middle. Indeed's reported range for this role starts near $38,000 — that end exists, and it's where first jobs live." },
+    { "type": "heading", "level": 2, "text": "What the sources report" },
+    { "type": "table", "caption": "US project coordinator salary by source (2026). Commercial aggregator data — no government agency tracks this role.", "headers": ["Source", "Reported average"], "rows": [
+      ["Glassdoor", "~$75,000"],
+      ["Salary.com", "~$66,600"],
+      ["Built In", "~$65,500"],
+      ["Indeed", "~$62,800"],
+      ["ZipRecruiter", "~$59,900"],
+      ["SalaryExpert", "~$55,000"]
+    ] },
+    { "type": "paragraph", "richText": "The spread between highest and lowest is about 36%, which is normal for a role with no official data behind it: each source draws on a different mix of employers, seniorities and regions. Taken together, roughly $60,000 to $67,000 is a fair reading of the middle of the market." },
+    { "type": "heading", "level": 2, "text": "The number a beginner should actually use" },
+    { "type": "paragraph", "richText": "Here's the distinction that changes how you plan. Reported ranges for this role stretch from roughly $38,000 at the low end to over $90,000 at the high end. That's not noise — it's the difference between a first coordinator job and someone running coordination for a large programme after several years." },
+    { "type": "table", "caption": "A realistic reading by stage, based on the reported ranges rather than the averages.", "headers": ["Stage", "Realistic expectation"], "rows": [
+      ["First coordinator job, no experience", "Near the bottom of the range"],
+      ["Two to three years in", "Approaching the reported averages"],
+      ["Senior coordinator, large organization", "Upper end of the range"]
+    ] },
+    { "type": "callout", "variant": "tip", "richText": "When you negotiate a first offer, quoting the national average as your target is a weak position — the employer knows it includes experienced people. Quoting the advertised range for that specific role in that specific city is far stronger, and you can find it in the job postings themselves." },
+    { "type": "heading", "level": 2, "text": "Where the real jump happens" },
+    { "type": "paragraph", "richText": [ "This is the most useful thing in this article. The US Bureau of Labor Statistics — the one official source in this field — puts the median for project management specialists at $100,750 (May 2024). Compare that with a coordinator average in the low-to-mid $60,000s and the picture is clear: the step from coordinator to project manager is worth far more than years of raises inside the coordinator title." ] },
+    { "type": "callout", "variant": "info", "richText": "Treat that comparison carefully — you're weighing an official government median against self-reported aggregator averages, which isn't like for like. But the direction is unambiguous, and it's the single strongest argument for treating coordinator work as a stepping stone rather than a destination." },
+    { "type": "heading", "level": 2, "text": "What moves your pay within the role" },
+    { "type": "list", "ordered": false, "items": [
+      "Industry — technology, finance and construction pay above general administrative settings",
+      "City — major metros pay considerably more, though usually cost more to live in",
+      "Scope — coordinating several projects or a programme beats supporting one",
+      "Whether you're the person who spots problems first, which is what gets you promoted",
+      "Tool and domain fluency in whatever the employer actually uses"
+    ] },
+    { "type": "heading", "level": 2, "text": "Getting there, and getting out" },
+    { "type": "paragraph", "richText": [ "If you're aiming at this role as your way in, the practical route — including what employers screen for when you have no project experience — is in ", { "link": { "ref": "article:how-to-become-project-coordinator", "text": "how to become a project coordinator" } }, ". An entry-level certificate is one of the few things that genuinely helps at this stage: see ", { "link": { "ref": "article:is-capm-worth-it", "text": "is the CAPM worth it" } }, "." ] },
+    { "type": "paragraph", "richText": [ "And since the money is in the next step, plan for it early — ", { "link": { "ref": "article:how-to-become-project-manager", "text": "how to become a project manager" } }, " covers the move, and our ", { "link": { "ref": "article:project-manager-salary", "text": "project manager salary guide" } }, " shows what it pays across countries." ] },
+    { "type": "faq", "items": [
+      { "question": "What is the average project coordinator salary in 2026?", "answerRichText": "US sources range from about $55,000 (SalaryExpert) to $75,000 (Glassdoor), with roughly $60,000–$67,000 a fair reading of the middle. No government agency tracks this role, so all figures come from commercial salary aggregators rather than official data." },
+      { "question": "What should I expect in my first project coordinator job?", "answerRichText": "Nearer the bottom of the reported range than the average — reported ranges for this role start around $38,000. Averages include coordinators with years of experience, so using one as your target in a first negotiation puts you in a weak position. Check advertised ranges for that role in your city instead." },
+      { "question": "How much more do project managers earn than coordinators?", "answerRichText": [ "Substantially. The official US median for project management specialists is $100,750 (BLS, May 2024), against coordinator averages in the low-to-mid $60,000s. That comparison mixes official and self-reported data, so treat the exact gap loosely — but the step up is worth far more than years of raises in the coordinator role. See ", { "link": { "ref": "article:project-manager-salary", "text": "project manager salary" } }, "." ] }
+    ] }
+  ]
+}
