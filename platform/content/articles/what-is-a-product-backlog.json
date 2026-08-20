@@ -1,0 +1,52 @@
+{
+  "id": "what-is-a-product-backlog",
+  "slug": "what-is-a-product-backlog",
+  "clusterId": "cl_skills",
+  "title": "What Is a Product Backlog?",
+  "dek": "It's a single ordered list of everything needed to improve the product — not a to-do list and not a wish list. The Product Owner decides the order, the items nearest the top are the most detailed, and a backlog that only ever grows is a warning sign.",
+  "authorId": "author_team",
+  "publishedAt": "2026-08-20",
+  "updatedAt": "2026-08-20",
+  "intent": { "primaryKeyword": "what is a product backlog" },
+  "seo": {
+    "metaTitle": "What Is a Product Backlog?",
+    "metaDescription": "A plain-English guide to the product backlog — why it's ordered rather than prioritised, how much detail each item needs, and who decides the order."
+  },
+  "sources": [
+    { "label": "Scrum.org — The Scrum Guide", "url": "https://scrumguides.org/" },
+    { "label": "Scrum.org — What is a Product Backlog?", "url": "https://www.scrum.org/resources/what-is-a-product-backlog" },
+    { "label": "Scrum.org — Product Backlog refinement", "url": "https://www.scrum.org/resources/product-backlog-refinement" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Most teams have something they call a backlog. Rather fewer have what the Scrum Guide describes. The difference usually isn't the tool — it's that a real product backlog is a single ordered list with a purpose behind the order, while what many teams keep is an ever-growing pile of requests nobody has the authority to refuse." },
+    { "type": "callout", "variant": "info", "richText": "The definition: the Product Backlog is an emergent, ordered list of what is needed to improve the product, and it's the single source of work for the Scrum Team. \"Emergent\" means it changes constantly — it grows, shrinks, and gets reordered as the team and the market teach you things." },
+    { "type": "heading", "level": 2, "text": "Ordered, not prioritized into buckets" },
+    { "type": "paragraph", "richText": "This is the distinction that most often separates a working backlog from a broken one. A product backlog is a single ordered list: there is a first item, a second item, a third. It is not a set of piles labelled High, Medium and Low." },
+    { "type": "paragraph", "richText": "The reason is practical. Three items marked \"High\" still don't tell the team which to build first — so somebody decides informally, usually whoever asked most recently or most loudly. Forcing a single order forces the trade-off to be made deliberately, by the person accountable for it." },
+    { "type": "callout", "variant": "tip", "richText": "A quick test of your own backlog: can you say what the next three items are, in order, without hedging? If the answer is \"these five are all high priority\", the ordering decision hasn't been made yet — it's just been postponed until the team has to guess." },
+    { "type": "heading", "level": 2, "text": "Who decides the order" },
+    { "type": "paragraph", "richText": [ "The Product Owner does, and it's their central accountability. They may order by value, urgency, return on investment, dependency, risk, or any combination — and they can take advice from anyone, including the Developers during refinement. But the decision is theirs, which is what makes the role hard: see ", { "link": { "ref": "article:what-does-a-product-owner-do", "text": "what a Product Owner actually does" } }, "." ] },
+    { "type": "heading", "level": 2, "text": "Not every item needs the same detail" },
+    { "type": "paragraph", "richText": "Refinement is the ongoing work of breaking items down and adding detail — a description, an order, a size. What surprises people is that refinement is deliberately uneven: items near the top are small and well understood, while items near the bottom can be a vague one-line idea." },
+    { "type": "table", "caption": "How much detail an item needs, depending on where it sits.", "headers": ["Position", "Expected state"], "rows": [
+      ["Top — next Sprint or two", "Small, clear, understood, ready to be selected"],
+      ["Middle — coming months", "Broadly defined, roughly sized"],
+      ["Bottom — someday", "A one-line idea is fine"]
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "Detailing the whole backlog is one of the most common wasted efforts in agile teams. Anything far from the top will probably change or be dropped before it's built, so the analysis spent on it is thrown away. Refine deeply at the top and lightly everywhere else." },
+    { "type": "paragraph", "richText": [ "Sizing is done by the people who'll do the work — the Developers — with the Product Owner influencing but not dictating it. Items small enough to be finished within one Sprint are the ones considered ready for selection at Sprint Planning: see ", { "link": { "ref": "article:what-is-a-sprint", "text": "what a Sprint is" } }, "." ] },
+    { "type": "heading", "level": 2, "text": "The Product Goal lives in it" },
+    { "type": "paragraph", "richText": "The Product Backlog isn't only a list of work — it also contains the Product Goal, the long-term objective the team is working toward. The rest of the backlog exists to define what will fulfil that goal, and the team commits to one goal at a time: it must be achieved or deliberately abandoned before the next is taken on." },
+    { "type": "paragraph", "richText": "That's what stops a backlog becoming a directionless queue. If you can't say which goal an item serves, it's worth asking why it's on the list at all." },
+    { "type": "heading", "level": 2, "text": "The warning sign: a backlog that only grows" },
+    { "type": "paragraph", "richText": "Backlogs are supposed to shrink as well as grow. If items are only ever added and nothing is ever removed, that usually means nobody is saying no — every stakeholder request gets filed rather than declined, and the list becomes an archive of things that will never be built." },
+    { "type": "callout", "variant": "tip", "richText": "Deleting an item isn't a failure of planning; it's the system working. If something has sat near the bottom for a year, the honest thing is to remove it. It can always come back — and the person who asked for it is better served by a straight answer than by permanent residence on a list nobody reads." },
+    { "type": "heading", "level": 2, "text": "Does Kanban have one?" },
+    { "type": "paragraph", "richText": [ "Not in the Scrum sense. The Product Backlog is a Scrum artifact with a defined owner and rules; flow-based methods keep a queue of work but don't prescribe the same structure or accountabilities. We compare the two approaches in ", { "link": { "ref": "article:kanban-vs-scrum", "text": "Kanban vs Scrum" } }, ". And if managing one sounds like the job you want, the route in is in ", { "link": { "ref": "article:how-to-become-product-owner", "text": "how to become a Product Owner" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "Who owns the product backlog?", "answerRichText": [ "The Product Owner. They decide the order — by value, urgency, risk, dependency or any combination — and may take advice from the Developers and stakeholders, but the decision is theirs alone. See ", { "link": { "ref": "article:what-does-a-product-owner-do", "text": "what a Product Owner does" } }, "." ] },
+      { "question": "What's the difference between a product backlog and a sprint backlog?", "answerRichText": [ "The Product Backlog is the whole ordered list of everything needed to improve the product. The Sprint Backlog is what the team selected for the current Sprint, plus the plan for delivering it and the Sprint Goal. One is the long list; the other is this Sprint's slice of it. See ", { "link": { "ref": "article:what-is-a-sprint", "text": "what a Sprint is" } }, "." ] },
+      { "question": "How detailed should backlog items be?", "answerRichText": "It depends where they sit. Items near the top should be small, clear and ready to be worked on within one Sprint. Items near the bottom can be a single vague line — detailing them is usually wasted effort, because they'll change or be dropped before anyone builds them." }
+    ] }
+  ]
+}
