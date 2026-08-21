@@ -1,0 +1,66 @@
+{
+  "id": "is-pmi-membership-worth-it",
+  "slug": "is-pmi-membership-worth-it",
+  "clusterId": "cl_guides",
+  "title": "Is PMI Membership Worth It? (The Actual Maths)",
+  "dek": "If you're about to sit a PMI exam, yes — the membership costs around $150 and cuts the PMP fee by roughly $250, so it pays for itself immediately. If you're only keeping it for the renewal discount afterwards, the maths stops working.",
+  "authorId": "author_team",
+  "publishedAt": "2026-08-21",
+  "updatedAt": "2026-08-21",
+  "intent": { "primaryKeyword": "is pmi membership worth it" },
+  "seo": {
+    "metaTitle": "Is PMI Membership Worth It?",
+    "metaDescription": "The maths on PMI membership — when it pays for itself, when it doesn't, and why the renewal discount alone isn't a reason to keep paying."
+  },
+  "sources": [
+    { "label": "PMI — Membership", "url": "https://www.pmi.org/membership" },
+    { "label": "PMI — Project Management Professional (PMP)", "url": "https://www.pmi.org/certifications/project-management-pmp" },
+    { "label": "PMI — How to maintain your certification", "url": "https://www.pmi.org/certifications/certification-resources/maintain" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "We spend a lot of time on this site telling people not to buy things. So it's worth being equally clear when something genuinely adds up — and for anyone about to sit a PMI exam, membership is one of the few upsells in this industry where the arithmetic is unambiguous." },
+    { "type": "callout", "variant": "info", "richText": "The short answer: if you're taking the PMP or CAPM, join first. Membership costs roughly $150 a year plus a small one-time application fee, and it cuts the PMP exam fee by about $250. You're better off from day one, before counting anything else you get." },
+    { "type": "heading", "level": 2, "text": "The exam maths" },
+    { "type": "paragraph", "richText": "This is the whole argument in one table. Prices vary by region and PMI adjusts them periodically, so confirm your own figures — but the shape of it holds." },
+    { "type": "table", "caption": "Cost of taking the PMP with and without membership (2026 figures; confirm current fees with PMI).", "headers": ["Route", "What you pay"], "rows": [
+      ["Non-member exam fee", "~$675"],
+      ["Membership + member exam fee", "~$150 + ~$425 = ~$575"],
+      ["Difference", "~$100 in your favour"]
+    ] },
+    { "type": "paragraph", "richText": "So you pay less overall and still hold a year's membership. That's why almost everyone taking a PMI exam joins first — and why not joining is usually just an oversight rather than a decision." },
+    { "type": "heading", "level": 2, "text": "What else comes with it" },
+    { "type": "list", "ordered": false, "items": [
+      "A digital copy of the PMBOK Guide, which you'd otherwise buy",
+      "Free webinars and on-demand courses that count toward PDUs and the 35 contact hours",
+      "Access to PMI's library of standards and research",
+      "Local chapter membership and events, which is where the networking actually happens",
+      "A reduced certification renewal fee — about $60 instead of $150"
+    ] },
+    { "type": "callout", "variant": "tip", "richText": "The free PDU-earning webinars are the most underrated item on that list. Renewal requires 60 PDUs every three years, and members can cover a large share of them at no cost — which matters if the alternative was buying a PDU bundle. We explain how that works in our renewal guide." },
+    { "type": "heading", "level": 2, "text": "Where the maths stops working" },
+    { "type": "paragraph", "richText": "Here's the part nobody mentions, and it's the reason this article exists rather than just repeating the sales pitch. The exam discount is a one-off. Once you're certified, the recurring comparison looks quite different:" },
+    { "type": "table", "caption": "The recurring maths after you're certified.", "headers": ["Item", "Amount"], "rows": [
+      ["Membership", "~$150 per year = ~$450 over 3 years"],
+      ["Renewal saving", "~$90 once every 3 years"],
+      ["Net", "Membership costs far more than it saves on renewal"]
+    ] },
+    { "type": "paragraph", "richText": "Read plainly: the renewal discount alone is not a reason to keep paying. Roughly $30 a year of saving against roughly $150 a year of cost is a losing trade. If you stay a member, stay for the webinars, the library and the chapter — things you'd actually use — not because you believe the renewal discount covers it. It doesn't." },
+    { "type": "callout", "variant": "warn", "richText": "A practical consequence: if you let membership lapse and later need to renew your certification, you'll pay the higher non-member renewal fee. That's fine and often still cheaper than a year of membership — just don't be surprised by it, and don't rejoin in a panic assuming you're saving money." },
+    { "type": "heading", "level": 2, "text": "So who should join?" },
+    { "type": "table", "caption": "A straight answer by situation.", "headers": ["Your situation", "Verdict"], "rows": [
+      ["About to sit the PMP or CAPM", "Join — it costs less than not joining"],
+      ["Certified, and you use the webinars for PDUs", "Worth keeping"],
+      ["Certified, active in a local chapter", "Worth keeping"],
+      ["Certified, but you never log in", "Let it lapse — the renewal discount won't cover it"],
+      ["Not pursuing a PMI certification at all", "Probably not worth it"]
+    ] },
+    { "type": "heading", "level": 2, "text": "Where this fits in the total cost" },
+    { "type": "paragraph", "richText": [ "Membership is one line in a larger budget, and the exam fee is rarely the biggest one. Our ", { "link": { "ref": "article:pmp-cost", "text": "PMP cost breakdown" } }, " covers the full picture including training and renewal, and ", { "link": { "ref": "article:pmp-renewal-pdus", "text": "how PDUs actually work" } }, " explains why much of the ongoing cost can be avoided entirely." ] },
+    { "type": "paragraph", "richText": [ "And before spending anything, it's worth being sure the certification itself is right for you — our honest verdict is in ", { "link": { "ref": "article:is-pmp-worth-it", "text": "is the PMP worth it" } }, ", with the entry-level alternative in ", { "link": { "ref": "article:is-capm-worth-it", "text": "is the CAPM worth it" } }, ". Check first whether you even qualify: ", { "link": { "ref": "article:pmp-eligibility", "text": "PMP eligibility" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "How much does PMI membership cost?", "answerRichText": "Around $150 a year, plus a small one-time application fee for new members. Prices vary by region and PMI adjusts them periodically, so confirm the current figure for your country on PMI's site before joining." },
+      { "question": "Does PMI membership save money on the PMP exam?", "answerRichText": [ "Yes, and by more than the membership costs. The member exam fee is around $425 against roughly $675 for non-members — a saving of about $250 against a membership of about $150, so joining first leaves you around $100 better off overall. See our ", { "link": { "ref": "article:pmp-cost", "text": "PMP cost breakdown" } }, "." ] },
+      { "question": "Should I keep PMI membership after getting certified?", "answerRichText": [ "Only if you use it. The renewal discount is worth about $90 once every three years against roughly $450 of membership over the same period, so it doesn't pay for itself. Keep it for the free PDU webinars, the library and chapter events — see ", { "link": { "ref": "article:pmp-renewal-pdus", "text": "how PDUs work" } }, "." ] }
+    ] }
+  ]
+}
