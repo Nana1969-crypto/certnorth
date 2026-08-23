@@ -1,0 +1,78 @@
+{
+  "id": "scrum-master-vs-project-manager",
+  "slug": "scrum-master-vs-project-manager",
+  "clusterId": "cl_compare",
+  "title": "Scrum Master vs Project Manager: Which Career Is Right for You?",
+  "dek": "A project manager is accountable for delivering a project and has the authority to match. A Scrum Master has no authority at all — they coach a team toward working well. Choose on which kind of responsibility suits you, because the day-to-day work is genuinely different.",
+  "authorId": "author_team",
+  "publishedAt": "2026-08-22",
+  "updatedAt": "2026-08-22",
+  "intent": { "primaryKeyword": "scrum master vs project manager" },
+  "seo": {
+    "metaTitle": "Scrum Master vs Project Manager: Which Career?",
+    "metaDescription": "The two roles compared on accountability, day-to-day work, entry difficulty, cost and pay — and an honest answer on which suits which kind of person."
+  },
+  "sources": [
+    { "label": "Scrum.org — The Scrum Guide", "url": "https://scrumguides.org/" },
+    { "label": "U.S. Bureau of Labor Statistics — Project Management Specialists", "url": "https://www.bls.gov/ooh/business-and-financial/project-management-specialists.htm" },
+    { "label": "Scrum.org — Professional Scrum Master I (PSM I)", "url": "https://www.scrum.org/assessments/professional-scrum-master-i-certification" },
+    { "label": "PMI — Project Management Professional (PMP)", "url": "https://www.pmi.org/certifications/project-management-pmp" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "These are the two main doors into professional project work, and most people choose between them badly — usually by comparing salary figures, or by picking whichever certification looked cheapest. Both are poor criteria. The roles differ in something more fundamental: what you are actually accountable for, and whether you have any authority to deliver it." },
+    { "type": "callout", "variant": "info", "richText": "The short version: a project manager owns delivery — scope, schedule, budget — and has authority over the plan. A Scrum Master owns how well a team uses Scrum, and has authority over nothing. If that second sentence sounds frustrating rather than interesting, you have your answer already." },
+    { "type": "heading", "level": 2, "text": "The difference that actually matters" },
+    { "type": "paragraph", "richText": "Most comparisons list surface differences — one runs Gantt charts, the other runs stand-ups. That's true and not very useful. The real difference is structural, and it comes straight from how the two roles are defined." },
+    { "type": "paragraph", "richText": "A project manager is handed an objective and the means to pursue it: they plan the work, allocate resources, manage the budget, and answer for whether it lands. When something goes wrong, they decide what changes." },
+    { "type": "paragraph", "richText": "A Scrum Master is handed no such thing. The Scrum Guide is explicit that the role serves the team, the Product Owner, and the wider organization — it does not direct them. A Scrum Master cannot assign a task, cannot move a deadline, and cannot overrule a decision. Their influence comes entirely from facilitation, coaching, and credibility." },
+    { "type": "callout", "variant": "tip", "richText": "A useful way to test which fits you: think about the last time a group you were in got stuck. Did you want to decide and move, or did you want to get the group to reach a decision itself? The first instinct suits project management. The second suits a Scrum Master, and it's a genuine preference, not a lesser one." },
+    { "type": "heading", "level": 2, "text": "Side by side" },
+    { "type": "table", "caption": "The two roles on the factors that decide a career choice.", "headers": ["", "Project manager", "Scrum Master"], "rows": [
+      ["Accountable for", "Delivering the project", "The team's effective use of Scrum"],
+      ["Authority", "Over plan, scope, budget", "None"],
+      ["Typical scope", "One project, start to finish", "One team, ongoing"],
+      ["Success looks like", "Delivered on time and budget", "A team that improves and self-manages"],
+      ["Where it's common", "Every industry", "Software and product organizations"],
+      ["Main frustration", "Being accountable without full control", "Influencing without any authority"]
+    ] },
+    { "type": "heading", "level": 2, "text": "The day-to-day feels different" },
+    { "type": "paragraph", "richText": "Ask people in each role what fills their week and the answers barely overlap." },
+    { "type": "paragraph", "richText": [ { "b": "A project manager" }, " spends the week keeping a plan honest: tracking progress against it, managing dependencies and risks, reporting to stakeholders, negotiating when something slips, and making the trade-off calls between scope, time and cost. There is a plan, and they own it." ] },
+    { "type": "paragraph", "richText": [ { "b": "A Scrum Master" }, " spends the week on people and process: facilitating the Scrum events so they're genuinely useful, chasing down blockers, coaching the team on how it works together, protecting it from mid-sprint interruptions, and helping the Product Owner keep the backlog clear. There is no plan they own — there's a team they help." ] },
+    { "type": "heading", "level": 2, "text": "Which is easier to get into?" },
+    { "type": "paragraph", "richText": "This is where the practical difference is largest, and it's the reason many career-changers end up as Scrum Masters whether or not they intended to." },
+    { "type": "table", "caption": "Entry requirements compared (2026 figures; confirm current details with each body).", "headers": ["", "Project manager", "Scrum Master"], "rows": [
+      ["Experience to start", "Usually several years of project work", "Often none required"],
+      ["Flagship certification", "PMP", "PSM I or CSM"],
+      ["Certification prerequisite", "36–60 months documented experience", "None"],
+      ["Entry certification cost", "CAPM as a stepping stone", "~$200 for the PSM I"],
+      ["Realistic entry route", "Coordinator, then manager", "Direct, with facilitation practice"]
+    ] },
+    { "type": "paragraph", "richText": [ "The asymmetry is stark. You cannot take the PMP without three to five years of documented project experience — see ", { "link": { "ref": "article:pmp-eligibility", "text": "PMP eligibility" } }, " — whereas the PSM I has no prerequisites at all and costs around $200. For someone changing careers, the Scrum route is simply more open." ] },
+    { "type": "callout", "variant": "warn", "richText": "But don't read \"easier to certify\" as \"easier to be hired\". Employers hiring a Scrum Master want evidence you've actually facilitated teams, and the market has no shortage of certified people without that experience. The certificate opens the door; nothing about the role is easy once you're through it." },
+    { "type": "heading", "level": 2, "text": "What about the money?" },
+    { "type": "paragraph", "richText": "Salary is where most comparisons start, and it deserves care because the two roles aren't measured the same way. Project management specialists have an official US median from the Bureau of Labor Statistics: $100,750 as of May 2024. Scrum Master has no government occupation code anywhere, so every figure for it is self-reported to a commercial aggregator — commonly around $123,000 to $127,000 in the US." },
+    { "type": "callout", "variant": "info", "richText": "Read that gap carefully. You'd be comparing an official national median against self-reported averages, which isn't like for like — and Scrum Masters cluster in higher-paying technology and finance sectors, which lifts their numbers independently of the role itself. Both pay well. Neither difference should decide your career." },
+    { "type": "paragraph", "richText": [ "We break each down with sources named in ", { "link": { "ref": "article:project-manager-salary", "text": "project manager salary" } }, " and ", { "link": { "ref": "article:scrum-master-salary", "text": "Scrum Master salary" } }, "." ] },
+    { "type": "heading", "level": 2, "text": "A myth worth clearing up" },
+    { "type": "paragraph", "richText": [ "You'll often read that project management means waterfall and Scrum means agile, so the choice is really between two philosophies. That framing is out of date. In the PMP exam PMI launched in July 2026, roughly 40% of items reflect predictive approaches and about 60% are agile and hybrid — PMI states that agile and hybrid are emphasised. A modern project manager is expected to work in both worlds. We cover that in ", { "link": { "ref": "article:is-pmp-worth-it", "text": "is the PMP worth it" } }, ", and the underlying difference between the approaches in ", { "link": { "ref": "article:agile-vs-waterfall", "text": "Agile vs Waterfall" } }, "." ] },
+    { "type": "heading", "level": 2, "text": "Can you do both, or switch later?" },
+    { "type": "paragraph", "richText": "Yes, and plenty of people do. The skills overlap more than the job titles suggest: both roles live or die on communication, on spotting problems early, and on getting people who don't report to you to do things. Scrum Masters move into project management when they want ownership of outcomes; project managers move into Scrum Master and coaching roles when they'd rather build teams than plans." },
+    { "type": "paragraph", "richText": "So this is not a permanent decision. It's a decision about which kind of work you want to be doing in eighteen months — and if you're wrong, the correction is a sideways move, not starting over." },
+    { "type": "heading", "level": 2, "text": "The honest recommendation" },
+    { "type": "list", "ordered": false, "items": [
+      "You like owning an outcome and making the call → project manager",
+      "You like helping a group work better and can influence without authority → Scrum Master",
+      "You're changing careers and need the most open door → Scrum Master, for now",
+      "You're already running projects under another title → project manager, you're closer than you think",
+      "You want breadth across industries → project manager; Scrum concentrates in software"
+    ] },
+    { "type": "paragraph", "richText": [ "Whichever way you lean, the practical next steps are in ", { "link": { "ref": "article:how-to-become-project-manager", "text": "how to become a project manager" } }, " and ", { "link": { "ref": "article:how-to-become-scrum-master", "text": "how to become a Scrum Master" } }, ". For a closer look at the daily reality of the Scrum side before committing, read ", { "link": { "ref": "article:what-does-a-scrum-master-do", "text": "what a Scrum Master actually does" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "Is a Scrum Master the same as a project manager?", "answerRichText": "No. A project manager is accountable for delivering a project and has authority over the plan, scope and budget. A Scrum Master is accountable for how well a team uses Scrum and has no authority over people, tasks or deadlines — their influence comes from facilitation and coaching." },
+      { "question": "Which pays more, Scrum Master or project manager?", "answerRichText": [ "Reported Scrum Master averages in the US sit above the official project manager median of $100,750, but that compares self-reported aggregator data against government statistics, and Scrum Masters concentrate in higher-paying tech and finance. Both pay well; the gap isn't reliable enough to choose a career on. See ", { "link": { "ref": "article:scrum-master-salary", "text": "Scrum Master salary" } }, "." ] },
+      { "question": "Which is easier to get into?", "answerRichText": [ "Scrum Master, by a clear margin. The PSM I has no prerequisites and costs around $200, while the PMP requires 36 to 60 months of documented project experience before you can even apply. But easier to certify is not the same as easier to be hired — employers want evidence you've facilitated real teams. See ", { "link": { "ref": "article:how-to-become-scrum-master", "text": "how to become a Scrum Master" } }, "." ] },
+      { "question": "Can you switch from Scrum Master to project manager?", "answerRichText": "Yes, and in both directions. The underlying skills — communication, spotting problems early, influencing people who don't report to you — transfer well. Scrum Masters often move across when they want ownership of outcomes; project managers move the other way when they'd rather develop teams than own plans." }
+    ] }
+  ]
+}
