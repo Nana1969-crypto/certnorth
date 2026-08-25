@@ -1,0 +1,84 @@
+{
+  "id": "how-to-become-business-analyst",
+  "slug": "how-to-become-a-business-analyst",
+  "clusterId": "cl_paths",
+  "title": "How to Become a Business Analyst (And Where It Leads)",
+  "dek": "A business analyst works out what a business actually needs before anyone builds it. It's one of the most accessible ways into product and project work — the entry certification requires no experience at all, while the senior one demands roughly 3.6 years of full-time BA hours.",
+  "authorId": "author_team",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-08-25",
+  "intent": { "primaryKeyword": "how to become a business analyst" },
+  "seo": {
+    "metaTitle": "How to Become a Business Analyst",
+    "metaDescription": "The realistic route into business analysis — what the role really is, the IIBA certification ladder and its real costs, and where the career leads next."
+  },
+  "sources": [
+    { "label": "IIBA — Entry Certificate in Business Analysis (ECBA)", "url": "https://www.iiba.org/business-analysis-certifications/ecba/" },
+    { "label": "IIBA — Certified Business Analysis Professional (CBAP)", "url": "https://www.iiba.org/business-analysis-certifications/cbap/" },
+    { "label": "IIBA — BABOK Guide", "url": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success-the-babok-guide/" },
+    { "label": "Scrum.org — The Scrum Guide", "url": "https://scrumguides.org/" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "We've written repeatedly on this site that Product Owners often arrive from business analysis — and then moved on without explaining what that means. This is that article. Business analysis is one of the most accessible routes into product and project work, and it's also one of the most misunderstood roles in the field." },
+    { "type": "callout", "variant": "info", "richText": "The short version: a business analyst works out what a business actually needs, and translates it into something a team can build. Not what someone asked for — what they need. That distinction is the entire job, and it's why the role exists at all." },
+    { "type": "heading", "level": 2, "text": "What a business analyst actually does" },
+    { "type": "paragraph", "richText": "The caricature is \"the person who writes requirements.\" The reality is closer to investigation. A stakeholder arrives asking for a specific feature; the analyst's job is to find out what problem sits behind the request, whether that problem is real, whether the feature would solve it, and what it would cost elsewhere in the business." },
+    { "type": "paragraph", "richText": "That work looks like this in a typical week:" },
+    { "type": "list", "ordered": false, "items": [
+      "Interviewing stakeholders and, crucially, the people who do the work day to day",
+      "Mapping how a process currently runs — which is almost never how anyone thinks it runs",
+      "Identifying where the real cost or delay sits, rather than where it's assumed to sit",
+      "Writing requirements a team can act on without three follow-up questions",
+      "Modelling data and process flows so a decision can be argued about visually",
+      "Validating afterwards that what was built actually solved the problem"
+    ] },
+    { "type": "callout", "variant": "tip", "richText": "The skill that separates a good analyst from a note-taker is asking why one more time than feels comfortable. \"We need a dashboard\" is a solution someone has already chosen. \"Because we can't tell which orders are late until a customer calls\" is the problem — and it may not need a dashboard at all." },
+    { "type": "heading", "level": 2, "text": "BA, Product Owner, or project manager?" },
+    { "type": "paragraph", "richText": "These three roles overlap enough to confuse everyone, including employers who advertise one and describe another. The clean way to separate them is by the question each is accountable for answering." },
+    { "type": "table", "caption": "The three roles by the question each one owns.", "headers": ["Role", "Owns the question", "Accountable for"], "rows": [
+      ["Business analyst", "What does the business need, and why?", "Understanding the problem correctly"],
+      ["Product Owner", "What should we build next, and in what order?", "The value the product delivers"],
+      ["Project manager", "How and when will this get delivered?", "Delivery — scope, schedule, budget"]
+    ] },
+    { "type": "paragraph", "richText": [ "In small organizations one person often does all three, which is where the confusion starts. In larger ones they're distinct jobs with distinct authority. For the roles alongside this one, see ", { "link": { "ref": "article:what-does-a-product-owner-do", "text": "what a Product Owner actually does" } }, " and ", { "link": { "ref": "article:scrum-master-vs-project-manager", "text": "Scrum Master vs project manager" } }, "." ] },
+    { "type": "heading", "level": 2, "text": "The realistic route in" },
+    { "type": "paragraph", "richText": "Business analysis is unusually open to career-changers, because the core skills — asking good questions, listening properly, structuring messy information, writing clearly — are built in almost any job that involves understanding how an organization works." },
+    { "type": "paragraph", "richText": "That's why analysts so often come from adjacent roles rather than from a BA degree:" },
+    { "type": "list", "ordered": false, "items": [
+      "Operations or customer support — you already know where the process breaks",
+      "Finance or accounting — you're used to interrogating numbers and reconciling them",
+      "Domain specialists in healthcare, insurance, logistics — the industry knowledge is often the harder half",
+      "Testers and QA — you already read requirements critically for a living",
+      "Project coordinators — you've watched requirements go wrong from close range"
+    ] },
+    { "type": "callout", "variant": "tip", "richText": "The strongest move if you're already inside a company: volunteer to document a process nobody has documented, or to gather requirements for a small internal change. It costs your employer nothing, it's genuinely useful, and it gives you the one thing job applications need — a concrete example of analysis you actually did." },
+    { "type": "heading", "level": 2, "text": "The certification ladder, and what it really costs" },
+    { "type": "paragraph", "richText": "The main certifying body is IIBA, and its credentials are tiered by experience rather than by subject. This matters more than it sounds, because two of the three tiers are closed to you until you've done years of the work." },
+    { "type": "table", "caption": "IIBA certification tiers (2026; confirm current fees and requirements with IIBA).", "headers": ["Level", "Experience required", "Typical cost"], "rows": [
+      ["ECBA — entry", "None; 21 hours of professional development", "~$300–$395 including membership"],
+      ["CCBA — intermediate", "Several years of BA work", "Between the two"],
+      ["CBAP — senior", "7,500 hours of BA experience in 10 years", "~$450–$650, more with training"]
+    ] },
+    { "type": "paragraph", "richText": "Two details are worth pulling out of that table, because they change how you should plan." },
+    { "type": "callout", "variant": "warn", "richText": "Do the arithmetic on the CBAP: 7,500 hours is roughly 3.6 years of full-time business analysis work — and IIBA additionally requires at least 900 hours in each of four of the six BABOK knowledge areas. So the senior credential isn't a route into the profession; it's recognition once you're established in it, exactly like the PMP in project management." },
+    { "type": "paragraph", "richText": "The ECBA is the opposite, and it's the useful one for a career-changer. It requires no experience at all — just 21 hours of professional development and knowledge of IIBA's BABOK Guide, which is the body of knowledge the exam draws from. From 2026 the first year of IIBA membership is included in the exam cost, so the quoted $300 to $395 covers both." },
+    { "type": "heading", "level": 2, "text": "Is the certification worth it?" },
+    { "type": "paragraph", "richText": [ "Honestly: it helps most when you have nothing else to show. If you're changing careers and can't point to analysis work you've done, the ECBA signals that you've learned the vocabulary and the framework, and it gets you past filters. If you've already been doing analysis under another title, your examples matter far more than the certificate — the same conclusion we reach about project management in ", { "link": { "ref": "article:do-you-need-certification-project-manager", "text": "do you need a certification to be a project manager" } }, "." ] },
+    { "type": "paragraph", "richText": "One genuine caution: unlike project management, business analysis has no single dominant credential that employers routinely name in postings. The PMP is asked for by name; the ECBA rarely is. That doesn't make it worthless — it makes it a learning investment and a signal, rather than a key that unlocks a specific door." },
+    { "type": "heading", "level": 2, "text": "Where the career leads" },
+    { "type": "paragraph", "richText": "Business analysis is a genuine destination for people who like the investigative work — senior and lead analyst roles exist, and domain expertise compounds over years. But it's also one of the best-positioned launchpads in this field, because the skills transfer directly." },
+    { "type": "table", "caption": "Common next steps from business analysis, and why they fit.", "headers": ["Next role", "Why it's a natural move"], "rows": [
+      ["Product Owner", "You already understand user needs and can order work by value"],
+      ["Project manager", "You know the domain and the stakeholders; delivery skills are learnable"],
+      ["Product manager", "Same problem-framing skill, applied to strategy rather than delivery"],
+      ["Senior / lead BA", "Depth in a domain becomes genuinely valuable over time"]
+    ] },
+    { "type": "paragraph", "richText": [ "The move to Product Owner is the most common of these, and it's a real step up in authority rather than a sideways retitle — the analyst recommends, the Product Owner decides. If that appeals, the route is in ", { "link": { "ref": "article:how-to-become-product-owner", "text": "how to become a Product Owner" } }, ". If delivery attracts you more than product, see ", { "link": { "ref": "article:how-to-become-project-manager", "text": "how to become a project manager" } }, ", and the entry rung below it in ", { "link": { "ref": "article:how-to-become-project-coordinator", "text": "how to become a project coordinator" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "Can you become a business analyst with no experience?", "answerRichText": "Yes, and it's one of the more open routes into this field. The core skills — questioning, listening, structuring messy information, writing clearly — are built in operations, support, finance, QA and domain roles. The ECBA certification also requires no experience at all, only 21 hours of professional development." },
+      { "question": "What's the difference between a business analyst and a product owner?", "answerRichText": [ "The analyst works out what the business needs and why; the Product Owner decides what gets built and in what order, and has the authority to do so. The analyst recommends, the Product Owner decides. In small organisations one person often does both. See ", { "link": { "ref": "article:what-does-a-product-owner-do", "text": "what a Product Owner does" } }, "." ] },
+      { "question": "How long does it take to get the CBAP?", "answerRichText": "Years, because of the experience gate rather than the exam. IIBA requires 7,500 hours of business analysis work within the last ten years — roughly 3.6 years full time — plus at least 900 hours in each of four of the six BABOK knowledge areas. The entry-level ECBA has no experience requirement at all." },
+      { "question": "Which business analyst certification should I start with?", "answerRichText": [ "The ECBA, if you're new — it's the only IIBA tier open to people without BA experience, costs roughly \\$300 to \\$395 including the first year of membership, and requires 21 hours of professional development. Just be aware that employers rarely name BA certifications in postings the way they name the PMP, so treat it as a learning investment rather than a key. See ", { "link": { "ref": "article:do-you-need-certification-project-manager", "text": "our honest take on whether certifications are required" } }, "." ] }
+    ] }
+  ]
+}
