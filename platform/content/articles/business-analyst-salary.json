@@ -1,0 +1,80 @@
+{
+  "id": "business-analyst-salary",
+  "slug": "business-analyst-salary",
+  "clusterId": "cl_salary",
+  "title": "Business Analyst Salary in 2026 (And How the Ladder Really Compares)",
+  "dek": "US sources put the average between about $84,000 and $111,000. There's a semi-official figure too — but it describes a broader occupation than business analysis, and the popular idea of a neat salary ladder from coordinator to coach is shakier than it looks.",
+  "authorId": "author_team",
+  "publishedAt": "2026-08-26",
+  "updatedAt": "2026-08-26",
+  "intent": { "primaryKeyword": "business analyst salary" },
+  "seo": {
+    "metaTitle": "Business Analyst Salary in 2026",
+    "metaDescription": "What business analysts earn in 2026, why the official BLS figure isn't quite about BAs, and an honest look at how the career ladder really compares."
+  },
+  "sources": [
+    { "label": "Glassdoor — Business Analyst salary (United States)", "url": "https://www.glassdoor.com/Salaries/business-analyst-salary-SRCH_KO0,16.htm" },
+    { "label": "Indeed — Business Analyst salary (United States)", "url": "https://www.indeed.com/career/business-analyst/salaries" },
+    { "label": "Salary.com — Business Analyst salary", "url": "https://www.salary.com/research/salary/listing/business-analyst-salary" },
+    { "label": "U.S. Bureau of Labor Statistics — Management Analysts", "url": "https://www.bls.gov/ooh/business-and-financial/management-analysts.htm" },
+    { "label": "U.S. Bureau of Labor Statistics — Project Management Specialists", "url": "https://www.bls.gov/ooh/business-and-financial/project-management-specialists.htm" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Business analyst pay is better documented than most roles we cover — and more confusing, because the job title stretches across genuinely different work. A junior analyst gathering requirements and a senior analyst redesigning how an insurer prices risk share a title and very little else. That's most of the spread you'll see." },
+    { "type": "callout", "variant": "info", "richText": "The short answer: US averages run from roughly $84,000 to $111,000 depending on the source, with reported ranges stretching from the mid-$60,000s at entry level past $170,000 at the top. Roughly $95,000 to $110,000 is a fair reading of the middle." },
+    { "type": "heading", "level": 2, "text": "What the sources report" },
+    { "type": "table", "caption": "US business analyst salary by source (2026). Commercial aggregator data.", "headers": ["Source", "Reported average"], "rows": [
+      ["Salary.com", "~$111,400"],
+      ["Glassdoor", "~$107,700"],
+      ["ZipRecruiter", "~$98,700"],
+      ["Indeed", "~$97,500"],
+      ["Built In", "~$84,100"]
+    ] },
+    { "type": "paragraph", "richText": "Glassdoor's own percentile breakdown is more informative than any average: roughly $84,900 at the 25th percentile, $138,100 at the 75th, and $171,700 at the 90th. That's a wide band, and knowing where in it you'd sit matters more than the midpoint." },
+    { "type": "heading", "level": 2, "text": "The official figure, and why it isn't quite about you" },
+    { "type": "paragraph", "richText": "Business analysis is unusual among the roles on this site in having something close to official data. The US Bureau of Labor Statistics reports a median of about $101,190 for management analysts — and that's a real government statistic, not a self-reported average." },
+    { "type": "callout", "variant": "warn", "richText": "But read the label carefully. \"Management analysts\" is a broader occupation than business analysis: it includes management consultants and organisational analysts whose work overlaps with, but isn't the same as, a BA's. Treat it as the closest official proxy available — not as the official business analyst median. Nobody publishes that." },
+    { "type": "paragraph", "richText": "This is still better than what exists for most agile roles. Scrum Master and Product Owner have no government occupation code at all, so every figure for them is self-reported. Business analysts at least have a neighbouring official category to sanity-check against — and reassuringly, the aggregator averages cluster near it." },
+    { "type": "heading", "level": 2, "text": "By experience level" },
+    { "type": "paragraph", "richText": "Averages hide the thing most people actually want to know, which is where they'd start. Reported figures by seniority look roughly like this:" },
+    { "type": "table", "caption": "Indicative US business analyst pay by seniority. Single-source estimates — treat as a shape, not precise figures.", "headers": ["Level", "Indicative range"], "rows": [
+      ["Entry level", "~$65,000–$82,000"],
+      ["Mid level", "~$85,000–$110,000"],
+      ["Senior", "~$115,000–$140,000"],
+      ["Lead / principal", "~$140,000–$180,000"]
+    ] },
+    { "type": "callout", "variant": "tip", "richText": "If you're changing careers into business analysis, plan around the entry band, not the average. As with every role, published averages include people with years in the job — quoting one as your target in a first negotiation tells the employer you haven't checked the market properly." },
+    { "type": "heading", "level": 2, "text": "What actually moves BA pay" },
+    { "type": "paragraph", "richText": "One factor dominates here in a way it doesn't for project management, and it's worth understanding because it's the lever you can deliberately pull." },
+    { "type": "list", "ordered": false, "items": [
+      "Domain expertise — deep knowledge of insurance, healthcare, banking or logistics is the single biggest premium in business analysis, because the analysis is only as good as your understanding of the business",
+      "Technical depth — analysts comfortable with data, SQL and systems design command noticeably more than purely process-focused ones",
+      "Scope — analysing a whole business capability pays more than writing requirements for one team's features",
+      "Industry — financial services and technology sit at the top; general corporate and public sector lower",
+      "Location — major metros pay considerably more, with the usual cost-of-living caveat"
+    ] },
+    { "type": "paragraph", "richText": "The domain point deserves emphasis. A BA with eight years in insurance claims is close to irreplaceable to an insurer and merely competent to a retailer. That's why moving industries often costs you money in the short term even when the title stays the same — and why staying put can pay better than it looks." },
+    { "type": "heading", "level": 2, "text": "How the ladder really compares" },
+    { "type": "paragraph", "richText": "Here's the part worth being careful about, because we've now published salary guides for six roles and it would be easy — and misleading — to line them up as a neat ladder." },
+    { "type": "table", "caption": "Reported US pay across the roles we cover, with the type of data each figure comes from.", "headers": ["Role", "Reported figure", "Kind of data"], "rows": [
+      ["Project coordinator", "~$60,000–$67,000", "Self-reported"],
+      ["Business analyst", "~$95,000–$110,000", "Self-reported, near an official proxy"],
+      ["Project manager", "$100,750", "Official BLS median"],
+      ["Product Owner", "~$110,000–$120,000", "Self-reported"],
+      ["Scrum Master", "~$123,000–$127,000", "Self-reported"],
+      ["Agile Coach", "~$133,000–$188,000", "Self-reported, small samples"]
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "Do not read that as a staircase where each move up is a raise. Three of those figures are self-reported averages, one is an official median, and one rests on a very small sample. Self-reported data skews high, official medians skew lower by construction — so part of the apparent gap between project manager and the agile roles is measurement, not money." },
+    { "type": "paragraph", "richText": [ "What the table does support is narrower and more useful: the step from coordinator into any of the other roles is large and real, and business analyst sits broadly alongside project manager rather than clearly above or below it. Beyond that, the differences are within the noise. We say the same in each individual guide — see ", { "link": { "ref": "article:project-manager-salary", "text": "project manager salary" } }, " and ", { "link": { "ref": "article:product-owner-salary", "text": "Product Owner salary" } }, "." ] },
+    { "type": "heading", "level": 2, "text": "So is BA a good-paying career?" },
+    { "type": "paragraph", "richText": "Yes, with a caveat that's more useful than the number. Business analysis pays comparably to project management at every level, and it's more accessible to enter — but its ceiling in a pure BA track is lower than in product or executive paths. The analysts earning at the top of that range have usually either gone very deep in a domain or moved toward product and strategy." },
+    { "type": "paragraph", "richText": [ "That's why the transition to Product Owner is so common: it's the same problem-framing skill with decision authority attached, and the authority is what the market pays for. We cover that move in ", { "link": { "ref": "article:how-to-become-product-owner", "text": "how to become a Product Owner" } }, ", and the route into analysis itself — including the certification ladder and its real costs — in ", { "link": { "ref": "article:how-to-become-business-analyst", "text": "how to become a business analyst" } }, "." ] },
+    { "type": "paragraph", "richText": [ "If you're at the very beginning and weighing entry points, compare this against the other realistic door in ", { "link": { "ref": "article:project-coordinator-salary", "text": "project coordinator salary" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "What is the average business analyst salary in 2026?", "answerRichText": "US sources range from about $84,100 (Built In) to $111,400 (Salary.com), with roughly $95,000 to $110,000 a fair reading of the middle. Reported ranges stretch from the mid-$60,000s at entry level to over $170,000 at the 90th percentile." },
+      { "question": "Is there official salary data for business analysts?", "answerRichText": "Not exactly. The US Bureau of Labor Statistics publishes a median of about $101,190 for management analysts, which is a broader occupation including management consultants. It's the closest official proxy, but no agency publishes a business analyst median specifically." },
+      { "question": "Do business analysts earn more than project managers?", "answerRichText": [ "They're broadly comparable. Business analyst averages cluster around the official project manager median of $100,750, and the difference between them is smaller than the difference between data sources. Be wary of ladder comparisons: self-reported averages and official medians aren't measured the same way. See ", { "link": { "ref": "article:project-manager-salary", "text": "project manager salary" } }, "." ] },
+      { "question": "What raises a business analyst's salary the most?", "answerRichText": "Domain expertise, more than anything else. Deep knowledge of insurance, healthcare, banking or logistics commands a real premium, because the quality of the analysis depends on understanding the business. Technical depth — data, SQL, systems — is the second-largest factor." }
+    ] }
+  ]
+}
