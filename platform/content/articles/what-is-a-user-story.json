@@ -1,0 +1,65 @@
+{
+  "id": "what-is-a-user-story",
+  "slug": "what-is-a-user-story",
+  "clusterId": "cl_skills",
+  "title": "What Is a User Story? (And Why Scrum Doesn't Require One)",
+  "dek": "A user story is a short description of something a user wants, written from their point of view so the team discusses the need rather than a solution. It comes from Extreme Programming, not Scrum — the Scrum Guide never mentions user stories at all.",
+  "authorId": "author_team",
+  "publishedAt": "2026-08-28",
+  "updatedAt": "2026-08-28",
+  "intent": { "primaryKeyword": "what is a user story" },
+  "seo": {
+    "metaTitle": "What Is a User Story?",
+    "metaDescription": "What a user story is, why the Scrum Guide never actually defines one, the INVEST criteria, and the failure modes that turn stories into task tickets."
+  },
+  "sources": [
+    { "label": "Scrum.org — The Scrum Guide", "url": "https://scrumguides.org/" },
+    { "label": "Scrum.org — Are user stories requirements?", "url": "https://www.scrum.org/resources/blog/are-user-stories-requirements" },
+    { "label": "Bill Wake — INVEST in good stories, and SMART tasks", "url": "https://xp123.com/invest-in-good-stories-and-smart-tasks/" },
+    { "label": "Agile Alliance — User stories", "url": "https://www.agilealliance.org/glossary/user-stories/" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Almost every agile team writes user stories, and almost every one of them has argued about the correct way to do it. There's a reason those arguments never resolve: there is no official authority defining the format. Understanding where user stories actually come from settles most of the debate — and changes how you should use them." },
+    { "type": "callout", "variant": "info", "richText": "The definition: a user story is a short description of something someone wants, written from that person's perspective. Its purpose is not to be a specification. It's a placeholder for a conversation — a reminder that the team still needs to talk about the need before building a solution." },
+    { "type": "heading", "level": 2, "text": "The format, and what it's actually for" },
+    { "type": "paragraph", "richText": "The template most teams use has three parts — who wants it, what they want, and why. Something like: as a returning customer, I want to reorder a previous purchase, so that I don't have to search for the items again." },
+    { "type": "paragraph", "richText": "The third clause is the one that earns its place. \"As a customer I want a reorder button\" is a solution someone has already chosen. \"So that I don't have to search again\" is the actual problem — and once it's written down, the team can ask whether a button is the best answer, or whether the search was the real issue." },
+    { "type": "callout", "variant": "tip", "richText": "A quick test of whether a story is doing its job: cover the first two clauses and read only the \"so that\". If it still tells you what problem is being solved, the story is useful. If the reason is circular — \"so that I can use the reorder button\" — nobody has worked out the need yet." },
+    { "type": "heading", "level": 2, "text": "Where user stories actually come from" },
+    { "type": "paragraph", "richText": "This surprises most people, including many certified Scrum practitioners: user stories are not part of Scrum. They originated in Extreme Programming, the practice Kent Beck described in the late 1990s, where customers wrote short descriptions of the functions they wanted the system to perform." },
+    { "type": "callout", "variant": "warn", "richText": "The Scrum Guide never mentions user stories. It refers only to \"Product Backlog items\" and deliberately says nothing about their format — Scrum is a framework, not a method, so it leaves the how to you. Any claim that Scrum requires a particular story template is simply wrong, and worth knowing if you're preparing for a Scrum certification exam, which tests the Guide rather than adopted practices." },
+    { "type": "paragraph", "richText": [ "This is why the format arguments never end: there's no rule to appeal to. It also means you're free to use something else when the template doesn't fit. A performance improvement, a compliance requirement or a database migration often reads better as a plain description than as a contorted \"as a user, I want...\" sentence. What matters is that the backlog item is clear enough to act on — see ", { "link": { "ref": "article:what-is-a-product-backlog", "text": "what a product backlog is" } }, "." ] },
+    { "type": "heading", "level": 2, "text": "INVEST: the closest thing to a quality standard" },
+    { "type": "paragraph", "richText": "Since Scrum doesn't define story quality, teams borrowed a checklist from the XP world. Bill Wake articulated the INVEST criteria in 2003, and they remain the most useful test of whether a story is ready to work on." },
+    { "type": "table", "caption": "The INVEST criteria for user stories (Bill Wake, 2003).", "headers": ["Letter", "Criterion", "What it means in practice"], "rows": [
+      ["I", "Independent", "Can be built without waiting on another story"],
+      ["N", "Negotiable", "Describes a need, not a fixed specification"],
+      ["V", "Valuable", "Someone is better off once it's done"],
+      ["E", "Estimable", "The team understands it well enough to size it"],
+      ["S", "Small", "Fits comfortably inside one Sprint"],
+      ["T", "Testable", "You can tell objectively whether it's finished"]
+    ] },
+    { "type": "paragraph", "richText": "Two of these carry most of the weight. If a story isn't estimable, the team doesn't understand it yet and needs a conversation rather than a better description. If it isn't testable, nobody will agree on whether it was delivered — which is where sprint reviews turn awkward." },
+    { "type": "heading", "level": 2, "text": "Acceptance criteria: what \"done\" means for this story" },
+    { "type": "paragraph", "richText": "A story is intentionally brief, so it needs something alongside it that says when it's complete. Acceptance criteria are the conditions that must be satisfied before the story can be considered finished — concrete, checkable statements rather than aspirations." },
+    { "type": "paragraph", "richText": "For the reorder example, they might be: the reorder option appears only for customers with a previous order; selecting it adds every still-available item to the basket; unavailable items are listed clearly rather than silently dropped. Each is something you can verify without discussion." },
+    { "type": "callout", "variant": "tip", "richText": "Write acceptance criteria before the Sprint, not during it. When they're written mid-Sprint, they tend to be shaped by what has already been built — which quietly converts \"did we solve the problem?\" into \"does this match what we made?\"" },
+    { "type": "heading", "level": 2, "text": "Three ways teams get this wrong" },
+    { "type": "paragraph", "richText": "The failure modes are consistent enough to be worth naming, because each one is easy to spot in your own backlog." },
+    { "type": "list", "ordered": false, "items": [
+      "Stories as task tickets — \"as a developer, I want to update the database schema\" describes work, not a user need. It's a task, and calling it a story doesn't change that.",
+      "Template theatre — forcing every item into the three-clause format, including ones where it adds nothing. The format serves the conversation; when it stops serving, drop it.",
+      "Stories too large to finish — an item that can't be completed within a Sprint isn't ready to be selected, however well it's written. That's what refinement is for."
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "The deepest failure is subtler than any of these: treating the written story as the deliverable. A story is a placeholder for a conversation, and a team that stops having the conversation because the ticket looks complete has kept the ceremony and lost the point." },
+    { "type": "heading", "level": 2, "text": "Who writes them?" },
+    { "type": "paragraph", "richText": [ "In Scrum terms, the Product Owner is accountable for the Product Backlog and therefore for its items being clear — but that doesn't mean writing every one alone. In practice, stories are usually drafted collaboratively during refinement, with the Product Owner deciding what goes in and in what order. We cover that accountability in ", { "link": { "ref": "article:what-does-a-product-owner-do", "text": "what a Product Owner actually does" } }, ", and how the ordering decision works in ", { "link": { "ref": "article:what-is-a-product-backlog", "text": "what a product backlog is" } }, "." ] },
+    { "type": "paragraph", "richText": [ "If any of this is new and you're heading toward these roles, the practical routes are in ", { "link": { "ref": "article:how-to-become-product-owner", "text": "how to become a Product Owner" } }, " and ", { "link": { "ref": "article:how-to-become-business-analyst", "text": "how to become a business analyst" } }, " — the two jobs where writing these well is most of the work." ] },
+    { "type": "faq", "items": [
+      { "question": "Are user stories part of Scrum?", "answerRichText": [ "No. The Scrum Guide never mentions them — it refers only to Product Backlog items and says nothing about their format. User stories come from Extreme Programming and were widely adopted by Scrum teams, but they are not required. This matters for certification exams, which test the Guide rather than adopted practices. See ", { "link": { "ref": "article:what-is-a-product-backlog", "text": "what a product backlog is" } }, "." ] },
+      { "question": "What is the correct user story format?", "answerRichText": "There isn't an official one, because no standard body defines it. The common template names who wants something, what they want, and why — and the \"why\" is the part that matters, because it exposes the problem rather than a chosen solution. Where the template adds nothing, a plain clear description is fine." },
+      { "question": "What is the difference between a user story and acceptance criteria?", "answerRichText": "The story is a short description of a need, kept deliberately brief because it's a prompt for conversation. The acceptance criteria are the specific, checkable conditions that must be met before it counts as finished. The story says what and why; the criteria say when you're done." },
+      { "question": "What does INVEST mean in agile?", "answerRichText": "It's a checklist for story quality articulated by Bill Wake in 2003: Independent, Negotiable, Valuable, Estimable, Small, Testable. Estimable and Testable do most of the work — if a team can't size a story it doesn't yet understand it, and if it isn't testable nobody will agree whether it was delivered." }
+    ] }
+  ]
+}
