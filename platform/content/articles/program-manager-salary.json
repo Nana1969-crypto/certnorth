@@ -1,0 +1,80 @@
+{
+  "id": "program-manager-salary",
+  "slug": "program-manager-salary",
+  "clusterId": "cl_salary",
+  "title": "Program Manager Salary in 2026 (One Word Is Worth $60,000)",
+  "dek": "General program managers average roughly $96,000 to $123,000 in the US. Add \"technical\" to the title and the average jumps to about $162,000 — because they aren't really the same job, and the salary data quietly proves it.",
+  "authorId": "author_team",
+  "publishedAt": "2026-08-29",
+  "updatedAt": "2026-08-29",
+  "intent": { "primaryKeyword": "program manager salary" },
+  "seo": {
+    "metaTitle": "Program Manager Salary in 2026",
+    "metaDescription": "What program managers earn in 2026 — why adding one word to the title is worth up to $67,000, and what the source disagreement quietly reveals."
+  },
+  "sources": [
+    { "label": "Glassdoor — Program Manager salary (United States)", "url": "https://www.glassdoor.com/Salaries/program-manager-salary-SRCH_KO0,15.htm" },
+    { "label": "Indeed — Program Manager salary (United States)", "url": "https://www.indeed.com/career/program-manager/salaries" },
+    { "label": "Glassdoor — Technical Program Manager salary (United States)", "url": "https://www.glassdoor.com/Salaries/technical-program-manager-salary-SRCH_KO0,25.htm" },
+    { "label": "Indeed — Technical Program Manager salary (United States)", "url": "https://www.indeed.com/career/technical-program-manager/salaries" },
+    { "label": "U.S. Bureau of Labor Statistics — Project Management Specialists", "url": "https://www.bls.gov/ooh/business-and-financial/project-management-specialists.htm" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Program manager salary figures vary more wildly than almost any role we cover, and the usual explanation — different sources, different samples — is only half of it. The bigger reason is that \"program manager\" isn't one job. Two people holding that title can be doing work so different that comparing their pay is meaningless, and the data itself shows this clearly once you know where to look." },
+    { "type": "callout", "variant": "info", "richText": "The short answer: a general program manager averages roughly $96,000 to $123,000 in the US depending on the source. A technical program manager averages around $162,000. That's the same base title with one word added — and a gap of $38,000 to $67,000." },
+    { "type": "heading", "level": 2, "text": "What the sources report" },
+    { "type": "table", "caption": "US program manager pay by title and source (2026). Commercial aggregator data; no government agency tracks either title specifically.", "headers": ["Role", "Indeed", "Glassdoor"], "rows": [
+      ["Program manager", "~$95,800", "~$123,200"],
+      ["Technical program manager", "~$161,300", "~$162,200"]
+    ] },
+    { "type": "paragraph", "richText": "Glassdoor's percentile spread for general program managers runs from about $96,900 at the 25th percentile to $158,700 at the 75th, reaching $197,800 at the 90th. For technical program managers the equivalent band sits higher throughout: roughly $130,700 to $204,000, topping out near $249,200." },
+    { "type": "heading", "level": 2, "text": "The detail almost nobody notices" },
+    { "type": "paragraph", "richText": "Look again at that first table, but at the disagreement between sources rather than the figures themselves." },
+    { "type": "table", "caption": "How far the two sources diverge on each title.", "headers": ["Role", "Gap between sources"], "rows": [
+      ["Program manager", "~$27,400 apart — about 29%"],
+      ["Technical program manager", "~$900 apart — under 1%"]
+    ] },
+    { "type": "callout", "variant": "tip", "richText": "That contrast is the most informative thing on this page. Two independent datasets, built from different methods, land within 1% of each other on \"technical program manager\" — and 29% apart on \"program manager\". When sources agree that precisely, they're measuring a well-defined role. When they diverge that much, they're averaging genuinely different jobs that share a label." },
+    { "type": "paragraph", "richText": "So the wide spread on general program manager pay isn't mainly a sampling problem. It's a definition problem — and no amount of better data collection would fix it, because the underlying jobs really are different." },
+    { "type": "heading", "level": 2, "text": "What the title actually covers" },
+    { "type": "paragraph", "richText": "Depending on the employer, someone called a program manager might be doing any of these:" },
+    { "type": "list", "ordered": false, "items": [
+      "Coordinating several related projects toward one business outcome — the classic definition",
+      "Running a technical programme across engineering teams, usually titled TPM in tech companies",
+      "Managing an ongoing operational programme with no defined end date",
+      "Owning a grant-funded programme in a nonprofit or public body, closer to operations than delivery",
+      "Something nearer product or process management, which is common in parts of the tech industry"
+    ] },
+    { "type": "paragraph", "richText": [ "Those command very different salaries, and the first thing to establish about any posting is which of them it actually is. We make the same point about the role itself in ", { "link": { "ref": "article:how-to-become-program-manager", "text": "how to become a program manager" } }, " — read the job description, never the title." ] },
+    { "type": "heading", "level": 2, "text": "Seniority within the role" },
+    { "type": "table", "caption": "Reported averages by seniority (Glassdoor, 2026).", "headers": ["Level", "Reported average"], "rows": [
+      ["Program manager", "~$123,200"],
+      ["Lead program manager", "~$184,200"],
+      ["Technical program manager", "~$162,200"],
+      ["Staff TPM", "~$173,500"],
+      ["Principal TPM", "~$222,900"]
+    ] },
+    { "type": "paragraph", "richText": "Two things worth reading out of that. The technical track sits above the general one at every level, and the ceiling is meaningfully higher — principal TPM roles report well over $200,000. And a lead program manager out-earns a mid-level TPM, so seniority still matters more than the technical label alone." },
+    { "type": "heading", "level": 2, "text": "How it compares with project management" },
+    { "type": "paragraph", "richText": [ "The official US median for project management specialists is $100,750 (BLS, May 2024) — the one government statistic in this comparison. Program manager figures sit above it, which fits a more senior role, and technical program managers sit far above it. But be careful with the comparison, for the reason we set out in our ", { "link": { "ref": "article:business-analyst-salary", "text": "business analyst salary guide" } }, ": self-reported averages skew high and official medians skew low by construction, so part of any gap is measurement rather than money." ] },
+    { "type": "callout", "variant": "warn", "richText": "The TPM gap, though, is unusually credible — because it doesn't depend on comparing across sources. Indeed and Glassdoor each show it independently, in their own data, using their own methods. When two datasets disagree by 29% on one title and both show the same $40,000-plus premium on another, that premium is real." },
+    { "type": "heading", "level": 2, "text": "What actually moves your pay here" },
+    { "type": "list", "ordered": false, "items": [
+      "Technical depth — the single largest lever, worth $38,000 to $67,000 on the averages above",
+      "Industry — technology pays far above nonprofit, government and general corporate programmes",
+      "Scope — the number of teams and the budget you coordinate, more than headcount reporting to you",
+      "Seniority — lead, staff and principal bands are substantial steps, not title inflation",
+      "Whether the programme is revenue-facing, which tends to be valued above internal operations"
+    ] },
+    { "type": "callout", "variant": "tip", "richText": "If you're already a program manager without a technical background, the realistic move isn't to become an engineer. It's to take on programmes with genuine engineering dependencies and learn enough to hold your own with technical leads. That's what the TPM premium is actually paying for — the ability to coordinate technical work credibly." },
+    { "type": "heading", "level": 2, "text": "Using these numbers well" },
+    { "type": "paragraph", "richText": "Before quoting any figure from this page in a negotiation, work out which job the posting describes. If it involves coordinating engineering teams, the TPM band applies and the general average would undersell you by tens of thousands. If it's an operational or grant programme, the reverse is true and the TPM figure would make you look unserious." },
+    { "type": "paragraph", "richText": [ "As with every salary guide we publish, the advertised range for that specific role in that specific city beats any national average. For the role below this one, see our ", { "link": { "ref": "article:project-manager-salary", "text": "project manager salary guide" } }, ", and for the route into program management, ", { "link": { "ref": "article:how-to-become-project-manager", "text": "how to become a project manager" } }, " is usually where it starts." ] },
+    { "type": "faq", "items": [
+      { "question": "What is the average program manager salary in 2026?", "answerRichText": "Roughly $95,800 (Indeed) to $123,200 (Glassdoor) for a general program manager in the US, with the 90th percentile near $197,800. Technical program managers average about $162,000 — the same base title, but effectively a different job." },
+      { "question": "Why do program manager salary figures vary so much?", "answerRichText": "Mostly because the title covers genuinely different jobs — coordinating related projects, running technical programmes, managing operational or grant-funded programmes. The evidence is in the data itself: two independent sources land within 1% of each other on \"technical program manager\" but 29% apart on \"program manager\"." },
+      { "question": "Do technical program managers earn more?", "answerRichText": "Substantially — roughly $38,000 to $67,000 more on average. That premium is unusually well evidenced, because Indeed and Glassdoor each show it independently within their own data rather than only when compared against each other." },
+      { "question": "Do program managers earn more than project managers?", "answerRichText": [ "Generally yes, which fits a more senior role coordinating several projects. The official US project manager median is $100,750, below reported program manager averages. Treat the exact gap carefully though — you're comparing self-reported averages against a government median. See ", { "link": { "ref": "article:project-manager-salary", "text": "project manager salary" } }, "." ] }
+    ] }
+  ]
+}
