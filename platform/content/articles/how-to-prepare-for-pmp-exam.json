@@ -1,0 +1,75 @@
+{
+  "id": "how-to-prepare-for-pmp-exam",
+  "slug": "how-to-prepare-for-the-pmp-exam",
+  "clusterId": "cl_guides",
+  "title": "How to Prepare for the PMP Exam (2026 Version)",
+  "dek": "PMI replaced the exam in July 2026, and most study material online still describes the old one. The domain weights changed, Business Environment more than tripled, and new question types mean drilling multiple-choice questions is no longer enough on its own.",
+  "authorId": "author_team",
+  "publishedAt": "2026-08-30",
+  "updatedAt": "2026-08-30",
+  "intent": { "primaryKeyword": "how to prepare for the pmp exam" },
+  "seo": {
+    "metaTitle": "How to Prepare for the PMP Exam (2026)",
+    "metaDescription": "A study plan built on the exam PMI launched in July 2026 — the new domain weights, the new question types, and where most prep advice is out of date."
+  },
+  "sources": [
+    { "label": "PMI — What the new PMP exam, launched July 2026, means for you", "url": "https://www.pmi.org/certifications/project-management-pmp/new-exam" },
+    { "label": "PMI — New PMP Examination Content Outline (2026)", "url": "https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/new-pmp-examination-content-outline-2026.pdf" },
+    { "label": "PMI — PMP exam preparation", "url": "https://www.pmi.org/certifications/project-management-pmp/pmp-exam-preparation" },
+    { "label": "PMI — Project Management Professional (PMP)", "url": "https://www.pmi.org/certifications/project-management-pmp" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Before anything else, a warning that will save you more time than any study tip: PMI launched a new PMP exam on 9 July 2026, and a great deal of the preparation material circulating online still describes the previous version. Studying to the old blueprint means allocating your effort to the wrong places. Here's what the exam actually looks like now, and how to prepare for that one." },
+    { "type": "callout", "variant": "warn", "richText": "How to spot outdated material in ten seconds: if it says the People domain is 42% and Business Environment is 8%, it describes the retired exam. The current weights are People 33%, Process 41%, Business Environment 26%. Any course or question bank still quoting the old split hasn't been updated." },
+    { "type": "heading", "level": 2, "text": "The exam as it is now" },
+    { "type": "table", "caption": "PMP exam format (source: PMI; confirm current details in the Examination Content Outline).", "headers": ["Element", "Detail"], "rows": [
+      ["Questions", "180 total — 170 scored, 10 unscored pretest items"],
+      ["Time", "240 minutes"],
+      ["Breaks", "Two 10-minute breaks; the first after question 60"],
+      ["Domains", "People 33%, Process 41%, Business Environment 26%"],
+      ["Approaches", "~40% predictive, ~60% agile and hybrid"],
+      ["Question types", "Multiple choice, multiple response, drag and drop, case and graphic-based items"]
+    ] },
+    { "type": "paragraph", "richText": "Two practical details fall out of that table. You have about 1 minute 20 seconds per question, which is comfortable for straightforward items and tight for long scenarios — so pace matters. And ten of your questions don't count: they're pretest items PMI is trialling. You can't tell which, so an odd or unusually hard question isn't necessarily a sign you're failing." },
+    { "type": "callout", "variant": "info", "richText": "The break structure is fixed rather than optional. The first break becomes available after you complete question 60 and review your answers for that section — and once you move on, you cannot go back to earlier questions. Plan your review before taking the break, not after." },
+    { "type": "heading", "level": 2, "text": "Where to put your study time" },
+    { "type": "paragraph", "richText": "This is where the exam change matters most, and it's a genuine reallocation rather than a minor adjustment. Converting the weights into question counts makes it concrete:" },
+    { "type": "table", "caption": "Roughly how many of the 180 questions each domain represents, before and after the July 2026 update.", "headers": ["Domain", "Previous weight", "Current weight", "Approx. questions now"], "rows": [
+      ["People", "42%", "33%", "~59"],
+      ["Process", "50%", "41%", "~74"],
+      ["Business Environment", "8%", "26%", "~47"]
+    ] },
+    { "type": "callout", "variant": "tip", "richText": "Business Environment went from roughly 14 questions to roughly 47 — it more than tripled, and it's the domain most candidates historically skimmed. If you make one change to how you'd otherwise study, make it this: treat organisational strategy, benefits realisation, compliance and value delivery as a major topic rather than an afterthought." },
+    { "type": "heading", "level": 2, "text": "Agile is not a section — it's everywhere" },
+    { "type": "paragraph", "richText": "Roughly 40% of items reflect predictive approaches and about 60% are agile and hybrid, and PMI is explicit that these run through all three domains rather than sitting in an isolated agile section. You cannot revise agile as a discrete block and then forget it." },
+    { "type": "paragraph", "richText": [ "In practice, that means a question about stakeholder engagement or risk may be set in an iterative context, and the correct answer depends on knowing how that situation is handled in an adaptive environment. If your grounding in agile is thin, that's a bigger risk than any individual knowledge area. Our explainers on ", { "link": { "ref": "article:what-is-a-sprint", "text": "what a Sprint is" } }, " and ", { "link": { "ref": "article:what-is-a-product-backlog", "text": "what a product backlog is" } }, " cover the vocabulary the exam assumes you have." ] },
+    { "type": "heading", "level": 2, "text": "The new question types change how you practise" },
+    { "type": "paragraph", "richText": "The updated exam adds case and scenario items, graphic-based questions where you interpret visual information, and questions built around artifacts you'd encounter on a real project. Alongside the existing multiple-response and drag-and-drop formats, this makes pure multiple-choice drilling insufficient preparation." },
+    { "type": "list", "ordered": false, "items": [
+      "Practise reading a chart or diagram and drawing a conclusion, not just recognising a definition",
+      "Work through longer cases where several facts must be held together before answering",
+      "Get comfortable with multiple-response items — partial answers score nothing, so identifying every correct option matters",
+      "Expect to interpret project artifacts rather than recall what they're called"
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "Be sceptical of question banks that haven't been rebuilt since July 2026. A bank of old-format multiple-choice questions will still teach you concepts, but it will misrepresent both the difficulty and the shape of the exam — and it will under-prepare you on Business Environment by a factor of three." },
+    { "type": "heading", "level": 2, "text": "A study approach that fits this exam" },
+    { "type": "list", "ordered": true, "items": [
+      "Start from PMI's Examination Content Outline — it's free, official, and states exactly what's tested. Read it before buying anything.",
+      "Confirm your 35 contact hours of training are with a provider using current material, since that education is an application requirement anyway.",
+      "Study by domain in proportion to the weights, which for most people means substantially more time on Business Environment than they expected.",
+      "Learn each topic in both predictive and adaptive contexts, since the same subject can be examined either way.",
+      "Practise with current-format questions, including graphic and case items, not only multiple choice.",
+      "Do timed full-length practice runs to build pacing for 180 questions in 240 minutes with fixed breaks."
+    ] },
+    { "type": "paragraph", "richText": "Most working professionals need something in the range of two to three months of consistent part-time study once they're eligible. That's a rough figure, not a rule — people with recent, broad project experience often need less, and those returning after a gap frequently need more." },
+    { "type": "heading", "level": 2, "text": "What not to chase" },
+    { "type": "paragraph", "richText": [ "Don't aim for a target percentage on practice exams. PMI scores the real exam psychometrically, weighting questions by difficulty and reporting performance bands rather than a score out of 100 — so the widely quoted \"61%\" is a retired passing score, not a target and not a pass rate. We explain that in full in ", { "link": { "ref": "article:pmp-pass-rate", "text": "the PMP pass rate" } }, ". Use practice exams to find weak domains, not to hit a number." ] },
+    { "type": "paragraph", "richText": [ "And before investing months in this, make sure the groundwork is right: check whether you qualify at all in our ", { "link": { "ref": "article:pmp-eligibility", "text": "PMP eligibility guide" } }, ", what the whole thing costs in ", { "link": { "ref": "article:pmp-cost", "text": "PMP cost" } }, ", and whether it's the right credential for you in ", { "link": { "ref": "article:is-pmp-worth-it", "text": "is the PMP worth it" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "How many questions are on the PMP exam?", "answerRichText": "180 questions in 240 minutes, of which 170 are scored and 10 are unscored pretest items PMI is trialling. You can't tell which are which, so an unusually strange question isn't a signal that you're doing badly." },
+      { "question": "What changed in the July 2026 PMP exam?", "answerRichText": "The domain weights were rebalanced — People from 42% to 33%, Process from 50% to 41%, and Business Environment from 8% to 26%. New case-based and graphic question types were added, and agile and hybrid approaches now account for roughly 60% of items, spread across all domains rather than isolated." },
+      { "question": "How long should I study for the PMP?", "answerRichText": [ "Most working professionals need roughly two to three months of consistent part-time study once eligible, though this varies widely with recent experience. Reaching eligibility usually takes far longer than preparing — see ", { "link": { "ref": "article:how-long-to-get-pmp", "text": "how long it takes to get the PMP" } }, "." ] },
+      { "question": "What score do I need to pass the PMP?", "answerRichText": [ "There's no published percentage. PMI scores the exam psychometrically and reports performance bands by domain rather than a score out of 100, so chasing a target percentage on practice tests aims at something that doesn't exist. See ", { "link": { "ref": "article:pmp-pass-rate", "text": "the PMP pass rate" } }, "." ] }
+    ] }
+  ]
+}
