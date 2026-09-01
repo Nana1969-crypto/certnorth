@@ -1,0 +1,65 @@
+{
+  "id": "what-are-story-points",
+  "slug": "what-are-story-points",
+  "clusterId": "cl_skills",
+  "title": "What Are Story Points? (And Why Your Velocity Isn't a Score)",
+  "dek": "Story points estimate how large a piece of work is relative to other work — not how many hours it takes. Like user stories, they aren't in the Scrum Guide at all. And the most common thing organisations do with them, comparing velocity between teams, is mathematically meaningless.",
+  "authorId": "author_team",
+  "publishedAt": "2026-09-01",
+  "updatedAt": "2026-09-01",
+  "intent": { "primaryKeyword": "what are story points" },
+  "seo": {
+    "metaTitle": "What Are Story Points?",
+    "metaDescription": "Story points explained — why they're relative rather than hours, why teams use Fibonacci, and why comparing velocity between teams means nothing."
+  },
+  "sources": [
+    { "label": "Scrum.org — The Scrum Guide", "url": "https://scrumguides.org/" },
+    { "label": "Scrum.org — Why do we use story points for estimating?", "url": "https://www.scrum.org/resources/blog/why-do-we-use-story-points-estimating" },
+    { "label": "Scrum.org — Story points are not the problem, velocity is", "url": "https://www.scrum.org/resources/blog/story-points-are-not-problem-velocity" },
+    { "label": "Mountain Goat Software — Story points", "url": "https://www.mountaingoatsoftware.com/agile/story-points" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Story points are one of the most widely used practices in agile teams and one of the most reliably misunderstood — including by the managers who report on them. The confusion causes real harm: teams get compared on numbers that can't be compared, and people get judged by a measure that was never designed to judge anyone." },
+    { "type": "callout", "variant": "info", "richText": "The definition: a story point is a relative estimate of how large a piece of work is compared with other work the team already understands. It is not hours in disguise, and it has no fixed value. A five-point item is roughly five times a one-point item — for that team, on that product, at that time." },
+    { "type": "heading", "level": 2, "text": "Why relative, and not just hours?" },
+    { "type": "paragraph", "richText": "The reasoning is more practical than it first appears. People are genuinely poor at estimating absolute durations — ask how many hours a task will take and the answer is usually wrong, and confidently so. But people are surprisingly good at comparison. Asked whether this piece of work is bigger or smaller than that one, most teams agree quickly and are right often enough to plan with." },
+    { "type": "paragraph", "richText": "Relative estimates also survive changes that break hour-based ones. If the team gets faster, the work doesn't become smaller — a five-point item is still five points, the team simply completes more points per Sprint. Estimates in hours would have to be redone every time the team improved." },
+    { "type": "callout", "variant": "tip", "richText": "The practical anchor: pick one small, well-understood item everyone remembers and call it a two. Every future estimate is then a comparison with that reference, not a guess from nothing. When the reference drifts out of memory, pick a new one — the scale is only meaningful while the team shares it." },
+    { "type": "heading", "level": 2, "text": "Why the odd numbers?" },
+    { "type": "paragraph", "richText": "Most teams estimate using a Fibonacci-like sequence — 1, 2, 3, 5, 8, 13, 21 — and rarely stop to ask why the gaps widen. The reason is a real principle from psychophysics, Weber's Law: we perceive differences proportionally, not absolutely." },
+    { "type": "paragraph", "richText": "Concretely, a team can meaningfully argue about whether something is a 2 or a 3. Nobody can meaningfully argue whether it's a 20 or a 21 — the distinction is beyond what anyone can perceive at that size. Widening gaps force the scale to stop offering precision it can't deliver, which is exactly right for a large item nobody yet understands well." },
+    { "type": "heading", "level": 2, "text": "They aren't part of Scrum" },
+    { "type": "callout", "variant": "warn", "richText": "The Scrum Guide never mentions story points, and prescribes no estimation technique at all. It requires that Product Backlog items be sized, and says the Developers who will do the work are responsible for that sizing — but the method is entirely up to the team. Story points are a widely adopted complementary practice, not a Scrum rule." },
+    { "type": "paragraph", "richText": [ "This is the same situation as user stories, which also come from outside Scrum — we cover that in ", { "link": { "ref": "article:what-is-a-user-story", "text": "what is a user story" } }, ". The practical consequence is the same too: nobody can tell you that your team is \"doing Scrum wrong\" for estimating differently, or for not estimating in points at all. It also matters for certification exams, which test the Guide rather than adopted practice." ] },
+    { "type": "heading", "level": 2, "text": "Velocity: what it's actually for" },
+    { "type": "paragraph", "richText": "Velocity is simply the number of points a team completes in a Sprint, averaged over recent Sprints. Its legitimate purpose is narrow and useful: it helps the team forecast how much they can plausibly take on next Sprint, and helps a Product Owner sketch roughly when a chunk of backlog might be done." },
+    { "type": "paragraph", "richText": "That's the whole job. It's a planning aid for the team that produced it, and it stops being meaningful the moment it leaves that context." },
+    { "type": "heading", "level": 2, "text": "The three ways it goes wrong" },
+    { "type": "paragraph", "richText": "Each of these is common, and each does damage — the first most of all." },
+    { "type": "table", "caption": "How velocity gets misused, and what actually happens.", "headers": ["Misuse", "Why it fails"], "rows": [
+      ["Comparing teams", "Each team calibrates its own scale — the units aren't the same quantity"],
+      ["Treating it as productivity", "Points measure size, not value delivered or work done well"],
+      ["Setting it as a target", "Estimates inflate to meet the number, and the forecast stops working"]
+    ] },
+    { "type": "paragraph", "richText": "The first deserves spelling out because it's so widespread. Team A's five points and Team B's five points are not the same quantity — each team built its scale from its own reference item, independently. Comparing them is like comparing two rulers where each team decided privately how long a centimetre is. The numbers look comparable and aren't." },
+    { "type": "callout", "variant": "warn", "richText": "The third misuse is the most self-defeating. Make velocity a target and it will rise — because estimates inflate, not because more gets delivered. The team is behaving rationally under the incentive you set, and the cost is that the number stops predicting anything, which destroys the one thing velocity was good for." },
+    { "type": "heading", "level": 2, "text": "What to do instead" },
+    { "type": "list", "ordered": false, "items": [
+      "Judge a Sprint by whether the Sprint Goal was met, not by points completed",
+      "Use velocity as a range for forecasting, never as a score or a commitment",
+      "If leadership wants a productivity measure, offer outcome measures — cycle time, delivered value, defect rates — rather than a scale the team defined itself",
+      "Consider skipping points entirely: some teams simply right-size items so each fits comfortably in a Sprint, then count items",
+      "Re-estimate the scale, not the team, when velocity moves oddly — a big shift usually means the reference item drifted"
+    ] },
+    { "type": "callout", "variant": "tip", "richText": "That fourth option is more viable than most teams assume. If every backlog item is broken down until it's small enough to finish inside a Sprint, counting items forecasts about as well as summing points — with far less arguing. Estimation is a means, not an obligation." },
+    { "type": "heading", "level": 2, "text": "Who estimates?" },
+    { "type": "paragraph", "richText": [ "The people who will do the work. The Scrum Guide is clear that sizing belongs to the Developers, with the Product Owner able to influence by helping them understand trade-offs — but not to set the numbers. A Product Owner or manager who assigns point values has removed the only thing that made the estimate informative, which is the judgement of the people doing it. See ", { "link": { "ref": "article:what-does-a-product-owner-do", "text": "what a Product Owner actually does" } }, "." ] },
+    { "type": "paragraph", "richText": [ "For how estimates fit into the wider mechanics, see ", { "link": { "ref": "article:what-is-a-product-backlog", "text": "what a product backlog is" } }, " — where refinement and sizing happen — and ", { "link": { "ref": "article:what-is-a-sprint", "text": "what a Sprint is" } }, ", which explains why finishing every item matters less than meeting the goal." ] },
+    { "type": "faq", "items": [
+      { "question": "What is a story point equal to in hours?", "answerRichText": "Nothing fixed — that's the point of them. Story points measure size relative to other work the team understands, not duration. Converting them to hours reintroduces the absolute estimates they were designed to avoid, and the conversion breaks as soon as the team's pace changes." },
+      { "question": "Are story points part of Scrum?", "answerRichText": [ "No. The Scrum Guide never mentions them and prescribes no estimation technique. It requires that backlog items be sized by the Developers who will do the work, but leaves the method to the team. Story points are an adopted practice, like user stories — see ", { "link": { "ref": "article:what-is-a-user-story", "text": "what is a user story" } }, "." ] },
+      { "question": "Why do teams use the Fibonacci sequence?", "answerRichText": "Because we perceive differences proportionally rather than absolutely — Weber's Law. A team can meaningfully debate whether something is a 2 or a 3, but nobody can distinguish a 20 from a 21. Widening gaps stop the scale offering precision it can't actually deliver." },
+      { "question": "Can you compare velocity between teams?", "answerRichText": "No, and it's one of the most damaging things organisations do with it. Each team builds its scale from its own reference item, so one team's five points and another's are not the same quantity. Comparing them also encourages estimate inflation, which destroys velocity's only real use — forecasting." }
+    ] }
+  ]
+}
