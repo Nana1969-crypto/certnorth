@@ -6,61 +6,329 @@
   "dek": "For most people the PSM I is the best buy — about $200, no course required, and it never expires. The CSM, CSPO, SAFe and PMI-ACP each make sense in narrower cases, and two of them are only worth it when an employer is paying.",
   "authorId": "author_team",
   "publishedAt": "2026-08-08",
-  "updatedAt": "2026-08-08",
-  "intent": { "primaryKeyword": "best agile certifications" },
+  "updatedAt": "2026-09-02",
+  "intent": {
+    "primaryKeyword": "best agile certifications"
+  },
   "seo": {
     "metaTitle": "Best Agile Certifications in 2026 (Ranked)",
     "metaDescription": "The main agile certifications compared honestly — real cost, what each is for, and which are only worth buying when your employer is paying."
   },
   "sources": [
-    { "label": "Scrum.org — Professional Scrum Master I (PSM I)", "url": "https://www.scrum.org/assessments/professional-scrum-master-i-certification" },
-    { "label": "Scrum.org — Professional Scrum Product Owner I (PSPO I)", "url": "https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification" },
-    { "label": "Scrum Alliance — Certified ScrumMaster (CSM)", "url": "https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster" },
-    { "label": "PMI — Agile Certified Practitioner (PMI-ACP)", "url": "https://www.pmi.org/certifications/agile-acp" },
-    { "label": "Scaled Agile — SAFe Scrum Master certification", "url": "https://scaledagile.com/certifications/safe-scrum-master/" },
-    { "label": "ICAgile — Agile Coaching certification (ICP-ACC)", "url": "https://www.icagile.com/certification/agile-coaching" }
+    {
+      "label": "Scrum.org — Professional Scrum Master I (PSM I)",
+      "url": "https://www.scrum.org/assessments/professional-scrum-master-i-certification"
+    },
+    {
+      "label": "Scrum.org — Professional Scrum Product Owner I (PSPO I)",
+      "url": "https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification"
+    },
+    {
+      "label": "Scrum Alliance — Certified ScrumMaster (CSM)",
+      "url": "https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster"
+    },
+    {
+      "label": "PMI — Agile Certified Practitioner (PMI-ACP)",
+      "url": "https://www.pmi.org/certifications/agile-acp"
+    },
+    {
+      "label": "Scaled Agile — SAFe Scrum Master certification",
+      "url": "https://scaledagile.com/certifications/safe-scrum-master/"
+    },
+    {
+      "label": "ICAgile — Agile Coaching certification (ICP-ACC)",
+      "url": "https://www.icagile.com/certification/agile-coaching"
+    },
+    {
+      "label": "PMI — PMI-ACP Handbook (eligibility)",
+      "url": "https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/agile-certified-practitioner-handbook.pdf"
+    }
   ],
   "body": [
-    { "type": "paragraph", "richText": "There are dozens of agile certifications and the marketing around them is relentless, so it's easy to assume the expensive ones must be the good ones. They aren't necessarily. This is an honest ranking based on what each one costs, what it actually proves, and — the question most lists dodge — whether it's worth your own money or only your employer's." },
-    { "type": "callout", "variant": "info", "richText": "Our overall pick for most people is the PSM I: roughly $200, no mandatory course, a genuinely demanding exam, and it never expires. Nothing else in this list combines credibility and low cost so well. That said, the right certification depends on the job you want, so read past the headline." },
-    { "type": "heading", "level": 2, "text": "The main options side by side" },
-    { "type": "table", "caption": "The main agile certifications in 2026. Prices are set by the bodies and their training partners and vary by region — confirm before buying.", "headers": ["Certification", "Body", "Typical cost", "Course required?", "Expires?"], "rows": [
-      ["PSM I", "Scrum.org", "~$200", "No", "Never"],
-      ["PSPO I", "Scrum.org", "~$200", "No", "Never"],
-      ["CSM", "Scrum Alliance", "~$800–$1,500", "Yes (2 days)", "Every 2 years"],
-      ["CSPO", "Scrum Alliance", "~$550–$850", "Yes (2 days)", "Every 2 years"],
-      ["SAFe Scrum Master", "Scaled Agile", "~$900–$1,100 (class)", "Effectively yes", "Annual renewal"],
-      ["PMI-ACP", "PMI", "$435–$495 exam", "21 contact hours", "Every 3 years"],
-      ["ICP-ACC", "ICAgile", "~$499–$2,500", "Yes (24 hours)", "No"]
-    ] },
-    { "type": "heading", "level": 2, "text": "1. PSM I — best for most people" },
-    { "type": "paragraph", "richText": [ "The Professional Scrum Master I is the value leader by a wide margin. You can self-study, the assessment costs about $200, and once you pass it you own it for life with no renewal fees. Its 85% pass mark is demanding enough that passing means something. The catch is that you get no teaching for your money — you learn on your own. Full verdict in ", { "link": { "ref": "article:is-psm-worth-it", "text": "is the PSM worth it" } }, "." ] },
-    { "type": "heading", "level": 2, "text": "2. PSPO I — same logic, product side" },
-    { "type": "paragraph", "richText": [ "If you're aiming at Product Owner rather than Scrum Master work, the PSPO I is the same deal: about $200, no course, no expiry, 85% to pass. Choose between them based on the job you want, not the price — they cost the same. See ", { "link": { "ref": "article:is-pspo-worth-it", "text": "is the PSPO worth it" } }, " and ", { "link": { "ref": "article:what-does-a-product-owner-do", "text": "what a Product Owner does" } }, "." ] },
-    { "type": "heading", "level": 2, "text": "3. CSM and CSPO — good, if someone else is paying" },
-    { "type": "paragraph", "richText": [ "The Scrum Alliance credentials are widely recognized and the mandatory two-day course is genuinely useful if you learn better with an instructor. But you're paying several times more for teaching, not for extra prestige, and you'll pay $100 plus 20 hours of learning every two years to keep them. Excellent when an employer covers it; hard to justify from your own pocket. Compare in ", { "link": { "ref": "article:psm-vs-csm", "text": "PSM vs CSM" } }, " and ", { "link": { "ref": "article:pspo-vs-cspo", "text": "PSPO vs CSPO" } }, "." ] },
-    { "type": "heading", "level": 2, "text": "4. SAFe Scrum Master — only if your employer uses SAFe" },
-    { "type": "paragraph", "richText": "The Scaled Agile Framework is common in large enterprises, and where it's used its certifications are often expected. Outside those companies, they carry much less weight. A two-day accredited class typically runs $900–$1,100 in the US, with the first exam attempts included; taking the exam alone costs $495. The renewal cycle is annual — the most frequent on this list." },
-    { "type": "callout", "variant": "warn", "richText": "Don't buy a SAFe certification speculatively. It's the most employer-specific credential here: enormously valuable inside a SAFe organization, and close to irrelevant outside one. Check job postings in your market before spending $1,000." },
-    { "type": "heading", "level": 2, "text": "5. PMI-ACP — for the PMI-oriented practitioner" },
-    { "type": "paragraph", "richText": [ "PMI's agile credential costs $435 for members and $495 for non-members, and requires 21 contact hours of training. It suits people already in PMI's ecosystem — particularly anyone holding or heading toward the PMP — because it recognizes agile practice across frameworks rather than Scrum alone. It also has experience prerequisites, so check the current requirements with PMI before planning around it. Worth noting: the PMP itself is now heavily agile, so this isn't the only PMI route into agile work — see ", { "link": { "ref": "article:is-pmp-worth-it", "text": "is the PMP worth it" } }, "." ] },
-    { "type": "heading", "level": 2, "text": "6. ICP-ACC — for coaching, later in your career" },
-    { "type": "paragraph", "richText": [ "The ICAgile coaching certification is aimed at people moving toward Agile Coach roles. Be aware of two things: it administers no exam, so it certifies attendance at accredited training rather than assessed knowledge, and the identical certification sells for anywhere between about $499 and $2,500 depending purely on the provider. It's a reasonable purchase once you're already coaching, and a poor one before that — see ", { "link": { "ref": "article:how-to-become-agile-coach", "text": "how to become an Agile Coach" } }, "." ] },
-    { "type": "heading", "level": 2, "text": "How to choose in one minute" },
-    { "type": "list", "ordered": false, "items": [
-      "Self-funding, want Scrum Master work → PSM I",
-      "Self-funding, want Product Owner work → PSPO I",
-      "Employer is paying and you want live teaching → CSM or CSPO",
-      "Your employer runs SAFe → SAFe Scrum Master",
-      "You're in PMI's world already, or hold the PMP → PMI-ACP",
-      "You already coach teams and want it recognized → ICP-ACC"
-    ] },
-    { "type": "callout", "variant": "tip", "richText": "Whatever you pick, remember what a certification does: it gets you past recruiter filters and proves you understand the framework. It does not prove you can run a team, and no employer thinks it does. Pair it with real practice — that combination is what actually gets hired." },
-    { "type": "paragraph", "richText": [ "For the full cost picture including renewals over time, see our ", { "link": { "ref": "article:scrum-certification-cost", "text": "Scrum certification cost breakdown" } }, ". If you're earlier in your journey and weighing agile against traditional project management, start with ", { "link": { "ref": "article:agile-vs-waterfall", "text": "Agile vs Waterfall" } }, " and the entry-level options in ", { "link": { "ref": "article:best-pm-certifications-beginners", "text": "best certifications for beginners" } }, "." ] },
-    { "type": "faq", "items": [
-      { "question": "Which agile certification is best for beginners?", "answerRichText": [ "The PSM I from Scrum.org, for most people: it costs around $200, has no prerequisites, requires no course, and never expires. If your employer will pay for training, the CSM is a good alternative because the two-day course provides teaching the PSM doesn't. See ", { "link": { "ref": "article:psm-vs-csm", "text": "PSM vs CSM" } }, "." ] },
-      { "question": "Is an agile certification worth it?", "answerRichText": "For getting past recruiter filters and proving you understand the framework, yes — especially the inexpensive ones. What it won't do is prove you can actually facilitate a team, which is what employers are really buying. Treat it as one part of your case, not the whole of it." },
-      { "question": "Which agile certification pays the most?", "answerRichText": [ "No certification sets your salary — the role and your experience do. Scrum Master and Product Owner roles report similar pay, generally above the official US project manager median, though neither role has official government data. See ", { "link": { "ref": "article:scrum-master-salary", "text": "Scrum Master salary" } }, " and ", { "link": { "ref": "article:product-owner-salary", "text": "Product Owner salary" } }, "." ] }
-    ] }
+    {
+      "type": "paragraph",
+      "richText": "There are dozens of agile certifications and the marketing around them is relentless, so it's easy to assume the expensive ones must be the good ones. They aren't necessarily. This is an honest ranking based on what each one costs, what it actually proves, and — the question most lists dodge — whether it's worth your own money or only your employer's."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "richText": "Our overall pick for most people is the PSM I: roughly $200, no mandatory course, a genuinely demanding exam, and it never expires. Nothing else in this list combines credibility and low cost so well. That said, the right certification depends on the job you want, so read past the headline."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The main options side by side"
+    },
+    {
+      "type": "table",
+      "caption": "The main agile certifications in 2026. Prices are set by the bodies and their training partners and vary by region — confirm before buying.",
+      "headers": [
+        "Certification",
+        "Body",
+        "Typical cost",
+        "Course required?",
+        "Expires?"
+      ],
+      "rows": [
+        [
+          "PSM I",
+          "Scrum.org",
+          "~$200",
+          "No",
+          "Never"
+        ],
+        [
+          "PSPO I",
+          "Scrum.org",
+          "~$200",
+          "No",
+          "Never"
+        ],
+        [
+          "CSM",
+          "Scrum Alliance",
+          "~$800–$1,500",
+          "Yes (2 days)",
+          "Every 2 years"
+        ],
+        [
+          "CSPO",
+          "Scrum Alliance",
+          "~$550–$850",
+          "Yes (2 days)",
+          "Every 2 years"
+        ],
+        [
+          "SAFe Scrum Master",
+          "Scaled Agile",
+          "~$900–$1,100 (class)",
+          "Effectively yes",
+          "Annual renewal"
+        ],
+        [
+          "PMI-ACP",
+          "PMI",
+          "$435–$495 exam",
+          "21 contact hours",
+          "Every 3 years"
+        ],
+        [
+          "ICP-ACC",
+          "ICAgile",
+          "~$499–$2,500",
+          "Yes (24 hours)",
+          "No"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. PSM I — best for most people"
+    },
+    {
+      "type": "paragraph",
+      "richText": [
+        "The Professional Scrum Master I is the value leader by a wide margin. You can self-study, the assessment costs about $200, and once you pass it you own it for life with no renewal fees. Its 85% pass mark is demanding enough that passing means something. The catch is that you get no teaching for your money — you learn on your own. Full verdict in ",
+        {
+          "link": {
+            "ref": "article:is-psm-worth-it",
+            "text": "is the PSM worth it"
+          }
+        },
+        "."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. PSPO I — same logic, product side"
+    },
+    {
+      "type": "paragraph",
+      "richText": [
+        "If you're aiming at Product Owner rather than Scrum Master work, the PSPO I is the same deal: about $200, no course, no expiry, 85% to pass. Choose between them based on the job you want, not the price — they cost the same. See ",
+        {
+          "link": {
+            "ref": "article:is-pspo-worth-it",
+            "text": "is the PSPO worth it"
+          }
+        },
+        " and ",
+        {
+          "link": {
+            "ref": "article:what-does-a-product-owner-do",
+            "text": "what a Product Owner does"
+          }
+        },
+        "."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. CSM and CSPO — good, if someone else is paying"
+    },
+    {
+      "type": "paragraph",
+      "richText": [
+        "The Scrum Alliance credentials are widely recognized and the mandatory two-day course is genuinely useful if you learn better with an instructor. But you're paying several times more for teaching, not for extra prestige, and you'll pay $100 plus 20 hours of learning every two years to keep them. Excellent when an employer covers it; hard to justify from your own pocket. Compare in ",
+        {
+          "link": {
+            "ref": "article:psm-vs-csm",
+            "text": "PSM vs CSM"
+          }
+        },
+        " and ",
+        {
+          "link": {
+            "ref": "article:pspo-vs-cspo",
+            "text": "PSPO vs CSPO"
+          }
+        },
+        "."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. SAFe Scrum Master — only if your employer uses SAFe"
+    },
+    {
+      "type": "paragraph",
+      "richText": "The Scaled Agile Framework is common in large enterprises, and where it's used its certifications are often expected. Outside those companies, they carry much less weight. A two-day accredited class typically runs $900–$1,100 in the US, with the first exam attempts included; taking the exam alone costs $495. The renewal cycle is annual — the most frequent on this list."
+    },
+    {
+      "type": "callout",
+      "variant": "warn",
+      "richText": "Don't buy a SAFe certification speculatively. It's the most employer-specific credential here: enormously valuable inside a SAFe organization, and close to irrelevant outside one. Check job postings in your market before spending $1,000."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. PMI-ACP — for the PMI-oriented practitioner"
+    },
+    {
+      "type": "paragraph",
+      "richText": [
+        "PMI's agile credential costs $435 for members and $495 for non-members, and requires 21 contact hours of training. It suits people already in PMI's ecosystem — particularly anyone holding or heading toward the PMP — because it recognizes agile practice across frameworks rather than Scrum alone. It also has real experience prerequisites: 12 months of general project experience in the last five years — waived if you hold a current PMP or PgMP — plus 8 months of agile experience in the last three. Worth noting: the PMP itself is now heavily agile, so this isn't the only PMI route into agile work — see",
+        {
+          "link": {
+            "ref": "article:is-pmp-worth-it",
+            "text": "is the PMP worth it"
+          }
+        },
+        "."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. ICP-ACC — for coaching, later in your career"
+    },
+    {
+      "type": "paragraph",
+      "richText": [
+        "The ICAgile coaching certification is aimed at people moving toward Agile Coach roles. Be aware of two things: it administers no exam, so it certifies attendance at accredited training rather than assessed knowledge, and the identical certification sells for anywhere between about $499 and $2,500 depending purely on the provider. It's a reasonable purchase once you're already coaching, and a poor one before that — see ",
+        {
+          "link": {
+            "ref": "article:how-to-become-agile-coach",
+            "text": "how to become an Agile Coach"
+          }
+        },
+        "."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How to choose in one minute"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Self-funding, want Scrum Master work → PSM I",
+        "Self-funding, want Product Owner work → PSPO I",
+        "Employer is paying and you want live teaching → CSM or CSPO",
+        "Your employer runs SAFe → SAFe Scrum Master",
+        "You're in PMI's world already, or hold the PMP → PMI-ACP",
+        "You already coach teams and want it recognized → ICP-ACC"
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "richText": "Whatever you pick, remember what a certification does: it gets you past recruiter filters and proves you understand the framework. It does not prove you can run a team, and no employer thinks it does. Pair it with real practice — that combination is what actually gets hired."
+    },
+    {
+      "type": "paragraph",
+      "richText": [
+        "For the full cost picture including renewals over time, see our ",
+        {
+          "link": {
+            "ref": "article:scrum-certification-cost",
+            "text": "Scrum certification cost breakdown"
+          }
+        },
+        ". If you're earlier in your journey and weighing agile against traditional project management, start with ",
+        {
+          "link": {
+            "ref": "article:agile-vs-waterfall",
+            "text": "Agile vs Waterfall"
+          }
+        },
+        " and the entry-level options in ",
+        {
+          "link": {
+            "ref": "article:best-pm-certifications-beginners",
+            "text": "best certifications for beginners"
+          }
+        },
+        "."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Which agile certification is best for beginners?",
+          "answerRichText": [
+            "The PSM I from Scrum.org, for most people: it costs around $200, has no prerequisites, requires no course, and never expires. If your employer will pay for training, the CSM is a good alternative because the two-day course provides teaching the PSM doesn't. See ",
+            {
+              "link": {
+                "ref": "article:psm-vs-csm",
+                "text": "PSM vs CSM"
+              }
+            },
+            "."
+          ]
+        },
+        {
+          "question": "Is an agile certification worth it?",
+          "answerRichText": "For getting past recruiter filters and proving you understand the framework, yes — especially the inexpensive ones. What it won't do is prove you can actually facilitate a team, which is what employers are really buying. Treat it as one part of your case, not the whole of it."
+        },
+        {
+          "question": "Which agile certification pays the most?",
+          "answerRichText": [
+            "No certification sets your salary — the role and your experience do. Scrum Master and Product Owner roles report similar pay, generally above the official US project manager median, though neither role has official government data. See ",
+            {
+              "link": {
+                "ref": "article:scrum-master-salary",
+                "text": "Scrum Master salary"
+              }
+            },
+            " and ",
+            {
+              "link": {
+                "ref": "article:product-owner-salary",
+                "text": "Product Owner salary"
+              }
+            },
+            "."
+          ]
+        }
+      ]
+    }
   ]
 }

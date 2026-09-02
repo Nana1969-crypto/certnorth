@@ -1,0 +1,78 @@
+{
+  "id": "is-pmi-acp-worth-it",
+  "slug": "is-pmi-acp-worth-it",
+  "clusterId": "cl_worth",
+  "title": "Is the PMI-ACP Worth It in 2026? (Honest Verdict)",
+  "dek": "Worth it if you're already inside PMI's ecosystem and need agile credibility across frameworks, not just Scrum. Hard to justify otherwise — it costs more than twice a PSM I, gates you behind 20 months of experience, and the new PMP exam has quietly undermined its main use case.",
+  "authorId": "author_team",
+  "publishedAt": "2026-09-02",
+  "updatedAt": "2026-09-02",
+  "intent": { "primaryKeyword": "is the pmi-acp worth it" },
+  "seo": {
+    "metaTitle": "Is the PMI-ACP Worth It? (2026 Verdict)",
+    "metaDescription": "An honest verdict on the PMI-ACP — the real eligibility gate, why it costs twice a PSM I, and how the new PMP exam weakened its case."
+  },
+  "sources": [
+    { "label": "PMI — Agile Certified Practitioner (PMI-ACP)", "url": "https://www.pmi.org/certifications/agile-acp" },
+    { "label": "PMI — PMI-ACP Handbook", "url": "https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/agile-certified-practitioner-handbook.pdf" },
+    { "label": "PMI — How to maintain your certification", "url": "https://www.pmi.org/certifications/certification-resources/maintain" },
+    { "label": "Scrum.org — Professional Scrum Master I (for comparison)", "url": "https://www.scrum.org/assessments/professional-scrum-master-i-certification" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "The PMI-ACP is PMI's agile credential, and it occupies an awkward position: more demanding and expensive than the Scrum certifications, less recognised than the PMP, and aimed at a group whose needs may have just been met by something else. Here's the honest verdict, including a 2026 development that changes the calculation." },
+    { "type": "callout", "variant": "info", "richText": "The short answer: worth it if you're established in PMI's world — you hold or are heading toward the PMP, your employer values PMI credentials, and you want recognition of agile practice across frameworks rather than Scrum alone. Difficult to justify if you're outside that world, where cheaper and more accessible options do the same job." },
+    { "type": "heading", "level": 2, "text": "What it costs and demands" },
+    { "type": "paragraph", "richText": "The eligibility requirements are the part most people underestimate, because unlike the Scrum certifications there genuinely is a gate." },
+    { "type": "table", "caption": "PMI-ACP requirements and cost (2026; confirm current details with PMI).", "headers": ["Requirement", "Detail"], "rows": [
+      ["Education", "Secondary diploma or higher"],
+      ["General project experience", "12 months within the last 5 years"],
+      ["Agile project experience", "8 months within the last 3 years"],
+      ["Training", "21 contact hours of agile practices training"],
+      ["Exam fee", "~$435 member / ~$495 non-member"],
+      ["Renewal", "30 PDUs every 3 years, minimum 4 per Talent Triangle area"]
+    ] },
+    { "type": "callout", "variant": "tip", "richText": "A useful shortcut PMI offers: holding a current PMP or PgMP satisfies the 12-month general project experience requirement outright. It doesn't waive the 8 months of agile experience, but it removes half the paperwork — which is one reason this credential fits PMP holders more naturally than newcomers." },
+    { "type": "paragraph", "richText": "One thing genuinely in its favour: renewal is lighter than the PMP's. Thirty PDUs every three years against the PMP's sixty, with a minimum of four per Talent Triangle area rather than eight. If you're maintaining PMI credentials anyway, the marginal upkeep is modest — though check with PMI how PDUs count across multiple certifications before assuming they overlap." },
+    { "type": "heading", "level": 2, "text": "The comparison that decides it" },
+    { "type": "paragraph", "richText": "For most people the real question isn't whether the PMI-ACP is good — it's whether it beats the alternative most likely to serve the same purpose." },
+    { "type": "table", "caption": "PMI-ACP against the most common alternative for agile credibility.", "headers": ["", "PMI-ACP", "PSM I"], "rows": [
+      ["Cost", "~$435–$495", "~$200"],
+      ["Experience required", "20 months across two categories", "None"],
+      ["Training required", "21 contact hours", "None"],
+      ["Coverage", "Agile broadly — Scrum, Kanban, Lean, XP", "Scrum only"],
+      ["Renewal", "30 PDUs every 3 years", "Never expires"],
+      ["Ten-year cost", "Exam plus renewal fees and PDU effort", "~$200, once"]
+    ] },
+    { "type": "paragraph", "richText": [ "The gap is stark, and it means the PMI-ACP has to earn its premium on something other than accessibility. It does have one genuine advantage: breadth. Where the Scrum credentials certify one framework, the PMI-ACP covers agile practice across several — which better reflects how most organisations actually work. Whether that breadth is worth double the price and a 20-month gate depends entirely on who's asking. See our verdict on the alternative in ", { "link": { "ref": "article:is-psm-worth-it", "text": "is the PSM worth it" } }, "." ] },
+    { "type": "heading", "level": 2, "text": "The 2026 problem nobody mentions" },
+    { "type": "paragraph", "richText": "Here's the development that materially weakens the PMI-ACP's case, and we haven't seen it discussed anywhere." },
+    { "type": "callout", "variant": "warn", "richText": "The PMI-ACP's natural audience has always been PMI professionals who need to demonstrate agile competence. But the PMP exam PMI launched in July 2026 is itself roughly 40% predictive and 60% agile and hybrid — so a current PMP already evidences substantial agile knowledge. The credential built to fill that gap now competes with a gap that PMI partly closed itself." },
+    { "type": "paragraph", "richText": [ "This doesn't make the PMI-ACP worthless. A dedicated agile credential still signals more depth than agile content inside a general exam, and specialisation reads differently on a CV. But if your reason for wanting it was \"my PMP doesn't show I understand agile\", that reason is now considerably weaker than it was a year ago. We cover the exam change in ", { "link": { "ref": "article:is-pmp-worth-it", "text": "is the PMP worth it" } }, " and what it means for study in ", { "link": { "ref": "article:how-to-prepare-for-pmp-exam", "text": "how to prepare for the PMP exam" } }, "." ] },
+    { "type": "heading", "level": 2, "text": "The case for it (real pros)" },
+    { "type": "list", "ordered": false, "items": [
+      "Covers agile across frameworks rather than certifying one, which matches hybrid reality",
+      "Carries PMI's brand, which is decisive in PMI-oriented and enterprise environments",
+      "Lighter renewal than the PMP, so cheap to maintain if you're already in the ecosystem",
+      "A current PMP or PgMP satisfies the general experience requirement",
+      "The experience gate means holders have actually worked in agile settings — a stronger signal than exam-only credentials"
+    ] },
+    { "type": "heading", "level": 2, "text": "The case against it (real cons)" },
+    { "type": "list", "ordered": false, "items": [
+      "Costs more than twice a PSM I, which has no prerequisites at all",
+      "Requires 20 months of experience across two separate categories, documented",
+      "Requires 21 contact hours of training you'll likely have to buy",
+      "Named in job postings far less often than either the PMP or the Scrum credentials",
+      "Its core rationale weakened when the PMP absorbed substantial agile content in 2026"
+    ] },
+    { "type": "callout", "variant": "warn", "richText": "Who it's NOT for: anyone entering agile work. The experience requirements exclude newcomers by design, and even if you qualify, a PSM I at $200 opens the same doors for a fraction of the cost and effort. This is a credential for people consolidating an existing career, not building one." },
+    { "type": "heading", "level": 2, "text": "The honest bottom line" },
+    { "type": "paragraph", "richText": [ "Get the PMI-ACP if PMI credentials are the currency where you work and you want recognised agile breadth on top of them — that's a real and defensible case. Skip it if you're outside PMI's ecosystem, early in your career, or self-funding, where the ", { "link": { "ref": "article:is-psm-worth-it", "text": "PSM I" } }, " gives you most of the benefit for a fifth of the lifetime cost. And check job postings in your market first: this is a credential whose value varies enormously by employer, and it appears in adverts less often than its price suggests." ] },
+    { "type": "paragraph", "richText": [ "For the full landscape, see ", { "link": { "ref": "article:best-agile-certifications", "text": "best agile certifications" } }, ", and for how ongoing PMI upkeep actually works — including how much of it you can do free — see ", { "link": { "ref": "article:pmp-renewal-pdus", "text": "how PDUs work" } }, "." ] },
+    { "type": "faq", "items": [
+      { "question": "What are the PMI-ACP requirements?", "answerRichText": "A secondary diploma or higher, 12 months of general project experience within the last five years, 8 months of agile project experience within the last three, and 21 contact hours of agile training. A current PMP or PgMP satisfies the general project experience requirement." },
+      { "question": "Is the PMI-ACP better than the PSM I?", "answerRichText": [ "Not straightforwardly. The PMI-ACP covers agile across frameworks rather than Scrum alone, which is a genuine advantage — but it costs more than twice as much, requires 20 months of documented experience, needs 21 contact hours of training, and renews every three years, while the PSM I has no prerequisites and never expires. See ", { "link": { "ref": "article:is-psm-worth-it", "text": "is the PSM worth it" } }, "." ] },
+      { "question": "How much does the PMI-ACP cost?", "answerRichText": "Around $435 for PMI members and $495 for non-members, plus 21 contact hours of training you will usually need to buy. Renewal costs 30 PDUs every three years, which can largely be earned free if you're already maintaining PMI credentials." },
+      { "question": "Do I still need the PMI-ACP if I have the PMP?", "answerRichText": [ "Less than you used to. The PMP exam launched in July 2026 is roughly 60% agile and hybrid, so a current PMP already evidences substantial agile knowledge. A dedicated credential still signals more depth, but the gap it was designed to fill is narrower now. See ", { "link": { "ref": "article:is-pmp-worth-it", "text": "is the PMP worth it" } }, "." ] }
+    ] }
+  ]
+}
