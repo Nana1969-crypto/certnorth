@@ -1,0 +1,26 @@
+# Each article has exactly ONE primary editorial function.
+# The site must not drift into being mostly one type.
+types:
+  DECISION:
+    question: Should I pursue, buy or get X?
+    requires: [honest verdict including who it is NOT for, cost over time,
+      alternatives]
+  COMPARISON:
+    question: How does X compare with Y?
+    requires: [a stated basis of comparison, cases where each wins,
+      refusal to declare a universal winner]
+  RESEARCH:
+    question: What does the available evidence actually show?
+    requires: [named sources, disagreement surfaced, limitations stated]
+  EXPLAINER:
+    question: How does X work?
+    requires: [correct primary-source grounding, common misconceptions
+      addressed]
+  CAREER_DATA:
+    question: What do salary, employment or demand data show?
+    requires: [source type labelled for every figure, official vs self-reported
+      distinguished, methodology limits stated]
+
+balance_target:
+  # Diagnostic. Reviewed during site audits.
+  max_share_single_type: 0.4

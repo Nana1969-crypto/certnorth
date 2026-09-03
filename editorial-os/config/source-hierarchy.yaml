@@ -1,0 +1,47 @@
+# Source priority. Never cite a lower tier when a higher tier covers the claim.
+tiers:
+  1:
+    name: Government and regulatory
+    examples: [bls.gov, gov.uk, jobbank.gc.ca, nationalcareers.service.gov.uk]
+  2:
+    name: Official certification bodies
+    examples: [pmi.org, scrum.org, scrumalliance.org, iiba.org, peoplecert.org,
+      scaledagile.com, icagile.com]
+  3:
+    name: Official standards and framework documentation
+    examples: [scrumguides.org, kanbanguides.org, PMI Examination Content Outline,
+      BABOK Guide]
+  4:
+    name: Official statistical agencies
+    examples: [BLS OEWS, Eurostat, ONS]
+  5:
+    name: Peer-reviewed research
+    examples: [dl.acm.org, link.springer.com, ieee]
+  6:
+    name: Universities and recognised research institutions
+  7:
+    name: High-quality industry research with disclosed methodology
+  8:
+    name: Reputable professional organisations
+  9:
+    name: High-quality journalism
+  10:
+    name: Secondary sources — only when no higher tier exists
+
+never_as_primary_evidence:
+  - SEO blogs and content farms
+  - training providers writing about their own certifications
+  - pages that cite no source themselves
+  - AI-generated aggregator sites
+
+commercial_aggregators:
+  # Permitted for roles with no official data, but must be labelled as
+  # self-reported and named individually. Never presented as official.
+  allowed: [glassdoor.com, indeed.com, salary.com, builtin.com,
+    ziprecruiter.com, payscale.com, salaryexpert.com]
+  labelling_required: true
+  known_limitations:
+    - self-reported data skews high
+    - official medians skew low by construction
+    - sample sizes are often small and rarely disclosed
+    - a job title may cover materially different jobs

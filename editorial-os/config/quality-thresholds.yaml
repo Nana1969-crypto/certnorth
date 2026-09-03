@@ -1,0 +1,47 @@
+# Thresholds are diagnostic, not targets. Never pad an article to clear one.
+length:
+  # There is NO word count that produces AdSense approval or ranking.
+  # These flag articles for editorial review, nothing more.
+  review_if_under_words: 800
+  padding_prohibited: true
+  guidance: >
+    If a topic is honestly answered in 600 words, publish 600 words and
+    consider whether it should instead be merged into a larger article.
+
+sources:
+  minimum_per_article: 2
+  minimum_official_share: 0.6
+  every_significant_claim_traceable: true
+
+original_value:
+  required: true
+  gate: >
+    An article may not be published if the answer to "what can CertNorth
+    investigate, calculate, compare, explain, contextualise or analyse that
+    the reader cannot get by visiting the primary source?" is "nothing".
+
+structure:
+  # Anti-template limits, measured site-wide.
+  max_share_opening_with_same_block_sequence: 0.7
+  max_share_containing_faq: 0.7
+  max_articles_sharing_a_level2_heading: 3
+  max_share_titles_containing_current_year: 0.5
+
+internal_links:
+  minimum_outbound_per_article: 1
+  minimum_inbound_per_article: 1     # orphans must be fixed
+  descriptive_anchor_text_required: true
+
+freshness:
+  volatile_fields: [certification prices, exam requirements, renewal rules,
+    salary figures, membership fees, official policies, exam format]
+  review_after_months: 6
+  updated_at_rule: >
+    updatedAt may only change when content actually changed. Cosmetic date
+    bumps are prohibited.
+
+disclosure:
+  claims_must_be_verifiable: true
+  rule: >
+    Never disclose a commercial relationship that does not exist, and never
+    omit one that does.
