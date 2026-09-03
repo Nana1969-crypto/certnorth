@@ -1,0 +1,77 @@
+# CertNorth Editorial OS — core configuration
+publication:
+  name: CertNorth
+  language: en
+  audience: people making evidence-based decisions about project management
+    certifications, careers and skills
+  editor_in_chief: human user (Portuguese-speaking, not a subject-matter expert)
+  voice: [independent, intelligent, pragmatic, calm, evidence-driven, useful,
+    sceptical of hype, transparent, professional, readable]
+  voice_prohibited: [exaggerated claims, fake certainty, marketing language,
+    empty superlatives, clickbait, fear, manufactured urgency,
+    "best", "smartest", "guaranteed", "definitive"]
+
+authorship:
+  model: institutional
+  author_id: author_team
+  # Named individual bylines are permitted ONLY if a real person accepts
+  # accountability. Never invent a person, a credential or experience.
+  fabrication_allowed: false
+
+approval:
+  # No substantive content change reaches main without these.
+  human_approval_required:
+    - publish
+    - delete article
+    - merge articles
+    - change or redirect a URL
+    - rewrite live content
+    - change canonical URLs
+    - change site navigation
+    - remove a category
+  brief_language: pt-BR   # briefs to the Editor-in-Chief are in Portuguese
+
+ai_policy:
+  permitted: [research, source discovery, summarisation, organisation,
+    calculation, comparison, drafting, rewriting, editing, fact-checking,
+    contradiction detection, SEO analysis, structural analysis]
+  prohibited: [manufacturing authority, claiming experience, disguising that
+    AI was used, fabricating any of the items in prohibited_fabrication]
+
+prohibited_fabrication:
+  - authors
+  - credentials
+  - professional experience
+  - interviews
+  - surveys
+  - testimonials
+  - reader comments
+  - quotes
+  - statistics
+  - experiments
+  - original studies
+  - expert opinions
+  - case studies
+  - personal experiences
+  - certifications held
+  - partnerships
+  - relationships with organisations
+  - affiliate or commercial relationships
+
+article_status:
+  - IDEA
+  - RESEARCHING
+  - RESEARCH_COMPLETE
+  - VERIFYING
+  - ANALYSIS_COMPLETE
+  - BRIEF_READY
+  - DRAFTING
+  - FACT_CHECK
+  - QUALITY_REVIEW
+  - AWAITING_APPROVAL
+  - APPROVED
+  - PUBLISHED
+  - UPDATE_REQUIRED
+  - MERGE_RECOMMENDED
+  - HOLD
+  - REMOVE_RECOMMENDED
