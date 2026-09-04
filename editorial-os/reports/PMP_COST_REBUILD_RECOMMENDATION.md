@@ -1,155 +1,178 @@
 # Rebuild Recommendation — `pmp-cost`
 
 **Date:** 2026-09-04
+**Revised:** 2026-09-04 — verification protocol corrected; conclusions changed accordingly
 **Article:** `pmp-cost` · `/certifications/guides/pmp-certification-cost/`
-**Phase:** research complete, drafting not started
+**Phase:** research **partially complete** — repository layer done, primary-source layer blocked
 **Live content modified:** none
 
 ---
 
 ## 1. Recommendation
 
-**Rebuild — but resolve the exam fee at PMI first, or publish it explicitly labelled as
-unverified.**
+**Rebuild the architecture now. Do not draft to publication standard until PMI's prices
+have been read by a human.**
 
-The research supports a rebuild that genuinely changes the page's editorial value. It does
-**not** support publishing any fee as verified fact.
+**One change should be made regardless of everything else: `pmp-cost` claims three times
+that every figure comes from PMI, and that is not true.** See §4.
 
 ---
 
-## 2. The finding that shapes everything
+## 2. What changed since the first version of this report
 
-**PMI could not be reached.** The environment's egress proxy blocks all outbound requests,
-including `pmi.org`. The only external channel is web search, which returns summaries of
-third-party pages.
+The first version assigned **MEDIUM confidence** to an exam fee on the grounds that several
+unaffiliated vendor pages agreed. **That reasoning was wrong and has been withdrawn.**
 
-**Every external source obtained is a training provider or exam-prep vendor** — tier 10 in
-`source-hierarchy.yaml`, and specifically the category the hierarchy says must never be
-cited as neutral evidence about its own product.
+Repetition is not verification. A figure copied between commercial sites is one claim
+appearing many times. When every site concerned sells PMP training, agreement between them
+is weak evidence about PMI's prices and no evidence about which figure is current.
 
-They also disagree with each other:
+Consequences of the correction:
 
-| Fact | Disagreement found |
+| First version | Now |
 |---|---|
-| Exam fee, member | $405 · $425 (CertNorth) · $445 |
-| Exam fee, non-member | $555 · $655 · $675 |
-| PMI membership | $129 · $139 · $149 · $154 · $159 |
-| **Regional pricing** | One source: PMI adjusts fees for local purchasing power in India, Brazil and APAC. Another: PMI fees are globally fixed in USD. **Direct contradiction** |
-| **ATP rule scope** | One source: all 35 contact hours must come from an ATP. Another: only live instructor-led training is restricted. **Materially different rules** |
+| Modelled the exam at $445/$675 | Models the repository's **~$425/~$675** |
+| Modelled membership at $149 | Models **$140–$150** — the range *is* the site's internal contradiction |
+| Proposed a section correcting our retake claim | **Withdrawn.** The correction rested on search results |
+| Included a retake scenario at $275 | **Withdrawn** |
+| Treated the August 2026 change as probable | Treated as **a question to ask PMI** |
 
-An India figure reported as PMI's own checkout price — ₹24,708, about **$281** — is far
-below $445 and inconsistent with a straight USD conversion. If accurate, it is evidence
-that PMI prices by region.
-
-**Conclusion: no universal global PMP price can be responsibly stated from the evidence
-available.** That is the finding, not a failure of the research.
+**The research got weaker in claims and stronger in integrity.** That is the right
+direction.
 
 ---
 
-## 3. What CertNorth is currently publishing, and what is wrong with it
+## 3. What the repository establishes
 
-| Issue | Severity | Detail |
-|---|---|---|
-| The member exam fee matches nothing | **High** | The site says ~$425. That is neither the reported old price ($405) nor the reported new one ($445). The non-member figure ($675) matches the *new* price. **The site carries a mixed pair** |
-| `certifications.json` is probably stale | **High** | `examCost: "~$425 member / ~$675 non-member"`, `verifiedOn: 2026-07`. If the 2026-08-06 increase is real, this is out of date — **and it feeds the `certTable` on `best-pm-certifications-beginners`**, so the error appears on a second page |
-| Retake cost is misdescribed | **Medium-high** | The article says a retake "adds another exam fee". Secondary sources report a **reduced** retake fee ($275 member / $375 non-member). If correct, CertNorth overstates it by roughly $170 — and omits the real risk, a **one-year lockout after three failed attempts** |
-| The site contradicts itself on membership | **Medium** | `pmp-cost` says ~$140/yr; `is-pmi-membership-worth-it` says ~$150/yr |
-| The membership benefit is overstated | **Medium** | The site's ~$100 net benefit rests on a $250 exam-fee gap. The reported post-August gap is **$230**, giving $61–$91 depending on the membership figure |
-| No renewal economics | **Medium** | The page stops at the purchase. It never models what keeping the credential costs |
+Full extraction in `pmp-cost-internal-claims-map.md`: every PMP cost claim on the site,
+located, attributed to its article and its cited source, cross-checked against every other.
 
-**Five of these six are corrections, not enhancements.** That alone justifies the rebuild
-independently of length.
+### Where the site agrees with itself
 
----
+| Claim | Locations |
+|---|---|
+| PMP exam ~$425 member / ~$675 non-member | **5** |
+| Renewal $60 / $150, 60 PDUs per 3 years, ≥8 per Talent Triangle area | **3+** |
+| Eligibility 36/60 months + 35 contact hours | **7** |
 
-## 4. Original value — the Phase 10 test
+**More internally consistent on the headline fee than expected.** Whether it is *correct*
+is a separate question this environment cannot answer.
 
-> *What does this article give the reader that the PMI pricing page does not?*
+### Where it does not — nine contradictions
 
-1. A taxonomy of costs by behaviour — required, conditional, optional, recurring.
-2. The membership break-even run **in both directions**; it reverses at renewal.
-3. A correction of an industry claim: "the renewal discount means membership pays for
-   itself" is false — ~$90 saved per cycle against ~$447 of membership.
-4. The retake mechanism described correctly, including the one-year lockout.
-5. A **refusal** to compute a pass-rate-weighted expected cost, with the reason — because
-   no reliable pass rate exists, as `pmp-pass-rate` already establishes.
-6. Financial cost and time commitment held apart, never monetised — plus the point that
-   **at least 35 of the 60 PDUs must be Education, so "your job covers it" is wrong.**
-7. An explicit account of what cannot be verified and why.
-
-**None of these is "we explain PMI's prices better."** The test passes.
+| # | Contradiction | Severity | Fixable by this rebuild alone? |
+|---|---|---|---|
+| 1 | **"Every figure sourced from PMI" while publishing training prices PMI does not publish** | **High** | **Yes — and needs no verification** |
+| 2 | Membership **~$140** vs **~$150**, same cited URL | Medium-high | No — second article |
+| 3 | All-in cost **$700–$2,500** vs **$1,000–$3,000** | Medium | No — second article |
+| 4 | The site's only 10-year PMP figure is renewal fees alone, in a table where every other row is a full total | Medium | No — second article |
+| 5 | `pmp-renewal-pdus` dek leads with "doing your own job"; its body says that route is capped and never gives the cap | Medium | No — second article |
+| 6 | Retake described as "another exam fee" — unsourced, only mention on the site | Medium | **Yes** — remove or qualify |
+| 7 | Renewal rules published without citing the CCR Handbook that supports them | Low-medium | **Yes** — add the source |
+| 8 | Self-paced training advised with no reference to the late-2026 rule change | Low-medium | **Yes** |
+| 9 | **No source entry anywhere carries a date** — ~160 citations, zero dates | Medium, systemic | No — schema decision |
 
 ---
 
-## 5. The result worth publishing
+## 4. The finding that needs no verification
 
-**CERTNORTH CALCULATION**, all inputs unverified and stated, US pricing, PDUs and the 35
-contact hours obtained free, no purchased materials:
+`pmp-cost` says, three times:
+
+- `body[0]`: *"Here's the full picture, with every fee sourced from PMI."*
+- `body[3]` table caption: *"PMP core costs in 2026 (source: PMI)."*
+- `seo.metaDescription`: *"Every figure sourced from PMI."*
+
+**That same table contains "Required education (35 contact hours) | $0–$600 depending on
+provider", and the article's second table prices third-party training at $700–$2,500+.**
+
+PMI does not sell PMP training and does not publish its price. **Neither figure can be
+sourced to PMI.**
+
+This is a claim about our own sourcing integrity, on a site whose entire position is
+independence and verifiability, on the page the audit already identified as the weakest.
+The claim and the content disproving it are in the same file.
+
+**Recommendation: remove it whether or not the rebuild proceeds.**
+
+---
+
+## 5. Original value — the Phase 10 test
+
+1. A cost taxonomy by behaviour: required, conditional, optional, recurring.
+2. The membership break-even **in both directions** — it reverses at renewal.
+3. Cost of ownership over ten years, every assumption stated and substitutable.
+4. A **refusal** to compute a pass-rate-weighted expected cost, with the reason.
+5. Financial cost and time commitment held apart, never monetised.
+6. An explicit account of what we could and could not confirm — including that our own page
+   overstates its sourcing.
+
+**The test passes.** Item 6 is the strongest and the cheapest.
+
+---
+
+## 6. The result worth publishing
+
+**CERTNORTH CALCULATION**, inputs from the repository, all requiring primary verification.
+Assumptions: exam ~$425 member; membership $140–$150/yr; renewal $60/$150 per three years;
+PDUs and the 35 hours obtained free; no materials; no retake; application fee excluded
+because the site never quantifies it.
 
 | Scenario | 5-year | 10-year |
 |---|---|---|
-| **A** — pass first time, membership for the exam year only | $754 | **$1,054** |
-| **B** — same, membership maintained throughout | $1,260 | **$2,125** |
-| **C** — A plus one retake | — | **$1,329** |
+| **A** — join for the exam year, then lapse | $715–$725 | **$1,015–$1,025** |
+| **B** — maintain membership throughout | $1,185–$1,235 | **$2,005–$2,105** |
 
-Over ten years, **keeping PMI membership costs about $1,071 more than letting it lapse,
-while saving $270 in renewal fees.** A failed attempt adds about 26% to a bare-bones
-ten-year cost — considerably less than "another exam fee" implies.
+Over ten years, keeping membership costs roughly **$990–$1,080 more** and saves **$270** in
+renewal fees.
 
-These are three explicitly assumed paths. **Not "typical". Not "average".**
+**Not modelled:** retakes (fee unverified, our own claim unsourced) and training (no
+neutral data exists). The article says so rather than guessing.
 
 ---
 
-## 6. Structure
+## 7. Structure
 
-Full plan in `pmp-cost-architecture.md`. The template-breaking moves:
+Full plan in `pmp-cost-architecture.md`. Template-breaking moves:
 
 - **Second block is a heading, not a callout** — breaking a 50/50 site-wide pattern
 - **Leads with an uncertainty ledger**, not a price table
-- **One callout in the whole article**, carrying the CERTNORTH CALCULATION
-- **No FAQ block.** The GATE was read directly and does not require one
+- **One callout in the whole article**
+- **No FAQ block** — `build.js` `runGate()` was read directly and does not require one
 - **No year in the title**, on a page arguing that fixed figures go stale
-- All eight proposed H2s checked against the site's 215 existing level-2 headings: **zero
-  collisions**
-- Content type shifts from DECISION to **RESEARCH**, easing a distribution that sits at
-  34% DECISION
+- All eight H2s checked against the site's 215 existing level-2 headings: **zero collisions**
+- Content type shifts DECISION → **RESEARCH**
 
-URL, slug, `clusterId`, `primaryKeyword` and `publishedAt` all unchanged. All 11 inbound
-links continue to resolve.
+URL, slug, `clusterId`, `primaryKeyword` and `publishedAt` unchanged. All 11 inbound links
+continue to resolve. Sources must now add the **CCR Handbook** and the **PMP Handbook**.
 
 ---
 
-## 7. What needs approval
+## 8. What needs approval
 
 | # | Decision | Recommendation |
 |---|---|---|
-| 1 | **Verify the fee at PMI, or publish it labelled unverified?** | **Verify.** This is the number the audit singled out as failing the site's own standard. Ten minutes in a browser fixes it |
-| 2 | Drop the FAQ block? | **Yes.** It would restate the body, which is padding. Trade-off: the article loses `FAQPage` structured data, and it would be the site's first article without one |
-| 3 | Update `certifications.json`? | **Needs approval — it changes a second live page.** Only after real verification, and `verifiedOn` must be advanced honestly |
-| 4 | Fix the membership figure in `is-pmi-membership-worth-it` too? | **Needs approval — second article.** Two pages currently give different numbers for the same fee |
-| 5 | Correct the free-PDU framing in `pmp-renewal-pdus`? | **Needs approval — second article.** Only if the 35-Education minimum verifies |
-| 6 | Proceed to drafting? | **Yes**, once 1 and 2 are answered |
-
----
-
-## 8. Risks
-
-| Risk | Mitigation |
-|---|---|
-| The retake correction rests on an unverified figure | If it does not verify, **cut the section — do not soften it** |
-| The 35-PDU Education floor is single-sourced | If it does not verify, state only what `pmp-renewal-pdus` supports — that caps exist |
-| Prices go stale again | The fact-check plan sets a six-month cadence; the build already warns at six months |
-| The uncertainty angle could read as an excuse | Mitigated by pairing it with the ten-year model — the page proves it did the work anyway |
-| Scope creep into five other articles | The consolidation map defines what belongs here and what is linked |
+| 1 | **Remove the "every figure sourced from PMI" claim** | **Yes — independent of everything else.** It is untrue and needs no verification |
+| 2 | Verify PMI prices before drafting? | **Yes.** One sitting resolves eight open questions. Without it, no figure may be published as fact |
+| 3 | Drop the FAQ block? | **Yes.** It would restate the body. Cost: loses `FAQPage` schema; would be the site's first article without one |
+| 4 | Fix the membership figure in `is-pmi-membership-worth-it`? | **Second article — needs approval.** Two pages give different numbers for the same fee |
+| 5 | Fix the all-in range in `how-to-become-project-manager`? | **Second article — needs approval** |
+| 6 | Reconcile the 10-year row in `is-safe-certification-worth-it`? | **Second article — needs approval** |
+| 7 | Fix the dek in `pmp-renewal-pdus`? | **Second article — needs approval** |
+| 8 | Update `certifications.json`? | **Changes a second published page — needs approval.** Only after real verification, with `verifiedOn` advanced honestly |
+| 9 | **Add a date field to the source schema?** | **Systemic — needs a decision.** ~160 citations currently carry no date |
 
 ---
 
 ## 9. Assessment
 
-**The research is sufficient to proceed to drafting**, provided the article is built
-around cost structure and uncertainty rather than a headline price.
+**Repository layer: complete.** Every PMP cost claim mapped; nine contradictions found; one
+serious and fixable without any external access.
 
-**It is not sufficient to publish any specific fee as verified fact.** One human visit to
-PMI, logged in from the relevant country, resolves nine of the open items at once — and
-would also answer the regional-pricing question that currently prevents the site from
-stating any universal number.
+**Primary-source layer: blocked, and not completable here.** PMI is unreachable. No figure
+is verified.
+
+**The architecture does not depend on the blocked layer** — the editorial question, the
+angle, the taxonomy, the section order, the structural decisions, the internal links and
+the consolidation map are all final. **Only the numbers are blocked.**
+
+**The article can be designed. It cannot yet be published.**

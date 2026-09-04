@@ -1,142 +1,158 @@
 # Fact-Check Plan — `pmp-cost`
 
 **Date:** 2026-09-04
-**Rule:** no statement below may be published as fact until its status reads VERIFIED, or
-until the article labels it explicitly as unverified in the body text — not in a footnote
-and not in a caveat at the end.
+**Revised:** 2026-09-04 — relabelled under the corrected verification protocol
 
-**Confidence key:** HIGH = inspectable or primary · MEDIUM = converging independent
-secondary sources · LOW = single or conflicting secondary sources · UNKNOWABLE = no
-reliable source exists anywhere.
+**Rule:** nothing below may be published as fact while its status reads
+PRIMARY SOURCE VERIFICATION REQUIRED. It may be published only as *"what CertNorth
+currently states, not yet confirmed at source"*, in the body text — never in a footnote.
 
 ---
 
-## 1. Prices — every one requires human verification at PMI
+## 1. Labels
 
-| # | Fact the article needs | Best current source | Status | Confidence | Re-verify |
-|---|---|---|---|---|---|
-| 1 | PMP exam fee, member | Vendor consensus: **$445**, effective 2026-08-06 | **UNVERIFIED** | MEDIUM | Every 6 months + on any PMI announcement |
-| 2 | PMP exam fee, non-member | Vendor consensus: **$675** | **UNVERIFIED** | MEDIUM | Same |
-| 3 | Whether a fee change took effect 2026-08-06 | Multiple unaffiliated vendors state it consistently | **UNVERIFIED** | MEDIUM | Once |
-| 4 | PMI membership, annual | Sources disagree: $129 / $139 / $149 / $154 / $159 | **UNVERIFIED — sources conflict** | **LOW** | Every 6 months |
-| 5 | PMI membership application fee | ~$10 one-time, consistent | **UNVERIFIED** | MEDIUM | Every 6 months |
-| 6 | Renewal fee, member | **$60** | **UNVERIFIED** | MEDIUM | Every 6 months |
-| 7 | Renewal fee, non-member | **$150** | **UNVERIFIED** | MEDIUM | Every 6 months |
-| 8 | Retake fee, member | **$275** | **UNVERIFIED — may predate the August increase** | **LOW–MEDIUM** | Before publication |
-| 9 | Retake fee, non-member | **$375** | **UNVERIFIED — same risk** | **LOW–MEDIUM** | Before publication |
-
-**Facts 8 and 9 are load-bearing.** The article corrects CertNorth's own claim that a
-retake costs another full exam fee. **If the reduced retake fee cannot be verified, that
-section must be cut, not softened.**
-
-**Fact 4 is load-bearing for the calculation.** The membership break-even is stated with a
-sensitivity range precisely because the figure is unreliable. If PMI publishes one number,
-the range should be replaced by it.
+| Label | May be published as fact? |
+|---|---|
+| **VERIFIED FROM CERTNORTH REPOSITORY** | Only as "what the site currently claims" |
+| **PRIMARY SOURCE VERIFICATION REQUIRED** | **No** |
+| **SECONDARY/SEARCH DISCOVERY ONLY** | **No** — regardless of how many sources repeat it |
+| **CERTNORTH CALCULATION** | Only with inputs and their labels attached |
+| **EDITORIAL INFERENCE** | Only as clearly-marked reasoning |
 
 ---
 
-## 2. Rules and requirements
+## 2. Prices — all require verification at PMI
 
-| # | Fact | Source | Status | Confidence | Re-verify |
-|---|---|---|---|---|---|
-| 10 | 60 PDUs per 3-year cycle | Already published in `pmp-renewal-pdus`; externally corroborated | Consistent | MEDIUM–HIGH | Annually |
-| 11 | Minimum 8 PDUs in each Talent Triangle area | `pmp-renewal-pdus` | **UNVERIFIED at source** | MEDIUM | Annually |
-| 12 | **Minimum 35 of the 60 PDUs from Education** | One secondary source; consistent with the commonly described structure | **UNVERIFIED** | **LOW–MEDIUM** | Before publication |
-| 13 | Giving Back is capped | `pmp-renewal-pdus` says caps exist without numbers | **UNVERIFIED, and the number is missing** | LOW | Before publication |
-| 14 | 3 exam attempts within a 1-year eligibility period | Secondary | **UNVERIFIED** | MEDIUM | Before publication |
-| 15 | 30-day wait between attempts | Secondary | **UNVERIFIED** | LOW–MEDIUM | Before publication |
-| 16 | 1-year lockout after 3 failures, then a new application | Secondary | **UNVERIFIED** | LOW–MEDIUM | Before publication |
-| 17 | 35 contact hours required for the application | `pmp-eligibility`, widely corroborated | Consistent | MEDIUM–HIGH | Annually |
-| 18 | An active CAPM can satisfy the 35 hours | `pmp-eligibility` | **UNVERIFIED at source** | MEDIUM | Before publication |
-| 19 | Membership is optional, never required | No source disputes it | Consistent | HIGH | — |
-
-**Fact 12 is load-bearing.** The claim that "your job does not cover your PDUs" depends on
-it. Without verification, that paragraph must be rewritten to state only what
-`pmp-renewal-pdus` already supports — that caps exist — or cut.
-
----
-
-## 3. The ATP change — the most important open question
-
-| # | Fact | Status | Confidence | Action |
+| # | Fact the article needs | Repository value | Label | Re-verify |
 |---|---|---|---|---|
-| 20 | A change to how the 35 contact hours may be delivered takes effect **late Q4 2026** | **UNVERIFIED** | MEDIUM | Verify at PMI |
-| 21 | Approved routes include PMI Authorized Training Partners | **UNVERIFIED** | MEDIUM | Verify |
-| 22 | GAC-accredited academic programmes qualify | **UNVERIFIED** | LOW–MEDIUM | Verify |
-| 23 | China Registered Education Providers qualify | From `pmp-eligibility`; not corroborated externally | **UNVERIFIED** | Verify |
-| 24 | An active CAPM waiver qualifies | **UNVERIFIED** | LOW–MEDIUM | Verify |
-| 25 | **Whether the restriction covers all 35 hours or only live instructor-led training** | **UNVERIFIED — sources directly contradict each other** | **LOW** | **Verify before publication. This is the single most consequential unknown in the article** |
+| 1 | PMP exam fee, member | **~$425** — 5 locations agree | REPOSITORY + **PRIMARY VERIFICATION REQUIRED** | Every 6 months |
+| 2 | PMP exam fee, non-member | **~$675** — 5 locations agree | REPOSITORY + **PRIMARY VERIFICATION REQUIRED** | Every 6 months |
+| 3 | PMI membership, annual | **$140 or $150 — the site contradicts itself** | REPOSITORY (both) + **PRIMARY VERIFICATION REQUIRED** | Every 6 months |
+| 4 | Membership application fee | *"a small one-time fee"* — **never quantified on the site** | REPOSITORY + **PRIMARY VERIFICATION REQUIRED** | Every 6 months |
+| 5 | Renewal fee, member | **$60** — 3 locations | REPOSITORY + **PRIMARY VERIFICATION REQUIRED** | Every 6 months |
+| 6 | Renewal fee, non-member | **$150** — 3 locations | REPOSITORY + **PRIMARY VERIFICATION REQUIRED** | Every 6 months |
+| 7 | Whether PMI changed fees during 2026 | Asserted by 3 articles, undated | REPOSITORY + **PRIMARY VERIFICATION REQUIRED** | Once |
+| 8 | **Whether PMI prices the exam by country** | `is-pmp-worth-it` says prices "vary by country"; `certifications.json` says "verify for your country" | REPOSITORY + **PRIMARY VERIFICATION REQUIRED** | **Before publication — decides whether any universal figure may be stated** |
 
-If fact 25 cannot be resolved, the article must present **both** readings and their
-different consequences for the education floor — which is what the architecture already
-proposes. That is publishable. Asserting either one is not.
+**Fact 3 is load-bearing.** The membership break-even is published as a range precisely
+because the site disagrees with itself. One verified number collapses the range.
+
+**Fact 8 is the gate on the whole article.** If PMI prices regionally, no universal number
+may be stated at all — only a method.
 
 ---
 
-## 4. Facts that are settled, and one that never will be
+## 3. Rules and requirements
 
-| # | Fact | Status | Confidence |
+| # | Fact | Repository value | Label | Action |
+|---|---|---|---|---|
+| 9 | 60 PDUs per 3-year cycle | Stated in 3 locations | REPOSITORY + **PRIMARY VERIFICATION REQUIRED** | Annually |
+| 10 | Minimum 8 PDUs per Talent Triangle area | `pmp-renewal-pdus` | REPOSITORY + **PRIMARY VERIFICATION REQUIRED** | Annually |
+| 11 | **The Giving Back cap** | **Site says a cap exists; never states the number** | **PRIMARY VERIFICATION REQUIRED** | **Before publication** |
+| 12 | Whether a minimum share of PDUs must be Education | **Not stated anywhere on the site** | **PRIMARY VERIFICATION REQUIRED**; a search lead exists but is **SECONDARY/SEARCH DISCOVERY ONLY** | Before publication |
+| 13 | 35 contact hours required | 7 locations agree | REPOSITORY + **PRIMARY VERIFICATION REQUIRED** | Annually |
+| 14 | An active CAPM covers the 35 hours | `pmp-eligibility`, `pmp-vs-capm` | REPOSITORY + **PRIMARY VERIFICATION REQUIRED** | Before publication |
+| 15 | Membership is optional, never required | Consistent site-wide | REPOSITORY | — |
+
+**Facts 11 and 12 together decide** whether the article may say anything about how easily
+PDUs are earned. Without them, it may say only that free routes exist —
+which `pmp-renewal-pdus` supports — and **not** that doing your job covers them.
+
+---
+
+## 4. Retake — currently unpublishable
+
+| # | Fact | Status |
+|---|---|---|
+| 16 | Retake fee | **Unknown.** The site's only claim (*"a retake adds another exam fee"*) is **unsourced**; `pmp-cost` does not cite the PMP Handbook. A search lead suggests a reduced fee, but that is **SECONDARY/SEARCH DISCOVERY ONLY** |
+| 17 | Number of attempts permitted, and over what period | **Not stated anywhere on the site.** **PRIMARY VERIFICATION REQUIRED** |
+| 18 | Waiting period between attempts | Same |
+| 19 | What happens after the permitted attempts are exhausted | Same |
+
+**The rebuilt article may not assert any retake figure, in either direction.** It may state
+that a failed attempt has a cost, that we could not verify what it is, and that our current
+page's wording is unsourced.
+
+**Correcting our own article on the strength of vendor pages would repeat the exact error
+that made the current article weak.**
+
+---
+
+## 5. The training rule — the largest live variable
+
+| # | Fact | Status |
+|---|---|---|
+| 20 | A change takes effect late Q4 2026 | REPOSITORY (`pmp-eligibility`) + **PRIMARY VERIFICATION REQUIRED** |
+| 21 | Approved routes: ATPs, China REPs, eligible academic programmes | REPOSITORY + **PRIMARY VERIFICATION REQUIRED** |
+| 22 | **Scope — all 35 contact hours, or only live instructor-led training?** | `pmp-eligibility` says **live only**. A search lead offers a broader reading — **SECONDARY/SEARCH DISCOVERY ONLY**. **Unresolved** |
+
+If fact 22 cannot be resolved, the article presents **both readings and their different
+consequences**, which is publishable. Asserting either is not.
+
+---
+
+## 6. Settled, and one settled permanently
+
+| # | Fact | Status |
+|---|---|---|
+| 23 | **No reliable PMP pass rate exists.** PMI has not published one for ~20 years; the circulating "61%" is a passing score retired around 2006 | REPOSITORY (`pmp-pass-rate`). **Needs no verification — the absence of data is the finding** |
+| 24 | PMI scores psychometrically, reporting performance bands | REPOSITORY + PRIMARY VERIFICATION REQUIRED |
+| 25 | Exam updated 9 July 2026; People 33% / Process 41% / Business Environment 26% | REPOSITORY (`how-to-prepare-for-pmp-exam`, which cites the 2026 ECO) |
+
+**Fact 23 licenses the article's refusal to compute an expected cost.**
+
+---
+
+## 7. Internal contradictions to resolve
+
+Full detail in `pmp-cost-internal-claims-map.md`.
+
+| # | Contradiction | Files | Fixable by this rebuild alone? |
 |---|---|---|---|
-| 26 | **No reliable PMP pass rate exists.** PMI has not published one in ~20 years; the circulating "61%" is a passing score retired around 2006 | Established in `pmp-pass-rate` | **UNKNOWABLE — permanently** |
-| 27 | PMI scores psychometrically and reports performance bands, not a percentage | `pmp-pass-rate` | MEDIUM–HIGH |
-| 28 | The exam was updated 9 July 2026; People 33% / Process 41% / Business Environment 26% | `how-to-prepare-for-pmp-exam` | MEDIUM–HIGH |
-| 29 | Eligibility: 36 months with a four-year degree, 60 months with a secondary diploma | `pmp-eligibility` | MEDIUM–HIGH |
-
-**Fact 26 licenses the article's refusal to compute an expected cost.** It needs no
-further verification — the absence of the data *is* the verified finding.
-
----
-
-## 5. Internal contradictions to resolve before publishing
-
-These are CertNorth disagreeing with itself. All four must be settled, and the fix may
-touch files beyond `pmp-cost`.
-
-| # | Contradiction | Files affected | Resolution |
-|---|---|---|---|
-| 30 | Membership is "about $140/yr" in `pmp-cost` but "roughly $150/yr" in `is-pmi-membership-worth-it` | 2 articles | Verify at PMI, then make both say the same thing |
-| 31 | `pmp-cost` implies a retake costs another full exam fee | `pmp-cost` | Correct if fact 8 verifies; cut if it does not |
-| 32 | `certifications.json` carries `~$425 / ~$675` with `verifiedOn: 2026-07`. If the August increase is real this is stale — **and it feeds the `certTable` in `best-pm-certifications-beginners`** | `certifications.json`, and one further page | **Update the single source of truth, not the article.** Requires `verifiedOn` to be advanced honestly, which means someone actually checked |
-| 33 | `pmp-renewal-pdus` leads its free-PDU list with "working in your certified role", which is Giving Back and therefore capped | `pmp-renewal-pdus` | Only if fact 12 verifies. **Requires approval — it is a second article** |
-
-**Contradictions 32 and 33 are outside `pmp-cost`.** They are recorded here, not fixed.
-Touching `certifications.json` changes a second published page and needs explicit
-approval.
+| 26 | **"Every figure sourced from PMI"** while publishing training prices PMI does not publish | `pmp-cost` | **Yes — and it needs no verification** |
+| 27 | Renewal rules published without citing the CCR Handbook | `pmp-cost` | **Yes** — add the source |
+| 28 | Retake claim unsourced | `pmp-cost` | **Yes** — remove or qualify |
+| 29 | Self-paced training advised with no mention of the late-2026 change | `pmp-cost` | **Yes** |
+| 30 | Membership **$140** vs **$150** | `pmp-cost`, `is-pmi-membership-worth-it` | **No — second article. Needs approval** |
+| 31 | All-in cost **$700–$2,500** vs **$1,000–$3,000** | `pmp-cost`, `how-to-become-project-manager` | **No — second article. Needs approval** |
+| 32 | The site's only 10-year PMP figure is renewal fees alone, in a comparison table of full totals | `is-safe-certification-worth-it` | **No — second article. Needs approval** |
+| 33 | `certifications.json` `verifiedOn: 2026-07`, feeding a `certTable` on `best-pm-certifications-beginners` | `certifications.json` + 1 page | **No — changes a second page. Needs approval** |
+| 34 | `pmp-renewal-pdus` dek promises what its body caps | `pmp-renewal-pdus` | **No — second article. Needs approval** |
+| 35 | **No source entry anywhere carries a date** — ~160 citations | All 50 articles, and the content schema | **No — systemic. Needs a decision, not a fix** |
 
 ---
 
-## 6. Recurring re-verification schedule
-
-If this article ships, it creates an ongoing obligation the editorial policy already
-promises:
+## 8. Re-verification schedule
 
 | Cadence | Items |
 |---|---|
-| Every 6 months | Facts 1, 2, 4, 5, 6, 7, 8, 9 — all prices |
-| Annually | Facts 10, 11, 17 — PDU and education requirements |
-| On any PMI announcement | Facts 1–3, 20–25 |
-| Once, then closed | Fact 3 (did the August 2026 change happen), fact 25 (ATP scope) |
+| Every 6 months | 1–6 — all prices |
+| Annually | 9, 10, 13 — PDU and education requirements |
+| On any PMI announcement | 1–8, 20–22 |
+| Once, then closed | 7, 22 |
 
-`certifications.json` currently carries `verifiedOn: 2026-07` for all six certifications.
-The build warns at six months, so the first automatic alert is due **January 2027**. This
-article's publication is the natural moment to run the first real pass — which would make
-the editorial policy's promise demonstrable rather than merely stated.
+`certifications.json` carries `verifiedOn: 2026-07` for all six certifications; the build
+warns at six months, so the first automatic alert is due **January 2027**. Publishing this
+article is the natural moment to run the first real pass — which would make the editorial
+policy's re-verification promise demonstrable rather than merely stated.
 
 ---
 
-## 7. The single instruction for whoever verifies
+## 9. The verification instruction
 
-Open `pmi.org` **logged in from the country the reader is being advised for**, and record,
-with the date and a screenshot reference:
+Open `pmi.org` **logged in from the country the reader is being advised for**, and record
+each item with the date checked:
 
 1. PMP exam fee, member and non-member, **as displayed at checkout**
-2. Whether the displayed currency and amount differ from the USD figure published on the
-   general certification page — this settles the regional-pricing question
-3. PMI membership fee and application fee
+2. **Whether that displayed amount and currency differ from the USD figure on the general
+   certification page** — this settles fact 8, and fact 8 gates the article
+3. PMI membership fee **and the application fee amount**
 4. Certification renewal fee, member and non-member
-5. Retake / re-examination fee
-6. The PDU category minimums and maximums in the current CCR Handbook
-7. The exact wording of the late-2026 training-provider requirement — **specifically
-   whether it applies to all 35 contact hours or only to live instructor-led training**
+5. **Re-examination fee, number of attempts permitted, and the eligibility period** — PMP
+   Handbook
+6. **PDU category minimums and maximums** — CCR Handbook
+7. **The exact wording of the late-2026 training requirement**, specifically whether it
+   covers all 35 contact hours or only live instructor-led training
 
-Item 2 is the one that decides whether this article can state any universal number at all.
+Items 2, 5, 6 and 7 are the ones that change what the article can say. Items 1, 3 and 4
+change only the numbers inside it.
