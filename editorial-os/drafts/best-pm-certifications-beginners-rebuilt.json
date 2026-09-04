@@ -1,0 +1,75 @@
+{
+  "_draft": "REBUILD 03 — draft only. Not in the build. Do not copy into platform/content/articles/ without Editor-in-Chief approval. The production best-pm-certifications-beginners.json is unchanged and remains the rollback reference.",
+  "id": "best-pm-certifications-beginners",
+  "slug": "best-project-management-certifications-for-beginners",
+  "clusterId": "cl_compare",
+  "title": "Best Project Management Certifications for Beginners (2026)",
+  "dek": "Five programmes, five different kinds of product — and five prices that measure five different things. What you are actually buying, and how to choose by what you want it for.",
+  "authorId": "author_team",
+  "publishedAt": "2026-07-25",
+  "updatedAt": "2026-09-04",
+  "intent": { "primaryKeyword": "best project management certifications for beginners" },
+  "seo": {
+    "metaTitle": "Best PM Certifications for Beginners (2026)",
+    "metaDescription": "The five beginner options are not the same kind of product, and their prices do not compare. What you are actually buying, and how to choose by goal."
+  },
+  "sources": [
+    { "label": "PMI — Certified Associate in Project Management (CAPM)", "url": "https://www.pmi.org/certifications/certified-associate-capm" },
+    { "label": "Google Project Management Professional Certificate — Coursera", "url": "https://www.coursera.org/professional-certificates/google-project-management" },
+    { "label": "Scrum.org — Professional Scrum Master I (PSM I)", "url": "https://www.scrum.org/assessments/professional-scrum-master-i-certification" },
+    { "label": "Scrum Alliance — Certified ScrumMaster (CSM)", "url": "https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster" },
+    { "label": "PeopleCert — PRINCE2", "url": "https://www.peoplecert.org/" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "A beginner asking which project management certification to start with is usually handed the same five: the CAPM, the Google Project Management Certificate, the PSM I, the CSM, and PRINCE2 Foundation. The list is not wrong. It is arranged badly. Those five are not the same kind of product, and the prices attached to them are not the same kind of number — one is a monthly subscription to course material, one is a fee to attempt an assessment you can fail, one is a charge for renewing a credential you do not yet hold. Lined up in a column headed \"cost\", they invite a comparison that cannot honestly be made. So this page does something different: it sets out what each of these actually is, what your money is buying in each case, and how to choose once you can see the difference." },
+
+    { "type": "heading", "level": 2, "text": "What these five things actually are" },
+    { "type": "paragraph", "richText": "The distinction that matters most is between buying teaching and buying a credential. The Google Project Management Certificate is sold as a subscription to course material: you work through it and finish with a record that you completed it. The other four are issued by organisations whose business is certifying people. That difference is not a matter of prestige, and it is not something either side has an incentive to explain to you — but it is observable. Three of the four impose a renewal obligation to keep what you have earned, which is the clearest sign that they treat it as a standing credential rather than a course you finished." },
+    { "type": "table", "caption": "What each programme is, and what we were able to confirm at the issuing organisation in September 2026. The classification in the middle column is CertNorth's.", "headers": ["Programme", "What kind of product it is", "What we could confirm"], "rows": [
+      ["Google Project Management Certificate", "A paid course you work through — teaching, with a completion record at the end", "Delivered by subscription; no prior knowledge required"],
+      ["CAPM (PMI)", "A certification with an education requirement, maintained on a cycle", "23 hours of project management education are required, and PMI's own training satisfies them"],
+      ["PSM I (Scrum.org)", "A certification earned by passing an assessment", "80 questions, 60 minutes, 85% to pass; the test password does not expire until it is used"],
+      ["CSM (Scrum Alliance)", "A certification with a fixed renewal cycle", "Renewal every two years: 20 SEUs and a US$100 fee"],
+      ["PRINCE2 Project Management Foundation (Version 7)", "A qualification with a fixed renewal cycle", "Renewal every three years, and 60 CPD points"]
+    ] },
+    { "type": "paragraph", "richText": [ "Note what the middle column does not say. It does not rank these. A course is not a lesser thing than a credential — it is a different purchase, and which one serves you depends entirely on whether you are trying to learn the work or trying to hold something a body will vouch for. If it is the second, the ", { "link": { "ref": "article:capm-vs-google-pm-certificate", "text": "CAPM and the Google certificate are worth reading about side by side" } }, ", because they are the two most often mistaken for each other." ] },
+
+    { "type": "heading", "level": 2, "text": "What your money is actually buying" },
+    { "type": "paragraph", "richText": "Every published figure below is a real number from the organisation that charges it. None of them measures the same thing as any of the others, and two of the five do not exist in a form we could confirm at all. That is not a gap in this article — it is the finding." },
+    { "type": "table", "caption": "What each published figure actually measures. Figures confirmed at the issuing organisations in September 2026; where no figure is shown, we could not confirm one.", "headers": ["Programme", "Figure we could verify", "What that figure is the price of", "What it does not tell you"], "rows": [
+      ["CAPM", "None", "—", "We could not confirm a current exam fee. Any figure you find elsewhere, including older figures on this site, should be checked at PMI before you rely on it"],
+      ["Google PM Certificate", "US$49 per month, in the US and Canada", "A month of subscription to the course material", "What you pay in total, which depends on how long you take. Coursera notes prices may differ in other countries"],
+      ["PSM I", "US$200", "One attempt at the assessment", "What a second attempt costs, which matters when the pass mark is 85%"],
+      ["CSM", "US$100", "Renewing the credential, every two years", "What it costs to obtain in the first place — we could not confirm that"],
+      ["PRINCE2 PM Foundation (v7)", "US$701", "One package displayed on PeopleCert's page", "What that package includes, or what other options and other regions cost"]
+    ] },
+    { "type": "paragraph", "richText": [ "The recurring side is the part beginners underestimate, and it is where the verified detail is richest. The CAPM runs on a three-year cycle of 15 PDUs, and the composition is fixed rather than free: at least 9 must be Education and at most 6 may be Giving Back, which together account for all 15, with a minimum of 2 in each area of PMI's Talent Triangle. There is no discretionary remainder. The CSM renews every two years on 20 SEUs plus US$100. PRINCE2 Foundation renews on a three-year cycle of 60 CPD points. For the Google certificate and the PSM I we could not confirm whether any renewal obligation exists — it is widely said that neither expires, and we are not going to repeat that as fact when we have not checked it." ] },
+
+    { "type": "heading", "level": 2, "text": "The one you have heard of is not on this list" },
+    { "type": "paragraph", "richText": [ "The PMP is absent from both tables deliberately. It is PMI's senior credential and it requires documented project experience, which is precisely what a beginner does not yet have — so putting it in a beginners' comparison makes the comparison worse, not more complete. It belongs in this article only as a destination. What PMI requires is set out in our ", { "link": { "ref": "article:pmp-eligibility", "text": "PMP eligibility guide" } }, "; whether it is worth pursuing once you qualify is a separate question we answer in ", { "link": { "ref": "article:is-pmp-worth-it", "text": "is the PMP worth it" } }, ", and what it costs is in ", { "link": { "ref": "article:pmp-cost", "text": "what the PMP costs" } }, ". If you are weighing the CAPM specifically as a step toward it, ", { "link": { "ref": "article:pmp-vs-capm", "text": "PMP vs CAPM" } }, " is the comparison you want." ] },
+
+    { "type": "heading", "level": 2, "text": "Which of these employers respect — and why we will not tell you" },
+    { "type": "paragraph", "richText": [ "This is the question every beginner actually wants answered, and it is the one we have no basis to answer. Every source that speaks to how employers treat entry-level certifications is either the organisation issuing the credential or somebody selling training for it. We have no independent measure of hiring behaviour, and we are not going to manufacture one out of impressions. What we can say is narrower and more useful: whether the profession requires certification at all is a prior question, and we take it up in ", { "link": { "ref": "article:do-you-need-certification-project-manager", "text": "do you need a certification to be a project manager" } }, ". Beyond that, the only market that matters to your decision is your own, and you can read it yourself in an evening." ] },
+    { "type": "list", "ordered": true, "items": [
+      "Search the entry-level titles you would actually apply for — project coordinator, junior project manager, associate project manager — in your own city or sector",
+      "For each posting, note where certification appears: under requirements, under preferred, or only in a closing list of nice-to-haves. Those are three different asks",
+      "Note which credential is named, if any. \"A project management certification\" and a specific credential by name are not the same requirement",
+      "Check whether the postings naming one are the jobs you would take, or the ones you would not"
+    ] },
+    { "type": "paragraph", "richText": "That is a reading of your market, not a statistic, and it should not be treated as one. But it answers the question for the only case you need answered, which no survey can do for you." },
+
+    { "type": "heading", "level": 2, "text": "Where you probably land" },
+    { "type": "paragraph", "richText": [ "The criterion running through all of this is not which credential is best. It is what you are trying to buy. If you want to learn the work — you have no background, and you want structure before you commit further — you are buying teaching, and the Google certificate is the one of these five sold as teaching. On the criterion that matters for a standing start, that it assumes no prior knowledge and moves at your pace, it is the gentlest way in; on a different criterion, such as holding something a certifying body maintains and stands behind, it is not the answer at all. Our fuller assessment is in ", { "link": { "ref": "article:google-pm-certificate-worth-it", "text": "our review of the Google certificate" } }, "." ] },
+    { "type": "paragraph", "richText": [ "If you want a credential rather than a course, the thing to plan for is the obligation, not the purchase. Three of the four here must be renewed on a fixed cycle, and the renewal is a commitment of time as much as money. If your target work is Scrum-based, the field narrows immediately to the PSM I and the CSM, and the choice between them turns on your role and on who is paying — set out in ", { "link": { "ref": "article:psm-vs-csm", "text": "PSM vs CSM" } }, " and in our wider look at ", { "link": { "ref": "article:best-agile-certifications", "text": "agile certifications" } }, ". If you are weighing the CAPM on its own terms, ", { "link": { "ref": "article:is-capm-worth-it", "text": "is the CAPM worth it" } }, " goes further than this page does. And whether PRINCE2 is used where you work is not something we can tell you — it is exactly what the check in the previous section is for, and our ", { "link": { "ref": "article:is-prince2-worth-it", "text": "PRINCE2 verdict" } }, " covers the rest." ] },
+    { "type": "paragraph", "richText": [ "If none of that resolves it, the likelier possibility is that the question is early rather than difficult. A certification bought before you know which work you want is the one purchase here that is hard to put to use, and ", { "link": { "ref": "article:how-to-become-project-manager", "text": "how to become a project manager" } }, " sets out what you can build in the meantime that no credential replaces." ] },
+
+    { "type": "heading", "level": 2, "text": "Three numbers to check before you pay" },
+    { "type": "paragraph", "richText": "We would rather send you to the source than pretend to hold every current price. Three things are worth confirming yourself, in this order." },
+    { "type": "list", "ordered": true, "items": [
+      "What is actually being charged. We could not confirm a current CAPM exam fee, or what it costs to obtain a CSM. If you find either figure anywhere — including in older material on this site — check it at PMI or Scrum Alliance before you commit to it",
+      "What unit the charge is in. US$49 buys a month of the Google subscription. US$200 buys one attempt at an assessment needing 85% to pass. US$100 renews a CSM for two years. US$701 is one package displayed by PeopleCert. Not one of those is \"the price of the certification\"",
+      "Whether the price applies to you. The Google figures we could confirm are for the US and Canada, and Coursera notes that prices may differ elsewhere. The PRINCE2 figure is the single package shown on the page we checked, not a universal price"
+    ] },
+    { "type": "paragraph", "richText": "None of this is an argument against buying one of these. It is the difference between buying something you understand and buying a number you saw in a table." }
+  ]
+}
