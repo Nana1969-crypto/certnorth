@@ -1,7 +1,8 @@
 # Briefing editorial — RECONSTRUÇÃO 01: artigo `pmp-cost`
 
 **Data:** 04/09/2026
-**Revisado:** 04/09/2026 — correção das PDUs aplicada após a sua revisão (ver seção 0)
+**Revisado:** 04/09/2026 — correção das PDUs (seção 0) e as quatro correções editoriais
+que você pediu depois do pacote de revisão (seção 0-b)
 **Artigo:** custo da certificação PMP · `/certifications/guides/pmp-certification-cost/`
 **Rascunho:** `editorial-os/drafts/pmp-cost-rebuilt.json`
 **Artigo de produção:** **intacto**, guardado como referência de retorno
@@ -57,11 +58,43 @@ pedido; a varredura é que trouxe.**
 
 ---
 
+## 0-b. As quatro correções editoriais que você pediu
+
+Edições cirúrgicas só no rascunho. **Nenhuma seção foi criada ou removida, nenhum cálculo
+foi tocado, nenhum preço verificado foi tocado, e a análise das PDUs continua idêntica.**
+
+| # | O que você apontou | Como ficou |
+|---|---|---|
+| 1 | **"Every applicant" era absoluto demais**, já que o próprio parágrafo dá a exceção do CAPM | Virou *"Most applicants need 35 contact hours… se você já tem um CAPM ativo, essa exigência está coberta"*. A exceção agora vem **logo depois** da regra |
+| 2 | **A redação podia ser lida como afirmação sobre o negócio de treinamento da PMI** | O título virou **"Four kinds of cost, but only some are priced by PMI"**. E a abertura virou *"a PMI exige a formação, mas não publica um preço único para as 35 horas… Os fornecedores definem os próprios preços, então não existe um 'custo de treinamento PMP' emitido pela PMI"* |
+| 3 | **A frase sobre PDUs grátis não tinha sustentação** | **Apagada.** Nada entrou no lugar. A frase seguinte foi ajustada só para ficar gramatical: *"The consequence for your calendar is real: at least 35 Education PDUs is a floor, and no job clears it on its own"* |
+| 4 | **Preservar a análise das PDUs** | **Sem alteração.** Conferido: 60 → mínimo 35 Educação → máximo 25 Giving Back → máximo 8 Work as a Practitioner, com a distinção categoria/atividade intacta |
+
+**A correção 2 é a que mais importa.** O artigo agora afirma só o que a evidência sustenta —
+que não existe um preço único publicado pela PMI para as 35 horas — e **não afirma nada**
+sobre a PMI oferecer ou não produtos de treinamento.
+
+**A correção 3 tirou a última afirmação de custo sem fonte do artigo.** A seção agora não
+diz mais nada sobre quanto as PDUs custam, só sobre o que elas exigem em tempo.
+
+**Tamanho:** 1.768 → **1.743 palavras**. A seção "Money and time are separate budgets" foi
+**mantida**, conforme você decidiu.
+
+**Validação depois das edições:** build verde, check verde, JSON-LD válido, títulos em
+ordem, 8 links internos funcionando, sem overflow a 375px. Pattern Guardian sem regressão —
+e a sobreposição de frases até **caiu** (13 artigos, antes 15).
+
+**Continua pendente, e não foi tocado:** o preço antigo do exame em `is-pmp-worth-it`,
+`pmp-vs-capm`, `is-pmi-membership-worth-it`, `certifications.json` e, via tabela, em
+`best-pm-certifications-beginners`. É tarefa separada.
+
+---
+
 ## 1. O que mudou em relação ao artigo antigo
 
 | | Antigo | Novo |
 |---|---|---|
-| Palavras | 477 | 1.768 |
+| Palavras | 477 | 1.743 |
 | Títulos de seção | 3 | 8 |
 | Links internos | 3 | 8, para 7 artigos |
 | Fontes | 2 | 5 — os dois manuais da PMI entraram |
@@ -87,7 +120,7 @@ pedido; a varredura é que trouxe.**
 O problema apontado na auditoria **não era o tamanho**. Era que a página não tinha motivo
 para existir ao lado da página de preços da PMI — ela listava taxas que a PMI publica.
 
-**Uma versão de 1.768 palavras da mesma lista de taxas falharia no mesmo teste.** O que
+**Uma versão de 1.743 palavras da mesma lista de taxas falharia no mesmo teste.** O que
 mudou foi a pergunta:
 
 | Artigo antigo | Artigo novo |
@@ -210,7 +243,7 @@ Todas aparecem no próprio texto, não em nota de rodapé:
 2. **Não há total de longo prazo.** É uma entrega menor e honesta.
 3. **A originalidade foi avaliada por inspeção**, não contra as páginas que hoje rankeiam —
    este ambiente não consegue buscá-las.
-4. **O artigo tem 1.768 palavras.** Se você achar longo, a seção mais cortável continua
+4. **O artigo tem 1.743 palavras.** Se você achar longo, a seção mais cortável continua
    sendo "Money and time are separate budgets" — cerca de 180 palavras, e é a que menos
    sustenta. A tabela nova das PDUs eu não cortaria: é ela que torna o erro impossível de
    repetir.

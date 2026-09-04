@@ -1,7 +1,8 @@
 # Rebuild Report — REBUILD 01: `pmp-cost`
 
 **Date:** 2026-09-04
-**Revised:** 2026-09-04 — PDU correction applied after human review (see §4a)
+**Revised:** 2026-09-04 — PDU correction applied after human review (§4a); four editorial
+corrections applied after the human review package (§4b)
 **Article:** `pmp-cost` · `/certifications/guides/pmp-certification-cost/`
 **Draft:** `editorial-os/drafts/pmp-cost-rebuilt.json`
 **Production article:** **unchanged**, retained as rollback reference
@@ -11,10 +12,11 @@
 
 ## 1. Verdict
 
-## READY FOR HUMAN REVIEW
+## READY FOR HUMAN APPROVAL
 
-The one item previously flagged has been corrected — and the flag was right to exist: the
-draft was wrong. See §4a.
+The factual flag raised in human review has been corrected (§4a), and the four editorial
+refinements requested afterwards have been applied (§4b). The Editor-in-Chief performs the
+final reading.
 
 ---
 
@@ -22,7 +24,7 @@ draft was wrong. See §4a.
 
 | | Production | Draft |
 |---|---|---|
-| Body words | 477 | **1,768** |
+| Body words | 477 | **1,743** |
 | Level-2 headings (authored) | 3 | 8 |
 | Internal links | 3 | **8**, to 7 distinct articles |
 | Sources | 2 | **5** — both PMI handbooks added |
@@ -60,7 +62,7 @@ node src/check.js         → ✓ 61 pages, links intact, alt ok, heading order 
                               JSON-LD valid, unique titles, WCAG AA in both themes
 ```
 
-Rendered in Chromium at 375 px: no horizontal overflow, 8 authored H2s, 1 table,
+Rendered in Chromium at 375 px: no horizontal overflow, 8 authored H2s, 2 tables,
 **0 `<details>` elements** confirming the FAQ removal renders cleanly, all internal links
 resolving. The one console error is this environment's proxy blocking the AdSense script —
 present on every page of the site.
@@ -133,6 +135,40 @@ in the brief; the sweep surfaced it.
 
 **Correction cost:** +174 words (1,594 → 1,768), being the four-row table and the
 disambiguation.
+
+---
+
+## 4b. Four editorial corrections (applied after the human review package)
+
+Surgical edits to the draft only. No section added or removed, no architecture change, no
+calculation touched, no verified price touched, no PDU conclusion touched.
+
+| # | Correction | Section | Before → After |
+|---|---|---|---|
+| 1 | **"Every applicant" was too absolute**, since the same paragraph gives the CAPM exception | §What PMI charges | *"Every applicant needs 35 contact hours…"* → *"Most applicants need 35 contact hours of project management education before they can apply; if you already hold an active CAPM, that requirement is covered…"*. The exception now sits immediately after the rule |
+| 2 | **Wording could be read as a claim about PMI's training business** | §heading + §What PMI charges | H2: *"Four kinds of cost, and PMI sets only one"* → **"Four kinds of cost, but only some are priced by PMI"**. Opening: *"What PMI does not set is the cost of qualifying"* → *"PMI requires qualifying education, but it does not publish a single price for the required 35 hours… Providers set their own prices, so there is no single 'PMP training cost' issued by PMI"* |
+| 3 | **Unsupported free-PDU claim removed** | §Sixty PDUs | *"The financial consequence of this is limited, because Education PDUs can be earned from free webinars and qualifying self-directed learning."* → **deleted.** The following sentence was made grammatical without adding any cost claim: *"The consequence for your calendar is real: at least 35 Education PDUs is a floor, and no job clears it on its own."* |
+| 4 | **PDU hierarchy preserved exactly** | §Sixty PDUs | **No change.** Verified unchanged: 60 total → ≥35 Education → ≤25 Giving Back → ≤8 Work as a Practitioner, with the category/activity distinction intact |
+
+**Correction 2 is the one worth noting.** The article now makes only the claim the evidence
+supports — that there is no single PMI-published price for the required 35 hours — and
+makes no claim at all about whether PMI offers training products.
+
+**Correction 3 removed the last unsupported cost claim in the article.** Nothing replaced
+it: the section no longer says anything about what PDUs cost, only about what they demand
+in time.
+
+**Length:** 1,768 → **1,743 words**. The §"Money and time are separate budgets" section was
+**retained** on the Editor-in-Chief's explicit instruction.
+
+**Validation after the edits:** build green, `check.js` green, JSON-LD valid, headings
+ordered, 8 internal links resolving, no overflow at 375 px. Pattern Guardian: zero heading
+collisions against the 215 on the site, the new H2 unique, and **phrase overlap slightly
+lower than before** (13 articles, down from 15) — no regression.
+
+**Still pending, deliberately untouched:** the old exam prices in `is-pmp-worth-it`,
+`pmp-vs-capm`, `is-pmi-membership-worth-it`, `certifications.json` and, through the
+`certTable`, `best-pm-certifications-beginners`. That global correction is a separate task.
 
 ---
 
