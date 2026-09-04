@@ -1,233 +1,172 @@
 # Cost Model — `pmp-cost`
 
 **Built:** 2026-09-04
-**Revised:** 2026-09-04 — rebuilt on repository inputs only (see §0)
-**Inputs:** `pmp-cost-internal-claims-map.md`, `pmp-cost-research-dossier.md`
+**Revised:** 2026-09-04 (third revision) — rebuilt on primary-source-verified inputs; the
+ten-year total has been **removed**
+**Status:** this model is implemented in `editorial-os/drafts/pmp-cost-rebuilt.json`
 
 ---
 
-## 0. Revision note
+## 0. Revision history, stated openly
 
-An earlier version of this model used figures obtained from web search as inputs. **It has
-been rebuilt.** Search-discovered values are now excluded from the model entirely.
-
-**Every input below is a value the CertNorth repository already publishes.** That gives it
-one property and only one: **VERIFIED FROM CERTNORTH REPOSITORY** — we know this is what
-the site claims. It does **not** mean the input is correct. Every one of them is also
-**PRIMARY SOURCE VERIFICATION REQUIRED**.
-
-The model is therefore built as a **structure with substitutable inputs**, not as a set of
-answers. If PMI's real figures differ, the arithmetic is re-run; the taxonomy, the
-break-even logic and the ten-year shape survive unchanged.
-
----
-
-## 1. Model inputs
-
-| Input | Value | Label | Notes |
+| Version | Inputs | Ten-year total | Why it changed |
 |---|---|---|---|
-| Exam, member | **~$425** | REPOSITORY (5 locations agree) | PRIMARY VERIFICATION REQUIRED |
-| Exam, non-member | **~$675** | REPOSITORY (5 locations agree) | PRIMARY VERIFICATION REQUIRED |
-| Membership, annual | **$140–$150** | REPOSITORY — **the site contradicts itself**; the range *is* the contradiction | PRIMARY VERIFICATION REQUIRED |
-| Membership application fee | *"a small one-time fee"* | REPOSITORY — **never quantified anywhere on the site** | Excluded from totals; noted as an unpriced addition |
-| Renewal, member | **$60** per 3 years | REPOSITORY (3 locations) | PRIMARY VERIFICATION REQUIRED |
-| Renewal, non-member | **$150** per 3 years | REPOSITORY (3 locations) | PRIMARY VERIFICATION REQUIRED |
-| PDU requirement | **60 per 3 years**, ≥8 per Talent Triangle area | REPOSITORY | PRIMARY VERIFICATION REQUIRED |
-| 35 contact hours | Required | REPOSITORY (7 locations) | PRIMARY VERIFICATION REQUIRED |
-| Cost of the 35 contact hours | **Not modelled** | — | No neutral data exists. See §4 |
-| Retake fee | **Not modelled** | — | See §5 — the site's only claim is unsourced |
+| 1 | Search-discovered figures ($445/$675/$149) | Published | **Wrong method.** Vendor repetition treated as evidence |
+| 2 | Repository figures ($425/$675/$140–150) | Published as a range | Protocol corrected; inputs were still unverified |
+| 3 — current | **PMI-verified figures ($405/$655/$139)** | **Removed** | Renewal fee still unverified, and it recurs three times inside ten years |
+
+**Version 3 makes fewer claims than version 1 and is the only one that is defensible.**
 
 ---
 
-## 2. Cost taxonomy
+## 1. Inputs
 
-Independent of any price. This survives every input being wrong.
+| Input | Value | Status |
+|---|---|---|
+| Exam fee, PMI member | **$405** | **VERIFIED** at PMI by the Editor-in-Chief |
+| Exam fee, non-member | **$655** | **VERIFIED** |
+| PMI membership, annual | **$139** | **VERIFIED** |
+| PDUs per 3-year cycle | **60** | **VERIFIED** |
+| Minimum Education PDUs | **35** | **VERIFIED** |
+| Maximum Giving Back PDUs | **25** | **VERIFIED** |
+| Renewal fee | — | **PRIMARY-SOURCE VERIFICATION REQUIRED.** Separate from membership renewal; subject to membership status and regional pricing |
+| Retake fee and rules | — | **PRIMARY-SOURCE VERIFICATION REQUIRED** |
+| Membership application fee | — | **PRIMARY-SOURCE VERIFICATION REQUIRED**; excluded from all arithmetic |
+| Cost of the 35 contact hours | — | **Not modelled.** No neutral source exists |
+| Regional variation | — | **PARTIALLY VERIFIED** — that pricing can depend on account and location is established; the extent is not |
 
-### A. REQUIRED — cannot obtain the PMP without paying
+---
 
-| Cost | Trigger | Recurring | Varies by geography | Does the issuing body set it? |
+## 2. Taxonomy
+
+Independent of every price. This survives any input being revised.
+
+| Category | What it covers | Trigger | Recurring | Who prices it |
 |---|---|---|---|---|
-| Exam fee | Sitting the exam | Once per attempt | **Unresolved** — see dossier Q5 | Yes |
-| 35 contact hours of education | Application | No | Yes — training markets differ by country | **No** — third-party pricing |
+| **Required** | Exam fee; 35 contact hours of education | Applying and sitting | No | PMI sets the exam fee; providers price the education |
+| **Conditional** | A further exam fee after a failed attempt | Not passing | Per attempt | PMI — **amount unverified** |
+| **Optional** | Membership; prep courses; question banks; books; PDU bundles | Choice | Varies | PMI and third parties |
+| **Recurring** | Renewal every 3 years; 60 PDUs per cycle | Holding the credential | Yes | PMI sets the requirement; spending is largely the holder's choice |
 
-### B. CONDITIONAL — required only if something happens
+**Only part of one row is both required and priced by the issuing body.** That is the
+article's organising insight.
 
-| Cost | Trigger | Status |
-|---|---|---|
-| Retake fee | Failing an attempt | **Amount and mechanism unverified.** See §5 |
-| Higher non-member renewal fee | Membership lapsed at renewal | $150 instead of $60 — REPOSITORY |
+---
 
-### C. OPTIONAL — genuinely avoidable
+## 3. CERTNORTH CALCULATION — membership at exam time
 
-| Cost | Notes |
+**All three inputs verified.**
+
+```
+Non-member route:   exam                        $655
+Member route:       membership $139 + exam $405 $544
+                                    Difference  $111 in favour of joining
+```
+
+**Assumptions, all stated in the article:** PMI's current published fees; **one** exam
+attempt; no regional variation; the one-time application fee **excluded** because its
+amount is unverified.
+
+**Sensitivity.** The exam-fee gap is `$655 − $405 = $250`. Joining is cheaper for a first
+attempt while membership costs less than $250. At $139 the margin is comfortable.
+
+**What this calculation does NOT establish:**
+
+- **It is not "membership is worth it."** It answers the exam-only question. Overall
+  membership value depends on the renewal fee (unverified) and on benefits whose worth
+  depends entirely on use. That analysis belongs to `is-pmi-membership-worth-it`.
+- **It does not assume renewal of membership.**
+- **It puts no value on the library, webinars or chapter access.**
+
+The article carries this distinction explicitly: **EXAM-ONLY BREAK-EVEN** is not
+**OVERALL MEMBERSHIP VALUE**.
+
+---
+
+## 4. CERTNORTH CALCULATION — PDU composition
+
+**All three inputs verified: 60 total, ≥35 Education, ≤25 Giving Back.**
+
+```
+Maximum share of a cycle that Giving Back can cover:  25 / 60 = 41.7%
+Minimum deliberate learning per cycle:                35 hours
+Annualised total commitment:                          60 / 3 = 20 hours per year
+```
+
+**The consequence.** Working in the certified role is a Giving Back activity. It is
+therefore capped at 25 PDUs and can contribute **nothing** to the 35 that must be
+Education. The common claim that simply doing the job covers renewal is wrong by
+construction — not approximately, but structurally.
+
+**Financially this changes little**, because Education PDUs can be earned from free
+webinars and qualifying self-directed learning. **For the calendar it changes a great
+deal**: at least 35 hours per cycle of deliberate learning is not optional.
+
+*(Note: that working in the certified role counts as Giving Back is stated by
+`pmp-renewal-pdus`, which cites the CCR Handbook. It is **PARTIALLY VERIFIED** —
+the category cap is verified, the category assignment is repository-sourced.)*
+
+---
+
+## 5. Why there is no ten-year total
+
+**Three reasons, all published in the article rather than hidden.**
+
+1. **The renewal fee is not a single universal number.** It depends on membership status at
+   the moment of renewal and, like the exam fee, on how PMI prices for the holder's
+   location. Multiplying an unverified figure by three renewal cycles would manufacture
+   precision.
+2. **The education requirement is priced by third parties**, and no neutral average exists.
+3. **Any total weighting a retake by the probability of failure needs a pass rate**, and
+   PMI has not published one for around two decades — established in `pmp-pass-rate`.
+
+**What the article gives instead:** the *shape* — one exam fee, one education requirement,
+then a renewal event every three years for as long as the credential is held — plus the
+instruction to price those three against the reader's own PMI account.
+
+**A transparent limitation is preferable to a false precise number.** This is the single
+biggest change from earlier versions of this model, and it makes the deliverable smaller.
+
+---
+
+## 6. Why there is no retake scenario
+
+The retake fee and the retake rules are **PRIMARY-SOURCE VERIFICATION REQUIRED**. The
+production article's claim that *"a retake adds another exam fee"* is unsourced, and search
+material suggesting a reduced fee is vendor-sourced and was not adopted.
+
+**The article states that a further attempt costs a further fee and that we have not
+confirmed the amount.** No number is quoted, in either direction.
+
+**No expected-cost calculation exists anywhere in this model**, because it would require a
+pass rate that does not exist.
+
+---
+
+## 7. Money and time
+
+The model never assigns an hourly monetary value to the reader's time.
+
+| Financial cost | Time commitment |
 |---|---|
-| PMI membership | **Never required.** Consistent across the repository |
-| Prep courses beyond the 35 hours | Not priceable — see §4 |
-| Simulators, question banks, books | Not priceable |
-| Purchased PDU bundles | `pmp-renewal-pdus` documents free alternatives |
+| Exam fee | 36 or 60 months of qualifying experience, depending on degree |
+| Education, priced by providers | 35 contact hours before applying |
+| Optional preparation materials | Preparation, variable with experience |
+| Renewal fee, every 3 years | 180 questions in 240 minutes |
+| PDU purchases, if any — avoidable | 60 PDUs per cycle, ≥35 Education, ~20 hours a year |
 
-### D. RECURRING — the cost of keeping it
-
-| Cost | Frequency | Avoidable? |
-|---|---|---|
-| Renewal fee | Every 3 years | No |
-| 60 PDUs | Every 3 years | The money largely yes; the **time** no — see §6 |
-| Membership, if maintained | Annual | Yes |
-
-### E. CANDIDATE-DEPENDENT — what actually moves the number
-
-| Variable | Effect |
-|---|---|
-| Country of the PMI account | **Potentially large, unquantifiable from here** |
-| Member or non-member when booking | ~$250 on the exam, using repository figures |
-| Active CAPM already held | Removes a required cost entirely (REPOSITORY: `pmp-eligibility`) |
-| Employer pays | Removes most of it |
-| Number of attempts | Unquantified — see §5 |
-| PDUs earned vs bought | $0 vs several hundred per cycle (REPOSITORY) |
-| **Number of renewal cycles maintained** | **The dominant factor over 10 years** — see §3 |
+**These are different budgets with different constraints.** Money for a course can be
+borrowed; the hours cannot.
 
 ---
 
-## 3. CERTNORTH CALCULATION — cost of ownership
+## 8. What this model must not be used to claim
 
-**All inputs are repository values requiring primary verification.** Assumptions stated in
-full; substitute your own and re-run.
-
-**Assumptions:** exam at member rate $425; membership $140–$150/yr (range = the site's
-internal contradiction); renewal $60 member / $150 non-member every 3 years; PDUs earned at
-no cost; the 35 contact hours obtained at no cost; **no** prep materials purchased; **no**
-retake; membership application fee **excluded** because the site never quantifies it;
-3 renewal events fall within 10 years, 1 within 5.
-
-### Scenario A — join for the exam year, then let membership lapse
-
-| Item | 5-year | 10-year |
-|---|---|---|
-| Membership, year 1 | $140–$150 | $140–$150 |
-| Exam, member rate | $425 | $425 |
-| 35 contact hours | not modelled | not modelled |
-| Renewals at non-member rate | 1 × $150 | 3 × $150 = $450 |
-| **Total** | **$715–$725** | **$1,015–$1,025** |
-
-### Scenario B — maintain membership throughout
-
-| Item | 5-year | 10-year |
-|---|---|---|
-| Membership | 5 × $140–150 = $700–$750 | 10 × $140–150 = $1,400–$1,500 |
-| Exam, member rate | $425 | $425 |
-| Renewals at member rate | 1 × $60 | 3 × $60 = $180 |
-| **Total** | **$1,185–$1,235** | **$2,005–$2,105** |
-
-### The result
-
-**CERTNORTH CALCULATION.** Over ten years, maintaining PMI membership costs approximately
-**$990–$1,080 more** than letting it lapse, while saving **$270** in renewal fees.
-
-**EDITORIAL INFERENCE:** membership after certification should be judged on what you
-actually use — the library, the webinars, a local chapter — never on the renewal discount,
-which recovers roughly a quarter of its own cost. `is-pmi-membership-worth-it` already
-reaches this conclusion; this model quantifies it over a decade.
-
-### Scenario C — with a retake
-
-**Not modelled.** See §5.
-
-### Scenario D — with paid training
-
-**Not modelled.** See §4.
-
-### What these scenarios may never be called
-
-Not "typical". Not "average". Not "what most people pay". They are **two explicitly assumed
-paths built from figures the site itself has not verified**, published so a reader can
-substitute their own.
-
----
-
-## 4. Why training is not modelled
-
-The 35 contact hours are **required**, but no defensible price exists for them.
-
-- No source cited anywhere in the repository publishes third-party training prices —
-  PMI does not sell training.
-- Every external source that quotes an average is selling the thing it prices.
-- The site currently publishes two mutually inconsistent all-in ranges
-  (**$700–$2,500** in `pmp-cost`; **$1,000–$3,000** in `how-to-become-project-manager`),
-  neither traceable to a cited source.
-
-**The model excludes training and says so.** The article should instruct the reader to
-insert their own quote.
-
-**One forward-looking note, EDITORIAL INFERENCE:** `pmp-eligibility` documents a
-late-Q4-2026 restriction on how the 35 hours may be delivered. If that restriction turns
-out to cover more than live instructor-led training, the cheapest routes disappear and the
-education floor rises. **The scope is unresolved** (dossier Q8) and the model takes no
-position on it.
-
----
-
-## 5. Why retakes are not modelled
-
-Two independent reasons, and either alone would be sufficient.
-
-**First — the fee is unknown.** The site's only statement is `pmp-cost` `body[8]`: *"a
-retake adds another exam fee."* It is **unsourced**; the article does not cite the PMP
-Handbook, which is where retake policy would live. Search raised a question about a
-possible reduced fee (dossier Q6), but that is **SECONDARY/SEARCH DISCOVERY ONLY** and is
-not adopted here. **We therefore do not know what a retake costs, and we may not assert
-either version.**
-
-**Second — the probability is unknowable, permanently.** `pmp-pass-rate` establishes that
-PMI has not published a pass rate for roughly two decades and that the circulating "61%" is
-a retired passing score. **No expected-cost calculation weighted by pass probability may be
-built.**
-
-**What the article can do instead:** state that a failed attempt has a cost, that we could
-not verify what it is, and that any page presenting a probability-weighted expected cost is
-using a number that does not exist. **That refusal, explained, is worth more than a
-fabricated scenario.**
-
----
-
-## 6. PDUs — financial cost and time commitment, held apart
-
-The model never assigns an hourly monetary value to study or PDU time. Doing so would
-require inventing a rate for the reader.
-
-### Financial cost of 60 PDUs
-
-**Can approach $0.** `pmp-renewal-pdus` documents free routes: webinars, chapter events,
-qualifying self-directed learning, mentoring, teaching, volunteering.
-**Label: VERIFIED FROM CERTNORTH REPOSITORY.**
-
-### Time commitment of 60 PDUs
-
-**60 hours over three years — about 20 hours a year, roughly two hours a month.**
-**Label: CERTNORTH CALCULATION**, on the repository's stated basis that one PDU generally
-represents one hour.
-
-### The qualification our own article obscures
-
-`pmp-renewal-pdus` leads its dek with earning PDUs *"including by doing your own job"*,
-while its body states that working in the certified role is **Giving Back**, that Giving
-Back is **capped**, and that the article does not say by how much.
-
-**Label: EDITORIAL INFERENCE** — "your job covers your PDUs" is not supported by our own
-article's body. **The cap value is PRIMARY SOURCE VERIFICATION REQUIRED** (CCR Handbook,
-which `pmp-renewal-pdus` cites but from which no number was transcribed).
-
-**Consequence:** the rebuilt `pmp-cost` may say PDUs can be earned without paying. It may
-**not** say that working in the role covers them.
-
----
-
-## 7. What this model must not be used to claim
-
-- **Not** a single global "the PMP costs $X" — regional pricing is unresolved (Q5)
-- **Not** a pass-rate-weighted expected cost — no such rate exists
-- **Not** a retake scenario — the fee is unverified and the site's own claim is unsourced
-- **Not** an average or typical training cost — no neutral data exists
-- **Not** a monetary value for study time
-- **Not** that any input here is confirmed — none is
-- **Not** that the search-discovered figures are more current than the repository's. They
-  are questions, not corrections
+- **Not** a universal country-independent price. Regional variation is established, its
+  extent is not.
+- **Not** a ten-year or five-year total.
+- **Not** a retake cost, in either direction.
+- **Not** an average or typical training cost.
+- **Not** an expected cost weighted by any pass probability.
+- **Not** "membership is worth it" — only that joining is $111 cheaper for a first attempt.
+- **Not** a monetary value for study or PDU time.

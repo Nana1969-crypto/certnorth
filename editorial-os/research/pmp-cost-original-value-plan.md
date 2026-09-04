@@ -1,139 +1,124 @@
 # Original Value Plan — `pmp-cost`
 
 **Date:** 2026-09-04
-**Revised:** 2026-09-04 — retake correction withdrawn; scenarios rebuilt on repository
-inputs; one new value item added from the internal claims map
-**Test applied:** `editorial-os/skills/original-value/SKILL.md`
+**Revised:** third revision — assessed against the delivered draft, not against a proposal
+**Draft:** `editorial-os/drafts/pmp-cost-rebuilt.json`
 
 ---
 
 ## 1. The test
 
-> **"What does this article give the reader that the PMI pricing page does not?"**
+> **"What does CertNorth add that the PMI pricing page does not?"**
 
-The audit's verdict on the current version was *nothing* — it totals fees PMI publishes.
-That verdict stands.
+The audit's verdict on the production article was *nothing* — it totals fees PMI publishes.
 
-### The answer for the rebuilt version
+### The answer for the draft, item by item
 
-**Six things. None is "we explain PMI's prices better."**
+| # | Original value delivered | Where in the draft | Rests on |
+|---|---|---|---|
+| 1 | **A classification of costs by behaviour** — required, conditional, optional, recurring — naming who prices each | §"Four kinds of cost" + table | Reasoning; independent of every price |
+| 2 | **The exam-only membership break-even**, and the explicit statement that it is *not* the same question as whether membership is worth keeping | §"Membership is a $111 question" | **Verified inputs** |
+| 3 | **PDU composition analysis.** The 35/25 split means working in your certified role covers at most 25 of 60 and none of the mandatory 35 | §"Sixty PDUs, and why 25 is the number that matters" | **Verified inputs** |
+| 4 | **Financial cost and time commitment held apart**, with no hour ever converted to money | §"Money and time are separate budgets" | Framework |
+| 5 | **A refusal to publish a ten-year total, with its three specific reasons** | §"Why we won't give you a ten-year total" | Reasoning + `pmp-pass-rate` |
+| 6 | **The late-2026 training change treated as a budget variable**, current rule distinguished from announced rule | §"What changes at the end of 2026" | Repository |
+| 7 | **The correction that PMI does not price the education it requires** — replacing a false claim the production article makes three times | §"What PMI charges, and what it doesn't" | Repository, verifiable without external access |
+| 8 | **A procedure for producing the reader's own number** | §"Pricing this for yourself" | Reasoning |
 
-1. **A cost taxonomy PMI has no reason to publish.** PMI shows prices. It does not say
-   which costs are unavoidable, which are triggered by failure, which are optional despite
-   being presented as standard, and which recur forever.
-   *(REPOSITORY + EDITORIAL INFERENCE)*
-2. **The membership calculation run in both directions.** The industry runs it once, in the
-   direction that sells membership. At renewal it reverses.
-   *(CERTNORTH CALCULATION)*
-3. **Cost of ownership over ten years**, with every assumption stated and substitutable.
-   *(CERTNORTH CALCULATION)*
-4. **A refusal to compute an expected cost, with the reason.** No reliable PMP pass rate
-   exists — PMI has not published one for two decades, and the circulating "61%" is a
-   passing score retired around 2006. Every page that weights cost by a pass rate is using
-   a number that does not exist. *(REPOSITORY — `pmp-pass-rate`)*
-5. **Financial cost and time commitment held apart**, never monetised. 60 PDUs can cost $0
-   and still cost 60 hours. *(REPOSITORY + CERTNORTH CALCULATION)*
-6. **An explicit account of which figures we could confirm and which we could not** —
-   including that our own current page overstates its sourcing. *(REPOSITORY)*
-
-**Item 6 is new in this revision** and comes from the internal claims map: the article
-currently claims three times that every figure comes from PMI, while publishing
-third-party training prices PMI does not publish. **Correcting that is original value of
-the most defensible kind — it costs nothing to verify and it is about our own honesty.**
+**None of these is "we explain PMI's prices better."** The test passes.
 
 ---
 
-## 2. What was withdrawn in this revision
+## 2. The strongest item
 
-An earlier version of this plan listed a seventh item: *"the retake mechanism described
-correctly — a retake is not another full exam fee."*
+**Item 3 — the PDU composition analysis.**
 
-**Withdrawn.** That correction rested on figures obtained from web search, which under the
-corrected protocol are **SECONDARY/SEARCH DISCOVERY ONLY**. Correcting our own article on
-the strength of vendor pages would repeat precisely the error that made the current
-article weak.
+It is the only place where newly verified numbers produce a conclusion that is both
+non-obvious and contrary to what is widely believed. The claim "just do your job and the
+PDUs take care of themselves" appears across the industry, and the verified 35/25 split
+makes it structurally impossible: Giving Back caps at 25 of 60, and contributes nothing to
+the 35 that must be Education.
 
-Retakes now appear only as one of three costs the article says it could not price.
-**That is weaker as content and stronger as journalism.**
+It also corrects **CertNorth's own** `pmp-renewal-pdus`, whose dek says PDUs can be earned
+*"including by doing your own job."* That article is out of scope for this rebuild and the
+problem is recorded, not fixed.
 
----
-
-## 3. Ranking the angles
-
-| Angle | Strength | Why |
-|---|---|---|
-| **Uncertainty as the subject** — "here is what can be confirmed, what cannot, and what to do about it" | **Strongest** | A training provider structurally cannot publish this; their business needs a confident number |
-| Ten-year cost of ownership | Strong | Requires modelling nobody bothers with; the result is counterintuitive |
-| Membership break-even, both directions | Strong | Arithmetic the reader can check |
-| The refusal to compute an expected cost | Strong | Rests on a permanent, verifiable finding |
-| Mandatory/conditional/optional/recurring taxonomy | Medium-strong | Copyable, but currently absent everywhere |
-| Time vs money separation | Medium | Distinctive framing |
-
-**Recommended primary angle: uncertainty, paired with the ten-year model.** Uncertainty
-alone risks reading as an excuse; the model proves the page did the work anyway.
+**A training provider could copy this analysis. None currently does**, because their
+interest runs the other way: the harder renewal looks, the better a PDU bundle sells, and
+the easier it looks, the better the certification sells. Neither incentive produces "here
+is the cap, and here is what it means for your calendar."
 
 ---
 
-## 4. CERTNORTH CALCULATION — cost of ownership
+## 3. Item 7 deserves separate mention
 
-**Inputs are the values the CertNorth repository already publishes.** That means we know
-what the site claims — not that the claims are correct. Every input is
-**PRIMARY SOURCE VERIFICATION REQUIRED**.
+The production article states three times — opening paragraph, table caption, meta
+description — that every figure comes from PMI, while pricing the 35 contact hours at
+"$0–$600 depending on provider" and third-party training at "$700–$2,500".
 
-**Assumptions:** exam at member rate ~$425; membership $140–$150/yr, *the range being the
-site's own internal contradiction*; renewal $60 member / $150 non-member every three
-years; PDUs earned at no cost; the 35 contact hours obtained at no cost; no prep materials;
-no retake; application fee excluded because the site never quantifies it; 3 renewal events
-within 10 years, 1 within 5.
+**PMI does not publish either figure.** The claim and the content disproving it sit in the
+same file.
 
-| Scenario | 5-year | 10-year |
-|---|---|---|
-| **A** — join for the exam year, then let membership lapse | **$715–$725** | **$1,015–$1,025** |
-| **B** — maintain membership throughout | **$1,185–$1,235** | **$2,005–$2,105** |
+The draft removes the claim and replaces it with the opposite, stated plainly: PMI sets the
+exam fee; the education is priced by whoever sells it; **and we are not publishing a range,
+because every source we found for one was itself selling training.**
 
-**The result worth publishing:** over ten years, keeping PMI membership costs roughly
-**$990–$1,080 more** than letting it lapse, while saving **$270** in renewal fees. Keep it
-for the library, the webinars and the chapter if you use them — not on the renewal
-arithmetic, which recovers about a quarter of its own cost.
-
-**Not modelled, and the article says so:**
-
-- **A retake scenario** — the fee is unverified and our own claim about it is unsourced.
-- **Training** — no neutral data exists; every source quoting an average sells training.
-
-**These scenarios may never be called "typical", "average", or "what most people pay."**
-They are two explicitly assumed paths, published so a reader can substitute their own
-numbers.
+**This is original value of the cheapest and most defensible kind.** It cost nothing to
+find, needed no external access, and is about our own honesty rather than about PMI.
 
 ---
 
-## 5. Why not just make the article longer
+## 4. What was deliberately not claimed
 
-The audit's finding was not that the page is short. It is that the page has no reason to
-exist alongside PMI's own pricing page. **A 1,500-word version of the same list of fees
-would fail the same test.**
+Restraint is part of the value here. The draft does **not**:
 
-| Current article | Rebuilt article |
+- publish a ten-year total — the renewal fee is unverified and recurs three times inside a
+  decade;
+- quote a retake fee in either direction — unverified, and the production article's version
+  is unsourced;
+- publish any training price range — no neutral source exists;
+- compute an expected cost from a pass probability — no reliable pass rate exists;
+- assign a monetary value to the reader's hours;
+- conclude that membership is worth having, only that joining is $111 cheaper for a first
+  attempt;
+- present $405/$655 as universal — the article says pricing can depend on account and
+  location, and tells the reader to check their own.
+
+**Each omission is stated in the article rather than left silent.** The refusals are part of
+what makes the page worth reading.
+
+---
+
+## 5. Why this is not just a longer article
+
+477 → 1,594 words. **That is not the argument.**
+
+| Production article | Draft |
 |---|---|
-| Answers "what does the PMP cost?" | Answers "what will I spend to get and keep this, and which costs am I underestimating?" |
-| States a price | States what can be confirmed, what cannot, and why |
-| Claims every figure comes from PMI | Says which figures do and which do not |
-| Implies membership is obviously worth it | Shows where it is and where it isn't |
-| Ends at the purchase | Extends to ten years of ownership |
+| Answers "what does the PMP cost?" | Answers "what will I spend to earn and keep this, and which costs am I underestimating?" |
+| Lists PMI's fees and stops | Classifies costs by who sets them and what triggers them |
+| Claims every figure comes from PMI — untrue | States which figures come from PMI and which cannot |
+| Publishes a training range with no source | Publishes none, and explains why |
+| Says a retake "adds another exam fee" — unsourced | Says the amount is unconfirmed and quotes nothing |
+| Treats renewal as a footnote | Analyses PDU composition and its consequence for the calendar |
+| Ends at the purchase | Ends with a procedure for pricing it yourself |
 
-Length is a consequence of that, not a target. If the honest version comes in under 800
-words, it ships under 800 words.
+**A 1,594-word version of the original list of fees would fail the same test the original
+failed.** If any section does not earn its place, the candidate for cutting is
+"Money and time are separate budgets" — roughly 180 words, and the least load-bearing.
 
 ---
 
 ## 6. Honest limits
 
-- **No price is verified.** The angle turns that into content rather than hiding it, but it
-  does not solve it. A human with browser access resolves it in one sitting.
-- **The strongest single item (§1.6) is a criticism of our own page.** That is
-  uncomfortable and correct, and it needs no external access.
-- **Original value was assessed by inspection**, not against the pages that currently rank —
-  those could not be retrieved.
-- **If verification shows the repository's ~$425/~$675 is stale**, the model's numbers
-  change but its structure, its conclusions about membership, and its ranking of what
-  matters do not.
+- **Two of the eight value items rest on unverified inputs being *absent*** — items 5 and
+  the retake omission are strong precisely because verification failed. If the renewal fee
+  is verified later, item 5 must be revisited: the honest thing would then be to publish
+  the total, not to keep refusing.
+- **Item 3 is PARTIALLY VERIFIED.** The 35/25 cap is verified; that working in the
+  certified role counts as Giving Back is repository-sourced, from an article citing the
+  CCR Handbook. If that categorisation is wrong, the section's conclusion collapses.
+- **Originality was assessed by inspection**, not against the pages currently ranking —
+  those cannot be retrieved from this environment.
+- **The exam-fee correction reveals a larger problem than this article.** Four other
+  locations still carry the wrong figures.

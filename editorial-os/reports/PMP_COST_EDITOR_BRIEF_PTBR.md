@@ -1,219 +1,243 @@
-# Briefing editorial — reconstrução do artigo `pmp-cost`
+# Briefing editorial — RECONSTRUÇÃO 01: artigo `pmp-cost`
 
 **Data:** 04/09/2026
-**Revisado:** 04/09/2026 — protocolo de verificação corrigido
 **Artigo:** custo da certificação PMP · `/certifications/guides/pmp-certification-cost/`
-**Situação:** **pesquisa parcialmente concluída.** Nada foi escrito, nada foi alterado,
-nada foi publicado.
+**Rascunho:** `editorial-os/drafts/pmp-cost-rebuilt.json`
+**Artigo de produção:** **intacto**, guardado como referência de retorno
+**Publicado:** nada · **Mesclado:** nada · **Apagado:** nada · **Outros artigos alterados:** nenhum
 
 ---
 
-## Antes de tudo: uma correção no meu próprio método
+## 1. O que mudou em relação ao artigo antigo
 
-Na primeira versão desta pesquisa eu dei confiança **MÉDIA** ao preço do exame porque
-várias páginas de fornecedores diziam a mesma coisa. **Isso estava errado e foi
-retirado.**
-
-Repetição não é verificação. Um número copiado entre sites comerciais é **uma** afirmação
-aparecendo muitas vezes — não muitas confirmações independentes. E quando todos os sites
-vendem cursos de PMP, a concordância entre eles diz pouco sobre os preços da PMI e nada
-sobre qual número está vigente hoje.
-
-**O que mudou por causa disso:**
-
-| Antes | Agora |
-|---|---|
-| Modelei o exame a $445/$675 | Modelo com **~$425/~$675**, que é o que o nosso site publica |
-| Modelei a anuidade a $149 | Modelo com **$140–$150** — e essa faixa **é** a contradição do nosso site |
-| Propunha corrigir nossa afirmação sobre reprovação | **Retirado.** A correção vinha de páginas de fornecedores |
-| Tinha um cenário com reprovação a $275 | **Retirado** |
-
-A pesquisa ficou **mais fraca em afirmações e mais forte em integridade**. É a direção
-certa.
-
----
-
-## 1. O que sabemos com confiança
-
-Aqui "confiança" significa uma coisa só: **isto é o que o repositório do CertNorth
-contém.** Não significa que esteja correto.
-
-### O site é mais coerente do que eu esperava
-
-| Afirmação | Locais que concordam |
-|---|---|
-| Exame PMP ~$425 membro / ~$675 não membro | **5** — `pmp-cost`, `is-pmp-worth-it`, `pmp-vs-capm`, `is-pmi-membership-worth-it`, `certifications.json` |
-| Renovação $60 / $150, 60 PDUs a cada 3 anos, mínimo 8 por área | **3+** |
-| Elegibilidade 36/60 meses + 35 horas de formação | **7** |
-| CAPM $225 / $300, 23 horas | **4** |
-| PMI-ACP $435 / $495, 21 horas | **2** |
-
-### E uma coisa que sabemos em definitivo
-
-**Não existe taxa de aprovação confiável do PMP.** A PMI não publica há cerca de vinte
-anos, e o "61%" que circula é uma nota de corte aposentada por volta de 2006. Nosso artigo
-`pmp-pass-rate` já demonstra isso.
-
-Isso **não precisa de verificação nenhuma** — a ausência do dado *é* a descoberta. E é o
-que autoriza o artigo novo a **se recusar** a calcular "custo esperado" ponderado por
-probabilidade. Toda página que faz essa conta usa um número que não existe.
-
----
-
-## 2. O que conflita internamente
-
-Nove contradições. Encontrei todas dentro do nosso próprio repositório, sem acessar nada
-externo.
-
-| # | Contradição | Gravidade | Dá para corrigir só neste artigo? |
-|---|---|---|---|
-| 1 | **`pmp-cost` afirma três vezes que "todo valor vem da PMI" — e publica preços de treinamento que a PMI não publica** | **Alta** | **Sim — e não precisa de verificação nenhuma** |
-| 2 | Anuidade **~$140** (`pmp-cost`) vs **~$150** (`is-pmi-membership-worth-it`) — **citando a mesma URL** | Média-alta | Não — outro artigo |
-| 3 | Custo total **$700–$2.500** (`pmp-cost`) vs **$1.000–$3.000** (`how-to-become-project-manager`) | Média | Não — outro artigo |
-| 4 | O único número de 10 anos do PMP no site são só as taxas de renovação, numa tabela em que **todas as outras linhas são totais completos** (`is-safe-certification-worth-it`) | Média | Não — outro artigo |
-| 5 | `pmp-renewal-pdus` abre dizendo que dá para ganhar PDUs "fazendo o seu próprio trabalho", e o corpo do texto diz que essa via **tem teto** — sem nunca dizer qual | Média | Não — outro artigo |
-| 6 | Reprovação descrita como "outra taxa de exame" — **sem fonte**, e é a única menção do site | Média | **Sim** — remover ou qualificar |
-| 7 | `pmp-cost` publica regras de renovação **sem citar o CCR Handbook**, que é o documento que as sustenta | Média-baixa | **Sim** — acrescentar a fonte |
-| 8 | `pmp-cost` recomenda curso autoinstrucional sem mencionar a mudança de regra do fim de 2026 que o `pmp-eligibility` documenta | Média-baixa | **Sim** |
-| 9 | **Nenhuma fonte do site tem data.** São ~160 citações, todas só com rótulo e link | Média, sistêmica | Não — é decisão de esquema |
-
-### A número 1 merece parágrafo próprio
-
-O artigo diz, em três lugares diferentes, que **todo valor veio da PMI**. E na mesma tabela
-que carrega esse selo há a linha:
-
-> Formação obrigatória (35 horas) — **$0–$600 dependendo do fornecedor**
-
-A PMI não vende treinamento de PMP e não publica esse preço. A segunda tabela do artigo, de
-$700 a $2.500+, é inteiramente preço de terceiros.
-
-**A afirmação e o conteúdo que a desmente estão no mesmo arquivo.** É uma declaração sobre
-a nossa própria integridade de fontes, num site cuja posição inteira é independência e
-verificabilidade, na página que a auditoria já tinha apontado como a mais fraca.
-
-**Minha recomendação: tirar isso independentemente de tudo o mais.** É a única correção
-deste plano que não depende de verificar nada.
-
----
-
-## 3. O que não é possível verificar neste ambiente
-
-**Nada de preço.** O ambiente onde trabalho bloqueia todo acesso externo — testei
-`pmi.org` e recebi bloqueio explícito, e o mesmo vale para qualquer outro domínio.
-
-A única coisa que me resta é uma busca que devolve **resumos** de páginas de terceiros. E
-todas as fontes que ela devolve são empresas que vendem cursos de PMP — na nossa própria
-hierarquia, o pior tipo de fonte possível para falar do produto que vendem.
-
-**Elas discordam entre si**, e eu não escolhi nenhuma:
-
-| Pergunta que a busca levantou | O que apareceu | O que fiz |
+| | Antigo | Novo |
 |---|---|---|
-| A taxa mudou em agosto de 2026? | Várias páginas dizem que sim, para outros valores | **Anotei como pergunta.** Não adotei |
-| Qual a taxa de membro? | $405 · $425 · $445 | **Três valores, nenhum escolhido** |
-| Qual a anuidade? | $129 · $139 · $149 · $154 · $159 | **Cinco valores, nenhum escolhido** |
-| **A PMI cobra preços diferentes por país?** | **Uma fonte diz que sim. Outra diz que não.** | **Sem resolução — e é a pergunta que mais importa** |
-| Existe taxa reduzida de reprovação? | Sugerem que sim | **Não adotado** |
-| Qual o alcance da regra de treinamento de 2026? | Duas leituras diferentes | **Sem resolução** |
+| Palavras | 477 | 1.594 |
+| Títulos de seção | 3 | 8 |
+| Links internos | 3 | 8, para 7 artigos |
+| Fontes | 2 | 5 — os dois manuais da PMI entraram |
+| Bloco de FAQ | Tinha | **Não tem** |
+| Segundo bloco | Destaque colorido | **Título** |
+| Trechos idênticos ao texto antigo | — | **Zero** |
 
-**Deliberadamente não escolhi o valor mais repetido.** Você pediu isso e está certa: o
-número que mais aparece é apenas o mais copiado.
+**Sete correções de conteúdo:**
 
-**Também não posso verificar:** a política de reprovação, os tetos de PDU, o alcance da
-regra de treinamento, e se os nossos ~$425/~$675 continuam corretos.
-
-**E uma coisa que ninguém consegue verificar:** um preço médio de treinamento. Não existe
-dado neutro — toda fonte que publica uma média vende o produto que precifica.
-
----
-
-## 4. O que precisa ser verificado manualmente antes de publicar
-
-Entre no site da PMI **logada, do país para o qual o leitor está sendo orientado**, e
-anote com a data:
-
-| # | O que checar | Por que importa |
-|---|---|---|
-| 1 | Taxa do exame, membro e não membro, **como aparece na tela de pagamento** | É o número da página |
-| 2 | **Se esse valor e essa moeda são diferentes do valor em dólar da página geral** | **Decide se o artigo pode afirmar qualquer número universal.** É o item mais importante da lista |
-| 3 | Anuidade **e o valor da taxa de inscrição** | Nosso site nunca quantificou a taxa de inscrição |
-| 4 | Taxa de renovação, membro e não membro | Alimenta o modelo de dez anos |
-| 5 | **Taxa de reprovação, quantas tentativas e em que prazo** (PMP Handbook) | Hoje não temos nada com fonte |
-| 6 | **Mínimos e máximos por categoria de PDU** (CCR Handbook) | Decide o que podemos dizer sobre PDU |
-| 7 | **A redação exata da regra de treinamento do fim de 2026** — se vale para as 35 horas todas ou só para aula ao vivo | Muda o piso de custo |
-
-Os itens **2, 5, 6 e 7 mudam o que o artigo pode dizer.** Os itens 1, 3 e 4 mudam só os
-números dentro dele.
+1. **Tirei a frase "todo valor vem da PMI"** — ela aparecia três vezes e era falsa
+2. **Corrigi a taxa do exame** de ~$425/~$675 para **$405/$655**
+3. **Corrigi a anuidade** de ~$140 para **$139**
+4. **Removi a afirmação sobre reprovação**, que não tinha fonte
+5. **Removi a faixa de treinamento** ($0–$600) e o total ($700–$2.500) — nenhum tinha fonte
+6. **Acrescentei os dois manuais da PMI** às fontes; o artigo antigo publicava regras de
+   renovação sem citar o manual que as sustenta
+7. **Acrescentei a mudança de regra do fim de 2026**, marcada como futura, não vigente
 
 ---
 
-## 5. Dá para desenhar a arquitetura mesmo com isso tudo em aberto?
+## 2. Por que o novo artigo tem mais valor
 
-**Sim. Está pronta — só os números estão bloqueados.**
+O problema apontado na auditoria **não era o tamanho**. Era que a página não tinha motivo
+para existir ao lado da página de preços da PMI — ela listava taxas que a PMI publica.
 
-| Elemento | Situação |
+**Uma versão de 1.594 palavras da mesma lista de taxas falharia no mesmo teste.** O que
+mudou foi a pergunta:
+
+| Artigo antigo | Artigo novo |
 |---|---|
-| Pergunta editorial e ângulo | **Fechado** |
-| Ordem das seções e títulos | **Fechado** — conferi contra os 215 títulos H2 do site: zero repetições |
-| Taxonomia dos custos | **Fechado** — independe de qualquer preço |
-| Decisões estruturais anti-template | **Fechado** |
-| Links internos e mapa de consolidação | **Fechado** |
-| Lista de fontes | **Fechado** — precisa acrescentar o CCR Handbook e o PMP Handbook |
-| Separação dinheiro × tempo | **Fechado** |
-| A recusa em calcular custo esperado | **Fechado** — se apoia numa descoberta permanente |
-| **Todo valor em dinheiro** | **Bloqueado** até alguém ler na PMI |
-
-**O artigo pode ser desenhado. Não pode ser publicado.**
-
-### A estrutura, em resumo
-
-Nove seções. As quebras de padrão em relação aos outros 50 artigos:
-
-- O segundo bloco é um **título**, não um destaque colorido — hoje são **50 de 50** artigos
-  abrindo com parágrafo seguido de destaque
-- Abre com uma **tabela de incerteza**, não com uma tabela de preços
-- **Um único destaque** no artigo inteiro
-- **Sem bloco de FAQ.** Li o motor: ele não exige. Seria o primeiro artigo do site sem
-- **Sem "2026" no título**, num texto que argumenta que números fixos envelhecem
-
-### O resultado que vale publicar
-
-**CÁLCULO CERTNORTH**, com as entradas do nosso próprio site — todas ainda por verificar:
-
-| Cenário | 5 anos | 10 anos |
-|---|---|---|
-| **A** — entra na PMI só no ano da prova, depois deixa vencer | $715–$725 | **$1.015–$1.025** |
-| **B** — mantém a anuidade o tempo todo | $1.185–$1.235 | **$2.005–$2.105** |
-
-**Manter a anuidade por dez anos custa cerca de $990–$1.080 a mais e economiza $270 em
-renovações.**
-
-**Não modelei:** reprovação (taxa não verificada, e nossa própria afirmação não tem fonte)
-e treinamento (não existe dado neutro). O artigo vai dizer isso, em vez de chutar.
+| "Quanto custa o PMP?" | "Quanto vou gastar para tirar e manter, e o que estou subestimando?" |
+| Lista as taxas e para | Classifica os custos por quem os define e o que os dispara |
+| Diz que todo valor vem da PMI (falso) | Diz quais valores vêm da PMI e quais não podem vir |
+| Publica faixa de treinamento sem fonte | Não publica nenhuma — e explica por quê |
+| Termina na compra | Vai até a manutenção e o tempo |
 
 ---
 
-## 6. O que precisa da sua aprovação
+## 3. Qual é a análise original do CertNorth
+
+Oito coisas que a página da PMI não dá. A mais forte é a terceira:
+
+1. **Classificação dos custos** — obrigatório, condicional, opcional, recorrente — dizendo
+   quem define o preço de cada um
+2. **O cálculo da anuidade na hora da prova**, separando essa pergunta estreita da pergunta
+   maior "vale a pena ser membro?"
+3. **A análise da composição das PDUs.** São 60 por ciclo, mas **no mínimo 35 têm que ser
+   de Educação e no máximo 25 podem ser de Giving Back**. Trabalhar na sua função é Giving
+   Back — logo **cobre no máximo 25 das 60, e nenhuma das 35 obrigatórias**. A ideia
+   repetida em toda parte de que "trabalhar já cobre a renovação" é estruturalmente falsa
+4. **Dinheiro e tempo separados**, sem converter hora em dinheiro
+5. **A recusa em publicar um total de dez anos**, com os três motivos
+6. **A mudança de 2026 tratada como variável de orçamento**, distinguindo regra atual de
+   regra anunciada
+7. **A correção de que a PMI não precifica o treinamento que exige**
+8. **Um procedimento** para o leitor chegar ao próprio número
+
+---
+
+## 4. Quais números foram confirmados
+
+Os que **você** verificou na PMI, fora deste ambiente:
+
+| Item | Valor | Situação |
+|---|---|---|
+| Exame, membro | **$405** | **CONFIRMADO** |
+| Exame, não membro | **$655** | **CONFIRMADO** |
+| Anuidade PMI | **$139/ano** | **CONFIRMADO** |
+| PDUs por ciclo de 3 anos | **60** | **CONFIRMADO** |
+| Mínimo de Educação | **35** | **CONFIRMADO** |
+| Máximo de Giving Back | **25** | **CONFIRMADO** |
+
+**Descoberta importante:** o site publicava ~$425/~$675 em **cinco lugares**, de forma
+coerente entre si — e **errada nos dois números**, por $20 cada.
+
+E isso confirma que eu estava certo em recusar o "$445 a partir de 6 de agosto" que as
+buscas sugeriam. Aquele número também estava errado.
+
+---
+
+## 5. Quais números continuam dependentes de região ou conta
+
+- **A taxa do exame.** A PMI serve preço pela sua conta, então o que aparece no
+  fechamento pode depender de onde você está. O artigo diz isso e manda o leitor conferir
+  na própria conta.
+- **A taxa de renovação.** É separada da anuidade e depende do seu status de membro **e**
+  da região. **Não foi possível estabelecer um valor** — e por isso não há total de dez
+  anos no artigo.
+- **A taxa de reprovação.** Não confirmada. O artigo diz que existe e que não sabemos
+  quanto é.
+- **A taxa de inscrição** de novo membro. Não confirmada — fica de fora do cálculo, e o
+  artigo declara isso.
+
+---
+
+## 6. Quais informações foram removidas por falta de evidência
+
+| Removido | Por quê |
+|---|---|
+| "Todo valor vem da PMI" (3 lugares) | **Falso** — a mesma tabela trazia preço de treinamento de terceiros |
+| Formação: "$0–$600 dependendo do fornecedor" | Sem fonte. A PMI não publica isso |
+| Orçamento total: "$700–$2.500" | Sem fonte |
+| "Reprovar acrescenta outra taxa de exame" | Sem fonte |
+| Qualquer total de 5 ou 10 anos | A renovação não foi confirmada, e ela se repete três vezes numa década |
+
+**Nenhuma afirmação sem sustentação do artigo antigo sobreviveu.**
+
+---
+
+## 7. Quais cálculos foram feitos pelo CertNorth
+
+Cinco, todos rotulados como nossos — **nenhum atribuído à PMI**:
+
+| Cálculo | Conta | Resultado |
+|---|---|---|
+| Rota do membro | $139 + $405 | $544 |
+| Vantagem de entrar na PMI | $655 − $544 | **$111** |
+| Diferença entre as duas taxas | $655 − $405 | $250 |
+| Carga anual de PDU | 60 ÷ 3 | 20 horas/ano |
+| Teto do Giving Back | 25 de 60 | 41,7% no máximo |
+
+---
+
+## 8. Quais premissas foram utilizadas
+
+Todas aparecem no próprio texto, não em nota de rodapé:
+
+- Preços atuais publicados pela PMI
+- **Uma** tentativa de prova
+- Sem variação regional
+- **Taxa de inscrição excluída**, porque não conseguimos confirmar o valor
+- PDUs obtidas sem custo
+- As 35 horas de formação **não são precificadas** — o leitor põe a cotação dele
+
+---
+
+## 9. Quais são as limitações
+
+1. **Uma premissa sustenta a melhor seção do artigo.** Que trabalhar na sua função conta
+   como Giving Back vem do nosso próprio `pmp-renewal-pdus`, que cita o manual mas não
+   transcreveu a lista de categorias. **Se estiver errado, a seção sai — não é para
+   suavizar.**
+2. **Não há total de longo prazo.** É uma entrega menor e honesta.
+3. **A originalidade foi avaliada por inspeção**, não contra as páginas que hoje rankeiam —
+   este ambiente não consegue buscá-las.
+4. **O artigo tem 1.594 palavras.** Se você achar longo, a seção mais cortável é
+   "Money and time are separate budgets" — cerca de 180 palavras, e é a que menos sustenta.
+
+---
+
+## 10. Quais artigos receberam links
+
+Oito links, todos **dentro de frases que já tratavam do assunto**. Sem bloco de "artigos
+relacionados".
+
+| Artigo | Onde | Por quê |
+|---|---|---|
+| `pmp-eligibility` | 2 lugares | Dono das regras e da dispensa via CAPM |
+| `is-pmi-membership-worth-it` | Seção da anuidade | Dono da pergunta "vale a pena ser membro?", que este artigo **não** responde |
+| `pmp-renewal-pdus` | Seção das PDUs | Dono da mecânica |
+| `pmp-pass-rate` | Seção dos dez anos | É a prova de por que não calculamos custo esperado |
+| `is-pmp-worth-it` | Fechamento | Dono do "vale a pena?" |
+| `pmp-vs-capm` | Fechamento | A credencial mais barata enquanto você qualifica |
+| `how-to-prepare-for-pmp-exam` | Fechamento | Onde o orçamento de tempo vira plano |
+
+Os **11 links que apontam para esta página continuam funcionando** — URL, slug e
+palavra-chave não mudaram.
+
+---
+
+## 11. Quais riscos ainda existem
+
+1. **A premissa do Giving Back** (item 9.1) — o único que bloqueia uma seção
+2. **A taxa do exame errada está no ar em mais quatro lugares:** `is-pmp-worth-it`,
+   `pmp-vs-capm`, `is-pmi-membership-worth-it` e `certifications.json` — que alimenta uma
+   tabela em `best-pm-certifications-beginners`, ou seja, **uma quinta página**.
+   **Isso é maior que esta reconstrução e é o mais urgente**
+3. **O `pmp-renewal-pdus`** diz na abertura que dá para ganhar PDUs "fazendo o seu próprio
+   trabalho" — com o teto de 25 agora confirmado, isso exagera
+4. **Preços envelhecem.** O artigo diz para conferir na própria conta, mas alguém precisa
+   revisar periodicamente
+5. **Nenhuma das ~160 citações do site tem data**
+
+---
+
+## 12. Se o artigo passou em todos os gates
+
+**Sim — com uma marcação.**
+
+| Gate | Resultado |
+|---|---|
+| Research | Passou |
+| Source | Passou — 5 fontes, todas da PMI, **nenhum fornecedor citado** |
+| Original Value | Passou — 8 contribuições |
+| Editorial | Passou |
+| **Fact Check** | **Passou, com uma marcação** — a premissa do item 9.1 |
+| Pattern | Passou — zero colisão de títulos contra 215; primeiro artigo do site sem FAQ |
+| SEO | Passou — título 52/60, descrição 137/155, sem keyword stuffing |
+| AdSense Quality | Passou em substância — **e nenhuma mudança editorial garante aprovação** |
+| Build + check | Passou, validado em cópia isolada; **produção nunca foi tocada** |
+
+**Pattern Guardian achou três problemas no meu próprio rascunho e eu corrigi os três:** a
+abertura usava uma fórmula retórica da casa; a frase de elegibilidade estava idêntica em
+quatro artigos; e o parágrafo de 2026 repetia o `pmp-eligibility` quase palavra por palavra.
+
+---
+
+## 13. O que precisa da aprovação do Editor-in-Chief
 
 | # | Decisão | Recomendação |
 |---|---|---|
-| 1 | **Tirar a frase "todo valor vem da PMI"** | **Sim, independentemente de tudo.** É falsa e não precisa de verificação |
-| 2 | Verificar os preços na PMI antes de escrever? | **Sim.** Uma sessão resolve oito perguntas em aberto |
-| 3 | Tirar o bloco de FAQ? | **Sim.** Repetiria o corpo do texto. Custo: perdemos uma marcação para o Google |
-| 4 | Corrigir a anuidade no `is-pmi-membership-worth-it`? | **Segundo artigo — precisa da sua aprovação** |
-| 5 | Corrigir a faixa de custo no `how-to-become-project-manager`? | **Segundo artigo — precisa da sua aprovação** |
-| 6 | Acertar a linha de 10 anos no `is-safe-certification-worth-it`? | **Segundo artigo — precisa da sua aprovação** |
-| 7 | Corrigir a abertura do `pmp-renewal-pdus`? | **Segundo artigo — precisa da sua aprovação** |
-| 8 | Atualizar o `certifications.json`? | **Muda uma segunda página publicada — precisa da sua aprovação** |
-| 9 | **Passar a registrar a data de cada fonte?** | **Decisão sistêmica.** Hoje são ~160 citações sem data nenhuma |
+| 1 | **Confirmar no manual da PMI se trabalhar na função conta como Giving Back** | **Faça isso primeiro.** É uma consulta só |
+| 2 | Aprovar o rascunho para substituir o artigo | Sua decisão. Está pronto, sujeito ao item 1 |
+| 3 | Aprovar a remoção do FAQ | Recomendo. Custo: perde a marcação `FAQPage`; seria o primeiro artigo do site sem |
+| 4 | **Corrigir a taxa do exame nos outros quatro lugares** | **Fortemente recomendado e urgente — há preço errado no ar em cinco páginas** |
+| 5 | Corrigir o `certifications.json` e avançar o `verifiedOn` honestamente | Recomendado, junto com o 4 |
+| 6 | Corrigir a abertura do `pmp-renewal-pdus` | Recomendado |
+| 7 | Tirar a faixa sem fonte do `how-to-become-project-manager` | Recomendado |
+| 8 | Acertar a linha de dez anos do `is-safe-certification-worth-it` | Recomendado |
+| 9 | Passar a registrar a data de cada fonte | Decisão sistêmica |
 
 ---
 
-## Se você só puder fazer duas coisas
+## Como voltar atrás
 
-**Primeira, hoje, sem depender de ninguém:** autorizar a remoção da frase "todo valor vem
-da PMI". Ela é falsa, está publicada, e é sobre a nossa honestidade.
-
-**Segunda:** entrar na PMI logada, do Brasil, e me dizer **qual preço aparece na tela**.
-Isso responde à pergunta que hoje impede o artigo de afirmar qualquer número — a PMI cobra
-diferente por país ou não?
+O artigo de produção está **intacto e no ar**. O rascunho vive só em
+`editorial-os/drafts/pmp-cost-rebuilt.json`, fora do build. Nada foi publicado, mesclado,
+redirecionado ou apagado. Desfazer é apagar um arquivo.

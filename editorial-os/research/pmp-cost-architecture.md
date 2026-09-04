@@ -1,198 +1,160 @@
-# Proposed Article Architecture — `pmp-cost`
+# Article Architecture — `pmp-cost` (as built)
 
 **Date:** 2026-09-04
-**Revised:** 2026-09-04 — retake section removed, sourcing-claim fix added (see §7)
-**Status:** proposal. Nothing drafted, nothing published, no article modified.
+**Status:** implemented in `editorial-os/drafts/pmp-cost-rebuilt.json`. Not published.
 
 ---
 
 ## 1. Identity
 
-| Field | Value |
-|---|---|
-| **Working title (H1)** | What the PMP Really Costs — and What Nobody Can Confirm |
-| **`seo.metaTitle`** | `What the PMP Really Costs (And What Nobody Can Confirm)` — 55 chars, unique |
-| **`intent.primaryKeyword`** | `pmp certification cost` — **unchanged**, no cannibalisation risk |
-| **URL** | `/certifications/guides/pmp-certification-cost/` — **unchanged** |
-| **`clusterId`** | `cl_guides` — unchanged |
-| **`publishedAt`** | **unchanged** (2026-07-25) |
-| **`updatedAt`** | set to the real rebuild date — this is a genuine revision |
-| **Content type** | RESEARCH, not DECISION — a deliberate shift; the site sits at 34% DECISION |
-
-**Search intent:** commercial investigation. The reader is close to spending and wants the
-real total, not the sticker price.
-
-**Editorial question:** *"What will I realistically spend to obtain and keep the PMP, and
-which costs am I most likely to underestimate?"*
-
-**Unique angle:** the page states openly which figures can be confirmed and which cannot —
-and supplies the complete cost structure anyway, including a ten-year model the reader can
-re-run with their own numbers.
-
----
-
-## 2. Anti-template compliance
-
-| Site-wide pattern | Frequency | This article |
+| Field | Value | Changed? |
 |---|---|---|
-| Block 1 paragraph → block 2 callout | 50 / 50 | **Paragraph → H2 → table.** Second block is a heading |
-| Contains an FAQ block | 50 / 50 | **No FAQ** — see §6.1 |
-| Leads with a price table | common | Leads with an **uncertainty ledger** |
-| "The case for it / against it / The honest bottom line" | 8 articles | Not used |
-| Several callouts per article | typical | **One**, carrying the CERTNORTH CALCULATION |
-| Title contains "2026" | 24 / 50 | **No year** — the page argues that fixed figures go stale |
+| **H1** | What the PMP Costs, and Which Costs PMI Doesn't Set | New |
+| **`seo.metaTitle`** | `What the PMP Costs (And Which Costs PMI Doesn't Set)` — **52 chars**, unique site-wide | New |
+| **`seo.metaDescription`** | 137 chars, unique | New |
+| **`dek`** | 275 chars, answer-first, leads with the verified fees | New |
+| **`intent.primaryKeyword`** | `pmp certification cost` | **Unchanged** |
+| **URL / slug** | `/certifications/guides/pmp-certification-cost/` | **Unchanged** |
+| **`clusterId`** | `cl_guides` | **Unchanged** |
+| **`publishedAt`** | `2026-07-25` | **Unchanged** |
+| **`updatedAt`** | `2026-09-04` | Set to the real revision date |
+| **Content type** | RESEARCH (was DECISION) | Eases a corpus at 34% DECISION |
 
-All eight proposed H2 headings checked against the **215 distinct level-2 headings** on the
-site: **zero collisions.**
-
----
-
-## 3. Section plan
-
-Every section is labelled with the evidence class it rests on.
-
-| # | Block | Section | Evidence class | Original analysis |
-|---|---|---|---|---|
-| 0 | paragraph | Opens on what this page can and cannot tell you, and why | EDITORIAL INFERENCE | Frames uncertainty as subject, not disclaimer |
-| 1 | H2 | *What we can confirm, and what we can't* | — | — |
-| 2 | **table** | Claim · what we can say about it · what still needs checking. Covers exam fee, membership, renewal, PDUs, training, regional pricing | REPOSITORY + PRIMARY VERIFICATION REQUIRED | **The uncertainty ledger.** No competitor publishes one |
-| 3 | paragraph | Why: PMI is the only source that settles this, and every other page you'll find sells PMP training | EDITORIAL INFERENCE | Names the conflict of interest in the evidence base |
-| 4 | H2 | *Four kinds of cost, and only two are unavoidable* | — | — |
-| 5 | **table** | Required / conditional / optional / recurring — trigger, recurrence, who sets the price | REPOSITORY + EDITORIAL INFERENCE | The taxonomy. Survives every figure being wrong |
-| 6 | paragraph | The two unavoidable costs; the 35 hours are required but the amount is candidate-dependent | REPOSITORY | |
-| 7 | H2 | *Joining PMI pays once. It does not keep paying.* | — | — |
-| 8 | paragraph | Exam-time arithmetic | CERTNORTH CALCULATION | |
-| 9 | **callout (info)** | **CERTNORTH CALCULATION**, inputs and their status stated inline | CERTNORTH CALCULATION | The only callout in the article |
-| 10 | paragraph | Why the renewal discount does not justify membership. Links `is-pmi-membership-worth-it` | CERTNORTH CALCULATION | **Corrects a claim the industry repeats** |
-| 11 | H2 | *Ten years of ownership, with the assumptions on the table* | — | — |
-| 12 | **table** | Scenarios A and B at 5 and 10 years; assumptions in the caption | CERTNORTH CALCULATION | The model |
-| 13 | paragraph | Keeping membership ten years costs ~$990–$1,080 more and saves $270 | CERTNORTH CALCULATION | Counterintuitive, checkable |
-| 14 | H2 | *Sixty PDUs can cost nothing and still cost sixty hours* | — | — |
-| 15 | paragraph | Financial cost vs time commitment, never monetised. Links `pmp-renewal-pdus` | REPOSITORY + CERTNORTH CALCULATION | Separation most pages collapse |
-| 16 | H2 | *Three costs we could not price, and why we are not guessing* | — | — |
-| 17 | paragraph | Training, retakes, and regional pricing — what we could not establish, and the refusal to compute an expected cost. Links `pmp-pass-rate` | PRIMARY VERIFICATION REQUIRED | **A refusal, explained.** Distinctive on its own |
-| 18 | H2 | *The change that could move your budget most* | — | — |
-| 19 | paragraph | The late-Q4-2026 training rule, its unresolved scope, and both consequences. Links `pmp-eligibility` | REPOSITORY + PRIMARY VERIFICATION REQUIRED | Names the largest live variable |
-| 20 | H2 | *How to work out your own number* | — | — |
-| 21 | **list (ordered)** | Check the price in your own PMI account; decide membership before booking; confirm your training provider qualifies; budget renewals, not just the exam | EDITORIAL INFERENCE | Turns analysis into an action |
-| 22 | paragraph | Close. Links `is-pmp-worth-it` and `pmp-vs-capm` | — | |
-
-**8 level-2 headings** (GATE minimum 2) · **5 internal links** (minimum 1) ·
-**sources: 4+** (minimum 1), and they must now include the **CCR Handbook** and the
-**PMP Handbook**, which the current article omits.
+**Title rationale.** The suggested direction was *"How Much Does the PMP Really Cost in
+2026?"* The title chosen instead states the article's actual finding — that PMI sets one
+line of the bill — and avoids "2026", which 24 of 50 existing titles already carry and
+which dates a page whose own argument is that fixed figures go stale.
 
 ---
 
-## 4. What changed in this revision, and why
+## 2. Structure as built
 
-| Earlier plan | Now | Reason |
+24 blocks. **8 authored level-2 headings** (the template adds "Sources and references" and
+"Next step" to every article).
+
+| # | Block | Section |
 |---|---|---|
-| A dedicated section: *"A retake is not another exam fee"* | **Removed.** Retakes appear only in §16–17 as a cost we could not price | The reduced-fee figure was SECONDARY/SEARCH DISCOVERY ONLY. We cannot assert it, and correcting our own article on unverified evidence would repeat the original error |
-| Scenario C, one retake, $275 | **Removed** | Same reason |
-| Membership modelled at $149 | **$140–$150 range** | The range is the site's own internal contradiction, shown rather than resolved |
-| Exam modelled at $445/$675 | **~$425/~$675** | Repository values. Search figures are questions, not corrections |
-| — | **New: remove the "every figure sourced from PMI" claim** | See §7 |
+| 0 | paragraph | Opening — PMI sets one line of the bill |
+| 1–3 | H2 + 2 paragraphs | **What PMI charges, and what it doesn't** — verified fees; the education is priced elsewhere |
+| 4–6 | H2 + table + paragraph | **Four kinds of cost, and PMI sets only one** |
+| 7–10 | H2 + paragraph + callout + paragraph | **Membership is a $111 question at exam time** |
+| 11–13 | H2 + 2 paragraphs | **Sixty PDUs, and why 25 is the number that matters** |
+| 14–16 | H2 + paragraph + list | **Money and time are separate budgets** |
+| 17–18 | H2 + paragraph | **Why we won't give you a ten-year total** |
+| 19–20 | H2 + paragraph | **What changes at the end of 2026** |
+| 21–23 | H2 + ordered list + paragraph | **Pricing this for yourself** |
+
+Block inventory: 12 paragraphs · 8 headings · 1 table · 1 callout · 2 lists · **0 FAQ**.
 
 ---
 
-## 5. What must NOT go in this article
+## 3. Pattern Guardian — measured against the corpus
 
-| Excluded | Because |
+| Pattern | Corpus | Draft |
+|---|---|---|
+| Second block is a callout | **50 / 50** | **Heading** |
+| Contains an FAQ block | **50 / 50** | **None** |
+| Last block is an FAQ | **50 / 50** | **Paragraph** |
+| Callouts per article | 2 to 5 (min 2) | **1** — below the corpus minimum |
+| Tables per article | 1 to 3 | 1 |
+| Title contains "2026" | 24 / 50 | **No** |
+| Shared 3-heading "worth it" spine | 8 articles | Not used |
+
+**Heading collisions:** all 8 checked against the **215 distinct level-2 headings** on the
+site — **zero**. Consecutive-pair sequence overlap with any existing article — **none**.
+
+**Verbatim phrasing (6-word spans):**
+
+| Comparison | Before fixes | After fixes |
+|---|---|---|
+| vs the production `pmp-cost` | 0 | **0** — fully rewritten |
+| vs `how-long-to-get-pmp` | 10 | **0** |
+| vs `is-pmp-worth-it` | 10 | **0** |
+| vs `pmp-vs-capm` | 10 | **0** |
+| vs `pmp-eligibility` | 7 | **2** |
+
+**Three Pattern Guardian findings were acted on**, all against the draft itself:
+
+1. **The opening used a house rhetorical formula.** It began *"Most pages about the cost of
+   the PMP…"* — the same "most other articles get this wrong" move used by
+   `project-manager-salary` and `best-pm-certifications-beginners`, and "Most" already
+   opens 4 of 50 articles. Rewritten to open on substance.
+2. **The eligibility sentence was verbatim across four articles.** Rephrased to keep the
+   36/60-month precision without the shared span.
+3. **The 2026 training paragraph restated `pmp-eligibility` almost word for word.**
+   Rewritten as a budgeting summary that points to the owning article for the exact wording.
+
+---
+
+## 4. Internal links
+
+**8 links to 7 distinct articles**, each inside a sentence that already raises the subject.
+No "related articles" block.
+
+| Target | Placed in | Why there |
+|---|---|---|
+| `pmp-eligibility` | §What PMI charges; §What changes at the end of 2026 | Owns the CAPM waiver and the exact rule wording |
+| `is-pmi-membership-worth-it` | §Membership | Owns overall membership value, which this article deliberately does not answer |
+| `pmp-renewal-pdus` | §Sixty PDUs | Owns PDU mechanics and which activities count |
+| `pmp-pass-rate` | §Why we won't give you a ten-year total | The evidence for refusing an expected-cost calculation |
+| `is-pmp-worth-it` | §Pricing this for yourself | Owns whether to spend at all |
+| `pmp-vs-capm` | §Pricing this for yourself | The cheaper credential while qualifying |
+| `how-to-prepare-for-pmp-exam` | §Pricing this for yourself | Where the time budget becomes a plan |
+
+**Inbound links unaffected** — URL, slug and primary keyword unchanged, so all 11 continue
+to resolve.
+
+---
+
+## 5. Sources
+
+Five, all PMI, all HTTPS. **Two are new** and fix a sourcing gap in the production article,
+which published renewal rules while citing neither handbook:
+
+- PMI — Project Management Professional (PMP)
+- PMI — Membership
+- PMI — How to maintain your certification
+- **PMI — Continuing Certification Requirements (CCR) Handbook** *(new)*
+- **PMI — PMP Handbook** *(new)*
+
+**Note:** the source schema is `{label, url}` with no date field, so these citations carry
+no "as of" date — a site-wide gap affecting ~160 citations. Recorded, not fixed here.
+
+---
+
+## 6. Ownership boundaries respected
+
+`pmp-cost` becomes the reference page for **the economics of getting and keeping the PMP**,
+and nothing else.
+
+| Subject | Kept out, and linked to |
 |---|---|
-| A confident single "the PMP costs $X" | Regional pricing unresolved |
-| An average or typical training cost | No neutral data exists |
-| A pass-rate-weighted expected cost | No reliable pass rate exists |
-| A retake fee, in either direction | Unverified; the site's own claim is unsourced |
-| A monetary value for study hours | Arbitrary |
-| **"Every figure sourced from PMI"** | **Untrue** — see §7 |
-| Full PDU mechanics | Owned by `pmp-renewal-pdus` — summarise and link |
-| Eligibility pathways | Owned by `pmp-eligibility` — link only |
-| Exam format and study method | Owned by `how-to-prepare-for-pmp-exam` |
-| The pass-rate argument in full | Owned by `pmp-pass-rate` — one sentence and a link |
-| Membership benefits beyond money | Owned by `is-pmi-membership-worth-it` |
-| Whether the PMP is worth getting | Owned by `is-pmp-worth-it` |
-| A "related articles" block | Prohibited. Links go inside sentences that already raise the subject |
+| Eligibility pathways | `pmp-eligibility` |
+| Exam format and study method | `how-to-prepare-for-pmp-exam` — one line about 180 questions in 240 minutes, in the time budget only |
+| Pass rate reasoning | `pmp-pass-rate` — one sentence |
+| PDU mechanics and which activities count | `pmp-renewal-pdus` — the composition rule is used, the mechanics are not restated |
+| Overall membership value | `is-pmi-membership-worth-it` |
+| Whether the PMP is worth having | `is-pmp-worth-it` |
 
 ---
 
-## 6. Consolidation map
+## 7. Validation performed
 
-`pmp-cost` becomes the definitive CertNorth page for **the economics of getting and keeping
-the PMP** — and nothing else.
+The draft was built and checked in an **isolated copy** of `platform/` in a scratch
+directory, with the draft substituted for the production article.
+**`platform/content/` was never modified.**
 
-| Information | Decision |
-|---|---|
-| Exam, membership, renewal fees | **Retained** — the page's subject |
-| Cost taxonomy, break-even, 5/10-year model, time-vs-money | **Retained** — new, belongs nowhere else |
-| Uncertainty ledger | **Retained** — new |
-| PDU mechanics | **Summarised + linked** to `pmp-renewal-pdus` |
-| Eligibility pathways | **Removed + linked** to `pmp-eligibility` |
-| Pass-rate reasoning | **One sentence + linked** to `pmp-pass-rate` |
-| Membership benefits beyond money | **Removed + linked** to `is-pmi-membership-worth-it` |
-| Study time and preparation | **Removed + linked** to `how-to-prepare-for-pmp-exam` |
-| "Is it worth it" verdict | **Removed + linked** to `is-pmp-worth-it` |
+```
+node src/build.js --force → ✓ 50 articles, 60 sitemap URLs, GATE passed
+node src/check.js         → ✓ 61 pages, links intact, headings ok, JSON-LD valid,
+                              unique titles, WCAG AA contrast in both themes
+```
 
-**Inbound links unaffected.** URL, slug and primary keyword unchanged, so all 11 existing
-inbound links continue to resolve.
+Rendered page inspected in Chromium at 375 px: no horizontal overflow, 8 authored H2s
+present, 1 table, **0 `<details>` elements** confirming the FAQ removal renders cleanly, all
+9 internal links resolving. The single console error is the AdSense script blocked by this
+environment's proxy — pre-existing on every page.
 
-**One new outbound link:** `pmp-pass-rate`, which the current article does not link. It is
-the evidence for the refusal to compute an expected cost.
-
-### 6.1 Dropping the FAQ
-
-`platform/src/build.js` `runGate()` was read directly. It requires a valid cluster, unique
-primary keyword, unique slug, metaTitle ≤60, metaDescription ≤155, an author bio ≥40
-chars, `publishedAt`, a dek ≥40 chars, **≥2 level-2 headings**, ≥1 internal link, ≥1
-source. **An FAQ block is not required.** Dropping it will not break the build.
-
-**Trade-off:** the FAQ block feeds `FAQPage` structured data. Whether that still yields any
-visible search benefit could not be verified from this environment. What is certain is that
-all 50 articles currently carry one, and that an FAQ here would restate the body — which is
-padding.
-
-**Recommendation: drop it.** If the loss of `FAQPage` schema matters to you, it stays.
-
----
-
-## 7. The one change that should happen regardless
-
-`pmp-cost` states three times that its figures come from PMI:
-
-- `body[0]`: *"with every fee sourced from PMI"*
-- `body[3]` table caption: *"(source: PMI)"*
-- `seo.metaDescription`: *"Every figure sourced from PMI."*
-
-**The same table contains "Required education (35 contact hours) | $0–$600 depending on
-provider", and the article's second table prices third-party training at $700–$2,500+.
-PMI does not sell PMP training and does not publish its price.**
-
-**Label: VERIFIED FROM CERTNORTH REPOSITORY.** The claim and the content that disproves it
-are in the same file.
-
-This is a statement about our own sourcing integrity, on a site whose entire position is
-independence and verifiability. **It should be corrected whether or not the rebuild
-proceeds**, and it is the one change in this whole plan that requires no external
-verification at all.
-
----
-
-## 8. Can the architecture be finalised despite the unresolved facts?
-
-**Yes — with one dependency.**
-
-| Element | Status |
-|---|---|
-| Editorial question and angle | **Final** |
-| Section order and headings | **Final** — collision-checked |
-| Cost taxonomy | **Final** — independent of every price |
-| Structural anti-template decisions | **Final** |
-| Internal links and consolidation map | **Final** |
-| Sources list | **Final** — must add the CCR Handbook and the PMP Handbook |
-| Time-vs-money framework | **Final** |
-| Refusal to compute an expected cost | **Final** — rests on a permanent finding |
-| **Every monetary figure** | **Blocked** on primary-source verification |
-| **The uncertainty ledger's contents** | **Partly blocked** — its shape is final, its rows change depending on what verification finds |
-
-**The article cannot be drafted to publication standard until a human reads PMI's current
-prices.** It *can* be drafted as a complete structure with figures held as placeholders,
-if you want to see the shape before committing to the verification work.
+**GATE compliance:** metaTitle 52 ≤ 60 and unique · metaDescription 137 ≤ 155 and unique ·
+dek 275 ≥ 40 · 8 h2 ≥ 2 · 8 internal links ≥ 1 · 5 sources ≥ 1 · primaryKeyword unchanged
+and still unique.
