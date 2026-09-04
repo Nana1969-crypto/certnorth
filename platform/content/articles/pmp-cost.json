@@ -27,7 +27,7 @@
       ["Required education (35 contact hours)", "$0–$600 depending on provider"],
       ["Renewal (every 3 years)", "$60 member / $150 non-member + 60 PDUs"]
     ] },
-    { "type": "paragraph", "richText": "Notice the membership math: membership costs about $140 a year but drops the exam fee by $250, so joining PMI usually pays for itself if you also use member resources. That's the single easiest way to reduce the sticker cost." },
+    { "type": "paragraph", "richText": [ "Notice the membership math: membership costs about $140 a year but drops the exam fee by $250, so joining PMI usually pays for itself if you also use member resources. That's the single easiest way to reduce the sticker cost — though whether it keeps earning its keep after the exam is a separate question, answered in ", { "link": { "ref": "article:is-pmi-membership-worth-it", "text": "is PMI membership worth it" } }, "." ] },
     { "type": "heading", "level": 2, "text": "The realistic all-in cost" },
     { "type": "paragraph", "richText": "Add prep to the core fees and most working professionals spend somewhere between $700 and $2,500 in total, depending mainly on how much training they buy:" },
     { "type": "table", "caption": "Typical all-in PMP budget by study approach.", "headers": ["Approach", "Rough total"], "rows": [

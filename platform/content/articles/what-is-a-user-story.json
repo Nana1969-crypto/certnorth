@@ -39,7 +39,7 @@
       ["S", "Small", "Fits comfortably inside one Sprint"],
       ["T", "Testable", "You can tell objectively whether it's finished"]
     ] },
-    { "type": "paragraph", "richText": "Two of these carry most of the weight. If a story isn't estimable, the team doesn't understand it yet and needs a conversation rather than a better description. If it isn't testable, nobody will agree on whether it was delivered — which is where sprint reviews turn awkward." },
+    { "type": "paragraph", "richText": [ "Two of these carry most of the weight. If a story isn't estimable — usually sized in ", { "link": { "ref": "article:what-are-story-points", "text": "story points" } }, " — the team doesn't understand it yet and needs a conversation rather than a better description. If it isn't testable, nobody will agree on whether it was delivered — which is where sprint reviews turn awkward." ] },
     { "type": "heading", "level": 2, "text": "Acceptance criteria: what \"done\" means for this story" },
     { "type": "paragraph", "richText": "A story is intentionally brief, so it needs something alongside it that says when it's complete. Acceptance criteria are the conditions that must be satisfied before the story can be considered finished — concrete, checkable statements rather than aspirations." },
     { "type": "paragraph", "richText": "For the reorder example, they might be: the reorder option appears only for customers with a previous order; selecting it adds every still-available item to the basket; unavailable items are listed clearly rather than silently dropped. Each is something you can verify without discussion." },

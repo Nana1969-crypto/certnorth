@@ -36,7 +36,7 @@
     { "type": "heading", "level": 3, "text": "Step 3 — Earn an entry-level certification" },
     { "type": "paragraph", "richText": [ "A recognized credential strengthens entry-level applications. For traditional PM, the CAPM or the Google Project Management Certificate; for agile roles, a Scrum certification. Compare them in our guide to the ", { "link": { "ref": "article:best-pm-certifications-beginners", "text": "best certifications for beginners" } }, ", and see the ", { "link": { "ref": "article:pmp-vs-capm", "text": "CAPM-to-PMP ladder" } }, "." ] },
     { "type": "heading", "level": 3, "text": "Step 4 — Target the right first roles" },
-    { "type": "paragraph", "richText": "Look for titles like project coordinator, junior project manager, or associate project manager, plus PM roles inside industries you already know. Domain knowledge is a real advantage — a PM who understands the work being managed is more effective." },
+    { "type": "paragraph", "richText": [ "Look for titles like project coordinator, junior project manager, associate project manager, or ", { "link": { "ref": "article:how-to-become-pmo-analyst", "text": "PMO analyst" } }, ", plus PM roles inside industries you already know. Domain knowledge is a real advantage — a PM who understands the work being managed is more effective." ] },
     { "type": "heading", "level": 2, "text": "Timeline, cost, and outlook" },
     { "type": "table", "caption": "Typical time and cost to move into a project management role.", "headers": ["Route", "Typical time", "Typical cost"], "rows": [
       ["Internal move + entry cert", "6–18 months", "$300–$1,500"],

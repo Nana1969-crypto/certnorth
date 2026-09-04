@@ -201,7 +201,7 @@
     {
       "type": "callout",
       "variant": "warn",
-      "richText": "Don't buy a SAFe certification speculatively. It's the most employer-specific credential here: enormously valuable inside a SAFe organization, and close to irrelevant outside one. Check job postings in your market before spending $1,000."
+      "richText": [ "Don't buy a SAFe certification speculatively. It's the most employer-specific credential here: enormously valuable inside a SAFe organization, and close to irrelevant outside one. Check job postings in your market before spending $1,000 — and read ", { "link": { "ref": "article:is-safe-certification-worth-it", "text": "our full SAFe verdict" } }, " first." ]
     },
     {
       "type": "heading",
@@ -211,7 +211,14 @@
     {
       "type": "paragraph",
       "richText": [
-        "PMI's agile credential costs $435 for members and $495 for non-members, and requires 21 contact hours of training. It suits people already in PMI's ecosystem — particularly anyone holding or heading toward the PMP — because it recognizes agile practice across frameworks rather than Scrum alone. It also has real experience prerequisites: 12 months of general project experience in the last five years — waived if you hold a current PMP or PgMP — plus 8 months of agile experience in the last three. Worth noting: the PMP itself is now heavily agile, so this isn't the only PMI route into agile work — see",
+        "PMI's agile credential costs $435 for members and $495 for non-members, and requires 21 contact hours of training. It suits people already in PMI's ecosystem — particularly anyone holding or heading toward the PMP — because it recognizes agile practice across frameworks rather than Scrum alone. It also has real experience prerequisites: 12 months of general project experience in the last five years — waived if you hold a current PMP or PgMP — plus 8 months of agile experience in the last three. Our full verdict is in ",
+        {
+          "link": {
+            "ref": "article:is-pmi-acp-worth-it",
+            "text": "is the PMI-ACP worth it"
+          }
+        },
+        ". Worth noting too: the PMP itself is now heavily agile, so this isn't the only PMI route into agile work — see ",
         {
           "link": {
             "ref": "article:is-pmp-worth-it",
@@ -251,8 +258,8 @@
         "Self-funding, want Scrum Master work → PSM I",
         "Self-funding, want Product Owner work → PSPO I",
         "Employer is paying and you want live teaching → CSM or CSPO",
-        "Your employer runs SAFe → SAFe Scrum Master",
-        "You're in PMI's world already, or hold the PMP → PMI-ACP",
+        [ "Your employer runs SAFe → ", { "link": { "ref": "article:is-safe-certification-worth-it", "text": "SAFe Scrum Master" } } ],
+        [ "You're in PMI's world already, or hold the PMP → ", { "link": { "ref": "article:is-pmi-acp-worth-it", "text": "PMI-ACP" } } ],
         "You already coach teams and want it recognized → ICP-ACC"
       ]
     },

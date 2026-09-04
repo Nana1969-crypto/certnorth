@@ -37,7 +37,7 @@
       "Industry — technology, finance, and construction tend to pay more",
       "Location — major cities pay more, but usually cost more too",
       "Certifications matched to seniority — the PMP is associated with higher pay for experienced PMs",
-      "Specialization — program and portfolio management pay above general project roles"
+      [ "Specialization — program and portfolio management pay above general project roles: see ", { "link": { "ref": "article:program-manager-salary", "text": "program manager salary" } } ]
     ] },
     { "type": "callout", "variant": "tip", "richText": "The fastest lever early in your career is moving from a coordinator role into a full project manager role. The pay step between those two titles is usually larger than annual raises within a single title." },
     { "type": "heading", "level": 2, "text": "Do certifications raise your pay?" },
@@ -45,7 +45,7 @@
     { "type": "faq", "items": [
       { "question": "What is the average project manager salary in 2026?", "answerRichText": "It depends on the country. The US official BLS median is $100,750 (May 2024). Typical pay is roughly £45,000–£57,000 in the UK, about C$79,000 in Canada, and around A$140,000 in Australia — from the sources linked in this guide." },
       { "question": "Why do salary sites show such different numbers?", "answerRichText": "Because each measures a slightly different group of jobs, often from self-reported data, and only the US has a clean official median for the role. That's why we name the source for every figure and anchor to official data where it exists." },
-      { "question": "Does the PMP increase a project manager's salary?", "answerRichText": [ "For experienced PMs it's associated with higher pay, but it complements experience rather than replacing it. Read the honest verdict in ", { "link": { "ref": "article:is-pmp-worth-it", "text": "is the PMP worth it" } }, "." ] }
+      { "question": "Does the PMP increase a project manager's salary?", "answerRichText": [ "For experienced PMs it's associated with higher pay, but it complements experience rather than replacing it. Read the honest verdict in ", { "link": { "ref": "article:is-pmp-worth-it", "text": "is the PMP worth it" } }, ", and what the salary evidence actually shows in ", { "link": { "ref": "article:does-pmp-increase-salary", "text": "does the PMP increase your salary" } }, "." ] }
     ] }
   ]
 }

@@ -42,7 +42,7 @@
       "Experience — by far the biggest factor; lead Scrum Masters can earn double an entry-level salary",
       "Industry — aerospace/defense, financial services, and consulting tend to pay the most",
       "Location — major tech hubs pay more, but usually cost more to live in too",
-      "Scope — coaching multiple teams or moving toward agile-coach and RTE roles raises pay",
+      [ "Scope — coaching multiple teams or moving toward agile-coach and RTE roles raises pay: see ", { "link": { "ref": "article:agile-coach-salary", "text": "agile coach salary" } } ],
       "Real facilitation track record — the market has many certified Scrum Masters, so demonstrated experience is what commands the top of the range"
     ] },
     { "type": "callout", "variant": "tip", "richText": "The biggest early jump is landing the Scrum Master title itself, not stacking more certificates. A certification opens the door; running real sprints and retrospectives is what moves you up the pay band." },
