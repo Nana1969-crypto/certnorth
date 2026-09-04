@@ -6,7 +6,7 @@
   "dek": "Get the PMP if you want a globally recognized, versatile credential (strongest in the US, Asia and the Middle East); get PRINCE2 if you work in the UK, Europe or government, where its methodology is the standard. Many professionals eventually hold both.",
   "authorId": "author_team",
   "publishedAt": "2026-07-29",
-  "updatedAt": "2026-07-29",
+  "updatedAt": "2026-09-04",
   "intent": { "primaryKeyword": "pmp vs prince2" },
   "seo": {
     "metaTitle": "PMP vs PRINCE2: Which Certification?",
@@ -27,7 +27,7 @@
       ["Strongest in", "US, Asia, Middle East; global", "UK, Europe, Australia, government"],
       ["Structure", "One credential", "Two levels: Foundation + Practitioner"],
       ["Experience required", "36–60 months of project experience", "None for Foundation"],
-      ["Exam cost", "~$425 member / ~$675 non-member", "Varies by region (roughly $600+ in the US)"],
+      ["Exam cost", "$405 member / $655 non-member", "Varies by region (roughly $600+ in the US)"],
       ["Reputation", "The global gold standard", "The methodology standard where it's used"]
     ] },
     { "type": "callout", "variant": "info", "richText": "A cost note on PRINCE2: since 2024, PeopleCert bundles a mandatory official digital manual with each exam voucher, and prices vary a lot by country and whether you buy training. Always confirm the current price on PeopleCert's site for your region." },

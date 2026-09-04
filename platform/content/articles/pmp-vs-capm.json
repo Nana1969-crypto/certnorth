@@ -6,7 +6,7 @@
   "dek": "Get the CAPM if you're new and lack the experience the PMP demands; get the PMP once you qualify, because it's the more respected credential — and holding a CAPM waives part of the PMP's requirements.",
   "authorId": "author_team",
   "publishedAt": "2026-07-25",
-  "updatedAt": "2026-07-25",
+  "updatedAt": "2026-09-04",
   "intent": { "primaryKeyword": "pmp vs capm" },
   "seo": {
     "metaTitle": "PMP vs CAPM: Which Certification First?",
@@ -24,7 +24,7 @@
       ["Level", "Entry-level", "Experienced professional"],
       ["Experience required", "None", "36 months (4-yr degree) or 60 months (secondary)"],
       ["Education required", "23 contact hours", "35 contact hours"],
-      ["Exam fee", "$225 member / $300 non-member", "~$425 member / ~$675 non-member"],
+      ["Exam fee", "$225 member / $300 non-member", "$405 member / $655 non-member"],
       ["Renewal", "Lighter (PDUs over 3 years)", "60 PDUs + fee every 3 years"],
       ["Best for", "Newcomers building credibility", "Working PMs seeking the top credential"]
     ] },
@@ -39,7 +39,7 @@
     { "type": "faq", "items": [
       { "question": "Should I get the CAPM or PMP first?", "answerRichText": [ "If you don't yet meet the PMP's experience requirement, get the CAPM first. If you do, go straight for the PMP — it carries more weight. Check the experience bar in our ", { "link": { "ref": "article:pmp-eligibility", "text": "PMP eligibility guide" } }, "." ] },
       { "question": "Is the CAPM worth it if I'll get the PMP later?", "answerRichText": "It can be. The CAPM gives newcomers a recognized PMI credential immediately, and the education hours you complete for it can count toward the PMP later, reducing your future workload." },
-      { "question": "How much do the PMP and CAPM cost in 2026?", "answerRichText": [ "The PMP exam is around $425 for PMI members and $675 for non-members; the CAPM is $225 and $300. Add training and materials for the real total — see our ", { "link": { "ref": "article:pmp-cost", "text": "full PMP cost breakdown" } }, "." ] }
+      { "question": "How much do the PMP and CAPM cost in 2026?", "answerRichText": [ "The PMP exam is $405 for PMI members and $655 for non-members; the CAPM is $225 and $300. Add training and materials for the real total — see our ", { "link": { "ref": "article:pmp-cost", "text": "full PMP cost breakdown" } }, "." ] }
     ] }
   ]
 }

@@ -6,7 +6,7 @@
   "dek": "For experienced project managers, yes — the PMP is the field's most recognized credential and is tied to higher pay. For beginners or people not doing project work, no: you can't qualify yet, and it won't help.",
   "authorId": "author_team",
   "publishedAt": "2026-07-25",
-  "updatedAt": "2026-08-02",
+  "updatedAt": "2026-09-04",
   "intent": { "primaryKeyword": "is the pmp worth it" },
   "seo": {
     "metaTitle": "Is the PMP Certification Worth It? (2026)",
@@ -22,7 +22,7 @@
     { "type": "paragraph", "richText": "The PMP is the most famous project management certification in the world, which means it's also the most over-sold. Here's the honest verdict — including the people who should not get it, which the training companies rarely mention." },
     { "type": "callout", "variant": "info", "richText": "The short answer: worth it if you're an experienced project manager who wants recognition and higher pay. Not worth it if you can't yet meet the experience requirement, or if project management isn't actually your career direction." },
     { "type": "heading", "level": 2, "text": "What it costs and demands" },
-    { "type": "paragraph", "richText": [ "The PMP exam costs around $425 for PMI members and $675 for non-members — PMI adjusted its fees during 2026 and prices also vary by country, so confirm the current figure for your region on PMI's site before budgeting. But the real cost is time and eligibility: you need 36 months of project experience with a four-year degree, or 60 months with a secondary diploma, plus 35 hours of education. Full breakdown in our ", { "link": { "ref": "article:pmp-cost", "text": "PMP cost guide" } }, " and ", { "link": { "ref": "article:pmp-eligibility", "text": "eligibility guide" } }, ", and whether joining PMI for the member price pays off in our ", { "link": { "ref": "article:is-pmi-membership-worth-it", "text": "PMI membership verdict" } }, "." ] },
+    { "type": "paragraph", "richText": [ "The PMP exam costs $405 for PMI members and $655 for non-members — PMI adjusted its fees during 2026 and prices also vary by country, so confirm the current figure for your region on PMI's site before budgeting. But the real cost is time and eligibility: you need 36 months of project experience with a four-year degree, or 60 months with a secondary diploma, plus 35 hours of education. Full breakdown in our ", { "link": { "ref": "article:pmp-cost", "text": "PMP cost guide" } }, " and ", { "link": { "ref": "article:pmp-eligibility", "text": "eligibility guide" } }, ", and whether joining PMI for the member price pays off in our ", { "link": { "ref": "article:is-pmi-membership-worth-it", "text": "PMI membership verdict" } }, "." ] },
     { "type": "heading", "level": 2, "text": "The case for it (real pros)" },
     { "type": "list", "ordered": false, "items": [
       "It's the credential employers name in job postings — it gets you past filters",
