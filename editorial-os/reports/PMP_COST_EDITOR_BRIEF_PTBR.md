@@ -1,6 +1,7 @@
 # Briefing editorial — RECONSTRUÇÃO 01: artigo `pmp-cost`
 
 **Data:** 04/09/2026
+**Revisado:** 04/09/2026 — correção das PDUs aplicada após a sua revisão (ver seção 0)
 **Artigo:** custo da certificação PMP · `/certifications/guides/pmp-certification-cost/`
 **Rascunho:** `editorial-os/drafts/pmp-cost-rebuilt.json`
 **Artigo de produção:** **intacto**, guardado como referência de retorno
@@ -8,11 +9,59 @@
 
 ---
 
+## 0. A correção que você pediu — e o rascunho estava errado mesmo
+
+Eu tinha escrito que trabalhar na sua função "cobre no máximo 25 das 60 PDUs". **Isso está
+errado, e a sua revisão pegou.**
+
+Eu confundi o teto da **categoria** com o teto da **atividade**:
+
+| | |
+|---|---|
+| **Interpretação antiga (errada)** | Trabalhar na função é Giving Back, logo cobre até **25** das 60 |
+| **Por que estava errada** | 25 é o máximo da categoria **inteira** Giving Back. Trabalhar na função é **uma atividade dentro** dela |
+| **Interpretação corrigida** | *Work as a Practitioner* tem teto de **8 PDUs por ciclo de três anos**. Ter emprego de gerente de projetos rende **no máximo 8 das 60** — e nada das 35 obrigatórias de Educação |
+
+**Fonte:** PMI — *Continuing Certification Requirements (CCR) Handbook*, edição 2026.
+Atualizei o rótulo da fonte no artigo para nomear a edição. Nenhum fornecedor de curso e
+nenhum resultado de busca foi usado como autoridade.
+
+**Por que a distinção precisa ficar explícita.** Os limites são aninhados, e é aí que todo
+resumo apressado erra:
+
+```
+60 PDUs por ciclo
+  ├─ no mínimo 35 de Educação          (piso, não teto)
+  └─ no máximo 25 de Giving Back        (teto da categoria)
+        └─ no máximo 8 de Work as a Practitioner   (uma atividade dentro dela)
+```
+
+O artigo agora traz isso como uma tabela de quatro linhas citando o manual, para a relação
+ficar visível em vez de afirmada em prosa.
+
+**A conclusão editorial se manteve — e ficou mais forte.** Ter o emprego não satisfaz a
+renovação do PMP, e o número certo diz isso melhor que o errado: **8 de 60, cerca de uma
+PDU em oito**, não 25.
+
+### Um segundo problema que apareceu na varredura
+
+O artigo tem **dois "35 de Educação" diferentes**: as **35 horas de formação** exigidas
+antes da prova, e as **35 PDUs de Educação** exigidas em cada ciclo de renovação depois.
+Os dois aparecem várias vezes e é fácil o leitor juntar as coisas.
+
+Acrescentei uma frase separando: são exigências diferentes, em momentos diferentes — uma é
+condição para se inscrever, a outra para manter a credencial. **Isso não estava no seu
+pedido; a varredura é que trouxe.**
+
+**Custo da correção:** +174 palavras (1.594 → 1.768) — a tabela e a desambiguação.
+
+---
+
 ## 1. O que mudou em relação ao artigo antigo
 
 | | Antigo | Novo |
 |---|---|---|
-| Palavras | 477 | 1.594 |
+| Palavras | 477 | 1.768 |
 | Títulos de seção | 3 | 8 |
 | Links internos | 3 | 8, para 7 artigos |
 | Fontes | 2 | 5 — os dois manuais da PMI entraram |
@@ -59,10 +108,12 @@ Oito coisas que a página da PMI não dá. A mais forte é a terceira:
    quem define o preço de cada um
 2. **O cálculo da anuidade na hora da prova**, separando essa pergunta estreita da pergunta
    maior "vale a pena ser membro?"
-3. **A análise da composição das PDUs.** São 60 por ciclo, mas **no mínimo 35 têm que ser
-   de Educação e no máximo 25 podem ser de Giving Back**. Trabalhar na sua função é Giving
-   Back — logo **cobre no máximo 25 das 60, e nenhuma das 35 obrigatórias**. A ideia
-   repetida em toda parte de que "trabalhar já cobre a renovação" é estruturalmente falsa
+3. **A análise da composição das PDUs.** São 60 por ciclo: **no mínimo 35 de Educação, no
+   máximo 25 de Giving Back — e, dentro dessa categoria, no máximo 8 de Work as a
+   Practitioner**, que é o crédito por exercer a função. Ou seja: ter o emprego rende **no
+   máximo 8 das 60**, e nada das 35 obrigatórias. A ideia repetida em toda parte de que
+   "trabalhar já cobre a renovação" é estruturalmente falsa — por uma margem bem maior do
+   que eu mesmo tinha calculado antes da sua correção
 4. **Dinheiro e tempo separados**, sem converter hora em dinheiro
 5. **A recusa em publicar um total de dez anos**, com os três motivos
 6. **A mudança de 2026 tratada como variável de orçamento**, distinguindo regra atual de
@@ -83,7 +134,8 @@ Os que **você** verificou na PMI, fora deste ambiente:
 | Anuidade PMI | **$139/ano** | **CONFIRMADO** |
 | PDUs por ciclo de 3 anos | **60** | **CONFIRMADO** |
 | Mínimo de Educação | **35** | **CONFIRMADO** |
-| Máximo de Giving Back | **25** | **CONFIRMADO** |
+| Máximo de Giving Back (categoria) | **25** | **CONFIRMADO** |
+| Máximo de Work as a Practitioner (atividade) | **8** | **CONFIRMADO** — CCR Handbook 2026 |
 
 **Descoberta importante:** o site publicava ~$425/~$675 em **cinco lugares**, de forma
 coerente entre si — e **errada nos dois números**, por $20 cada.
@@ -151,15 +203,17 @@ Todas aparecem no próprio texto, não em nota de rodapé:
 
 ## 9. Quais são as limitações
 
-1. **Uma premissa sustenta a melhor seção do artigo.** Que trabalhar na sua função conta
-   como Giving Back vem do nosso próprio `pmp-renewal-pdus`, que cita o manual mas não
-   transcreveu a lista de categorias. **Se estiver errado, a seção sai — não é para
-   suavizar.**
+1. ~~Uma premissa sustenta a melhor seção do artigo.~~ **Resolvido — e estava errada.**
+   A premissa foi conferida no manual da PMI, mostrou-se incorreta e o trecho foi
+   corrigido. Vale registrar o que isso significa: o rascunho anterior teria publicado um
+   erro factual, e foi a revisão humana que impediu.
 2. **Não há total de longo prazo.** É uma entrega menor e honesta.
 3. **A originalidade foi avaliada por inspeção**, não contra as páginas que hoje rankeiam —
    este ambiente não consegue buscá-las.
-4. **O artigo tem 1.594 palavras.** Se você achar longo, a seção mais cortável é
-   "Money and time are separate budgets" — cerca de 180 palavras, e é a que menos sustenta.
+4. **O artigo tem 1.768 palavras.** Se você achar longo, a seção mais cortável continua
+   sendo "Money and time are separate budgets" — cerca de 180 palavras, e é a que menos
+   sustenta. A tabela nova das PDUs eu não cortaria: é ela que torna o erro impossível de
+   repetir.
 
 ---
 
@@ -185,7 +239,7 @@ palavra-chave não mudaram.
 
 ## 11. Quais riscos ainda existem
 
-1. **A premissa do Giving Back** (item 9.1) — o único que bloqueia uma seção
+1. ~~A premissa do Giving Back~~ — **resolvido**, ver seção 0
 2. **A taxa do exame errada está no ar em mais quatro lugares:** `is-pmp-worth-it`,
    `pmp-vs-capm`, `is-pmi-membership-worth-it` e `certifications.json` — que alimenta uma
    tabela em `best-pm-certifications-beginners`, ou seja, **uma quinta página**.
@@ -208,8 +262,8 @@ palavra-chave não mudaram.
 | Source | Passou — 5 fontes, todas da PMI, **nenhum fornecedor citado** |
 | Original Value | Passou — 8 contribuições |
 | Editorial | Passou |
-| **Fact Check** | **Passou, com uma marcação** — a premissa do item 9.1 |
-| Pattern | Passou — zero colisão de títulos contra 215; primeiro artigo do site sem FAQ |
+| **Fact Check** | **Passou** — nenhuma afirmação INCORRETA ou SEM SUSTENTAÇÃO restou. A marcação anterior foi conferida, estava errada e virou correção |
+| Pattern | **Passou, sem regressão** — zero colisão contra 215 títulos; nenhuma sobreposição de frase nova depois da correção; primeiro artigo do site sem FAQ |
 | SEO | Passou — título 52/60, descrição 137/155, sem keyword stuffing |
 | AdSense Quality | Passou em substância — **e nenhuma mudança editorial garante aprovação** |
 | Build + check | Passou, validado em cópia isolada; **produção nunca foi tocada** |
@@ -224,8 +278,8 @@ quatro artigos; e o parágrafo de 2026 repetia o `pmp-eligibility` quase palavra
 
 | # | Decisão | Recomendação |
 |---|---|---|
-| 1 | **Confirmar no manual da PMI se trabalhar na função conta como Giving Back** | **Faça isso primeiro.** É uma consulta só |
-| 2 | Aprovar o rascunho para substituir o artigo | Sua decisão. Está pronto, sujeito ao item 1 |
+| 1 | ~~Confirmar o teto de Work as a Practitioner~~ | **Feito.** Conferido, estava errado, corrigido — ver seção 0 |
+| 2 | Aprovar o rascunho para substituir o artigo | Sua decisão. Está pronto |
 | 3 | Aprovar a remoção do FAQ | Recomendo. Custo: perde a marcação `FAQPage`; seria o primeiro artigo do site sem |
 | 4 | **Corrigir a taxa do exame nos outros quatro lugares** | **Fortemente recomendado e urgente — há preço errado no ar em cinco páginas** |
 | 5 | Corrigir o `certifications.json` e avançar o `verifiedOn` honestamente | Recomendado, junto com o 4 |
