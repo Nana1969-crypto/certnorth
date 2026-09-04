@@ -87,7 +87,7 @@ pedido; a varredura é que trouxe.**
 O problema apontado na auditoria **não era o tamanho**. Era que a página não tinha motivo
 para existir ao lado da página de preços da PMI — ela listava taxas que a PMI publica.
 
-**Uma versão de 1.594 palavras da mesma lista de taxas falharia no mesmo teste.** O que
+**Uma versão de 1.768 palavras da mesma lista de taxas falharia no mesmo teste.** O que
 mudou foi a pergunta:
 
 | Artigo antigo | Artigo novo |
