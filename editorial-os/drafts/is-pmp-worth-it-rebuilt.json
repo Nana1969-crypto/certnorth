@@ -1,0 +1,70 @@
+{
+  "_draft": "REBUILD 02 — draft only. Not in the build. Do not copy into platform/content/articles/ without Editor-in-Chief approval. The production is-pmp-worth-it.json is unchanged and remains the rollback reference.",
+  "id": "is-pmp-worth-it",
+  "slug": "is-pmp-certification-worth-it",
+  "clusterId": "cl_worth",
+  "title": "Is the PMP Worth It? Four Gates That Decide It",
+  "dek": "The evidence supports the PMP as something that gets you considered — a filter passed, a posting answered, a grade unlocked — and does not establish that it raises pay by itself. Whether that access is worth buying comes down to four things, and you can stop at any of them.",
+  "authorId": "author_team",
+  "publishedAt": "2026-07-25",
+  "updatedAt": "2026-09-04",
+  "intent": { "primaryKeyword": "is the pmp worth it" },
+  "seo": {
+    "metaTitle": "Is the PMP Worth It? Four Gates That Decide It",
+    "metaDescription": "The evidence supports the PMP as an access credential, not a pay rise. Four gates decide whether it's worth it for you — and you can stop at any one."
+  },
+  "sources": [
+    { "label": "U.S. Bureau of Labor Statistics — Project Management Specialists, Occupational Outlook Handbook", "url": "https://www.bls.gov/ooh/business-and-financial/project-management-specialists.htm" },
+    { "label": "PMI — Earning Power: Project Management Salary Survey", "url": "https://www.pmi.org/learning/careers/project-management-salary-survey" },
+    { "label": "PMI — Project Management Professional (PMP)", "url": "https://www.pmi.org/certifications/project-management-pmp" },
+    { "label": "PMI — Continuing Certification Requirements (CCR) Handbook, 2026 edition", "url": "https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/ccr-certification-requirements-handbook.pdf" }
+  ],
+  "body": [
+    { "type": "paragraph", "richText": "Almost every argument you will find for or against the PMP is an argument about salary. That is the wrong axis. The evidence that the credential opens doors is different in kind from the evidence that it raises pay: the first is mechanical and observable, the second is confounded and unresolved. Separate them and the question stops being whether the PMP is worth it in general — which nobody can answer — and becomes whether it is worth it for you, which you can. There are four points at which that answer can turn, and stopping at any of them is a real conclusion rather than a failure to reach one." },
+
+    { "type": "heading", "level": 2, "text": "What the evidence supports, and what it doesn't" },
+    { "type": "paragraph", "richText": "The strongest thing that can be said for the PMP is that it works as a key. It gets applications past screening filters, it appears by name in some job postings, and in some large organisations it is written into the criteria for a senior grade. Those are access mechanisms, and they are credible precisely because they are mechanical — you can watch them operating, or failing to, in the market you are actually in. The thing most often said for it is that holders earn more. That is also true, and it is far less useful than it sounds." },
+    { "type": "table", "caption": "What the available evidence establishes about the PMP, and where each source stops. CertNorth assessment.", "headers": ["Claim", "What supports it", "What it cannot show"], "rows": [
+      ["The PMP is not required to work as a project manager", "The U.S. Bureau of Labor Statistics states that certification is not a requirement for the occupation, describing it as something that may be beneficial and that demonstrates competency to employers", "Anything about an individual employer, and anything about the PMP specifically — the source speaks about certification in general"],
+      ["PMP holders earn more than people without one", "PMI's Earning Power salary survey: tens of thousands of respondents across dozens of countries, with published methodology", "That the certificate caused the gap. Holders must already hold three to five years of documented experience; the comparison group has no such floor"],
+      ["The credential opens particular doors", "It is named in job postings, used as a screening filter, and set as a grade prerequisite in some organisations", "How often any of that is true in your market. It varies by employer, sector and country"]
+    ] },
+
+    { "type": "heading", "level": 2, "text": "Gate one: can you apply at all?" },
+    { "type": "paragraph", "richText": [ "PMI requires 36 months of documented project experience if you hold a four-year degree, or 60 months if you do not, plus 35 contact hours of project management education. This is not a formality — it decides whether the rest of this article applies to you at all. If you cannot yet document the months, the worth-it question is not answered but premature: there is nothing to weigh, because the option does not exist yet. What counts as qualifying experience is in ", { "link": { "ref": "article:pmp-eligibility", "text": "our eligibility guide" } }, ", and if you are some way off, the ", { "link": { "ref": "article:pmp-vs-capm", "text": "CAPM exists for exactly that position" } }, ". Come back to this page when you can apply." ] },
+
+    { "type": "heading", "level": 2, "text": "Gate two: does your market ask for it?" },
+    { "type": "paragraph", "richText": [ "This is the gate that actually decides it, and it is the one nobody can answer on your behalf. Start from the neutral source. The U.S. Bureau of Labor Statistics states that certification is not required for the occupation, and describes it as something that may be beneficial and that demonstrates competency to employers and clients. That wording is deliberately unquantified, and it is worth being exact about what it settles. It settles that the profession has no certification barrier — you can work as a project manager without one, and many people do, which is the argument we set out in full in ", { "link": { "ref": "article:do-you-need-certification-project-manager", "text": "do you need a certification to be a project manager" } }, ". It does not settle what any particular employer wants. It says nothing about the PMP specifically rather than certification generally. And it cannot tell you whether holding one would distinguish you from the other people applying for a job you actually want." ] },
+    { "type": "paragraph", "richText": "Those are four separate questions, and collapsing them is how most advice on this subject goes wrong. A requirement is national and settled. A preference is local and unsettled. A differentiator is worth exactly what the people doing the differentiating think it is worth. That makes this an empirical question about your market rather than a philosophical one about the credential — and the useful thing about empirical questions is that you can go and look. An afternoon is enough:" },
+    { "type": "list", "ordered": true, "items": [
+      "Find fifteen to twenty current postings for the job you actually want — the level above yours, in your city or your sector, not a national average",
+      "Count how many name the PMP, how many name any certification at all, and how many name none",
+      "Notice whether the ones naming it are the employers you would want to work for, or the ones you would not",
+      "Ask two people already in that role how they got there, and whether anyone asked about the credential",
+      "If your employer publishes grade or promotion criteria, check whether a certification appears in them"
+    ] },
+    { "type": "paragraph", "richText": "If the credential barely appears, the strongest argument for it does not apply to you, and no amount of general evidence about its value changes that. If it appears constantly, you have your answer and you did not need a salary survey to get it. Most people land somewhere between, which is why the remaining two gates matter." },
+
+    { "type": "heading", "level": 2, "text": "Gate three: the cost that doesn't stop" },
+    { "type": "paragraph", "richText": [ "The exam is $405 for PMI members and $655 for non-members, and membership is $139 a year, which makes joining first cheaper than not joining. On top of that sit the 35 contact hours: PMI requires them but publishes no price for them, because the training is sold by providers who each set their own. The full picture, including what can and cannot be pinned down, is in ", { "link": { "ref": "article:pmp-cost", "text": "what the PMP costs" } }, ". For this decision, the part that matters is the part that continues after you pass." ] },
+    { "type": "paragraph", "richText": [ "Keeping the credential takes 60 professional development units every three years, and the composition is what catches people out: at least 35 must come from Education, while doing the job itself is capped at 8. Employment does not maintain the credential — at least 35 hours per cycle of deliberate learning does, for as long as you hold it, and the mechanics are in ", { "link": { "ref": "article:pmp-renewal-pdus", "text": "how PDUs actually work" } }, ". Add the months of preparation before the exam, and the fact that nobody can quote you your odds, since PMI has not published a pass rate in about twenty years — we explain why in ", { "link": { "ref": "article:pmp-pass-rate", "text": "the PMP pass rate" } }, ". The honest framing of this gate is that you are taking on a recurring obligation, not making a purchase." ] },
+
+    { "type": "heading", "level": 2, "text": "Gate four: what the same months could buy" },
+    { "type": "paragraph", "richText": [ "Every credential competes with the alternative use of the same time and money, and the PMP's alternatives are unusually strong. A Scrum certification costs a fraction of it and targets one role directly. The ", { "link": { "ref": "article:pmp-vs-capm", "text": "CAPM" } }, " exists for people who want a PMI credential before they can qualify for this one. Domain knowledge of the industry you want to work in is frequently what separates two otherwise similar candidates. And a project you have actually run, and can describe precisely, tends to outperform any certificate in an interview." ] },
+    { "type": "paragraph", "richText": [ "None of that is an argument for skipping the PMP. It is the comparison the decision requires, and it resolves differently for different people: where the market asks for the credential, the alternatives do not substitute for it, and where it does not, they may be strictly better uses of the same months. The alternatives available before you qualify are set out in ", { "link": { "ref": "article:best-pm-certifications-beginners", "text": "our guide to certifications for beginners" } }, "." ] },
+
+    { "type": "heading", "level": 2, "text": "Where this lands, by situation" },
+    { "type": "table", "caption": "How the four gates resolve for different readers. CertNorth assessment, not a rule.", "headers": ["Your situation", "What the gates imply"], "rows": [
+      ["Eligible, and the PMP appears constantly in postings for the role you want", "The strongest case there is. Access is real in your market and you are in a position to act on it"],
+      ["Eligible, but the credential rarely appears where you are looking", "The main argument does not reach you. Worth revisiting if you change employer, sector or country"],
+      ["Eligible, and your employer names a certification in its grade criteria", "Ask which one before spending anything — the requirement may be satisfied more cheaply"],
+      ["Not yet eligible, and committed to project management", "Not a decision yet. Build the documented months; the CAPM is the credential available to you now"],
+      ["Not eligible, and targeting one specific agile role", "A Scrum credential is cheaper and lands closer to the job you want"],
+      ["Eligible, but unsure you will stay in project management", "The three-yearly maintenance obligation is the argument against committing now"]
+    ] },
+
+    { "type": "heading", "level": 2, "text": "What would change our answer" },
+    { "type": "paragraph", "richText": [ "This conclusion is conditional, which means it could be wrong in identifiable ways — and those are worth naming, because they are also the things worth watching. It would change if research appeared comparing certified and uncertified project managers of similar experience and still found a pay gap; that would move the salary question from unresolved to supported, and we would say so rather than quietly keep the old framing. Until then, what the evidence shows and what it cannot show are set out in ", { "link": { "ref": "article:does-pmp-increase-salary", "text": "does the PMP increase your salary" } }, ". It would also change if employers in a given market moved from preferring the credential to requiring it, which turns a differentiator into a gate." ] },
+    { "type": "paragraph", "richText": "And it changes for you personally the moment you become eligible, the moment you move into a market where the credential is a common filter, or the moment your employer publishes criteria that name it. None of those is hypothetical, all of them are checkable, and the check is the same one in gate two. That is the useful thing about deciding this way rather than looking for a verdict: when your circumstances change, you already know which question to ask again." }
+  ]
+}
