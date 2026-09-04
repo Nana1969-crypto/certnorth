@@ -6,7 +6,7 @@
   "dek": "Get the PMP if you want a globally recognized, versatile credential (strongest in the US, Asia and the Middle East); get PRINCE2 if you work in the UK, Europe or government, where its methodology is the standard. Many professionals eventually hold both.",
   "authorId": "author_team",
   "publishedAt": "2026-07-29",
-  "updatedAt": "2026-07-29",
+  "updatedAt": "2026-09-04",
   "intent": { "primaryKeyword": "pmp vs prince2" },
   "seo": {
     "metaTitle": "PMP vs PRINCE2: Which Certification?",
@@ -27,7 +27,7 @@
       ["Strongest in", "US, Asia, Middle East; global", "UK, Europe, Australia, government"],
       ["Structure", "One credential", "Two levels: Foundation + Practitioner"],
       ["Experience required", "36–60 months of project experience", "None for Foundation"],
-      ["Exam cost", "~$425 member / ~$675 non-member", "Varies by region (roughly $600+ in the US)"],
+      ["Exam cost", "$405 member / $655 non-member", "Varies by region (roughly $600+ in the US)"],
       ["Reputation", "The global gold standard", "The methodology standard where it's used"]
     ] },
     { "type": "callout", "variant": "info", "richText": "A cost note on PRINCE2: since 2024, PeopleCert bundles a mandatory official digital manual with each exam voucher, and prices vary a lot by country and whether you buy training. Always confirm the current price on PeopleCert's site for your region." },
@@ -48,7 +48,7 @@
     { "type": "callout", "variant": "warn", "richText": "Don't pick based on prestige alone — pick on geography and employer demand. A PMP carries less weight in a PRINCE2-standard government office, and PRINCE2 is less recognized in a US tech company. The job market you're entering decides this more than the certifications' reputations do." },
     { "type": "heading", "level": 2, "text": "Can you get both?" },
     { "type": "paragraph", "richText": "Yes — and plenty of experienced project managers do, because they're complementary rather than competing. PRINCE2 gives you a structured method; the PMP gives you broad professional recognition. If you're early-career, though, don't do both at once — start with whichever fits your market, build experience, and add the other later if it helps." },
-    { "type": "paragraph", "richText": [ "If the PMP is your likely target, check whether you qualify in our ", { "link": { "ref": "article:pmp-eligibility", "text": "PMP eligibility guide" } }, " and what it really costs in our ", { "link": { "ref": "article:pmp-cost", "text": "PMP cost breakdown" } }, ". If you're not sure the PMP is worth it for you yet, read our ", { "link": { "ref": "article:is-pmp-worth-it", "text": "honest PMP verdict" } }, "." ] },
+    { "type": "paragraph", "richText": [ "If the PMP is your likely target, check whether you qualify in our ", { "link": { "ref": "article:pmp-eligibility", "text": "PMP eligibility guide" } }, " and what it really costs in our ", { "link": { "ref": "article:pmp-cost", "text": "PMP cost breakdown" } }, ". If you're not sure either is worth it for you yet, read our ", { "link": { "ref": "article:is-pmp-worth-it", "text": "honest PMP verdict" } }, " and our ", { "link": { "ref": "article:is-prince2-worth-it", "text": "PRINCE2 verdict" } }, "." ] },
     { "type": "paragraph", "richText": [ "And if you're earlier in your journey, both of these sit above entry level — start with the options in our guide to the ", { "link": { "ref": "article:best-pm-certifications-beginners", "text": "best certifications for beginners" } }, ", and see how to break in via ", { "link": { "ref": "article:how-to-become-project-manager", "text": "how to become a project manager" } }, "." ] },
     { "type": "faq", "items": [
       { "question": "Is PMP or PRINCE2 better?", "answerRichText": "Neither is universally better — it depends on where you work. The PMP is the global standard and dominates the US, Asia and the Middle East; PRINCE2 is expected across the UK, Europe, Australia and government. Match the certification to your job market." },
