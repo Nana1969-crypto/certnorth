@@ -4,11 +4,12 @@
 **Draft:** `editorial-os/drafts/best-pm-certifications-beginners-rebuilt.json`
 **Approved inputs:** research dossier (`44166ba`) · diagnostic (`3d7cada`) · source verification (`825d075`)
 **Production:** `platform/content/articles/best-pm-certifications-beginners.json` — **unchanged**
+**Status: APPROVE WITH SURGICAL CORRECTIONS — corrections applied 2026-09-04 (§19).**
 **Not promoted. Not published. Not merged. Not deployed.**
 
 | Measure | Production | Draft |
 |---|---|---|
-| Body words | 622 | **1,799** |
+| Body words | 622 | **1,779** |
 | Blocks | 18 | 23 |
 | H2 | 3 | **6** |
 | H3 | 4 | **0** |
@@ -64,13 +65,13 @@ organisation in September 2026. The classification in the middle column is CertN
 | CAPM (PMI) | A certification with an education requirement, maintained on a cycle | 23 hours of project management education are required, and PMI's own training satisfies them |
 | PSM I (Scrum.org) | A certification earned by passing an assessment | 80 questions, 60 minutes, 85% to pass; the test password does not expire until it is used |
 | CSM (Scrum Alliance) | A certification with a fixed renewal cycle | Renewal every two years: 20 SEUs and a US$100 fee |
-| PRINCE2 Project Management Foundation (Version 7) | A qualification with a fixed renewal cycle | Renewal every three years, and 60 CPD points |
+| PRINCE2 Project Management Foundation (Version 7) | A PeopleCert qualification | A three-year renewal cycle and a requirement of 60 CPD points |
 
-> Note what the middle column does not say. It does not rank these. A course is not a lesser
-> thing than a credential — it is a different purchase, and which one serves you depends
-> entirely on whether you are trying to learn the work or trying to hold something a body will
-> vouch for. If it is the second, the **[CAPM and the Google certificate are worth reading
-> about side by side]**, because they are the two most often mistaken for each other.
+> Note what the middle column does not do: it does not rank these. A course is not a lesser
+> thing than a credential — it is a different purchase, and which one serves you depends on
+> whether you are trying to learn the work or to hold something a body will vouch for. The
+> **[CAPM and the Google certificate are worth reading side by side]** on exactly that point,
+> because they are the two most often mistaken for each other.
 
 ### What your money is actually buying
 
@@ -83,20 +84,20 @@ organisations in September 2026; where no figure is shown, we could not confirm 
 
 | Programme | Figure we could verify | What that figure is the price of | What it does not tell you |
 |---|---|---|---|
-| CAPM | None | — | We could not confirm a current exam fee. Any figure you find elsewhere, including older figures on this site, should be checked at PMI before you rely on it |
+| CAPM | None | — | We could not confirm a current exam fee. Read PMI's own certification page for what it charges today before you rely on any figure |
 | Google PM Certificate | US$49 per month, in the US and Canada | A month of subscription to the course material | What you pay in total, which depends on how long you take. Coursera notes prices may differ in other countries |
 | PSM I | US$200 | One attempt at the assessment | What a second attempt costs, which matters when the pass mark is 85% |
 | CSM | US$100 | Renewing the credential, every two years | What it costs to obtain in the first place — we could not confirm that |
 | PRINCE2 PM Foundation (v7) | US$701 | One package displayed on PeopleCert's page | What that package includes, or what other options and other regions cost |
 
-> The recurring side is the part beginners underestimate, and it is where the verified detail is
-> richest. The CAPM runs on a three-year cycle of 15 PDUs, and the composition is fixed rather
-> than free: at least 9 must be Education and at most 6 may be Giving Back, which together
-> account for all 15, with a minimum of 2 in each area of PMI's Talent Triangle. There is no
-> discretionary remainder. The CSM renews every two years on 20 SEUs plus US$100. PRINCE2
-> Foundation renews on a three-year cycle of 60 CPD points. For the Google certificate and the
-> PSM I we could not confirm whether any renewal obligation exists — it is widely said that
-> neither expires, and we are not going to repeat that as fact when we have not checked it.
+> The recurring side is the part beginners underestimate, and the cycles in the table above are
+> only half of it. The CAPM's is the one worth spelling out: three years, 15 PDUs, and a
+> composition that is fixed rather than free — at least 9 must be Education and at most 6 may be
+> Giving Back, which together account for all 15, with a minimum of 2 in each area of PMI's
+> Talent Triangle. There is no discretionary remainder to fill with whatever is convenient. For
+> the Google certificate and the PSM I we could not confirm whether any renewal obligation exists
+> at all; it is widely said that neither expires, and we are not going to repeat that as fact
+> when we have not checked it.
 
 ### The one you have heard of is not on this list
 
@@ -142,8 +143,8 @@ organisations in September 2026; where no figure is shown, we could not confirm 
 > the answer at all. Our fuller assessment is in **[our review of the Google certificate]**.
 
 > If you want a credential rather than a course, the thing to plan for is the obligation, not
-> the purchase. Three of the four here must be renewed on a fixed cycle, and the renewal is a
-> commitment of time as much as money. If your target work is Scrum-based, the field narrows
+> the purchase: renewal is a commitment of time as much as money. If your target work is
+> Scrum-based, the field narrows
 > immediately to the PSM I and the CSM, and the choice between them turns on your role and on
 > who is paying — set out in **[PSM vs CSM]** and in our wider look at **[agile
 > certifications]**. If you are weighing the CAPM on its own terms, **[is the CAPM worth it]**
@@ -162,14 +163,16 @@ organisations in September 2026; where no figure is shown, we could not confirm 
 > are worth confirming yourself, in this order.
 
 > 1. **What is actually being charged.** We could not confirm a current CAPM exam fee, or what
->    it costs to obtain a CSM. If you find either figure anywhere — including in older material
->    on this site — check it at PMI or Scrum Alliance before you commit to it
-> 2. **What unit the charge is in.** US$49 buys a month of the Google subscription. US$200 buys
->    one attempt at an assessment needing 85% to pass. US$100 renews a CSM for two years. US$701
->    is one package displayed by PeopleCert. Not one of those is "the price of the certification"
+>    it costs to obtain a CSM. Read PMI's and Scrum Alliance's own pages and see what they charge
+>    today — a price quoted anywhere else is a price from some other date
+> 2. **What unit the charge is in.** US$49 buys a month of subscription; US$200 buys one attempt
+>    at an assessment needing 85% to pass; US$100 renews a CSM rather than buying one. Not one of
+>    those is "the price of the certification", and a figure quoted without its unit cannot be
+>    compared with anything
 > 3. **Whether the price applies to you.** The Google figures we could confirm are for the US and
->    Canada, and Coursera notes that prices may differ elsewhere. The PRINCE2 figure is the
->    single package shown on the page we checked, not a universal price
+>    Canada, and Coursera notes that prices may differ elsewhere. The PRINCE2 figure is the single
+>    package shown on the page we checked, not a universal price. Read the page for your own
+>    country before you pay
 
 > None of this is an argument against buying one of these. It is the difference between buying
 > something you understand and buying a number you saw in a table.
@@ -265,10 +268,10 @@ issue; noted in §17 as an available fact left on the table.
 | No fabricated price for CAPM or CSM acquisition | ✅ CAPM row reads "None"; CSM's blank is stated in column 4 |
 | The incomparability explained, not just avoided | ✅ Opening, §2 lead paragraph, and item 2 of the closing list |
 
-### ⚠️ Deviation from the approved blueprint — needs your decision
+### Deviation from the blueprint — **ruled on by the Editor-in-Chief, §19.1**
 
 **The blueprint retained the `certTable` block, repositioned, with a corrected caption. The
-draft drops it entirely.**
+draft drops it entirely, and that removal is now confirmed.**
 
 Reason: `certTable` renders fields from `certifications.json`, and after verification **every
 one of the four available fields contains at least one unverified cell** for these five records
@@ -282,10 +285,9 @@ NOT VERIFIED), `renewal` (Google and PSM I "never expires", NOT VERIFIED), `trai
 so a correction made there would no longer propagate anywhere. That was previously an asset of
 this page.
 
-**Options:** (a) accept the drop and treat `certifications.json` as a data record pending its
-own verification pass; (b) restore a `certTable` once its cells are verified; (c) extend the
-engine to support a verified-fields-only table — **engine work, out of scope, and `platform/src/*`
-was not touched.**
+**Ruled:** the removal stands, no replacement table is to be created, and `certifications.json`
+having no consumer is explicitly not a reason to keep the block. `certifications.json` is
+unchanged and now awaits its own verification pass.
 
 ---
 
@@ -300,11 +302,12 @@ was not touched.**
 | The arithmetic observation used | ✅ *"which together account for all 15… There is no discretionary remainder"* — CertNorth calculation on verified inputs |
 | Talent Triangle areas **not** enumerated | ✅ The package does not name them; the draft does not either |
 | No experience claim | ✅ The draft says nothing about CAPM experience requirements |
-| Old figures on this site flagged to the reader | ✅ *"including older figures on this site, should be checked at PMI"* |
+| Reader directed to the provider's current page | ✅ *"Read PMI's own certification page for what it charges today"* — **revised in §19.2** |
 
-**That last row is unusual and deliberate.** The article tells readers that CertNorth's own
-older figures need checking. This is the direct antidote to the removed "verified with each
-provider" caption. **Confirm you are comfortable with it** — it is candid, and it is visible.
+**Revised on instruction (§19.2).** The draft previously told readers to check CertNorth's own
+older figures. That framing is gone: the guidance now points forward, to what the provider
+charges today, rather than backward at CertNorth's editorial history. Programmatic check
+confirms zero occurrences of "on this site", "older figures" or "older material".
 
 ---
 
@@ -361,14 +364,15 @@ evidence, and it is a real loss; recorded in §17.
 | Official verified name used | ✅ "PRINCE2 Project Management Foundation (Version 7)" |
 | US$701 contextualised | ✅ "One package displayed on PeopleCert's page", and again in the closing list |
 | Contents of the package not claimed | ✅ Column 4 states we do not know |
-| Foundation/Practitioner contradiction not resolved by inference | ✅ The draft says *"PRINCE2 Foundation renews on a three-year cycle of 60 CPD points"* — the package's own attribution, with no added claim about the Practitioner |
+| Foundation/Practitioner contradiction not resolved by inference | ✅ **Tightened in §19.5.** The prose sentence attributing renewal to the Foundation is gone. What remains is one table cell recording, without added claim, what the evidence package stated |
 | No recognition or regional claim | ✅ *"whether PRINCE2 is used where you work is not something we can tell you"* |
 
-⚠️ **One point for your eye.** The open contradiction (§8.1 of the source verification) is
-whether the 3-year / 60-CPD obligation attaches to the Foundation, the Practitioner, or both.
-The draft follows the evidence package, which states it under the Foundation heading. **If your
-PeopleCert check showed otherwise, this line needs changing.** It is the single sentence in the
-draft resting on an unresolved attribution.
+⚠️ **The one remaining factual risk.** The open contradiction (§8.1 of the source verification)
+is whether the 3-year / 60-CPD obligation attaches to the Foundation, the Practitioner, or both.
+After §19.5 the draft no longer asserts it in prose; a single table cell reproduces the evidence
+package's own pairing. Nothing in the draft attempts to resolve the contradiction, and
+`certifications.json` was not touched. **If your PeopleCert check attached the cycle to the
+Practitioner, that one cell changes.**
 
 ---
 
@@ -545,13 +549,13 @@ No claim is made that any change guarantees approval.
 
 | # | Risk | Severity | Assessment |
 |---|---|---|---|
-| 1 | **Length: 1,799 words against a 1,100–1,400 estimate — 28% over** | **CONCERN** | Prose is 1,184; tables 338; lists 230. I found no padding on review — the tables are dense because column 4 is the analytical payload. But it lands within 55 words of both prior rebuilds (1,743 / 1,746), and the diagnostic warned that matching them is template-following of a subtler kind. **Cutting to hit a number would be the wrong reason; cutting because a section does not earn its place would be the right one. I did not find such a section — you may.** |
-| 2 | **`certTable` dropped; `certifications.json` now has zero consumers** | **CONCERN** | §5. A structural change to the site's data model, decided on evidence but wider than a single article. Needs your ruling |
+| 1 | **Length: 1,779 words** | **RESOLVED — accepted** | The compression pass in §19.3 found and removed two real redundancies. Net change is only −20 words because the §19.2 and §19.6 rewrites are slightly longer than what they replaced. Per instruction, nothing was cut to reach a target. |
+| 2 | **`certTable` dropped; `certifications.json` now has zero consumers** | **RESOLVED — ruled** | §19.1. Removal confirmed; no replacement table. `certifications.json` awaits its own verification pass |
 | 3 | **The title still says "best"; the article declines to name one** | **CONCERN** | §15. Accepted deliberately to protect the URL |
-| 4 | **The article tells readers to check CertNorth's own older figures** | **CONCERN** | §6. Candid and correct; unusual enough to want your explicit sign-off |
-| 5 | **PRINCE2 renewal attribution unresolved** | **CONCERN** | §10. One sentence; changes cheaply if your check said otherwise |
+| 4 | **The article told readers to check CertNorth's own older figures** | **RESOLVED — removed** | §19.2. Replaced with forward-looking verification at the provider's current page |
+| 5 | **PRINCE2 renewal attribution unresolved** | **CONCERN — reduced** | §19.5. Prose assertion removed; one table cell remains, reproducing the package. **The only outstanding factual risk in the draft** |
 | 6 | **The CSM's price explanation was removed** | **CONCERN** | §9. Correct on the evidence; a real reader loss |
-| 7 | **Three other articles still assert the Google→CAPM credit** | **CONCERN** | `google-pm-certificate-worth-it`, `capm-vs-google-pm-certificate` and the production article all state it. **This draft no longer does — so after promotion the site would contradict itself.** Out of scope here; needs its own pass |
+| 7 | **Three other articles still assert the Google→CAPM credit** | **CONCERN — deferred by instruction** | `google-pm-certificate-worth-it`, `capm-vs-google-pm-certificate` and the production article all state it. This draft does not, in either direction. **After promotion the site would contradict itself until the separate factual audit runs.** Deferred to that audit on the Editor-in-Chief's instruction; no other article was touched |
 | 8 | **Eight unverified fields remain in `certifications.json`** | **CONCERN** | Recorded in source verification §11.5. Untouched, as instructed |
 | 9 | Classification slides into ranking | **PASS** | The predicted failure mode did not occur — §3, §13 |
 | 10 | Reader wanting a straight answer gets a conditional one | **CONCERN** | Inherent to the approved thesis. Mitigated by stating the finding in sentence three and by resolving by goal |
@@ -589,6 +593,78 @@ site-wide · the recommended site-wide sweep for claims about CertNorth's own so
 
 ---
 
+## 19. Surgical corrections applied
+
+Instruction: **APPROVE WITH SURGICAL CORRECTIONS**, 2026-09-04. Seven edits, all inside the
+draft. Nothing else was touched.
+
+| § | Instruction | What was done |
+|---|---|---|
+| **19.1** | Remove `certTable` definitively; create no replacement table | **Confirmed — the block was already absent** from the first draft. No table was added. Two plain tables remain, neither derived from `certifications.json` |
+| **19.2** | Remove the "older CertNorth figures" guidance; replace with forward-looking verification at the provider | **Two edits.** Table 2's CAPM cell now reads *"Read PMI's own certification page for what it charges today"*. Closing item 1 now reads *"Read PMI's and Scrum Alliance's own pages and see what they charge today — a price quoted anywhere else is a price from some other date"* |
+| **19.3** | Compression pass — real redundancy only, no cutting to a target | **Two genuine redundancies found and removed** (below) |
+| **19.4** | Do not introduce a Google → CAPM 23-hour claim | **Confirmed absent.** Regex check for any Google/23-hour co-occurrence returns zero |
+| **19.5** | Simplify or remove any sentence depending on the Foundation/Practitioner question | **Removed** *"PRINCE2 Foundation renews on a three-year cycle of 60 CPD points"* from the prose. Table 1's row changed from *"A qualification with a fixed renewal cycle"* to *"A PeopleCert qualification"* |
+| **19.6** | Do not reintroduce prohibited claims or figures | Re-verified programmatically — 30 checks, all clear |
+| **19.7** | Keep thesis, architecture, 6 H2, no FAQ, no callout, no ranking, PMP out, closing section | Re-verified — all unchanged |
+
+### 19.3 — what the compression pass found
+
+| Redundancy | Action | Words |
+|---|---|---|
+| The CSM and PRINCE2 renewal figures appeared **verbatim in Table 1 and again in the prose below Table 2** — a list repeating a table, which the anti-template rule names explicitly | Prose rewritten to carry only the CAPM composition, which is the detail no table holds | **−35** |
+| *"Three of the four here must be renewed on a fixed cycle"* in the placement section **restated a conclusion already made** in §1 and in the renewal paragraph | Clause removed | **−13** |
+| The anti-ranking guard after Table 1 partly duplicated the opening of the placement section | Tightened, both kept — they address different things (the table / the decision) | **−15** |
+| Closing item 2 re-listed all four price units | Compressed to three, with a sharper closing clause | **−10** |
+
+**Net: 1,799 → 1,779 words, −20.** The gross cut was −73; the §19.2 and §19.6 rewrites are
+longer than what they replaced, which accounts for the difference. **Nothing was cut to reach a
+word target**, and no section was removed. On review the remaining density is justified: prose
+1,166 · tables 350 · lists 216 · headings 47.
+
+### 19.6 — post-correction verification
+
+**Quality gate — 12/12 pass:** `certTable` absent · no FAQ · no callout · 6 H2 · H1 unchanged ·
+slug unchanged · closes on "Three numbers to check before you pay" · metaTitle 43 ch and unique ·
+metaDescription 149 ch and unique · dek ≥40 · 5 sources, all https · all 12 internal refs resolve.
+
+**Prohibited content — 30 checks, zero hits:** "verified with each provider" · "gold standard" ·
+"most respected" · "recruiters recognise/recognize" · "best recognised/recognized" · "best first
+certification" · "cheapest" · "widely recognised/recognized" · "employers prefer" · "most
+recognised/recognized" · "four of the five require no experience" · "never expire" · **"on this
+site"** · **"older figures"** · **"older material"** · "we interviewed" · "our research shows" ·
+"employers told us" · "our survey" · "we tested" · US$225 · US$300 · US$800 · US$1,500 · 5-year
+validity · 36 months · 60 months · US$425 · US$675 · any Google→CAPM 23-hour link.
+
+**Framing checks:** US$200 appears twice, both as "One attempt" / "one attempt" · US$49 appears
+only as a subscription with the US/Canada condition · US$100 appears only as renewal · US$701
+appears only as the displayed package · "honest" appears once.
+
+**Pattern Guardian — re-run against all 50 articles:**
+
+- **H2 collisions: 0 of 6.**
+- **Zero shared 8-grams** with `pmp-cost`, `pmp-vs-capm`, `capm-vs-google-pm-certificate`,
+  `is-capm-worth-it` and `best-agile-certifications`.
+- **7 distinct shared 8-grams across the whole corpus**, unchanged after the edits and all
+  inspected: five are link anchor text (destination article titles), one is a list of job titles.
+  **Zero genuine editorial phrase duplication.**
+- Opens `paragraph → heading` (corpus: 48/50 open `paragraph → callout`); closes on a paragraph
+  (corpus: 48/50 close on FAQ); zero callouts (corpus: 49/50 have at least one).
+
+### 19.8 — the one factual risk that remains
+
+**PRINCE2 renewal attribution.** One table cell records a three-year cycle and 60 CPD points
+against the row named *PRINCE2 Project Management Foundation (Version 7)*, reproducing the
+evidence package's own pairing without adding to it. Whether that obligation attaches to the
+Foundation, the Practitioner, or both is the contradiction still open in source verification
+§8.1. The draft does not attempt to resolve it, and `certifications.json` was not touched.
+**If your PeopleCert check attached the cycle to the Practitioner, that single cell changes.**
+
+Everything else classified NOT VERIFIED is either absent from the draft or stated as unconfirmed.
+
+---
+
 **Production untouched.** `platform/content/articles/best-pm-certifications-beginners.json` not
 modified · `certifications.json` not modified · no other article modified · no `platform/src/*`
-modified · no infrastructure. Not promoted, not published, not merged, not deployed.
+modified · no infrastructure. Not promoted, not published, not merged, not deployed. Files
+changed in this pass: the draft and this package.
